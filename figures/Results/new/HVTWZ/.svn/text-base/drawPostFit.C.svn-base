@@ -1,0 +1,597 @@
+// RooFit
+#include "RooWorkspace.h"
+#include "RooRealVar.h"
+#include "RooPlot.h"
+#include "RooAbsData.h"
+#include "RooHist.h"
+#include "RooSimultaneous.h"
+#include "RooCategory.h"
+#include "RooFitResult.h"
+#include "RooAbsData.h"
+#include "RooRealSumPdf.h"
+#include "Roo1DTable.h"
+#include "RooConstVar.h"
+#include "RooProduct.h"
+#include "RooRandom.h"
+#include "TStopwatch.h"
+#include <RooMsgService.h>
+#include <math.h>
+#include "TH1.h"
+#include <vector>
+#define ARRAY_SIZE(array) (sizeof((array))/sizeof((array[0])))
+
+TGraphAsymmErrors* MakeTGAEFromHist(TH1* h, bool usePoissonErrors = false);
+void ExctractHistoFromCanvas(TCanvas* can, vector<TH1*> &vec_histo, TGraphAsymmErrors* gdataAsymErr);
+TH1D *TGraphAsymmErrorsToTH1D(TGraphAsymmErrors *g, TH1D *hmodel);
+TH1D *TGraphToTH1D(TGraph *g, TH1D *hmodel);
+double *getbinning(int num_region);
+
+
+void setBins( TH1* hOld, TH1* hNew ){
+  for (int i=0; i<hOld->GetNbinsX()+2; i++ ){
+    float width=hNew->GetBinLowEdge(i+1)-hNew->GetBinLowEdge(i);
+    hNew->SetBinContent(i, hOld->GetBinContent(i)/width);
+    hNew->SetBinError(i, hOld->GetBinError(i)/width);
+  }
+}
+
+void integral_and_error( TH1* hOld){
+	double bin_error = 0;
+	for (int i=0; i<hOld->GetNbinsX()+2; i++ ) bin_error +=hOld->GetBinError(i)*hOld->GetBinError(i);
+	bin_error = sqrt(bin_error);
+	std::cout << hOld->GetName() << " & $ " << hOld->Integral() << " \\pm " << bin_error<< "$" <<std::endl;
+}
+
+
+double *getbinning(int num_region){
+
+	//Resolved ggF Binning
+	if (num_region==0){
+		cout << "setting resolved ggF binning" << endl;
+		const int nbins = 10;
+		static double bins[nbins+1] = {300,360,420,500,575,660,755,860,975,1100,1500}; 
+		return bins;
+	}
+	
+	
+	//Resolved VBF Binning
+	if (num_region==1){
+
+		cout << "setting resolved VBF binning" << endl;
+		const int nbins = 9;
+		static double bins[nbins+1] = {300,360,420,500,575,660,755,860,975,1500};
+		return bins;
+	}
+
+	//Boosted ggF Binning
+	if (num_region==2 || num_region==4){
+
+		cout << "setting boosted ggF binning" << endl;
+		const int nbins = 20;
+		static double bins[nbins+1] = {500,575,660,755,860,975,1100,1235,1380,1535,1700,1875,2060,2255,2460,2675,2900,3135,3380,3800,5000};
+		return bins;
+	}
+
+	//Boosted VBF Binning
+	if (num_region==3 || num_region==5){
+
+		cout << "setting boosted VBF binning" << endl;
+		const int nbins = 11;
+		static double bins[nbins+1] = {500,575,660,755,860,975,1100,1235,1380,1535,1875,5000};
+		return bins;
+	}
+
+
+
+}
+
+void drawPostFit(TString region = "Sideband_ResolvedVBF_fileThree", TString fname="results2/FitCrossChecks.root", TString signallabel = "HVTWW 500GeV", float sigXSec = 1.0 ){
+		  
+	cout << "*****REGION IS:" << region << endl; 
+	int num_region = 0;
+	int nbins = 0;
+	if(region.Contains("Resolved_")){
+		num_region =0;
+		nbins=10;
+	}
+	else if(region.Contains("ResolvedVBF_")){
+		num_region =1;
+		nbins=9;
+	}
+	else if( region.Contains("fileOne") && !signallabel.Contains("VBF")){
+		num_region =2;
+		nbins=20;
+	}
+	else if( region.Contains("fileOne") && signallabel.Contains("VBF")){
+		num_region =3;
+		nbins=11;
+	}
+	else if( region.Contains("fileTwo") && !signallabel.Contains("VBF")){
+		num_region =4;
+		nbins=20;
+	}
+	else if( region.Contains("fileTwo") && signallabel.Contains("VBF")){
+		num_region =5;
+		nbins=11;
+	}
+	double xmin, xmax;
+
+	double *bins;
+	bins = getbinning(num_region);
+//	const int nbins = 9;
+	
+	for(int j = 0; j<10; j++) cout << "bins[" << j << "]=" << *(bins + j) << endl;
+
+	TFile* f = TFile::Open( fname, "READ" );
+	if( !f ){
+	cerr<<"File "<<fname<<" doesn't exist"<<endl;
+	exit(6);
+	}
+
+
+
+	TCanvas* can=(TCanvas*)f->Get("PlotsAfterGlobalFit/conditionnal_MuIsEqualTo_0/can_DistriAfterFit_"+region+"_GlobalFit_conditionnal_mu0");
+	if( !can ){
+	cerr<<"PlotsAfterGlobalFit/conditionnal_MuIsEqualTo_0/can_DistriAfterFit_" + region + "_GlobalFit_conditionnal_mu0 doesn't exist"<<endl;
+	exit(6);
+	}
+
+
+	vector<TH1*> vec_histo;
+	TGraphAsymmErrors *gdata;
+	ExctractHistoFromCanvas(can, vec_histo, gdata);
+
+	TH1* hist[7];
+	TH1* histSG;
+	TH1* histData;
+	for( int i=0; i<7; i++ ){
+		TString hname="hist_";
+		hname+=i;
+		cout << "declaring histos" << endl;
+		hist[i]=new TH1D(hname, ";m_{WV}  [GeV];Entries", nbins, bins);
+		cout << "declarED histos" << endl;
+		hist[i]->Sumw2();
+	}
+	histData=new TH1D("histData", ";m_{WV}  [GeV];Entries", nbins, bins);
+	histSG=new TH1D("histSG", ";m_{WV}  [GeV];Entries", nbins, bins);
+	xmin=bins[0];
+	xmax=bins[nbins];
+
+	histSG->Sumw2(); histData->Sumw2();
+	for( int i=0; i<vec_histo.size(); i++ ){
+		TH1* temp=vec_histo[i];
+		TString tempName=temp->GetName();
+		if( tempName=="My_Data" ){
+			setBins( temp, histData );
+			integral_and_error( temp);
+		}
+		if( (tempName.Contains("HVT") || tempName.Contains("RSG") || tempName.Contains("NWA")) &&
+			tempName.Contains("BeforeFit") ){      
+			cout << tempName << " this is the signal" << temp->GetBinContent(1) << endl;
+			setBins( temp, histSG );
+			integral_and_error( temp);
+		}
+		if( tempName.Contains("BeforeFit") ) {
+			continue;
+		}else if( tempName.Contains("Wjets") ){
+			integral_and_error( temp);
+			setBins( temp, hist[2] );
+			hist[2]->SetFillColor(kAzure+2);
+		}else if( tempName.Contains("ttbar") ){
+			integral_and_error( temp);
+			setBins( temp, hist[0] );
+			hist[0]->SetFillColor(kOrange-4);
+		}else if( tempName.Contains("singletop") ){
+			integral_and_error( temp);
+			setBins( temp, hist[1] );
+			hist[1]->SetFillColor(kYellow-4);
+		}else if( tempName.Contains("Zjets") ){
+			integral_and_error( temp);
+			setBins( temp, hist[3] );
+			hist[3]->SetFillColor(kAzure-4);
+		}else if( tempName.Contains("Diboson") ){
+			integral_and_error( temp);
+			setBins( temp, hist[4] );
+			hist[4]->SetFillColor(kGreen+2);
+		}else if( tempName.Contains("multijet") ){
+			integral_and_error( temp);
+			setBins( temp, hist[5] );
+			hist[5]->SetFillColor(kPink-4);
+		}else if( tempName.Contains("FitError_AfterFit") ){
+			setBins( temp, hist[6] );
+			integral_and_error( temp);
+		}
+	}
+
+	THStack* ths=new THStack();
+	ths->Add(hist[3]);
+	ths->Add(hist[4]);
+	ths->Add(hist[1]);
+	if(num_region==0 || num_region==1)ths->Add(hist[5]);
+	ths->Add(hist[0]);
+	ths->Add(hist[2]);
+	TH1* histBGtot=(TH1D*)hist[0]->Clone("histBGtot");
+	if(num_region==0 || num_region==1){
+		for(int i=1;i<6;i++ ){
+			histBGtot->Add(hist[i]);
+		}
+	}
+	else{
+		for(int i=1;i<5;i++ ){
+			histBGtot->Add(hist[i]);
+		}
+	}
+
+	for(int ibin=-1; ibin<histBGtot->GetNbinsX()+2; ibin++ ){
+		histBGtot->SetBinError(ibin, 0);
+	}
+	TH1* histError=(TH1D*)hist[6]->Clone("histError");
+
+
+	TCanvas* c=new TCanvas("c1", "", 600, 600);
+	c->cd();
+	TPad* p1=new TPad("p1", "p1", 0, 0.25, 1, 1);
+	TPad* p2=new TPad("p2", "p2", 0, 0, 1, 0.25);
+	p1->SetBottomMargin(0.0);
+	p1->SetTickx();
+	p1->SetTicky();
+	p1->Draw();
+	p2->SetBottomMargin(0.25);
+	p2->SetTopMargin(0.02);
+	p2->SetTickx();
+	p2->SetTicky();
+	p2->Draw();
+	p1->cd();
+	p1->SetLogy();
+	double ymin=0.0002;
+	double ymax=(hist[6]->GetMaximum() > histData->GetMaximum() )?hist[6]->GetMaximum()*3000:histData->GetMaximum()*3000;
+	TH1* frame=gPad->DrawFrame(xmin, ymin,  xmax, ymax);
+	frame->Draw();
+	frame->GetXaxis()->SetLabelOffset(999);
+	frame->GetXaxis()->SetTitleSize(0);
+	frame->GetYaxis()->SetTitleSize(0.0375/0.75);
+	frame->GetXaxis()->SetLabelSize(0.0375/0.75);
+	frame->GetYaxis()->SetLabelSize(0.0375/0.75);
+	frame->GetYaxis()->SetTitle("Entries / GeV");
+	ths->Draw("hist:f:same");
+	hist[6]->SetFillColor(1);
+	hist[6]->SetFillStyle(3345);
+	hist[6]->Draw("same:0e2");
+	histData->SetMarkerStyle(20);
+	histData->SetMarkerSize(1.);
+	histData->Draw("same:e");
+	histSG->SetLineColor(kRed);
+	histSG->SetLineWidth(2);
+	histSG->SetLineStyle(2);
+	histSG->Scale(sigXSec);
+	histSG->Draw("same:hist");
+	histData->Draw("same:e");
+
+	TLegend *leg = new TLegend(0.5413534,0.4516129,0.8796992,0.8817204,NULL,"brNDC");
+	leg->SetBorderSize(0);
+	leg->SetFillColor(0);
+	leg->AddEntry(histData, "Data 2015-16", "p");
+	leg->AddEntry(hist[2], "W+jets", "f");
+	leg->AddEntry(hist[0], "t#bar{t}", "f");
+	if(num_region==0 || num_region==1)leg->AddEntry(hist[5], "Mis-id. lepton", "f");
+	leg->AddEntry(hist[1], "Single-t", "f");
+	leg->AddEntry(hist[4], "Dibosons", "f");
+	leg->AddEntry(hist[3], "Z+jets", "f");
+	leg->AddEntry(hist[6], "Post-fit uncertainty", "f");
+
+
+	leg->AddEntry(histSG, signallabel, "l");
+	leg->Draw();
+
+	TLatex* labelATLAS = new TLatex(0.15,0.8,"#bf{#it{ATLAS}} Internal");
+	labelATLAS->SetNDC();
+	labelATLAS->SetTextFont(42);
+	labelATLAS->SetTextSize(0.05);
+	labelATLAS->SetLineWidth(2);
+	labelATLAS->Draw();
+
+	TString lumiLabel="#sqrt{s} = 13 TeV, ";
+	char m_lumi[100];
+	sprintf(m_lumi, "%.1f", 36.1);
+	lumiLabel+=m_lumi;
+	lumiLabel+="/fb";
+	TLatex* tex = new TLatex(0.15, 0.75, lumiLabel);
+	tex->SetNDC();
+	tex->SetTextFont(42);
+	tex->SetTextSize(0.045);  
+	tex->Draw();
+
+	TString regionLabel;
+	if( region.Contains("SRWW") ){
+		if(num_region==0 || num_region==1)regionLabel="WW Signal Region (Res.)";
+		if(num_region==2 || num_region==3)regionLabel="WW Signal Region (HP)";
+		if(num_region==4|| num_region ==5)regionLabel="WW Signal Region (LP)";
+	}else if( region.Contains("SRWZ") ){
+		if(num_region==0 || num_region==1)regionLabel="WZ Signal Region (Res.)";
+		if(num_region==2 || num_region==3)regionLabel="WZ Signal Region (HP)";
+		if(num_region==4|| num_region ==5)regionLabel="WZ Signal Region (LP)";
+	}else if( region.Contains("Sideband") ){
+		if(num_region==0 || num_region==1)regionLabel="W+jets Control Region (Res.)";
+		if(num_region==2 || num_region==3)regionLabel="W+jets Control Region (HP)";
+		if(num_region==4|| num_region ==5)regionLabel="W+jets Control Region (LP)";
+	}else if( region.Contains("Btag") ){
+		if(num_region==0 || num_region==1)regionLabel="Top Control Region (Res.)";
+		if(num_region==2 || num_region==3)regionLabel="Top Control Region (HP)";
+		if(num_region==4|| num_region ==5)regionLabel="Top Control Region (LP)";
+	}
+
+	tex=new TLatex(0.15, 0.7, regionLabel);
+	tex->SetNDC();
+	tex->SetTextFont(42);
+	tex->SetTextSize(0.045);  
+	tex->Draw();
+	
+	TString selectionlabel;
+	if(num_region==0 || num_region==2 || num_region ==4) selectionlabel="ggF Region";
+	if(num_region==1 || num_region==3 || num_region ==5) selectionlabel="VBF Region";
+
+	texn=new TLatex(0.15, 0.65, selectionlabel);
+	texn->SetNDC();
+	texn->SetTextFont(42);
+	texn->SetTextSize(0.045);  
+	texn->Draw();
+
+	p1->RedrawAxis();
+
+	p2->cd();
+	TH1* bframe=gPad->DrawFrame(xmin, 0.5, xmax, 1.5);
+	bframe->GetXaxis()->SetTitleSize(0.0375/0.75);
+	bframe->GetYaxis()->SetTitleSize(0.0375/0.75);
+	bframe->GetYaxis()->CenterTitle();
+	bframe->GetXaxis()->SetLabelSize(0.0375/0.75);
+	bframe->GetYaxis()->SetLabelSize(0.0375/0.75);
+	bframe->GetYaxis()->SetTitleOffset(0.45);
+	bframe->GetYaxis()->SetNdivisions(505);
+	bframe->GetXaxis()->SetTitle("m(WV)  [GeV]");
+	bframe->GetYaxis()->SetTitle("Data / MC");
+	bframe->Draw();
+	TLine* l = new TLine(xmin, 1, xmax, 1);
+	l->SetLineColor(kRed);
+	l->Draw();
+	TH1* ratio=(TH1D*)histData->Clone("ratio");
+	ratio->Divide(histBGtot);
+	bool error = false;
+	ratiograph=MakeTGAEFromHist(ratio,error);
+	histError->Divide(histBGtot);
+	histError->SetFillColor(1);
+	histError->SetFillStyle(3345);
+	histError->Draw("e2:same");
+	ratiograph->Draw("same:0EP");
+	c->SaveAs(region+".eps");
+	return;
+
+
+}
+
+
+void ExctractHistoFromCanvas(TCanvas* can, vector<TH1*> &vec_histo, TGraphAsymmErrors* gdataAsymErr){
+  vector<TObject*> vec_MyObjects;
+  TList *ListOfObject = can->GetListOfPrimitives();
+  if (ListOfObject) {
+    TIter next(ListOfObject);
+    TObject *ThisObject;
+    vec_MyObjects.clear();
+    while ( (ThisObject=(TObject*)next()) ) {
+//	cout << "reached iteration loop" << endl;
+      vec_MyObjects.push_back( ThisObject->Clone() );      
+
+    }
+  }
+
+  TH1D *hmodel(0);
+  for (unsigned i=0 ; i<vec_MyObjects.size() ; i++){
+    TString ObjectName = vec_MyObjects[i]->GetName();
+    TString ClassName  = vec_MyObjects[i]->ClassName();
+//    cout << "vec object name: " << vec_MyObjects[i]->GetName() << endl;
+    if (ObjectName.Contains("NotAppears")) continue;
+    if (ObjectName.Contains("Stacked_") && !ObjectName.Contains("NoStacked_")  ) continue;
+
+    if(ClassName=="TH1D" && !hmodel)
+      hmodel = (TH1D*) can->FindObject(ObjectName);
+    if (!hmodel) continue;
+
+    TH1D *htemp(0); 
+
+    if(ClassName=="RooHist"){
+      TGraphAsymmErrors *gRooHist = (TGraphAsymmErrors*) can->FindObject(ObjectName);
+      if (!gRooHist) cout << "TGraphAsymmErrors object for " << ObjectName << " (class : " << ClassName << ") was not found !" << endl;
+      if ( ObjectName=="Data" ){
+	gdataAsymErr = (TGraphAsymmErrors*) gRooHist->Clone("DataAsymError");
+    	gdataAsymErr->SetTitle("DataAsymError");
+	gdataAsymErr->SetLineWidth(2);
+	gdataAsymErr->SetLineColor(1);
+	gdataAsymErr->SetLineStyle(1);
+      }
+      htemp = TGraphAsymmErrorsToTH1D(gRooHist,hmodel);
+      can->cd();
+      gRooHist->Draw("LP");
+    }  
+
+    if(ClassName=="RooCurve"){
+      TGraph *gRooCurve = (TGraph*) can->FindObject(ObjectName);
+      if (!gRooCurve) cout << "TGraph object for " << ObjectName << " (class : " << ClassName << ") was not found !" << endl;
+      htemp = TGraphToTH1D(gRooCurve,hmodel);
+    }
+    
+    if (htemp) vec_histo.push_back(htemp);
+  }
+  
+  return;
+}
+
+TH1D* TGraphAsymmErrorsToTH1D(TGraphAsymmErrors *g, TH1D *hmodel){
+  TH1D* hres = (TH1D*) hmodel->Clone();
+  hres->Reset();
+  TString hnameOld = (TString)g->GetName();
+  if (hnameOld.Contains("BeforeFit") && !hnameOld.Contains("BkgBeforeFit")) hnameOld.ReplaceAll("BeforeFit","BeforeFit_BkgTot");
+  hnameOld.ReplaceAll("NoStacked_","");
+  hnameOld.ReplaceAll("BkgBeforeFit_","BeforeFit_");
+  hres->SetName("My_"+hnameOld);
+  hres->SetTitle(hnameOld);
+  hres->SetLineWidth( 2 );
+  hres->SetLineColor( 1 );
+  hres->SetLineStyle( 1 );
+
+
+  int Npts = g->GetN();
+  double xprevious = 0.0;
+  for (int ip=0 ; ip<Npts ; ip++){
+    double x,y,erry;
+    g->GetPoint(ip,x,y);
+    erry = g->GetErrorY(ip);
+    if (!(xprevious==x) || ip==0){
+      double xbin = (x+xprevious)/2. ;
+      double ycontent = y;
+      int ib = hres->FindBin(x);
+      if (ib<=hres->GetNbinsX()) {
+	hres->SetBinContent(ib,ycontent);
+	hres->SetBinError(ib,erry);
+      }
+    }    
+    xprevious = x;
+  }
+
+  TCanvas *can = new TCanvas(hres->GetName(),hres->GetName(),600,600);
+  can->cd();
+  hres->Draw();
+  return hres;
+}
+
+
+TH1D* TGraphToTH1D(TGraph *g, TH1D *hmodel){
+  
+  TString gname = (TString)g->GetName();
+  bool IsForError=false;
+  if (gname=="FitError_AfterFit") IsForError=true;
+
+  TH1D* hres = (TH1D*) hmodel->Clone();
+  hres->Reset();
+  TString hnameOld = (TString)g->GetName();
+  if (hnameOld.Contains("BeforeFit") && !hnameOld.Contains("BkgBeforeFit")) hnameOld.ReplaceAll("BeforeFit","BeforeFit_BkgTot");
+  hnameOld.ReplaceAll("NoStacked_","");
+  hnameOld.ReplaceAll("BkgBeforeFit_","BeforeFit_");
+  hres->SetName("My_"+hnameOld);
+  hres->SetTitle(hnameOld);
+  hres->SetLineWidth( 2 );
+  hres->SetLineColor( 1 );
+  hres->SetLineStyle( 1 );
+  
+  // Get TH1F of the errors
+  if (IsForError){
+
+    double xl,yl,xh,yh;
+    int NN=g->GetN() / 2;
+
+    TGraph* gUp=new TGraph(NN);
+    TGraph* gLow=new TGraph(NN);
+
+    vector<double> ratios;
+    for(int i=0;i<NN;i++) {
+      g->GetPoint(i,xl,yl);
+      g->GetPoint(i+NN,xh,yh);
+      gUp->SetPoint(NN-1-i,xh,yh);
+      gLow->SetPoint(i,xl,yl);
+    }
+
+    int Nbins = hmodel->GetNbinsX();
+    double xc,yc,xu,yu,xl2,yl2;
+    for(int i=0;i<NN;i++) {
+      gUp->GetPoint(i,xu,yu);
+      gLow->GetPoint(i,xl2,yl2);
+      for (int ib=0 ; ib<Nbins+1 ; ib++){
+	double dx=hmodel->GetBinWidth(ib);
+	double xbin=hmodel->GetBinCenter(ib);
+	xc=xl2+dx/2.0;
+	yc=(yu+yl2)/2.0;
+	if (fabs(xc-xbin)<dx/10.){
+	  hres->SetBinContent(ib,yc);
+	  hres->SetBinError(ib,fabs((yu-yl2)/2.0));
+	}
+      }
+    }
+    
+    return hres;
+  }
+ 
+
+for(int b=0; b<hres->GetNbinsX()+1; b++){
+
+	double x = hres->GetBinCenter(b);
+	double y = g->Eval(x);
+	hres->SetBinContent(b,y);
+
+ }
+
+
+ 
+  return hres;
+}
+TGraphAsymmErrors* MakeTGAEFromHist(TH1* h, bool usePoissonErrors){
+  if(!h)
+    return new TGraphAsymmErrors();
+
+  bool simple=false;
+  if(simple)
+    return new TGraphAsymmErrors(h);
+
+  // need to make a graph from all the non-zero bins in the histogram. 
+  int nbins = h->GetNbinsX();
+  double* x = new double[nbins];
+  double* y = new double[nbins];
+  double* exl = new double[nbins];
+  double* exh = new double[nbins];
+  double* eyl = new double[nbins];
+  double* eyh = new double[nbins];
+  double* ePyl = new double[nbins];
+  double* ePyh = new double[nbins];
+
+  int goodBins=0;
+  double y1=0.,d1=0.,y2=0.,d2=0.;
+  double binValue=0.;
+  for(int i=1; i<nbins+1; i++){
+    if(h->GetBinContent(i)>0.){
+      binValue = h->GetBinContent(i);
+      x[goodBins]   = h->GetBinCenter(i);
+      exl[goodBins] = 0;
+      exh[goodBins] = 0;
+      y[goodBins]   = binValue;
+      eyl[goodBins] = h->GetBinError(i);
+      eyh[goodBins] = h->GetBinError(i);
+
+      y1 = binValue + 1.0;
+      d1 = 1.0 - 1.0/(9.0*y1) + 1.0/(3.0*TMath::Sqrt(y1));
+      ePyh[goodBins] = y1*d1*d1*d1 - binValue;
+
+      y2 = binValue;
+      d2 = 1.0 - 1.0/(9.0*y2) - 1.0/(3.0*TMath::Sqrt(y2));
+      ePyl[goodBins] = binValue - y2*d2*d2*d2;
+
+      goodBins++;
+    }
+  }
+  TGraphAsymmErrors* g;
+  if(!usePoissonErrors)
+    g = new TGraphAsymmErrors(goodBins,
+                              x, y,
+                              exl, exh,
+                              eyl, eyh);
+  else
+    g = new TGraphAsymmErrors(goodBins,
+                              x, y,
+                              exl, exh,
+                              ePyl, ePyh);
+
+
+  g->SetMarkerStyle(h->GetMarkerStyle());
+  g->SetMarkerColor(h->GetMarkerColor());
+  g->SetMarkerSize(h->GetMarkerSize());
+  g->SetLineColor(h->GetLineColor());
+  g->SetLineStyle(h->GetLineStyle());
+
+  return g;
+}

@@ -1,0 +1,758 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+
+\bibitem{Nevis12_paper}
+J.~Kuppambatti, J.~Ban, T.~Andeen, R.~Brown, R.~Carbone, P.~Kinget,
+  G.~Brooilmans,  and W.~Sippach,
+  \href{http://dx.doi.org/10.1016/j.nima.2017.01.025}{Nucl. Instrum. Meth. A
+  {\bfseries 855} (2017) 38--46},
+  \href{http://arxiv.org/abs/1706.01535}{{\ttfamily arXiv:1706.01535
+  [physics.ins-det]}}.
+
+\bibitem{lhcc_poster}
+C.~Camincher and R.~Carbone,
+  \href{https://cds.cern.ch/record/2135298}{ATL-LARG-SLIDE-2016-111}, 2016.
+
+\bibitem{ryne_ichep_talk}
+R.~Carbone, PoS (ICHEP2016) 236,
+  \url{https://pos.sissa.it/archive/conferences/282/236/ICHEP2016_236.pdf}.
+
+\bibitem{LArCaloPublicResults2015}
+{ATLAS Collaboration}, {\em {LAr Calo Public Results 2015}},
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LArCaloPublicResults2015}.
+
+\bibitem{LArTiming_2015}
+R.~Carbone, K.~Iordanidou,  and J.~Parsons,
+  \href{https://cds.cern.ch/record/2128488}{ATL-COM-LARG-2016-005}, 2016.
+
+\bibitem{diphoton_paper}
+{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP09(2016)001}{JHEP
+  {\bfseries 09} (2016) 001}, \href{http://arxiv.org/abs/1606.03833}{{\ttfamily
+  arXiv:1606.03833 [hep-ex]}}.
+
+\bibitem{Higgs_atlas}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys. Lett. B
+  {\bfseries 716} (2012) 1 -- 29}.
+
+\bibitem{Higgs_cms}
+{CMS Collaboration},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys. Lett. B
+  {\bfseries 716} (2012) 30 -- 61}.
+
+\bibitem{ATLAS}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{JINST {\bfseries 3}
+  (2008) S08003}.
+
+\bibitem{LHC}
+L.~Evans and P.~Bryant,
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08001}{JINST {\bfseries 3}
+  (2008) S08001}.
+
+\bibitem{diboson_comb_2016}
+{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP09(2016)173}{JHEP
+  {\bfseries 09} (2016) 173}, \href{http://arxiv.org/abs/1606.04833}{{\ttfamily
+  arXiv:1606.04833 [hep-ex]}}.
+
+\bibitem{ATLAS_comb_run1}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1016/j.physletb.2016.02.015}{Phys. Lett. B
+  {\bfseries 755} (2016) 285--305},
+  \href{http://arxiv.org/abs/1512.05099}{{\ttfamily arXiv:1512.05099
+  [hep-ex]}}.
+
+\bibitem{lvjj_run1}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-015-3593-4}{Eur. Phys. J. C
+  {\bfseries 75} (2015) 209}, \href{http://arxiv.org/abs/1503.04677}{{\ttfamily
+  arXiv:1503.04677 [hep-ex]}}.
+
+\bibitem{CMS_diboson_run2}
+{CMS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP03(2017)162}{JHEP
+  {\bfseries 03} (2017) 162}, \href{http://arxiv.org/abs/1612.09159}{{\ttfamily
+  arXiv:1612.09159 [hep-ex]}}.
+
+\bibitem{CMS_diboson_run1run2}
+{CMS Collaboration}, \href{http://arxiv.org/abs/1705.09171}{{\ttfamily
+  arXiv:1705.09171 [hep-ex]}}.
+
+\bibitem{CMS_dijet_run1}
+{CMS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP08(2014)173}{JHEP
+  {\bfseries 08} (2014) 173}, \href{http://arxiv.org/abs/1405.1994}{{\ttfamily
+  arXiv:1405.1994 [hep-ex]}}.
+
+\bibitem{CMS_diboson_run1}
+{CMS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP08(2014)174}{JHEP
+  {\bfseries 08} (2014) 174}, \href{http://arxiv.org/abs/1405.3447}{{\ttfamily
+  arXiv:1405.3447 [hep-ex]}}.
+
+\bibitem{Nobel_Prizes}
+{\em All Nobel Prizes in Physics}.
+\newblock Nobel Media AB, 2014.
+\newblock \url{https://www.nobelprize.org/nobel_prizes/physics/laureates/}.
+\newblock Accessed: 2016-06-13.
+
+\bibitem{spin_stats}
+W.~Pauli, \href{http://dx.doi.org/10.1103/PhysRev.58.716}{Phys. Rev. {\bfseries
+  58} (1940) 716--722}.
+
+\bibitem{pentaquark}
+{LHCb Collaboration},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.115.072001}{Phys. Rev. Lett.
+  {\bfseries 115} (2015) 072001}.
+
+\bibitem{noether}
+E.~Noether and M.~A. Tavel,
+  \href{http://dx.doi.org/10.1080/00411457108231446}{Transp. Theory Statist.
+  Phys. {\bfseries 1} (1971) 186--207},
+  \href{http://arxiv.org/abs/physics/0503066}{{\ttfamily arXiv:physics/0503066
+  [physics.hist-ph]}}.
+
+\bibitem{Srednicki}
+M.~Srednicki, {\em Quantum Field Theory}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem{wukitung}
+W.-K. Tung, {\em Group Theory in Physics}.
+\newblock World Scientific Publishing Company, 1985.
+
+\bibitem{thooft}
+G.~'t~Hooft, \href{http://dx.doi.org/10.1016/0550-3213(71)90139-8}{Nucl. Phys.
+  B {\bfseries 35} (1971) 167 -- 188}.
+
+\bibitem{Griffiths}
+D.~Griffiths, {\em Introduction to Elementary Particles}.
+\newblock Wiley-VCH, 2008.
+
+\bibitem{Goldstone}
+J.~Goldstone, \href{http://dx.doi.org/10.1007/BF02812722}{Nuovo Cim. {\bfseries
+  19} (1961) 154--164}.
+
+\bibitem{gold_salam_wein}
+J.~Goldstone, A.~Salam,  and S.~Weinberg,
+  \href{http://dx.doi.org/10.1103/PhysRev.127.965}{Phys. Rev. {\bfseries 127}
+  (1962) 965--970}.
+
+\bibitem{brout_englert}
+F.~Englert and R.~Brout,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.321}{Phys. Rev. Lett.
+  {\bfseries 13} (1964) 321--323}.
+
+\bibitem{higgs_mech}
+P.~Higgs, \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{Phys. Rev. Lett.
+  {\bfseries 13} (1964) 508--509}.
+
+\bibitem{gur_hag_kib}
+G.~Guralnik, C.~Hagen,  and T.~Kibble,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.585}{Phys. Rev. Lett.
+  {\bfseries 13} (1964) 585--587}.
+
+\bibitem{Cabibbo}
+N.~Cabibbo, \href{http://dx.doi.org/10.1103/PhysRevLett.10.531}{Phys. Rev.
+  Lett. {\bfseries 10} (1963) 531--533}.
+
+\bibitem{kob_mas}
+M.~Kobayashi and T.~Maskawa, \href{http://dx.doi.org/10.1143/PTP.49.652}{Prog.
+  Theor. Phys. {\bfseries 49} (1973) 652--657}.
+
+\bibitem{comp_higgs_1}
+M.~J. Dugan, H.~Georgi,  and D.~B. Kaplan,
+  \href{http://dx.doi.org/10.1016/0550-3213(85)90221-4}{Nucl. Phys. B
+  {\bfseries 254} (1985) 299 -- 326}.
+
+\bibitem{comp_higgs_2}
+K.~Agashe, R.~Contino,  and A.~Pomarol,
+  \href{http://dx.doi.org/10.1016/j.nuclphysb.2005.04.035}{Nucl. Phys. B
+  {\bfseries 719} (2005) 165 -- 187}.
+
+\bibitem{warped_xtra_dim_1}
+L.~Randall and R.~Sundrum,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.83.3370}{Phys. Rev. Lett.
+  {\bfseries 83} (1999) 3370--3373}.
+
+\bibitem{warped_xtra_dim_2}
+L.~Randall and R.~Sundrum,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.83.4690}{Phys. Rev. Lett.
+  {\bfseries 83} (1999) 4690--4693}.
+
+\bibitem{warped_xtra_dim_3}
+H.~Davoudiasl, J.~L. Hewett,  and T.~G. Rizzo,
+  \href{http://dx.doi.org/10.1103/PhysRevD.63.075004}{Phys. Rev. D {\bfseries
+  63} (2001) 075004}.
+
+\bibitem{kaluza_klein_mode}
+T.~Han, J.~D. Lykken,  and R.-J. Zhang,
+  \href{http://dx.doi.org/10.1103/PhysRevD.59.105006}{Phys. Rev. D {\bfseries
+  59} (1999) 105006}.
+
+\bibitem{rs_pic}
+M.~Gabella, {\em The Randall-Sundrum Model}, 2006.
+\newblock \url{http://www-thphys.physics.ox.ac.uk/people/MaximeGabella/rs.pdf}.
+
+\bibitem{extended_higgs_1}
+{LHC Higgs Cross Section Working Group} Collaboration, D.~de~Florian {et~al.},
+\href{http://arxiv.org/abs/1610.07922}{{\ttfamily arXiv:1610.07922 [hep-ph]}}.
+%%CITATION = ARXIV:1610.07922;%%.
+
+\bibitem{extended_higgs_2}
+I.~P. Ivanov, \href{http://dx.doi.org/10.1016/j.ppnp.2017.03.001}{Prog. Part.
+  Nucl. Phys. {\bfseries 95} (2017) 160 -- 208},
+  \href{http://arxiv.org/abs/1702.03776}{{\ttfamily arXiv:1702.03776
+  [hep-ph]}}.
+
+\bibitem{gut_1}
+J.~C. Pati and A.~Salam, \href{http://dx.doi.org/10.1103/PhysRevD.10.275}{Phys.
+  Rev. D {\bfseries 10} (1974) 275--289}.
+
+\bibitem{gut_2}
+H.~Georgi and S.~L. Glashow,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.32.438}{Phys. Rev. Lett.
+  {\bfseries 32} (1974) 438--441}.
+
+\bibitem{gut_3}
+H.~Georgi, \href{http://dx.doi.org/10.1063/1.2947450}{AIP Conference
+  Proceedings {\bfseries 23} (1975) 575}.
+
+\bibitem{gut_4}
+H.~Fritzsch and P.~Minkowski,
+  \href{http://dx.doi.org/10.1016/0003-4916(75)90211-0}{Annals Phys. {\bfseries
+  93} (1975) 193 -- 266}.
+
+\bibitem{pdg_2017}
+{Particle Data Group Collaboration},
+  \href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{Chin. Phys. C
+  {\bfseries 40} (2016) 100001}.
+
+\bibitem{heavy_higgs_1}
+A.~Hill and J.~J. van~der Bij,
+  \href{http://dx.doi.org/10.1103/PhysRevD.36.3463}{Phys. Rev. D {\bfseries 36}
+  (1987) 3463--3473}.
+
+\bibitem{heavy_higgs_2}
+V.~Barger {et~al.}, \href{http://dx.doi.org/10.1103/PhysRevD.77.035005}{Phys.
+  Rev. D {\bfseries 77} (2008) 035005}.
+
+\bibitem{nwa_info}
+D.~Berdine, N.~Kauer,  and D.~Rainwater,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.99.111601}{Phys. Rev. Lett.
+  {\bfseries 99} (2007) 111601}.
+
+\bibitem{heavy_higgs_ggF}
+S.~Alioli, P.~Nason, C.~Oleari,  and E.~Re,
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/04/002}{JHEP {\bfseries 04}
+  (2009) 2}.
+
+\bibitem{heavy_higgs_VBF}
+P.~Nason and C.~Oleari, \href{http://dx.doi.org/10.1007/JHEP02(2010)037}{JHEP
+  {\bfseries 2} (2010) 37}.
+
+\bibitem{hvt_theory_1}
+D.~Pappadopulo, A.~Thamm, R.~Torre,  and A.~Wulzer,
+  \href{http://dx.doi.org/10.1007/JHEP09(2014)060}{JHEP {\bfseries 09} (2014)
+  60}.
+
+\bibitem{hvt_theory_2}
+J.~de~Blas, J.~M. Lizana,  and M.~P{\'e}rez-Victoria,
+  \href{http://dx.doi.org/10.1007/JHEP01(2013)166}{JHEP {\bfseries 01} (2013)
+  166}.
+
+\bibitem{hvt_model_a}
+V.~Barger, W.~Y. Keung,  and E.~Ma,
+  \href{http://dx.doi.org/10.1103/PhysRevD.22.727}{Phys. Rev. D {\bfseries 22}
+  (1980) 727--737}.
+
+\bibitem{hvt_model_a2}
+G.~Altarelli, B.~Mele,  and M.~Ruiz-Altaba,
+  \href{http://dx.doi.org/10.1007/BF01556677}{Z. fur Phys. C {\bfseries 45}
+  (1989) 109--121}.
+
+\bibitem{hvt_model_b_1}
+R.~Contino, D.~Pappadopulo, D.~Marzocca,  and R.~Rattazzi,
+  \href{http://dx.doi.org/10.1007/JHEP10(2011)081}{JHEP {\bfseries 10} (2011)
+  81}.
+
+\bibitem{hvt_model_b_2}
+B.~Bellazzini, C.~Cs{\'a}ki,  and J.~Serra,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-014-2766-x}{Eur. Phys. J. C
+  {\bfseries 74} (2014) 2766}.
+
+\bibitem{hvt_model_b_3}
+G.~Panico and A.~Wulzer,
+  \href{http://dx.doi.org/10.1007/978-3-319-22617-0}{Lect. Notes Phys.
+  {\bfseries 913} (2016)}, \href{http://arxiv.org/abs/1506.01961}{{\ttfamily
+  arXiv:1506.01961 [hep-ph]}}.
+
+\bibitem{rs_graviton}
+K.~Agashe, H.~Davoudiasl, G.~Perez,  and A.~Soni,
+  \href{http://dx.doi.org/10.1103/PhysRevD.76.036006}{Phys. Rev. D {\bfseries
+  76} (2007) 036006}.
+
+\bibitem{grav_width}
+H.~Davoudiasl, J.~L. Hewett,  and T.~G. Rizzo,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.84.2080}{Phys. Rev. Lett.
+  {\bfseries 84} (2000) 2080--2083}.
+
+\bibitem{LHC_design_v1}
+O.~S. Bruning {et~al.}, {\em {LHC Design Report}}.
+\newblock CERN, 2004.
+\newblock \href{https://cds.cern.ch/record/782076}{CERN-2004-003-V-1}.
+
+\bibitem{LHC_design_v2}
+O.~S. Bruning {et~al.}, {\em {LHC Design Report}}.
+\newblock CERN, 2004.
+\newblock \href{http://cds.cern.ch/record/815187}{CERN-2004-003-V-2}.
+
+\bibitem{LHC_design_v3}
+M.~Benedikt {et~al.}, {\em {LHC Design Report}}.
+\newblock CERN, 2004.
+\newblock \href{http://cds.cern.ch/record/823808}{CERN-2004-003-V-3}.
+
+\bibitem{LEP}
+{\em {LEP design report}}.
+\newblock CERN, 1984.
+\newblock \href{https://cds.cern.ch/record/102083}{CERN-LEP-84-01}.
+
+\bibitem{lhc_incident}
+M.~Bajko {et~al.},
+  \href{https://cds.cern.ch/record/1168025}{LHC-PROJECT-Report-1168}, 2009.
+
+\bibitem{accelerators}
+S.~Baird,  \href{https://cds.cern.ch/record/1017689}{AB-Note-2007-014}{}, 2007.
+
+\bibitem{vanderMeer}
+S.~van~der Meer,  \href{https://cds.cern.ch/record/296752}{CERN-ISR-PO-68-31},
+  1968.
+
+\bibitem{lhc_closer_look}
+{\em Taking a closer look at the LHC},
+\newblock \url{https://www.lhc-closer.es/taking_a_closer_look_at_lhc/1.home}.
+
+\bibitem{acc_comp}
+E.~A. Mobs,
+  \href{https://cds.cern.ch/record/2225847}{OPEN-PHO-ACCEL-2016-013}, 2016.
+
+\bibitem{Lumi_Public_Run2}
+{ATLAS Collaboration}, {\em Luminosity Public Results Run 2},
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
+
+\bibitem{CMS}
+{CMS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{JINST {\bfseries 3}
+  (2008) S08004}.
+
+\bibitem{ALICE}
+{ALICE Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{JINST {\bfseries 3}
+  (2008) S08002}.
+
+\bibitem{LHCb}
+{LHCb Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{JINST {\bfseries 3}
+  (2008) S08005}.
+
+\bibitem{TOTEM}
+{TOTEM Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08007}{JINST {\bfseries 3}
+  (2008) S08007}.
+
+\bibitem{MoEDAL}
+{MoEDAL Collaboration},
+  \href{http://cds.cern.ch/record/1181486}{MoEDAL-TDR-001}, 2009.
+
+\bibitem{LHCf}
+{LHCf Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08006}{JINST {\bfseries 3}
+  (2008) S08006}.
+
+\bibitem{ID_TDR}
+{ATLAS Collaboration}. \href{https://cds.cern.ch/record/331063}{ATLAS-TDR-4},
+  1997.
+
+\bibitem{ID_TDR2}
+{ATLAS Collaboration}. \href{https://cds.cern.ch/record/331064}{ATLAS-TDR-5},
+  1997.
+
+\bibitem{IBL_TDR}
+{ATLAS Collaboration}. \href{https://cds.cern.ch/record/1291633}{ATLAS-TDR-19},
+  2010.
+
+\bibitem{ATL-PHYS-PUB-2009-002}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/search?sysno=002770910CER}{ATL-PHYS-PUB-2009-002},
+  2009.
+
+\bibitem{25_vertices_z}
+{ATLAS Collaboration}, {\em 2012 Z$\rightarrow\mu\mu$ event with high pileup},
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/EventDisplayStandAlone#20_vertices}.
+
+\bibitem{Pixel_Sensors}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/07/P07007}{JINST {\bfseries 3}
+  (2008) P07007}.
+
+\bibitem{ID_RUN2_PROC}
+E.~Stanecka,
+  \href{https://cds.cern.ch/record/2145984}{ATL-COM-INDET-2016-026}, 2016.
+
+\bibitem{SCT_paper}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/9/08/P08009}{JINST {\bfseries 9}
+  (2014) P08009}.
+
+\bibitem{TRT_sensors}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/02/P02013}{JINST {\bfseries 3}
+  (2008) P02013}.
+
+\bibitem{trt_twiki}
+{ATLAS Collaboration}, {\em Public {TRT} Plots for Collision Data},
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TRTPublicResults}.
+
+\bibitem{LAr_TDR}
+{ATLAS Collaboration}. \href{https://cds.cern.ch/record/331061}{ATLAS-TDR-2},
+  1996.
+
+\bibitem{Tile_TDR}
+{ATLAS Collaboration}. \href{https://cds.cern.ch/record/331062}{ATLAS-TDR-3},
+  1996.
+
+\bibitem{Muon_TDR}
+{ATLAS Collaboration}. \href{https://cds.cern.ch/record/331068}{ATLAS-TDR-10},
+  1997.
+
+\bibitem{LUCID_2}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2154368}{ATLAS-COM-FWD-2016-008}, 2016.
+
+\bibitem{DBM}
+{ATLAS} Collaboration, M.~Cerv,
+  \href{http://dx.doi.org/10.1088/1748-0221/9/02/C02026}{JINST {\bfseries 9}
+  (2014) C02026}.
+
+\bibitem{Magnet_TDR}
+{ATLAS Collaboration}. \href{https://cds.cern.ch/record/338080}{ATLAS-TDR-6},
+  1997.
+
+\bibitem{Atlas_mag}
+{ATLAS Collaboration}, {\em ATLAS Magnet System},
+\newblock \url{http://atlas-ma.web.cern.ch/atlas-ma/field/}.
+
+\bibitem{trigger_2015}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-017-4852-3}{Eur. Phys. J. C
+  {\bfseries 77} (2017) 317}.
+
+\bibitem{trigger_evo}
+A.~Krasznahorkay,
+  \href{https://cds.cern.ch/record/1604503}{ATL-DAQ-PROC-2013-018}, 2013.
+
+\bibitem{Leaky_bucket}
+S.~Ask {et~al.}, \href{http://dx.doi.org/10.1088/1748-0221/3/08/P08002}{JINST
+  {\bfseries 3} (2008) P08002}.
+
+\bibitem{sliding_window}
+W.~Lampl {et~al.},
+  \href{https://cds.cern.ch/record/1099735}{ATL-LARG-PUB-2008-002}, 2008.
+
+\bibitem{electron_efficiency}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/1706245}{ATLAS-CONF-2014-032}, 2014.
+
+\bibitem{electron_efficiency_2016}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2157687}{ATLAS-CONF-2016-024}, 2016.
+
+\bibitem{gsm_filter}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/1449796}{ATLAS-CONF-2012-047}, 2012.
+
+\bibitem{el_id_eff}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2255828}{ATL-COM-PHYS-2017-260}, 2017.
+
+\bibitem{muon_eff}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4120-y}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 292}.
+
+\bibitem{topo_cluster}
+{ATLAS Collaboration}, \href{http://arxiv.org/abs/1603.02934}{{\ttfamily
+  arXiv:1603.02934 [hep-ex]}}.
+
+\bibitem{anti_kt_algo}
+M.~Cacciari, G.~P. Salam,  and G.~Soyez,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{JHEP {\bfseries 04}
+  (2008) 063}.
+
+\bibitem{ghost_assoc}
+M.~Cacciari, G.~P. Salam,  and G.~Soyez,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/005}{JHEP {\bfseries 04}
+  (2008) 005}.
+
+\bibitem{jet_energy_measurement}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-013-2304-2}{Eur. Phys. J. C
+  {\bfseries 73} (2013) 2304}.
+
+\bibitem{jvt}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/1700870}{ATLAS-CONF-2014-018}, 2014.
+
+\bibitem{b_jet}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/11/04/P04008}{JINST {\bfseries 11}
+  (2016) P04008}.
+
+\bibitem{b_jet_opt}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2160731}{ATL-PHYS-PUB-2016-012}, 2016.
+
+\bibitem{boost_trim}
+{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP09(2013)076}{JHEP
+  {\bfseries 9} (2013) 76}.
+
+\bibitem{jet_track_mass}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2200211}{ATLAS-CONF-2016-035}, 2016.
+
+\bibitem{jet_comb_mass}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2231534}{ATL-COM-PHYS-2016-1596}, 2016.
+
+\bibitem{d2_one}
+A.~J. Larkoski, I.~Moult,  and D.~Neill,
+  \href{http://dx.doi.org/10.1007/JHEP12(2014)009}{JHEP {\bfseries 12} (2014)
+  9}.
+
+\bibitem{d2_two}
+A.~J. Larkoski, I.~Moult,  and D.~Neill,
+  \href{http://dx.doi.org/10.1007/JHEP05(2016)117}{JHEP {\bfseries 5} (2016)
+  117}.
+
+\bibitem{smoothed_wz_tagger}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2242865}{ATL-COM-PHYS-2017-033}, 2017.
+
+\bibitem{met_perf}
+{ATLAS Collaboration}.
+  \href{https://cds.cern.ch/record/2149445}{ATL-COM-PHYS-2016-407}, 2016.
+
+\bibitem{lhc_boosted}
+A.~Abdesselam {et~al.},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1661-y}{Eur. Phys. J. C
+  {\bfseries 71} (2011) 1661}.
+
+\bibitem{LargeRjet_kin}
+J.~Shelton, \href{http://dx.doi.org/10.1142/9789814525220_0007}{{\em {Jet
+  Substructure}},} No.~C12-06-04.4, 303-340.
+\newblock 2013.
+\newblock \href{http://arxiv.org/abs/1302.0260}{{\ttfamily arXiv:1302.0260
+  [hep-ph]}}.
+
+\bibitem{pythia8}
+T.~Sjostrand, S.~Mrenna,  and P.~Skands,
+  \href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{Comput. Phys. Commun.
+  {\bfseries 178} (2008) 852 -- 867},
+  \href{http://arxiv.org/abs/0710.3820}{{\ttfamily arXiv:0710.3820 [hep-ph]}}.
+
+\bibitem{geant4}
+S.~Agostinelli {et~al.},
+  \href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{Nucl. Inst. Meth. A
+  {\bfseries 506} (2003) 250 -- 303}.
+
+\bibitem{atlas_sim}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-010-1429-9}{Eur. Phys. J. C
+  {\bfseries 70} (2010) 823--874},
+  \href{http://arxiv.org/abs/1005.4568}{{\ttfamily arXiv:1005.4568 [hep-ph]}}.
+
+\bibitem{herwig}
+M.~Bahr {et~al.}, \href{http://dx.doi.org/10.1140/epjc/s10052-008-0798-9}{Eur.
+  Phys. J. C {\bfseries 58} (2008) 639--707}.
+
+\bibitem{powheg}
+S.~Frixione, P.~Nason,  and C.~Oleari,
+  \href{http://dx.doi.org/10.1088/1126-6708/2007/11/070}{JHEP {\bfseries 11}
+  (2007) 070}.
+
+\bibitem{powhegbox}
+S.~Alioli, P.~Nason, C.~Oleari,  and E.~Re,
+  \href{http://dx.doi.org/10.1007/JHEP06(2010)043}{JHEP {\bfseries 6} (2010)
+  43}.
+
+\bibitem{sherpa}
+T.~Gleisberg {et~al.},
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/02/007}{JHEP {\bfseries 02}
+  (2009) 007}.
+
+\bibitem{mg5_anlo}
+J.~Alwall {et~al.}, \href{http://dx.doi.org/10.1007/JHEP07(2014)079}{JHEP
+  {\bfseries 7} (2014) 79}.
+
+\bibitem{nnpdf}
+R.~D. Ball {et~al.},
+  \href{http://dx.doi.org/10.1016/j.nuclphysb.2012.10.003}{Nucl. Phys. B
+  {\bfseries 867} (2013) 244 -- 289},
+  \href{http://arxiv.org/abs/1207.1303}{{\ttfamily arXiv:1207.1303 [hep-ph]}}.
+
+\bibitem{cteq6l}
+J.~Pumplin {et~al.},
+  \href{http://dx.doi.org/10.1088/1126-6708/2002/07/012}{JHEP {\bfseries 07}
+  (2002) 012}.
+
+\bibitem{ct10}
+H.-L. Lai {et~al.}, \href{http://dx.doi.org/10.1103/PhysRevD.82.074024}{Phys.
+  Rev. D {\bfseries 82} (2010) 074024}.
+
+\bibitem{hdamp}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/1703034}{ATL-PHYS-PUB-2014-005}, 2014.
+
+\bibitem{evtgen}
+D.~J. Lange, \href{http://dx.doi.org/10.1016/S0168-9002(01)00089-4}{Nucl.
+  Instrum. Meth. A {\bfseries 462} (2001) 152 -- 155}.
+
+\bibitem{single_diboson}
+J.~Butterworth {et~al.},
+  \href{https://cds.cern.ch/record/1287902}{ATL-COM-PHYS-2010-695}, 2010.
+
+\bibitem{rapidity_nnlo}
+C.~Anastasiou {et~al.},
+  \href{http://dx.doi.org/10.1103/PhysRevD.69.094008}{Phys. Rev. D {\bfseries
+  69} (2004) 094008}.
+
+\bibitem{ttbar_nnlo}
+M.~Czakon, P.~Fiedler,  and A.~Mitov,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.110.252004}{Phys. Rev. Lett.
+  {\bfseries 110} (2013) 252004}.
+
+\bibitem{top_pp_nnlo}
+M.~Czakon and A.~Mitov,
+  \href{http://dx.doi.org/10.1016/j.cpc.2014.06.021}{Comp. Phys. Commun.
+  {\bfseries 185} (2014) 2930 -- 2938}.
+
+\bibitem{singletop_nnll}
+N.~Kidonakis, \href{http://dx.doi.org/10.1103/PhysRevD.81.054028}{Phys. Rev. D
+  {\bfseries 81} (2010) 054028}.
+
+\bibitem{singletop_twoloop}
+N.~Kidonakis, \href{http://dx.doi.org/10.1103/PhysRevD.82.054018}{Phys. Rev. D
+  {\bfseries 82} (2010) 054018}.
+
+\bibitem{ichep2016supportnote}
+{ATLAS Collaboration},
+  \href{http://cds.cern.ch/record/2151836}{ATL-COM-PHYS-2016-476}, 2016.
+
+\bibitem{lvqq_conf_2016}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2206199}{ATLAS-CONF-2016-062}, 2016.
+
+\bibitem{trig_eff_2016}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2254973}{ATL-COM-DAQ-2017-015}, 2017.
+
+\bibitem{bad_jet}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2037702}{ATLAS-CONF-2015-029}, 2015.
+
+\bibitem{lumi_unc}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4466-1}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 653}.
+
+\bibitem{prw_unc}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.117.182002}{Phys. Rev. Lett.
+  {\bfseries 117} (2016) 182002},
+  \href{http://arxiv.org/abs/1606.02625}{{\ttfamily arXiv:1606.02625
+  [hep-ex]}}.
+
+\bibitem{jes_unc}
+{ATLAS Collaboration}, \href{http://arxiv.org/abs/1703.09665}{{\ttfamily
+  arXiv:1703.09665 [hep-ex]}}.
+
+\bibitem{J_scale_unc}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2041461}{ATL-PHYS-PUB-2015-033}, 2015.
+
+\bibitem{met_syst}
+{ATLAS Collaboration}.
+  \href{https://cds.cern.ch/record/2037700}{ATL-PHYS-PUB-2015-023}, 2015.
+
+\bibitem{ckkw}
+S.~Catani, F.~Krauss, R.~Kuhn,  and B.~R. Webber,
+  \href{http://dx.doi.org/10.1088/1126-6708/2001/11/063}{JHEP {\bfseries 11}
+  (2001) 063}, \href{http://arxiv.org/abs/hep-ph/0109231}{{\ttfamily
+  arXiv:hep-ph/0109231 [hep-ph]}}.
+
+\bibitem{pythia_tune}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/1966419}{ATL-PHYS-PUB-2014-021}, 2014.
+
+\bibitem{mmht}
+L.~A. Harland-Lang, A.~D. Martin, P.~Motylinski,  and R.~S. Thorne,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-015-3397-6}{Eur. Phys. J. C
+  {\bfseries 75} (2015) 204}, \href{http://arxiv.org/abs/1412.3989}{{\ttfamily
+  arXiv:1412.3989 [hep-ph]}}.
+
+\bibitem{CT14}
+S.~Dulat {et~al.}, \href{http://dx.doi.org/10.1103/PhysRevD.93.033006}{Phys.
+  Rev. D {\bfseries 93} (2016) 033006}.
+
+\bibitem{pdf_env}
+M.~Botje {et~al.}, \href{http://arxiv.org/abs/1101.0538}{{\ttfamily
+  arXiv:1101.0538 [hep-ph]}}.
+
+\bibitem{lh_stats}
+G.~Cowan, K.~Cranmer, E.~Gross,  and O.~Vitells,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0,
+  10.1140/epjc/s10052-013-2501-z}{Eur. Phys. J. C {\bfseries 71} (2011) 1554},
+  \href{http://arxiv.org/abs/1007.1727}{{\ttfamily arXiv:1007.1727
+  [physics.data-an]}}.
+
+\bibitem{bin_stats}
+J.~S. Conway, \href{http://arxiv.org/abs/1103.0354}{{\ttfamily arXiv:1103.0354
+  [physics.data-an]}}.
+
+\bibitem{cls_stats}
+A.~L. Read, \href{http://dx.doi.org/10.1088/0954-3899/28/10/313}{J. Phys. G
+  {\bfseries 28} (2002) 2693}.
+
+\bibitem{Atlantis}
+{ATLAS Collaboration}, {\em Atlantis Event Display},
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/AtlasComputing/Atlantis}.
+
+\bibitem{spin_parity}
+S.~Bolognesi {et~al.},
+  \href{http://dx.doi.org/10.1103/PhysRevD.86.095031}{Phys. Rev. D {\bfseries
+  86} (2012) 095031}.
+
+\bibitem{w_polarization}
+Z.~Bern {et~al.}, \href{http://dx.doi.org/10.1103/PhysRevD.84.034008}{Phys.
+  Rev. D {\bfseries 84} (2011) 034008}.
+
+\bibitem{w_polarization_2}
+W.~J. Stirling and E.~Vryonidou,
+  \href{http://dx.doi.org/10.1007/JHEP07(2012)124}{JHEP {\bfseries 2012} (2012)
+  124}.
+
+\bibitem{hvt_polarization}
+T.~Abe, T.~Kitahara,  and M.~M. Nojiri,
+  \href{http://dx.doi.org/10.1007/JHEP02(2016)084}{JHEP {\bfseries 2016} (2016)
+  84}.
+
+\bibitem{Kfactors}
+{NLO Multileg Working Group} Collaboration, Z.~Bern {et~al.}
+\newblock \href{http://arxiv.org/abs/0803.0494}{{\ttfamily arXiv:0803.0494
+  [hep-ph]}}.
+
+\bibitem{AMI}
+{ATLAS Collaboration}, {\em ATLAS Metadata Interface},
+\newblock \url{https://ami.in2p3.fr/}.
+
+\end{thebibliography}\endgroup

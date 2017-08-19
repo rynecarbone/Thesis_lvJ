@@ -1,0 +1,1010 @@
+void SRWZ_fileOne()
+{
+//=========Macro generated from canvas: c1/
+//=========  (Mon Jul  3 17:38:53 2017) by ROOT version6.04/16
+   TCanvas *c1 = new TCanvas("c1", "",0,0,600,600);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetFrameBorderMode(0);
+  
+// ------------>Primitives in pad: p1
+   TPad *p1 = new TPad("p1", "p1",0,0.27,1,1);
+   p1->Draw();
+   p1->cd();
+   p1->Range(-0.2,-0.9586073,4.466667,6.523531);
+   p1->SetFillColor(0);
+   p1->SetBorderMode(0);
+   p1->SetBorderSize(2);
+   p1->SetLogy();
+   p1->SetTickx(1);
+   p1->SetTicky(1);
+   p1->SetLeftMargin(0.15);
+   p1->SetTopMargin(0.05);
+   p1->SetBottomMargin(0);
+   p1->SetFrameBorderMode(0);
+   p1->SetFrameBorderMode(0);
+   
+   TH1F *hframe__1 = new TH1F("hframe__1","",1000,0.5,4);
+   hframe__1->SetMinimum(0.11);
+   hframe__1->SetMaximum(1410667);
+   hframe__1->SetDirectory(0);
+   hframe__1->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#000099");
+   hframe__1->SetLineColor(ci);
+   hframe__1->GetXaxis()->SetLabelFont(42);
+   hframe__1->GetXaxis()->SetLabelOffset(999);
+   hframe__1->GetXaxis()->SetLabelSize(0.05333333);
+   hframe__1->GetXaxis()->SetTitleSize(0);
+   hframe__1->GetXaxis()->SetTitleFont(42);
+   hframe__1->GetYaxis()->SetTitle("Entries / 0.075 TeV");
+   hframe__1->GetYaxis()->SetLabelFont(42);
+   hframe__1->GetYaxis()->SetLabelSize(0.05333333);
+   hframe__1->GetYaxis()->SetTitleSize(0.05333333);
+   hframe__1->GetYaxis()->SetTitleFont(42);
+   hframe__1->GetZaxis()->SetLabelFont(42);
+   hframe__1->GetZaxis()->SetLabelSize(0.035);
+   hframe__1->GetZaxis()->SetTitleSize(0.035);
+   hframe__1->GetZaxis()->SetTitleFont(42);
+   hframe__1->Draw("");
+   
+   THStack * = new THStack();
+   ->SetName("");
+   ->SetTitle("");
+   Double_t xAxis1[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1F *_stack_1 = new TH1F("_stack_1","",20, xAxis1);
+   _stack_1->SetMinimum(1.85735);
+   _stack_1->SetMaximum(7429.402);
+   _stack_1->SetDirectory(0);
+   _stack_1->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   _stack_1->SetLineColor(ci);
+   _stack_1->GetXaxis()->SetLabelFont(42);
+   _stack_1->GetXaxis()->SetLabelSize(0.035);
+   _stack_1->GetXaxis()->SetTitleSize(0.035);
+   _stack_1->GetXaxis()->SetTitleFont(42);
+   _stack_1->GetYaxis()->SetLabelFont(42);
+   _stack_1->GetYaxis()->SetLabelSize(0.035);
+   _stack_1->GetYaxis()->SetTitleSize(0.035);
+   _stack_1->GetYaxis()->SetTitleFont(42);
+   _stack_1->GetZaxis()->SetLabelFont(42);
+   _stack_1->GetZaxis()->SetLabelSize(0.035);
+   _stack_1->GetZaxis()->SetTitleSize(0.035);
+   _stack_1->GetZaxis()->SetTitleFont(42);
+   ->SetHistogram(_stack_1);
+   
+   Double_t xAxis2[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *hist_3__2 = new TH1D("hist_3__2","",20, xAxis2);
+   hist_3__2->SetBinContent(1,29.48004);
+   hist_3__2->SetBinContent(2,23.80792);
+   hist_3__2->SetBinContent(3,14.80795);
+   hist_3__2->SetBinContent(4,5.916683);
+   hist_3__2->SetBinContent(5,3.877659);
+   hist_3__2->SetBinContent(6,1.553467);
+   hist_3__2->SetBinContent(7,0.5018272);
+   hist_3__2->SetBinContent(8,0.4339408);
+   hist_3__2->SetBinContent(9,0.1573615);
+   hist_3__2->SetBinContent(10,0.08808952);
+   hist_3__2->SetBinContent(11,0.02333606);
+   hist_3__2->SetBinContent(12,0.03850021);
+   hist_3__2->SetBinContent(15,0.008135456);
+   hist_3__2->SetBinContent(17,0.003299666);
+   hist_3__2->SetBinContent(18,0.00194837);
+   hist_3__2->SetBinError(1,7.239403);
+   hist_3__2->SetBinError(2,6.111117);
+   hist_3__2->SetBinError(3,4.558848);
+   hist_3__2->SetBinError(4,2.741031);
+   hist_3__2->SetBinError(5,2.120339);
+   hist_3__2->SetBinError(6,1.287258);
+   hist_3__2->SetBinError(7,0.7040112);
+   hist_3__2->SetBinError(8,0.6316851);
+   hist_3__2->SetBinError(9,0.3679195);
+   hist_3__2->SetBinError(10,0.2668023);
+   hist_3__2->SetBinError(11,0.1333411);
+   hist_3__2->SetBinError(12,0.166577);
+   hist_3__2->SetBinError(15,0.07102988);
+   hist_3__2->SetBinError(17,0.04326836);
+   hist_3__2->SetBinError(18,0.03256282);
+   hist_3__2->SetEntries(22);
+
+   ci = TColor::GetColor("#6699ff");
+   hist_3__2->SetFillColor(ci);
+
+   ci = TColor::GetColor("#000099");
+   hist_3__2->SetLineColor(ci);
+   hist_3__2->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   hist_3__2->GetXaxis()->SetLabelFont(42);
+   hist_3__2->GetXaxis()->SetLabelSize(0.035);
+   hist_3__2->GetXaxis()->SetTitleSize(0.035);
+   hist_3__2->GetXaxis()->SetTitleFont(42);
+   hist_3__2->GetYaxis()->SetTitle("Entries");
+   hist_3__2->GetYaxis()->SetLabelFont(42);
+   hist_3__2->GetYaxis()->SetLabelSize(0.035);
+   hist_3__2->GetYaxis()->SetTitleSize(0.035);
+   hist_3__2->GetYaxis()->SetTitleFont(42);
+   hist_3__2->GetZaxis()->SetLabelFont(42);
+   hist_3__2->GetZaxis()->SetLabelSize(0.035);
+   hist_3__2->GetZaxis()->SetTitleSize(0.035);
+   hist_3__2->GetZaxis()->SetTitleFont(42);
+   ->Add(hist_3,"");
+   Double_t xAxis3[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *hist_4__3 = new TH1D("hist_4__3","",20, xAxis3);
+   hist_4__3->SetBinContent(1,211.5918);
+   hist_4__3->SetBinContent(2,140.3936);
+   hist_4__3->SetBinContent(3,90.09359);
+   hist_4__3->SetBinContent(4,54.1313);
+   hist_4__3->SetBinContent(5,29.96834);
+   hist_4__3->SetBinContent(6,17.16498);
+   hist_4__3->SetBinContent(7,11.0552);
+   hist_4__3->SetBinContent(8,5.683172);
+   hist_4__3->SetBinContent(9,3.339124);
+   hist_4__3->SetBinContent(10,1.825147);
+   hist_4__3->SetBinContent(11,1.26297);
+   hist_4__3->SetBinContent(12,0.703247);
+   hist_4__3->SetBinContent(13,0.519363);
+   hist_4__3->SetBinContent(14,0.03201899);
+   hist_4__3->SetBinContent(15,0.1450583);
+   hist_4__3->SetBinContent(16,0.1621163);
+   hist_4__3->SetBinContent(17,0.05202749);
+   hist_4__3->SetBinContent(18,0.07164375);
+   hist_4__3->SetBinError(1,19.39493);
+   hist_4__3->SetBinError(2,14.83999);
+   hist_4__3->SetBinError(3,11.24487);
+   hist_4__3->SetBinError(4,8.290848);
+   hist_4__3->SetBinError(5,5.894566);
+   hist_4__3->SetBinError(6,4.278938);
+   hist_4__3->SetBinError(7,3.304347);
+   hist_4__3->SetBinError(8,2.286024);
+   hist_4__3->SetBinError(9,1.694805);
+   hist_4__3->SetBinError(10,1.214441);
+   hist_4__3->SetBinError(11,0.9809501);
+   hist_4__3->SetBinError(12,0.7119302);
+   hist_4__3->SetBinError(13,0.5959195);
+   hist_4__3->SetBinError(14,0.1443099);
+   hist_4__3->SetBinError(15,0.299931);
+   hist_4__3->SetBinError(16,0.3099499);
+   hist_4__3->SetBinError(17,0.1718114);
+   hist_4__3->SetBinError(18,0.1974583);
+   hist_4__3->SetEntries(22);
+
+   ci = TColor::GetColor("#009900");
+   hist_4__3->SetFillColor(ci);
+
+   ci = TColor::GetColor("#000099");
+   hist_4__3->SetLineColor(ci);
+   hist_4__3->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   hist_4__3->GetXaxis()->SetLabelFont(42);
+   hist_4__3->GetXaxis()->SetLabelSize(0.035);
+   hist_4__3->GetXaxis()->SetTitleSize(0.035);
+   hist_4__3->GetXaxis()->SetTitleFont(42);
+   hist_4__3->GetYaxis()->SetTitle("Entries");
+   hist_4__3->GetYaxis()->SetLabelFont(42);
+   hist_4__3->GetYaxis()->SetLabelSize(0.035);
+   hist_4__3->GetYaxis()->SetTitleSize(0.035);
+   hist_4__3->GetYaxis()->SetTitleFont(42);
+   hist_4__3->GetZaxis()->SetLabelFont(42);
+   hist_4__3->GetZaxis()->SetLabelSize(0.035);
+   hist_4__3->GetZaxis()->SetTitleSize(0.035);
+   hist_4__3->GetZaxis()->SetTitleFont(42);
+   ->Add(hist_4,"");
+   Double_t xAxis4[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *hist_1__4 = new TH1D("hist_1__4","",20, xAxis4);
+   hist_1__4->SetBinContent(1,284.6083);
+   hist_1__4->SetBinContent(2,169.9179);
+   hist_1__4->SetBinContent(3,83.62339);
+   hist_1__4->SetBinContent(4,42.74291);
+   hist_1__4->SetBinContent(5,23.18731);
+   hist_1__4->SetBinContent(6,10.90614);
+   hist_1__4->SetBinContent(7,4.858122);
+   hist_1__4->SetBinContent(8,1.959426);
+   hist_1__4->SetBinContent(9,1.727039);
+   hist_1__4->SetBinContent(10,0.9335602);
+   hist_1__4->SetBinContent(12,0.2143131);
+   hist_1__4->SetBinError(1,22.49378);
+   hist_1__4->SetBinError(2,16.32599);
+   hist_1__4->SetBinError(3,10.83357);
+   hist_1__4->SetBinError(4,7.367274);
+   hist_1__4->SetBinError(5,5.184963);
+   hist_1__4->SetBinError(6,3.41075);
+   hist_1__4->SetBinError(7,2.190467);
+   hist_1__4->SetBinError(8,1.342301);
+   hist_1__4->SetBinError(9,1.218862);
+   hist_1__4->SetBinError(10,0.8685575);
+   hist_1__4->SetBinError(12,0.3930139);
+   hist_1__4->SetEntries(22);
+
+   ci = TColor::GetColor("#ffff33");
+   hist_1__4->SetFillColor(ci);
+
+   ci = TColor::GetColor("#000099");
+   hist_1__4->SetLineColor(ci);
+   hist_1__4->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   hist_1__4->GetXaxis()->SetLabelFont(42);
+   hist_1__4->GetXaxis()->SetLabelSize(0.035);
+   hist_1__4->GetXaxis()->SetTitleSize(0.035);
+   hist_1__4->GetXaxis()->SetTitleFont(42);
+   hist_1__4->GetYaxis()->SetTitle("Entries");
+   hist_1__4->GetYaxis()->SetLabelFont(42);
+   hist_1__4->GetYaxis()->SetLabelSize(0.035);
+   hist_1__4->GetYaxis()->SetTitleSize(0.035);
+   hist_1__4->GetYaxis()->SetTitleFont(42);
+   hist_1__4->GetZaxis()->SetLabelFont(42);
+   hist_1__4->GetZaxis()->SetLabelSize(0.035);
+   hist_1__4->GetZaxis()->SetTitleSize(0.035);
+   hist_1__4->GetZaxis()->SetTitleFont(42);
+   ->Add(hist_1,"");
+   Double_t xAxis5[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *hist_0__5 = new TH1D("hist_0__5","",20, xAxis5);
+   hist_0__5->SetBinContent(1,1703.553);
+   hist_0__5->SetBinContent(2,963.5137);
+   hist_0__5->SetBinContent(3,436.4273);
+   hist_0__5->SetBinContent(4,199.8234);
+   hist_0__5->SetBinContent(5,101.0848);
+   hist_0__5->SetBinContent(6,35.78217);
+   hist_0__5->SetBinContent(7,18.93637);
+   hist_0__5->SetBinContent(8,10.64756);
+   hist_0__5->SetBinContent(9,3.564044);
+   hist_0__5->SetBinContent(10,2.799451);
+   hist_0__5->SetBinContent(11,1.415098);
+   hist_0__5->SetBinContent(15,0.1766931);
+   hist_0__5->SetBinError(1,55.03215);
+   hist_0__5->SetBinError(2,38.87665);
+   hist_0__5->SetBinError(3,24.74933);
+   hist_0__5->SetBinError(4,15.92935);
+   hist_0__5->SetBinError(5,10.82588);
+   hist_0__5->SetBinError(6,6.177997);
+   hist_0__5->SetBinError(7,4.324649);
+   hist_0__5->SetBinError(8,3.129036);
+   hist_0__5->SetBinError(9,1.750955);
+   hist_0__5->SetBinError(10,1.504056);
+   hist_0__5->SetBinError(11,1.03835);
+   hist_0__5->SetBinError(15,0.3310244);
+   hist_0__5->SetEntries(22);
+
+   ci = TColor::GetColor("#0066cc");
+   hist_0__5->SetFillColor(ci);
+
+   ci = TColor::GetColor("#000099");
+   hist_0__5->SetLineColor(ci);
+   hist_0__5->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   hist_0__5->GetXaxis()->SetLabelFont(42);
+   hist_0__5->GetXaxis()->SetLabelSize(0.035);
+   hist_0__5->GetXaxis()->SetTitleSize(0.035);
+   hist_0__5->GetXaxis()->SetTitleFont(42);
+   hist_0__5->GetYaxis()->SetTitle("Entries");
+   hist_0__5->GetYaxis()->SetLabelFont(42);
+   hist_0__5->GetYaxis()->SetLabelSize(0.035);
+   hist_0__5->GetYaxis()->SetTitleSize(0.035);
+   hist_0__5->GetYaxis()->SetTitleFont(42);
+   hist_0__5->GetZaxis()->SetLabelFont(42);
+   hist_0__5->GetZaxis()->SetLabelSize(0.035);
+   hist_0__5->GetZaxis()->SetTitleSize(0.035);
+   hist_0__5->GetZaxis()->SetTitleFont(42);
+   ->Add(hist_0,"");
+   Double_t xAxis6[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *hist_2__6 = new TH1D("hist_2__6","",20, xAxis6);
+   hist_2__6->SetBinContent(1,2414.143);
+   hist_2__6->SetBinContent(2,1487.44);
+   hist_2__6->SetBinContent(3,875.7538);
+   hist_2__6->SetBinContent(4,430.4998);
+   hist_2__6->SetBinContent(5,222.0338);
+   hist_2__6->SetBinContent(6,126.639);
+   hist_2__6->SetBinContent(7,59.36639);
+   hist_2__6->SetBinContent(8,32.01437);
+   hist_2__6->SetBinContent(9,21.1636);
+   hist_2__6->SetBinContent(10,10.13037);
+   hist_2__6->SetBinContent(11,5.884154);
+   hist_2__6->SetBinContent(12,2.754418);
+   hist_2__6->SetBinContent(13,1.034853);
+   hist_2__6->SetBinContent(14,0.8800365);
+   hist_2__6->SetBinContent(15,0.4820259);
+   hist_2__6->SetBinContent(16,0.1836127);
+   hist_2__6->SetBinContent(17,0.04759263);
+   hist_2__6->SetBinContent(18,0.07590081);
+   hist_2__6->SetBinContent(19,0.007210458);
+   hist_2__6->SetBinError(1,65.51191);
+   hist_2__6->SetBinError(2,48.30361);
+   hist_2__6->SetBinError(3,35.05892);
+   hist_2__6->SetBinError(4,23.3809);
+   hist_2__6->SetBinError(5,16.04464);
+   hist_2__6->SetBinError(6,11.62246);
+   hist_2__6->SetBinError(7,7.65725);
+   hist_2__6->SetBinError(8,5.425726);
+   hist_2__6->SetBinError(9,4.26676);
+   hist_2__6->SetBinError(10,2.861146);
+   hist_2__6->SetBinError(11,2.117349);
+   hist_2__6->SetBinError(12,1.408959);
+   hist_2__6->SetBinError(13,0.8411847);
+   hist_2__6->SetBinError(14,0.756559);
+   hist_2__6->SetBinError(15,0.5467457);
+   hist_2__6->SetBinError(16,0.3298599);
+   hist_2__6->SetBinError(17,0.1643256);
+   hist_2__6->SetBinError(18,0.2032402);
+   hist_2__6->SetBinError(19,0.04784385);
+   hist_2__6->SetEntries(22);
+
+   ci = TColor::GetColor("#ffcc66");
+   hist_2__6->SetFillColor(ci);
+
+   ci = TColor::GetColor("#000099");
+   hist_2__6->SetLineColor(ci);
+   hist_2__6->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   hist_2__6->GetXaxis()->SetLabelFont(42);
+   hist_2__6->GetXaxis()->SetLabelSize(0.035);
+   hist_2__6->GetXaxis()->SetTitleSize(0.035);
+   hist_2__6->GetXaxis()->SetTitleFont(42);
+   hist_2__6->GetYaxis()->SetTitle("Entries");
+   hist_2__6->GetYaxis()->SetLabelFont(42);
+   hist_2__6->GetYaxis()->SetLabelSize(0.035);
+   hist_2__6->GetYaxis()->SetTitleSize(0.035);
+   hist_2__6->GetYaxis()->SetTitleFont(42);
+   hist_2__6->GetZaxis()->SetLabelFont(42);
+   hist_2__6->GetZaxis()->SetLabelSize(0.035);
+   hist_2__6->GetZaxis()->SetTitleSize(0.035);
+   hist_2__6->GetZaxis()->SetTitleFont(42);
+   ->Add(hist_2,"");
+   ->Draw("hist:f:same");
+   Double_t xAxis7[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *hist_6__7 = new TH1D("hist_6__7","",20, xAxis7);
+   hist_6__7->SetBinContent(1,4643.376);
+   hist_6__7->SetBinContent(2,2785.073);
+   hist_6__7->SetBinContent(3,1500.706);
+   hist_6__7->SetBinContent(4,733.1142);
+   hist_6__7->SetBinContent(5,380.1519);
+   hist_6__7->SetBinContent(6,192.0458);
+   hist_6__7->SetBinContent(7,94.71791);
+   hist_6__7->SetBinContent(8,50.73848);
+   hist_6__7->SetBinContent(9,29.95116);
+   hist_6__7->SetBinContent(10,15.77662);
+   hist_6__7->SetBinContent(11,8.585559);
+   hist_6__7->SetBinContent(12,3.710478);
+   hist_6__7->SetBinContent(13,1.554216);
+   hist_6__7->SetBinContent(14,0.9120555);
+   hist_6__7->SetBinContent(15,0.8119128);
+   hist_6__7->SetBinContent(16,0.345729);
+   hist_6__7->SetBinContent(17,0.1029198);
+   hist_6__7->SetBinContent(18,0.1494929);
+   hist_6__7->SetBinContent(19,0.007210458);
+   hist_6__7->SetBinError(1,57.21674);
+   hist_6__7->SetBinError(2,28.55135);
+   hist_6__7->SetBinError(3,23.6243);
+   hist_6__7->SetBinError(4,11.2277);
+   hist_6__7->SetBinError(5,8.559446);
+   hist_6__7->SetBinError(6,5.22274);
+   hist_6__7->SetBinError(7,4.982342);
+   hist_6__7->SetBinError(8,3.384587);
+   hist_6__7->SetBinError(9,2.359897);
+   hist_6__7->SetBinError(10,1.549308);
+   hist_6__7->SetBinError(11,1.093661);
+   hist_6__7->SetBinError(12,0.5791597);
+   hist_6__7->SetBinError(13,0.3391321);
+   hist_6__7->SetBinError(14,0.1767749);
+   hist_6__7->SetBinError(15,0.213221);
+   hist_6__7->SetBinError(16,0.07746703);
+   hist_6__7->SetBinError(17,0.03186567);
+   hist_6__7->SetBinError(18,0.03267191);
+   hist_6__7->SetBinError(19,0.006092332);
+   hist_6__7->SetEntries(22);
+   hist_6__7->SetFillColor(1);
+   hist_6__7->SetFillStyle(3345);
+
+   ci = TColor::GetColor("#000099");
+   hist_6__7->SetLineColor(ci);
+   hist_6__7->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   hist_6__7->GetXaxis()->SetLabelFont(42);
+   hist_6__7->GetXaxis()->SetLabelSize(0.035);
+   hist_6__7->GetXaxis()->SetTitleSize(0.035);
+   hist_6__7->GetXaxis()->SetTitleFont(42);
+   hist_6__7->GetYaxis()->SetTitle("Entries");
+   hist_6__7->GetYaxis()->SetLabelFont(42);
+   hist_6__7->GetYaxis()->SetLabelSize(0.035);
+   hist_6__7->GetYaxis()->SetTitleSize(0.035);
+   hist_6__7->GetYaxis()->SetTitleFont(42);
+   hist_6__7->GetZaxis()->SetLabelFont(42);
+   hist_6__7->GetZaxis()->SetLabelSize(0.035);
+   hist_6__7->GetZaxis()->SetTitleSize(0.035);
+   hist_6__7->GetZaxis()->SetTitleFont(42);
+   hist_6__7->Draw("same:0e2");
+   
+   Double_t Graph0_fx3001[16] = {
+   0.5375,
+   0.6175,
+   0.7075,
+   0.8075,
+   0.9175,
+   1.0375,
+   1.1675,
+   1.3075,
+   1.4575,
+   1.6175,
+   1.7875,
+   1.9675,
+   2.1575,
+   2.3575,
+   2.5675,
+   3.0175};
+   Double_t Graph0_fy3001[16] = {
+   4702.222,
+   2746.667,
+   1427.368,
+   763.1747,
+   397.6812,
+   212.2667,
+   76.04938,
+   52.41379,
+   22.36559,
+   12.92929,
+   6.095238,
+   4.324324,
+   1.367521,
+   0.6504065,
+   0.620155,
+   0.5673759};
+   Double_t Graph0_felx3001[16] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph0_fely3001[16] = {
+   91.43898,
+   65.64851,
+   44.76951,
+   31.14349,
+   21.48841,
+   15.06608,
+   9.184648,
+   7.42844,
+   4.853298,
+   3.681061,
+   2.596525,
+   2.192375,
+   1.420108,
+   1.12392,
+   1.071645,
+   0.9804413};
+   Double_t Graph0_fehx3001[16] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph0_fehy3001[16] = {
+   91.43898,
+   65.64851,
+   44.76951,
+   31.14349,
+   21.48841,
+   15.06608,
+   9.184648,
+   7.42844,
+   4.853298,
+   3.681061,
+   2.596525,
+   2.192375,
+   1.420108,
+   1.12392,
+   1.071645,
+   0.9804413};
+   TGraphAsymmErrors *grae = new TGraphAsymmErrors(16,Graph0_fx3001,Graph0_fy3001,Graph0_felx3001,Graph0_fehx3001,Graph0_fely3001,Graph0_fehy3001);
+   grae->SetName("Graph0");
+   grae->SetTitle("Graph");
+   grae->SetFillColor(1);
+   grae->SetMarkerStyle(20);
+   grae->SetMarkerSize(0.9);
+   
+   TH1F *Graph_Graph3001 = new TH1F("Graph_Graph3001","Graph",100,0.2895,3.2655);
+   Graph_Graph3001->SetMinimum(0.1702128);
+   Graph_Graph3001->SetMaximum(5273.009);
+   Graph_Graph3001->SetDirectory(0);
+   Graph_Graph3001->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph3001->SetLineColor(ci);
+   Graph_Graph3001->GetXaxis()->SetLabelFont(42);
+   Graph_Graph3001->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph3001->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph3001->GetXaxis()->SetTitleFont(42);
+   Graph_Graph3001->GetYaxis()->SetLabelFont(42);
+   Graph_Graph3001->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph3001->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph3001->GetYaxis()->SetTitleFont(42);
+   Graph_Graph3001->GetZaxis()->SetLabelFont(42);
+   Graph_Graph3001->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph3001->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph3001->GetZaxis()->SetTitleFont(42);
+   grae->SetHistogram(Graph_Graph3001);
+   
+   grae->Draw(":ep");
+   Double_t xAxis8[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *histSG__8 = new TH1D("histSG__8","",20, xAxis8);
+   histSG__8->SetBinContent(7,0.02610571);
+   histSG__8->SetBinContent(8,0.2675848);
+   histSG__8->SetBinContent(9,0.6913525);
+   histSG__8->SetBinContent(10,3.777546);
+   histSG__8->SetBinContent(11,14.29185);
+   histSG__8->SetBinContent(12,64.5287);
+   histSG__8->SetBinContent(13,24.103);
+   histSG__8->SetBinContent(14,1.708954);
+   histSG__8->SetBinContent(15,0.4728132);
+   histSG__8->SetBinContent(16,0.2347192);
+   histSG__8->SetBinError(7,0.02287801);
+   histSG__8->SetBinError(8,0.07067472);
+   histSG__8->SetBinError(9,0.1098756);
+   histSG__8->SetBinError(10,0.2489318);
+   histSG__8->SetBinError(11,0.4701567);
+   histSG__8->SetBinError(12,0.9716458);
+   histSG__8->SetBinError(13,0.5784098);
+   histSG__8->SetBinError(14,0.1502124);
+   histSG__8->SetBinError(15,0.07715125);
+   histSG__8->SetBinError(16,0.05313742);
+   histSG__8->SetEntries(22);
+
+   ci = TColor::GetColor("#ff0000");
+   histSG__8->SetLineColor(ci);
+   histSG__8->SetLineStyle(2);
+   histSG__8->SetLineWidth(3);
+   histSG__8->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   histSG__8->GetXaxis()->SetLabelFont(42);
+   histSG__8->GetXaxis()->SetLabelSize(0.035);
+   histSG__8->GetXaxis()->SetTitleSize(0.035);
+   histSG__8->GetXaxis()->SetTitleFont(42);
+   histSG__8->GetYaxis()->SetTitle("Entries");
+   histSG__8->GetYaxis()->SetLabelFont(42);
+   histSG__8->GetYaxis()->SetLabelSize(0.035);
+   histSG__8->GetYaxis()->SetTitleSize(0.035);
+   histSG__8->GetYaxis()->SetTitleFont(42);
+   histSG__8->GetZaxis()->SetLabelFont(42);
+   histSG__8->GetZaxis()->SetLabelSize(0.035);
+   histSG__8->GetZaxis()->SetTitleSize(0.035);
+   histSG__8->GetZaxis()->SetTitleFont(42);
+   histSG__8->Draw("same:hist");
+   
+   TLegend *leg = new TLegend(0.54,0.5,0.94,0.9,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("Graph0","Data","EP");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(0.9);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("hist_2","W+jets","f");
+
+   ci = TColor::GetColor("#ffcc66");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("hist_0","t#bar{t}","f");
+
+   ci = TColor::GetColor("#0066cc");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("hist_1","Single t","f");
+
+   ci = TColor::GetColor("#ffff33");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("hist_4","Dibosons","f");
+
+   ci = TColor::GetColor("#009900");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("hist_3","Z+jets","f");
+
+   ci = TColor::GetColor("#6699ff");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("hist_6","Post-fit uncertainty","f");
+   entry->SetFillColor(1);
+   entry->SetFillStyle(3345);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("histSG","HVT Model A W´","l");
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(2);
+   entry->SetLineWidth(3);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("","2000 GeV (#times5)","l");
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   TLatex *   tex = new TLatex(0.18,0.85,"#bf{#it{ATLAS}} Internal");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.18,0.8,"#sqrt{s} = 13 TeV, 36.1fb^{-1}");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetTextSize(0.045);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.18,0.75,"WZ Signal Region (HP)");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetTextSize(0.045);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.18,0.7,"DY Category");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetTextSize(0.045);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   
+   TH1F *hframe_copy__9 = new TH1F("hframe_copy__9","",1000,0.5,4);
+   hframe_copy__9->SetMinimum(0.11);
+   hframe_copy__9->SetMaximum(1410667);
+   hframe_copy__9->SetDirectory(0);
+   hframe_copy__9->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   hframe_copy__9->SetLineColor(ci);
+   hframe_copy__9->GetXaxis()->SetLabelFont(42);
+   hframe_copy__9->GetXaxis()->SetLabelOffset(999);
+   hframe_copy__9->GetXaxis()->SetLabelSize(0.05333333);
+   hframe_copy__9->GetXaxis()->SetTitleSize(0);
+   hframe_copy__9->GetXaxis()->SetTitleFont(42);
+   hframe_copy__9->GetYaxis()->SetTitle("Entries / 0.075 TeV");
+   hframe_copy__9->GetYaxis()->SetLabelFont(42);
+   hframe_copy__9->GetYaxis()->SetLabelSize(0.05333333);
+   hframe_copy__9->GetYaxis()->SetTitleSize(0.05333333);
+   hframe_copy__9->GetYaxis()->SetTitleFont(42);
+   hframe_copy__9->GetZaxis()->SetLabelFont(42);
+   hframe_copy__9->GetZaxis()->SetLabelSize(0.035);
+   hframe_copy__9->GetZaxis()->SetTitleSize(0.035);
+   hframe_copy__9->GetZaxis()->SetTitleFont(42);
+   hframe_copy__9->Draw("sameaxis");
+   p1->Modified();
+   c1->cd();
+  
+// ------------>Primitives in pad: p2
+   TPad *p2 = new TPad("p2", "p2",0,0,1,0.25);
+   p2->Draw();
+   p2->cd();
+   p2->Range(-0.2,-0.6655172,4.466667,1.748276);
+   p2->SetFillColor(0);
+   p2->SetBorderMode(0);
+   p2->SetBorderSize(2);
+   p2->SetTickx(1);
+   p2->SetTicky(1);
+   p2->SetLeftMargin(0.15);
+   p2->SetTopMargin(0.02);
+   p2->SetBottomMargin(0.4);
+   p2->SetFrameBorderMode(0);
+   p2->SetFrameBorderMode(0);
+   
+   TH1F *hframe__10 = new TH1F("hframe__10","",1000,0.5,4);
+   hframe__10->SetMinimum(0.3);
+   hframe__10->SetMaximum(1.7);
+   hframe__10->SetDirectory(0);
+   hframe__10->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   hframe__10->SetLineColor(ci);
+   hframe__10->GetXaxis()->SetTitle("m_{l#nuJ}  [TeV]");
+   hframe__10->GetXaxis()->SetLabelFont(42);
+   hframe__10->GetXaxis()->SetLabelSize(0.16);
+   hframe__10->GetXaxis()->SetTitleSize(0.16);
+   hframe__10->GetXaxis()->SetTitleFont(42);
+   hframe__10->GetYaxis()->SetTitle("Data / SM");
+   hframe__10->GetYaxis()->CenterTitle(true);
+   hframe__10->GetYaxis()->SetNdivisions(505);
+   hframe__10->GetYaxis()->SetLabelFont(42);
+   hframe__10->GetYaxis()->SetLabelSize(0.16);
+   hframe__10->GetYaxis()->SetTitleSize(0.132);
+   hframe__10->GetYaxis()->SetTitleOffset(0.4);
+   hframe__10->GetYaxis()->SetTitleFont(42);
+   hframe__10->GetZaxis()->SetLabelFont(42);
+   hframe__10->GetZaxis()->SetLabelSize(0.035);
+   hframe__10->GetZaxis()->SetTitleSize(0.035);
+   hframe__10->GetZaxis()->SetTitleFont(42);
+   hframe__10->Draw("");
+   TLine *line = new TLine(0.5,1,4,1);
+
+   ci = TColor::GetColor("#ff0000");
+   line->SetLineColor(ci);
+   line->Draw();
+   Double_t xAxis9[21] = {0.5, 0.575, 0.66, 0.755, 0.86, 0.975, 1.1, 1.235, 1.38, 1.535, 1.7, 1.875, 2.06, 2.255, 2.46, 2.675, 2.9, 3.135, 3.38, 3.8, 4}; 
+   
+   TH1D *histError__11 = new TH1D("histError__11","",20, xAxis9);
+   histError__11->SetBinContent(1,1);
+   histError__11->SetBinContent(2,1);
+   histError__11->SetBinContent(3,1);
+   histError__11->SetBinContent(4,1);
+   histError__11->SetBinContent(5,1);
+   histError__11->SetBinContent(6,1);
+   histError__11->SetBinContent(7,1);
+   histError__11->SetBinContent(8,1);
+   histError__11->SetBinContent(9,1);
+   histError__11->SetBinContent(10,1);
+   histError__11->SetBinContent(11,1);
+   histError__11->SetBinContent(12,1);
+   histError__11->SetBinContent(13,1);
+   histError__11->SetBinContent(14,1);
+   histError__11->SetBinContent(15,1);
+   histError__11->SetBinContent(16,1);
+   histError__11->SetBinContent(17,1);
+   histError__11->SetBinContent(18,1);
+   histError__11->SetBinContent(19,1);
+   histError__11->SetBinError(1,0.01232223);
+   histError__11->SetBinError(2,0.01025156);
+   histError__11->SetBinError(3,0.01574213);
+   histError__11->SetBinError(4,0.01531508);
+   histError__11->SetBinError(5,0.02251586);
+   histError__11->SetBinError(6,0.02719529);
+   histError__11->SetBinError(7,0.05260191);
+   histError__11->SetBinError(8,0.06670651);
+   histError__11->SetBinError(9,0.07879149);
+   histError__11->SetBinError(10,0.09820281);
+   histError__11->SetBinError(11,0.1273838);
+   histError__11->SetBinError(12,0.1560876);
+   histError__11->SetBinError(13,0.2182014);
+   histError__11->SetBinError(14,0.1938204);
+   histError__11->SetBinError(15,0.2626156);
+   histError__11->SetBinError(16,0.2240686);
+   histError__11->SetBinError(17,0.3096166);
+   histError__11->SetBinError(18,0.2185515);
+   histError__11->SetBinError(19,0.84493);
+   histError__11->SetEntries(320.1688);
+   histError__11->SetFillColor(1);
+   histError__11->SetFillStyle(3345);
+
+   ci = TColor::GetColor("#000099");
+   histError__11->SetLineColor(ci);
+   histError__11->GetXaxis()->SetTitle("m_{WV}  [TeV]");
+   histError__11->GetXaxis()->SetLabelFont(42);
+   histError__11->GetXaxis()->SetLabelSize(0.035);
+   histError__11->GetXaxis()->SetTitleSize(0.035);
+   histError__11->GetXaxis()->SetTitleFont(42);
+   histError__11->GetYaxis()->SetTitle("Entries");
+   histError__11->GetYaxis()->SetLabelFont(42);
+   histError__11->GetYaxis()->SetLabelSize(0.035);
+   histError__11->GetYaxis()->SetTitleSize(0.035);
+   histError__11->GetYaxis()->SetTitleFont(42);
+   histError__11->GetZaxis()->SetLabelFont(42);
+   histError__11->GetZaxis()->SetLabelSize(0.035);
+   histError__11->GetZaxis()->SetTitleSize(0.035);
+   histError__11->GetZaxis()->SetTitleFont(42);
+   histError__11->Draw("e2:same");
+   
+   Double_t Graph0_fx3002[16] = {
+   0.5375,
+   0.6175,
+   0.7075,
+   0.8075,
+   0.9175,
+   1.0375,
+   1.1675,
+   1.3075,
+   1.4575,
+   1.6175,
+   1.7875,
+   1.9675,
+   2.1575,
+   2.3575,
+   2.5675,
+   3.0175};
+   Double_t Graph0_fy3002[16] = {
+   1.012673,
+   0.98621,
+   0.9511313,
+   1.041004,
+   1.046111,
+   1.105292,
+   0.802904,
+   1.033019,
+   0.7467353,
+   0.8195225,
+   0.7099408,
+   1.165436,
+   0.8798787,
+   0.7131217,
+   0.7638198,
+   5.512797};
+   Double_t Graph0_felx3002[16] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph0_fely3002[16] = {
+   0.01969235,
+   0.02357156,
+   0.0298323,
+   0.04248109,
+   0.05652586,
+   0.07845046,
+   0.09696845,
+   0.1464064,
+   0.1620404,
+   0.2333238,
+   0.3024294,
+   0.5908605,
+   0.9137132,
+   1.232294,
+   1.319902,
+   9.526266};
+   Double_t Graph0_fehx3002[16] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph0_fehy3002[16] = {
+   0.01969235,
+   0.02357156,
+   0.0298323,
+   0.04248109,
+   0.05652586,
+   0.07845046,
+   0.09696845,
+   0.1464064,
+   0.1620404,
+   0.2333238,
+   0.3024294,
+   0.5908605,
+   0.9137132,
+   1.232294,
+   1.319902,
+   9.526266};
+   grae = new TGraphAsymmErrors(16,Graph0_fx3002,Graph0_fy3002,Graph0_felx3002,Graph0_fehx3002,Graph0_fely3002,Graph0_fehy3002);
+   grae->SetName("Graph0");
+   grae->SetTitle("Graph");
+   grae->SetFillColor(1);
+   grae->SetMarkerStyle(20);
+   grae->SetMarkerSize(0.9);
+   
+   TH1F *Graph_Graph3002 = new TH1F("Graph_Graph3002","Graph",100,0.2895,3.2655);
+   Graph_Graph3002->SetMinimum(-5.918722);
+   Graph_Graph3002->SetMaximum(16.94432);
+   Graph_Graph3002->SetDirectory(0);
+   Graph_Graph3002->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph3002->SetLineColor(ci);
+   Graph_Graph3002->GetXaxis()->SetLabelFont(42);
+   Graph_Graph3002->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph3002->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph3002->GetXaxis()->SetTitleFont(42);
+   Graph_Graph3002->GetYaxis()->SetLabelFont(42);
+   Graph_Graph3002->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph3002->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph3002->GetYaxis()->SetTitleFont(42);
+   Graph_Graph3002->GetZaxis()->SetLabelFont(42);
+   Graph_Graph3002->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph3002->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph3002->GetZaxis()->SetTitleFont(42);
+   grae->SetHistogram(Graph_Graph3002);
+   
+   grae->Draw(":0ep");
+   p2->Modified();
+   c1->cd();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

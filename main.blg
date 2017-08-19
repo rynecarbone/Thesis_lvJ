@@ -1,0 +1,186 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: sty/atlasBibStyleWoTitle2.bst
+Database file #1: refs.bib.bib
+Warning--entry type for "LArCaloPublicResults2015" isn't style-file defined
+--line 867 of file refs.bib.bib
+Warning--entry type for "25_vertices_z" isn't style-file defined
+--line 894 of file refs.bib.bib
+Warning--entry type for "Lumi_Public_Run2" isn't style-file defined
+--line 899 of file refs.bib.bib
+Warning--entry type for "AMI" isn't style-file defined
+--line 914 of file refs.bib.bib
+Warning--entry type for "Atlantis" isn't style-file defined
+--line 919 of file refs.bib.bib
+Warning--entry type for "TRT_twiki" isn't style-file defined
+--line 924 of file refs.bib.bib
+Warning--entry type for "Atlas_mag" isn't style-file defined
+--line 929 of file refs.bib.bib
+Warning--entry type for "lhc_closer_look" isn't style-file defined
+--line 939 of file refs.bib.bib
+Warning--entry type for "rs_pic" isn't style-file defined
+--line 1237 of file refs.bib.bib
+Warning--empty title in Nevis12_paper
+Warning--empty title in ryne_ichep_talk
+Warning--empty title in diphoton_paper
+Warning--empty title in Higgs_atlas
+Warning--empty title in Higgs_cms
+Warning--empty title in ATLAS
+Warning--empty title in LHC
+Warning--empty title in diboson_comb_2016
+Warning--empty title in ATLAS_comb_run1
+Warning--empty title in lvjj_run1
+Warning--empty title in CMS_diboson_run2
+Warning--empty title in CMS_diboson_run1run2
+Warning--empty title in CMS_dijet_run1
+Warning--empty title in CMS_diboson_run1
+Warning--empty author and editor in Nobel_Prizes
+Warning--empty title in spin_stats
+Warning--empty title in pentaquark
+Warning--empty title in noether
+Warning--empty title in thooft
+Warning--empty title in Goldstone
+Warning--empty title in gold_salam_wein
+Warning--empty title in brout_englert
+Warning--empty title in higgs_mech
+Warning--empty title in gur_hag_kib
+Warning--empty title in Cabibbo
+Warning--empty title in kob_mas
+Warning--empty title in comp_higgs_1
+Warning--empty title in comp_higgs_2
+Warning--empty title in warped_xtra_dim_1
+Warning--empty title in warped_xtra_dim_2
+Warning--empty title in warped_xtra_dim_3
+Warning--empty title in kaluza_klein_mode
+Warning--empty title in extended_higgs_1
+Warning--empty title in extended_higgs_2
+Warning--empty title in gut_1
+Warning--empty title in gut_2
+Warning--empty title in gut_3
+Warning--empty title in gut_4
+Warning--empty title in pdg_2017
+Warning--empty title in heavy_higgs_1
+Warning--empty title in heavy_higgs_2
+Warning--empty title in nwa_info
+Warning--empty title in heavy_higgs_ggF
+Warning--empty title in heavy_higgs_VBF
+Warning--empty title in hvt_theory_1
+Warning--empty title in hvt_theory_2
+Warning--empty title in hvt_model_a
+Warning--empty title in hvt_model_a2
+Warning--empty title in hvt_model_b_1
+Warning--empty title in hvt_model_b_2
+Warning--empty title in hvt_model_b_3
+Warning--empty pages in hvt_model_b_3
+Warning--empty title in rs_graviton
+Warning--empty title in grav_width
+Warning--empty author and editor in LEP
+Warning--empty title in CMS
+Warning--empty title in ALICE
+Warning--empty title in LHCb
+Warning--empty title in TOTEM
+Warning--empty title in LHCf
+Warning--empty title in ID_TDR
+Warning--empty title in ID_TDR2
+Warning--empty title in IBL_TDR
+Warning--empty title in Pixel_Sensors
+Warning--empty title in SCT_paper
+Warning--empty title in TRT_sensors
+Warning--empty title in LAr_TDR
+Warning--empty title in Tile_TDR
+Warning--empty title in Muon_TDR
+Warning--empty title in DBM
+Warning--empty title in Magnet_TDR
+Warning--empty title in trigger_2015
+Warning--empty title in Leaky_bucket
+Warning--empty title in muon_eff
+Warning--empty title in topo_cluster
+Warning--empty title in anti_kt_algo
+Warning--empty title in ghost_assoc
+Warning--empty title in jet_energy_measurement
+Warning--empty title in b_jet
+Warning--empty title in boost_trim
+Warning--empty title in d2_one
+Warning--empty title in d2_two
+Warning--empty title in met_perf
+Warning--empty title in lhc_boosted
+Warning--empty booktitle in LargeRjet_kin
+Warning--there's a number but no series in LargeRjet_kin
+Warning--empty title in pythia8
+Warning--empty title in geant4
+Warning--empty title in atlas_sim
+Warning--empty title in herwig
+Warning--empty title in powheg
+Warning--empty title in powhegbox
+Warning--empty title in sherpa
+Warning--empty title in mg5_anlo
+Warning--empty title in nnpdf
+Warning--empty title in cteq6l
+Warning--empty title in ct10
+Warning--empty title in evtgen
+Warning--empty title in rapidity_nnlo
+Warning--empty title in ttbar_nnlo
+Warning--empty title in top_pp_nnlo
+Warning--empty title in singletop_nnll
+Warning--empty title in singletop_twoloop
+Warning--empty title in lumi_unc
+Warning--empty title in prw_unc
+Warning--empty title in jes_unc
+Warning--empty title in met_syst
+Warning--empty title in ckkw
+Warning--empty title in mmht
+Warning--empty title in CT14
+Warning--empty title in pdf_env
+Warning--empty title in lh_stats
+Warning--empty title in bin_stats
+Warning--empty title in cls_stats
+Warning--empty title in spin_parity
+Warning--empty title in w_polarization
+Warning--empty title in w_polarization_2
+Warning--empty title in hvt_polarization
+Warning--empty title in Kfactors
+Warning--empty booktitle in Kfactors
+Warning--empty year in Kfactors
+You've used 161 entries,
+            2330 wiz_defined-function locations,
+            1427 strings with 25712 characters,
+and the built_in function-call counts, 37807 in all, are:
+= -- 3351
+> -- 1036
+< -- 0
++ -- 430
+- -- 269
+* -- 2725
+:= -- 4170
+add.period$ -- 189
+call.type$ -- 161
+change.case$ -- 86
+chr.to.int$ -- 0
+cite$ -- 282
+duplicate$ -- 2322
+empty$ -- 4275
+format.name$ -- 269
+if$ -- 9900
+int.to.chr$ -- 0
+int.to.str$ -- 161
+missing$ -- 518
+newline$ -- 514
+num.names$ -- 158
+pop$ -- 1109
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1578
+stack$ -- 0
+substring$ -- 1645
+swap$ -- 952
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 121
+while$ -- 305
+width$ -- 164
+write$ -- 1116
+(There were 130 warnings)

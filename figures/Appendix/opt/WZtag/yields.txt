@@ -1,0 +1,324 @@
+Opening root file: rootfiles/vbf_sig_vbf_reg.root
+Column_1: llqq
+Column_2: old
+Signal: VBF#rightarrowWW; region: VBF region; chan: Low Purity SR (el channel)
+Yields__________-
+Bkg1: 195.005; Bkg2: 180.321
+Signal mass: 700 GeV
+	Int_1: 42.7635; Int_2: 31.3126
+	Sig_1: 3.90467; Sig_2: 3.014
+Signal mass: 1000 GeV
+	Int_1: 25.1104; Int_2: 16.9324
+	Sig_1: 3.93297; Sig_2: 3.52638
+Signal mass: 1200 GeV
+	Int_1: 15.1819; Int_2: 9.92486
+	Sig_1: 3.87475; Sig_2: 2.78244
+Signal mass: 1400 GeV
+	Int_1: 9.00596; Int_2: 6.08262
+	Sig_1: 3.0653; Sig_2: 2.67954
+Signal mass: 1600 GeV
+	Int_1: 5.3134; Int_2: 3.47502
+	Sig_1: 3.03775; Sig_2: 2.06484
+Signal mass: 1800 GeV
+	Int_1: 3.02473; Int_2: 2.03454
+	Sig_1: 2.46482; Sig_2: 2.1357
+Signal mass: 2000 GeV
+	Int_1: 1.89475; Int_2: 1.33471
+	Sig_1: 2.24116; Sig_2: 1.65973
+Signal mass: 2200 GeV
+	Int_1: 1.21991; Int_2: 0.850179
+	Sig_1: 1.97681; Sig_2: 1.34127
+Signal mass: 2400 GeV
+	Int_1: 0.677806; Int_2: 0.476331
+	Sig_1: 1.52328; Sig_2: 0.723826
+Signal mass: 2600 GeV
+	Int_1: 0.529147; Int_2: 0.360042
+	Sig_1: 1.41894; Sig_2: 0.766853
+Signal mass: 2800 GeV
+	Int_1: 0.266254; Int_2: 0.175573
+	Sig_1: 0.881715; Sig_2: 0.441561
+Signal mass: 3000 GeV
+	Int_1: 0.148246; Int_2: 0.108374
+	Sig_1: 0.671413; Sig_2: 0.534404
+Signal: VBF#rightarrowWW; region: VBF region; chan: Low Purity SR (mu channel)
+Yields__________-
+Bkg1: 213.809; Bkg2: 202.855
+Signal mass: 700 GeV
+	Int_1: 43.6753; Int_2: 29.4686
+	Sig_1: 3.94882; Sig_2: 2.70939
+Signal mass: 1000 GeV
+	Int_1: 25.8225; Int_2: 18.1386
+	Sig_1: 3.90696; Sig_2: 3.47615
+Signal mass: 1200 GeV
+	Int_1: 14.24; Int_2: 10.2562
+	Sig_1: 3.61794; Sig_2: 2.73956
+Signal mass: 1400 GeV
+	Int_1: 9.15101; Int_2: 6.13424
+	Sig_1: 3.09355; Sig_2: 2.60596
+Signal mass: 1600 GeV
+	Int_1: 5.65587; Int_2: 3.99697
+	Sig_1: 2.45314; Sig_2: 1.76733
+Signal mass: 1800 GeV
+	Int_1: 3.36267; Int_2: 2.29958
+	Sig_1: 1.75045; Sig_2: 1.32061
+Signal mass: 2000 GeV
+	Int_1: 1.96812; Int_2: 1.3185
+	Sig_1: 1.11272; Sig_2: 0.83973
+Signal mass: 2200 GeV
+	Int_1: 1.20616; Int_2: 0.841686
+	Sig_1: 0.816726; Sig_2: 0.600193
+Signal mass: 2400 GeV
+	Int_1: 0.670284; Int_2: 0.490285
+	Sig_1: 1.51137; Sig_2: 1.24146
+Signal mass: 2600 GeV
+	Int_1: 0.499933; Int_2: 0.43002
+	Sig_1: 1.18248; Sig_2: 1.0811
+Signal mass: 2800 GeV
+	Int_1: 0.255004; Int_2: 0.182513
+	Sig_1: 0.810349; Sig_2: 0.77166
+Signal mass: 3000 GeV
+	Int_1: 0.165521; Int_2: 0.12538
+	Sig_1: 0.719747; Sig_2: 0.672611
+Opening root file: rootfiles/vbf_sig_ggf_reg.root
+Column_1: llqq
+Column_2: old
+Signal: VBF#rightarrowWW; region: VBF veto region; chan: Low Purity SR (el channel)
+Yields__________-
+Bkg1: 11337; Bkg2: 10822.3
+Signal mass: 700 GeV
+	Int_1: 94.4725; Int_2: 63.8151
+	Sig_1: 1.22544; Sig_2: 0.845366
+Signal mass: 1000 GeV
+	Int_1: 48.7761; Int_2: 34.1409
+	Sig_1: 1.38555; Sig_2: 0.964042
+Signal mass: 1200 GeV
+	Int_1: 34.5111; Int_2: 23.2342
+	Sig_1: 1.32158; Sig_2: 0.892209
+Signal mass: 1400 GeV
+	Int_1: 22.5242; Int_2: 15.4387
+	Sig_1: 1.09055; Sig_2: 1.02604
+Signal mass: 1600 GeV
+	Int_1: 13.8915; Int_2: 9.97516
+	Sig_1: 1.14963; Sig_2: 0.841729
+Signal mass: 1800 GeV
+	Int_1: 8.29894; Int_2: 5.60353
+	Sig_1: 0.915867; Sig_2: 0.613434
+Signal mass: 2000 GeV
+	Int_1: 5.72528; Int_2: 3.96177
+	Sig_1: 0.876849; Sig_2: 0.583432
+Signal mass: 2200 GeV
+	Int_1: 3.72914; Int_2: 2.53698
+	Sig_1: 0.763845; Sig_2: 0.460275
+Signal mass: 2400 GeV
+	Int_1: 2.39474; Int_2: 1.8192
+	Sig_1: 0.639387; Sig_2: 0.433887
+Signal mass: 2600 GeV
+	Int_1: 2.09428; Int_2: 1.53443
+	Sig_1: 0.748998; Sig_2: 0.468274
+Signal mass: 2800 GeV
+	Int_1: 1.13539; Int_2: 0.82403
+	Sig_1: 0.566503; Sig_2: 0.327333
+Signal mass: 3000 GeV
+	Int_1: 0.784469; Int_2: 0.595416
+	Sig_1: 0.392991; Sig_2: 0.32333
+Signal: VBF#rightarrowWW; region: VBF veto region; chan: Low Purity SR (mu channel)
+Yields__________-
+Bkg1: 13389.1; Bkg2: 12742.1
+Signal mass: 700 GeV
+	Int_1: 89.7962; Int_2: 65.6711
+	Sig_1: 0.820222; Sig_2: 0.785434
+Signal mass: 1000 GeV
+	Int_1: 54.1153; Int_2: 37.0927
+	Sig_1: 1.474; Sig_2: 0.998382
+Signal mass: 1200 GeV
+	Int_1: 34.7253; Int_2: 24.2477
+	Sig_1: 1.2575; Sig_2: 0.858307
+Signal mass: 1400 GeV
+	Int_1: 22.4839; Int_2: 15.5223
+	Sig_1: 1.06189; Sig_2: 0.723559
+Signal mass: 1600 GeV
+	Int_1: 13.8038; Int_2: 10.2808
+	Sig_1: 1.18096; Sig_2: 0.88328
+Signal mass: 1800 GeV
+	Int_1: 8.45732; Int_2: 6.01128
+	Sig_1: 0.931759; Sig_2: 0.664184
+Signal mass: 2000 GeV
+	Int_1: 5.97663; Int_2: 4.37708
+	Sig_1: 0.815909; Sig_2: 0.634921
+Signal mass: 2200 GeV
+	Int_1: 3.71839; Int_2: 2.63695
+	Sig_1: 0.686732; Sig_2: 0.462693
+Signal mass: 2400 GeV
+	Int_1: 2.55564; Int_2: 1.91425
+	Sig_1: 0.619705; Sig_2: 0.417495
+Signal mass: 2600 GeV
+	Int_1: 2.33066; Int_2: 1.68474
+	Sig_1: 0.794328; Sig_2: 0.446715
+Signal mass: 2800 GeV
+	Int_1: 1.20415; Int_2: 0.9149
+	Sig_1: 0.388804; Sig_2: 0.278918
+Signal mass: 3000 GeV
+	Int_1: 0.819825; Int_2: 0.60766
+	Sig_1: 0.361759; Sig_2: 0.241922
+Opening root file: rootfiles/ggf_sig_vbf_reg.root
+Column_1: llqq
+Column_2: old
+Signal: ggH#rightarrowWW; region: VBF region; chan: Low Purity SR (el channel)
+Yields__________-
+Bkg1: 195.005; Bkg2: 180.321
+Signal mass: 700 GeV
+	Int_1: 8.68164; Int_2: 5.99448
+	Sig_1: 0.645382; Sig_2: 0.602284
+Signal mass: 1000 GeV
+	Int_1: 2.35074; Int_2: 1.63395
+	Sig_1: 0.402072; Sig_2: 0.380432
+Signal mass: 1200 GeV
+	Int_1: 0.627694; Int_2: 0.425463
+	Sig_1: 0.139536; Sig_2: 0.0933331
+Signal mass: 1400 GeV
+	Int_1: 0.240888; Int_2: 0.154604
+	Sig_1: 0.0948448; Sig_2: 0.0563621
+Signal mass: 1600 GeV
+	Int_1: 0.122383; Int_2: 0.0794806
+	Sig_1: 0.0724079; Sig_2: 0.0426485
+Signal mass: 1800 GeV
+	Int_1: 0.039116; Int_2: 0.0262614
+	Sig_1: 0.0454048; Sig_2: 0.0402011
+Signal mass: 2000 GeV
+	Int_1: 0.0194151; Int_2: 0.0125848
+	Sig_1: 0.0222984; Sig_2: 0.0181565
+Signal mass: 2200 GeV
+	Int_1: 0.00965327; Int_2: 0.00634313
+	Sig_1: 0.0176789; Sig_2: 0.00955321
+Signal mass: 2400 GeV
+	Int_1: 0.00533293; Int_2: 0.00416052
+	Sig_1: 0.0215124; Sig_2: 0.010315
+Signal mass: 2600 GeV
+	Int_1: 0.00250942; Int_2: 0.00178878
+	Sig_1: 0.00916859; Sig_2: 0.00423522
+Signal mass: 2800 GeV
+	Int_1: 0.00115126; Int_2: 0.000773029
+	Sig_1: 0.00420447; Sig_2: 0.00182842
+Signal mass: 3000 GeV
+	Int_1: 0.000604157; Int_2: 0.00042338
+	Sig_1: 0.0033055; Sig_2: 0.000987961
+Signal: ggH#rightarrowWW; region: VBF region; chan: Low Purity SR (mu channel)
+Yields__________-
+Bkg1: 213.809; Bkg2: 202.855
+Signal mass: 700 GeV
+	Int_1: 10.6605; Int_2: 7.39926
+	Sig_1: 1.03263; Sig_2: 0.713509
+Signal mass: 1000 GeV
+	Int_1: 1.74424; Int_2: 1.13956
+	Sig_1: 0.288544; Sig_2: 0.176062
+Signal mass: 1200 GeV
+	Int_1: 0.736207; Int_2: 0.570121
+	Sig_1: 0.149149; Sig_2: 0.113446
+Signal mass: 1400 GeV
+	Int_1: 0.243549; Int_2: 0.181089
+	Sig_1: 0.0693662; Sig_2: 0.0504181
+Signal mass: 1600 GeV
+	Int_1: 0.116222; Int_2: 0.0819567
+	Sig_1: 0.0394753; Sig_2: 0.0288514
+Signal mass: 1800 GeV
+	Int_1: 0.0486267; Int_2: 0.0326018
+	Sig_1: 0.0272564; Sig_2: 0.013729
+Signal mass: 2000 GeV
+	Int_1: 0.0212885; Int_2: 0.0134616
+	Sig_1: 0.0116882; Sig_2: 0.00558076
+Signal mass: 2200 GeV
+	Int_1: 0.0112603; Int_2: 0.00788745
+	Sig_1: 0.00681635; Sig_2: 0.00518127
+Signal mass: 2400 GeV
+	Int_1: 0.00483129; Int_2: 0.00321059
+	Sig_1: 0.00286846; Sig_2: 0.00129654
+Signal mass: 2600 GeV
+	Int_1: 0.00259453; Int_2: 0.00191292
+	Sig_1: 0.00197815; Sig_2: 0.00133848
+Signal mass: 2800 GeV
+	Int_1: 0.00114068; Int_2: 0.000798141
+	Sig_1: 0.00569742; Sig_2: 0.0059131
+Signal mass: 3000 GeV
+	Int_1: 0.000584278; Int_2: 0.000446204
+	Sig_1: 0.000444278; Sig_2: 0.000283269
+Opening root file: rootfiles/ggf_sig_ggf_reg.root
+Column_1: llqq
+Column_2: old
+Signal: ggH#rightarrowWW; region: VBF veto region; chan: Low Purity SR (el channel)
+Yields__________-
+Bkg1: 11337; Bkg2: 10822.3
+Signal mass: 700 GeV
+	Int_1: 401.295; Int_2: 290.033
+	Sig_1: 5.14574; Sig_2: 2.96904
+Signal mass: 1000 GeV
+	Int_1: 70.9156; Int_2: 49.015
+	Sig_1: 1.52016; Sig_2: 1.02894
+Signal mass: 1200 GeV
+	Int_1: 22.4543; Int_2: 15.3285
+	Sig_1: 0.85992; Sig_2: 0.588484
+Signal mass: 1400 GeV
+	Int_1: 8.37204; Int_2: 5.88358
+	Sig_1: 0.406813; Sig_2: 0.285564
+Signal mass: 1600 GeV
+	Int_1: 3.36934; Int_2: 2.39046
+	Sig_1: 0.281192; Sig_2: 0.204631
+Signal mass: 1800 GeV
+	Int_1: 1.44733; Int_2: 1.02632
+	Sig_1: 0.162344; Sig_2: 0.113418
+Signal mass: 2000 GeV
+	Int_1: 0.646296; Int_2: 0.480033
+	Sig_1: 0.10157; Sig_2: 0.0715072
+Signal mass: 2200 GeV
+	Int_1: 0.29956; Int_2: 0.224646
+	Sig_1: 0.0625555; Sig_2: 0.0410991
+Signal mass: 2400 GeV
+	Int_1: 0.152937; Int_2: 0.114587
+	Sig_1: 0.0416476; Sig_2: 0.0277681
+Signal mass: 2600 GeV
+	Int_1: 0.0780705; Int_2: 0.0577533
+	Sig_1: 0.0291786; Sig_2: 0.017991
+Signal mass: 2800 GeV
+	Int_1: 0.0404938; Int_2: 0.0306231
+	Sig_1: 0.0211976; Sig_2: 0.0124421
+Signal mass: 3000 GeV
+	Int_1: 0.022382; Int_2: 0.0168467
+	Sig_1: 0.0115575; Sig_2: 0.00944033
+Signal: ggH#rightarrowWW; region: VBF veto region; chan: Low Purity SR (mu channel)
+Yields__________-
+Bkg1: 13389.1; Bkg2: 12742.1
+Signal mass: 700 GeV
+	Int_1: 434.403; Int_2: 313.269
+	Sig_1: 5.11934; Sig_2: 3.74937
+Signal mass: 1000 GeV
+	Int_1: 76.066; Int_2: 54.0005
+	Sig_1: 1.52832; Sig_2: 1.4237
+Signal mass: 1200 GeV
+	Int_1: 24.4101; Int_2: 16.4962
+	Sig_1: 0.887327; Sig_2: 0.586304
+Signal mass: 1400 GeV
+	Int_1: 8.99414; Int_2: 6.1279
+	Sig_1: 0.426277; Sig_2: 0.286561
+Signal mass: 1600 GeV
+	Int_1: 3.54957; Int_2: 2.51169
+	Sig_1: 0.30978; Sig_2: 0.216692
+Signal mass: 1800 GeV
+	Int_1: 1.52067; Int_2: 1.07981
+	Sig_1: 0.170119; Sig_2: 0.119718
+Signal mass: 2000 GeV
+	Int_1: 0.685096; Int_2: 0.484702
+	Sig_1: 0.0949725; Sig_2: 0.0712218
+Signal mass: 2200 GeV
+	Int_1: 0.31507; Int_2: 0.234062
+	Sig_1: 0.0586691; Sig_2: 0.0412687
+Signal mass: 2400 GeV
+	Int_1: 0.161689; Int_2: 0.119714
+	Sig_1: 0.0399342; Sig_2: 0.0263726
+Signal mass: 2600 GeV
+	Int_1: 0.0811185; Int_2: 0.0609711
+	Sig_1: 0.0289619; Sig_2: 0.0164636
+Signal mass: 2800 GeV
+	Int_1: 0.042083; Int_2: 0.0315723
+	Sig_1: 0.013895; Sig_2: 0.00983529
+Signal mass: 3000 GeV
+	Int_1: 0.0222042; Int_2: 0.0166333
+	Sig_1: 0.00993648; Sig_2: 0.00673125

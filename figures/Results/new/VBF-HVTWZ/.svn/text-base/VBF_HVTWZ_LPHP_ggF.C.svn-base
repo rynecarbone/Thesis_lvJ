@@ -1,0 +1,884 @@
+void VBF_HVTWZ_LPHP_ggF()
+{
+//=========Macro generated from canvas: Limit/Limit
+//=========  (Wed Jun 21 11:39:44 2017) by ROOT version6.04/16
+   TCanvas *Limit = new TCanvas("Limit", "Limit",0,0,1000,700);
+   Limit->Range(-0.2948729,-4.955027,4.110304,3.418686);
+   Limit->SetFillColor(0);
+   Limit->SetBorderMode(0);
+   Limit->SetBorderSize(2);
+   Limit->SetLogy();
+   Limit->SetLeftMargin(0.13);
+   Limit->SetRightMargin(0.02);
+   Limit->SetTopMargin(0.05);
+   Limit->SetBottomMargin(0.15);
+   Limit->SetFrameBorderMode(0);
+   Limit->SetFrameBorderMode(0);
+   
+   TMultiGraph *multigraph = new TMultiGraph();
+   multigraph->SetName("");
+   multigraph->SetTitle(";m(W´) [TeV];#sigma(qq#rightarrowW´#rightarrowWZ) [pb]");
+   
+   Double_t Graph_fx3001[25] = {
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1,
+   1.1,
+   1.2,
+   1.3,
+   1.4,
+   1.5,
+   1.6,
+   1.7,
+   1.8,
+   1.9,
+   2,
+   2.2,
+   2.4,
+   2.6,
+   2.8,
+   3,
+   3.5,
+   4};
+   Double_t Graph_fy3001[25] = {
+   14.58464,
+   3.090504,
+   0.6832552,
+   0.291025,
+   0.1476922,
+   0.08867047,
+   0.05519459,
+   0.04107106,
+   0.03092729,
+   0.02429298,
+   0.01742649,
+   0.01496408,
+   0.01493573,
+   0.01469079,
+   0.01523209,
+   0.01418957,
+   0.01084025,
+   0.00921912,
+   0.00873391,
+   0.009347124,
+   0.009999401,
+   0.0118114,
+   0.0106549,
+   0.01344973,
+   0.01730514};
+   Double_t Graph_felx3001[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fely3001[25] = {
+   6.756686,
+   1.431751,
+   0.3165345,
+   0.1348244,
+   0.06842199,
+   0.04107875,
+   0.02557023,
+   0.01902717,
+   0.01432782,
+   0.01125431,
+   0.008073245,
+   0.006932475,
+   0.006919338,
+   0.006805864,
+   0.007056633,
+   0.006573663,
+   0.00502201,
+   0.004270981,
+   0.004046195,
+   0.004330282,
+   0.004632465,
+   0.005471916,
+   0.004936139,
+   0.006230911,
+   0.008017027};
+   Double_t Graph_fehx3001[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fehy3001[25] = {
+   12.62573,
+   2.675409,
+   0.5968284,
+   0.2682157,
+   0.141836,
+   0.08554917,
+   0.05371722,
+   0.04115416,
+   0.03102572,
+   0.02492017,
+   0.02084659,
+   0.01777678,
+   0.01292966,
+   0.01271762,
+   0.01318622,
+   0.01228372,
+   0.009384264,
+   0.007980869,
+   0.007560831,
+   0.008091681,
+   0.008656349,
+   0.01022497,
+   0.009223802,
+   0.01164325,
+   0.01498083};
+   TGraphAsymmErrors *grae = new TGraphAsymmErrors(25,Graph_fx3001,Graph_fy3001,Graph_felx3001,Graph_fehx3001,Graph_fely3001,Graph_fehy3001);
+   grae->SetName("Graph");
+   grae->SetTitle("Graph");
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#ffff00");
+   grae->SetFillColor(ci);
+   
+   TH1F *Graph_Graph3001 = new TH1F("Graph_Graph3001","Graph",100,0,4.37);
+   Graph_Graph3001->SetMinimum(0.004218944);
+   Graph_Graph3001->SetMaximum(29.93093);
+   Graph_Graph3001->SetDirectory(0);
+   Graph_Graph3001->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph3001->SetLineColor(ci);
+   Graph_Graph3001->GetXaxis()->SetLabelFont(42);
+   Graph_Graph3001->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph3001->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph3001->GetXaxis()->SetTitleFont(42);
+   Graph_Graph3001->GetYaxis()->SetLabelFont(42);
+   Graph_Graph3001->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph3001->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph3001->GetYaxis()->SetTitleFont(42);
+   Graph_Graph3001->GetZaxis()->SetLabelFont(42);
+   Graph_Graph3001->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph3001->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph3001->GetZaxis()->SetTitleFont(42);
+   grae->SetHistogram(Graph_Graph3001);
+   
+   multigraph->Add(grae,"E3");
+   
+   Double_t Graph_fx3002[25] = {
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1,
+   1.1,
+   1.2,
+   1.3,
+   1.4,
+   1.5,
+   1.6,
+   1.7,
+   1.8,
+   1.9,
+   2,
+   2.2,
+   2.4,
+   2.6,
+   2.8,
+   3,
+   3.5,
+   4};
+   Double_t Graph_fy3002[25] = {
+   14.58464,
+   3.090504,
+   0.6832552,
+   0.291025,
+   0.1476922,
+   0.08867047,
+   0.05519459,
+   0.04107106,
+   0.03092729,
+   0.02429298,
+   0.01742649,
+   0.01496408,
+   0.01493573,
+   0.01469079,
+   0.01523209,
+   0.01418957,
+   0.01084025,
+   0.00921912,
+   0.00873391,
+   0.009347124,
+   0.009999401,
+   0.0118114,
+   0.0106549,
+   0.01344973,
+   0.01730514};
+   Double_t Graph_felx3002[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fely3002[25] = {
+   4.075599,
+   0.8636248,
+   0.190932,
+   0.08132537,
+   0.04127179,
+   0.02477849,
+   0.01542383,
+   0.01147709,
+   0.008642465,
+   0.006788543,
+   0.00486974,
+   0.004181632,
+   0.004173709,
+   0.004105263,
+   0.004256525,
+   0.0039652,
+   0.003029251,
+   0.002576234,
+   0.002440644,
+   0.002612004,
+   0.002794279,
+   0.003300632,
+   0.002977454,
+   0.003758454,
+   0.004835829};
+   Double_t Graph_fehx3002[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fehy3002[25] = {
+   5.712958,
+   1.210584,
+   0.2643071,
+   0.1157949,
+   0.06097065,
+   0.03676022,
+   0.02302942,
+   0.01747679,
+   0.01310401,
+   0.01041639,
+   0.008309522,
+   0.007123497,
+   0.005850486,
+   0.005754538,
+   0.005966572,
+   0.005558206,
+   0.004246243,
+   0.003611227,
+   0.003421167,
+   0.003661368,
+   0.003916873,
+   0.00462665,
+   0.004173637,
+   0.0052684,
+   0.00677861};
+   grae = new TGraphAsymmErrors(25,Graph_fx3002,Graph_fy3002,Graph_felx3002,Graph_fehx3002,Graph_fely3002,Graph_fehy3002);
+   grae->SetName("Graph");
+   grae->SetTitle("Graph");
+
+   ci = TColor::GetColor("#00ff00");
+   grae->SetFillColor(ci);
+   
+   TH1F *Graph_Graph3002 = new TH1F("Graph_Graph3002","Graph",100,0,4.37);
+   Graph_Graph3002->SetMinimum(0.00566394);
+   Graph_Graph3002->SetMaximum(22.32673);
+   Graph_Graph3002->SetDirectory(0);
+   Graph_Graph3002->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph3002->SetLineColor(ci);
+   Graph_Graph3002->GetXaxis()->SetLabelFont(42);
+   Graph_Graph3002->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph3002->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph3002->GetXaxis()->SetTitleFont(42);
+   Graph_Graph3002->GetYaxis()->SetLabelFont(42);
+   Graph_Graph3002->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph3002->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph3002->GetYaxis()->SetTitleFont(42);
+   Graph_Graph3002->GetZaxis()->SetLabelFont(42);
+   Graph_Graph3002->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph3002->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph3002->GetZaxis()->SetTitleFont(42);
+   grae->SetHistogram(Graph_Graph3002);
+   
+   multigraph->Add(grae,"E3");
+   
+   Double_t Graph_fx3003[25] = {
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1,
+   1.1,
+   1.2,
+   1.3,
+   1.4,
+   1.5,
+   1.6,
+   1.7,
+   1.8,
+   1.9,
+   2,
+   2.2,
+   2.4,
+   2.6,
+   2.8,
+   3,
+   3.5,
+   4};
+   Double_t Graph_fy3003[25] = {
+   14.58464,
+   3.090504,
+   0.6832552,
+   0.291025,
+   0.1476922,
+   0.08867047,
+   0.05519459,
+   0.04107106,
+   0.03092729,
+   0.02429298,
+   0.01742649,
+   0.01496408,
+   0.01493573,
+   0.01469079,
+   0.01523209,
+   0.01418957,
+   0.01084025,
+   0.00921912,
+   0.00873391,
+   0.009347124,
+   0.009999401,
+   0.0118114,
+   0.0106549,
+   0.01344973,
+   0.01730514};
+   Double_t Graph_felx3003[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fely3003[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fehx3003[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fehy3003[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   grae = new TGraphAsymmErrors(25,Graph_fx3003,Graph_fy3003,Graph_felx3003,Graph_fehx3003,Graph_fely3003,Graph_fehy3003);
+   grae->SetName("Graph");
+   grae->SetTitle("Graph");
+   grae->SetFillColor(1);
+   grae->SetLineStyle(2);
+   grae->SetLineWidth(2);
+   
+   TH1F *Graph_Graph3003 = new TH1F("Graph_Graph3003","Graph",100,0,4.37);
+   Graph_Graph3003->SetMinimum(0.007860519);
+   Graph_Graph3003->SetMaximum(16.04223);
+   Graph_Graph3003->SetDirectory(0);
+   Graph_Graph3003->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph3003->SetLineColor(ci);
+   Graph_Graph3003->GetXaxis()->SetLabelFont(42);
+   Graph_Graph3003->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph3003->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph3003->GetXaxis()->SetTitleFont(42);
+   Graph_Graph3003->GetYaxis()->SetLabelFont(42);
+   Graph_Graph3003->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph3003->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph3003->GetYaxis()->SetTitleFont(42);
+   Graph_Graph3003->GetZaxis()->SetLabelFont(42);
+   Graph_Graph3003->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph3003->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph3003->GetZaxis()->SetTitleFont(42);
+   grae->SetHistogram(Graph_Graph3003);
+   
+   multigraph->Add(grae,"L");
+   
+   Double_t Graph_fx3004[25] = {
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1,
+   1.1,
+   1.2,
+   1.3,
+   1.4,
+   1.5,
+   1.6,
+   1.7,
+   1.8,
+   1.9,
+   2,
+   2.2,
+   2.4,
+   2.6,
+   2.8,
+   3,
+   3.5,
+   4};
+   Double_t Graph_fy3004[25] = {
+   9.927258,
+   3.74223,
+   0.8830741,
+   0.3284472,
+   0.1104074,
+   0.06880438,
+   0.04674965,
+   0.04379074,
+   0.02840516,
+   0.02757257,
+   0.02737829,
+   0.02384712,
+   0.02692075,
+   0.02344636,
+   0.02322084,
+   0.02229858,
+   0.01711569,
+   0.009873164,
+   0.007954894,
+   0.008283431,
+   0.00821777,
+   0.01054291,
+   0.00946401,
+   0.01200164,
+   0.01624749};
+   Double_t Graph_felx3004[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fely3004[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fehx3004[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph_fehy3004[25] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   grae = new TGraphAsymmErrors(25,Graph_fx3004,Graph_fy3004,Graph_felx3004,Graph_fehx3004,Graph_fely3004,Graph_fehy3004);
+   grae->SetName("Graph");
+   grae->SetTitle("Graph");
+   grae->SetFillColor(1);
+   grae->SetLineWidth(2);
+   grae->SetMarkerStyle(20);
+   
+   TH1F *Graph_Graph3004 = new TH1F("Graph_Graph3004","Graph",100,0,4.37);
+   Graph_Graph3004->SetMinimum(0.007159405);
+   Graph_Graph3004->SetMaximum(10.91919);
+   Graph_Graph3004->SetDirectory(0);
+   Graph_Graph3004->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph3004->SetLineColor(ci);
+   Graph_Graph3004->GetXaxis()->SetLabelFont(42);
+   Graph_Graph3004->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph3004->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph3004->GetXaxis()->SetTitleFont(42);
+   Graph_Graph3004->GetYaxis()->SetLabelFont(42);
+   Graph_Graph3004->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph3004->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph3004->GetYaxis()->SetTitleFont(42);
+   Graph_Graph3004->GetZaxis()->SetLabelFont(42);
+   Graph_Graph3004->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph3004->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph3004->GetZaxis()->SetTitleFont(42);
+   grae->SetHistogram(Graph_Graph3004);
+   
+   multigraph->Add(grae,"PL");
+   multigraph->Draw("AP");
+   multigraph->GetXaxis()->SetTitle("m(W´) [TeV]");
+   multigraph->GetXaxis()->SetRange(5,96);
+   multigraph->GetXaxis()->SetLabelFont(42);
+   multigraph->GetXaxis()->SetLabelSize(0.06);
+   multigraph->GetXaxis()->SetTitleSize(0.06);
+   multigraph->GetXaxis()->SetTitleOffset(0.95);
+   multigraph->GetXaxis()->SetTitleFont(42);
+   multigraph->GetYaxis()->SetTitle("#sigma(qq#rightarrowW´#rightarrowWZ) [pb]");
+   multigraph->GetYaxis()->SetLabelFont(42);
+   multigraph->GetYaxis()->SetLabelSize(0.06);
+   multigraph->GetYaxis()->SetTitleSize(0.06);
+   multigraph->GetYaxis()->SetTitleOffset(0.95);
+   multigraph->GetYaxis()->SetTitleFont(42);
+   
+   TH1F *_copy__1 = new TH1F("_copy__1","",100,0.115,4.185);
+   _copy__1->SetMinimum(0.0002);
+   _copy__1->SetMaximum(1000);
+   _copy__1->SetDirectory(0);
+   _copy__1->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   _copy__1->SetLineColor(ci);
+   _copy__1->GetXaxis()->SetTitle("m(W´) [TeV]");
+   _copy__1->GetXaxis()->SetRange(5,96);
+   _copy__1->GetXaxis()->SetLabelFont(42);
+   _copy__1->GetXaxis()->SetLabelSize(0.06);
+   _copy__1->GetXaxis()->SetTitleSize(0.06);
+   _copy__1->GetXaxis()->SetTitleOffset(0.95);
+   _copy__1->GetXaxis()->SetTitleFont(42);
+   _copy__1->GetYaxis()->SetTitle("#sigma(qq#rightarrowW´#rightarrowWZ) [pb]");
+   _copy__1->GetYaxis()->SetLabelFont(42);
+   _copy__1->GetYaxis()->SetLabelSize(0.06);
+   _copy__1->GetYaxis()->SetTitleSize(0.06);
+   _copy__1->GetYaxis()->SetTitleOffset(0.95);
+   _copy__1->GetYaxis()->SetTitleFont(42);
+   _copy__1->GetZaxis()->SetLabelFont(42);
+   _copy__1->GetZaxis()->SetLabelSize(0.035);
+   _copy__1->GetZaxis()->SetTitleSize(0.035);
+   _copy__1->GetZaxis()->SetTitleFont(42);
+   _copy__1->Draw("sameaxis");
+   TLatex *   tex = new TLatex(0.18,0.88,"ATLAS");
+tex->SetNDC();
+   tex->SetTextFont(72);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.2944129,0.88,"Internal");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.18,0.83,"#scale[1.0]{#sqrt{s} = 13 TeV, 36.1 fb^{-1}}");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.18,0.78,"VBF Region");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   
+   TLegend *leg = new TLegend(0.5,0.55,0.97,0.94,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(0);
+   TLegendEntry *entry=leg->AddEntry("Graph","Observed 95% CL upper limit","PL");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph","Expected 95% CL upper limit","L");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(2);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph","Expected limit (#pm 1#sigma)","F");
+
+   ci = TColor::GetColor("#00ff00");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph","Expected limit (#pm 2#sigma)","F");
+
+   ci = TColor::GetColor("#ffff00");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   Limit->Modified();
+   Limit->cd();
+   Limit->SetSelected(Limit);
+}

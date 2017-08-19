@@ -1,0 +1,1111 @@
+// RooFit
+#include "RooWorkspace.h"
+#include "RooRealVar.h"
+#include "RooPlot.h"
+#include "RooAbsData.h"
+#include "RooHist.h"
+#include "RooSimultaneous.h"
+#include "RooCategory.h"
+#include "RooFitResult.h"
+#include "RooAbsData.h"
+#include "RooRealSumPdf.h"
+#include "Roo1DTable.h"
+#include "RooConstVar.h"
+#include "RooProduct.h"
+#include "RooRandom.h"
+#include "TStopwatch.h"
+#include "TCanvas.h"
+#include "TPad.h"
+#include "TH1D.h"
+#include "TFile.h"
+#include "TMath.h"
+#include <RooMsgService.h>
+#include <math.h>
+#include "TH1.h"
+#include <vector>
+#include <TString.h>
+TGraphAsymmErrors* MakeTGAEFromHist(TH1* h, bool usePoissonErrors = false);
+void function_draw(TString region, TString region_withoutfile, TString np_name, TFile* f);
+void boosted_function_draw(TString region, TString region_withoutfile, TString np_name, TFile* f);
+void VBFfunction_draw(TString region, TString region_withoutfile, TString np_name, TFile* f);
+void VBFboosted_function_draw(TString region, TString region_withoutfile, TString np_name, TFile* f);
+void ExctractHistoFromCanvas(TCanvas* can, vector<TH1*> &vec_histo, TGraphAsymmErrors* gdataAsymErr);
+TH1D *TGraphAsymmErrorsToTH1D(TGraphAsymmErrors *g, TH1D *hmodel);
+TH1D *TGraphToTH1D(TGraph *g, TH1D *hmodel);
+void setBins( TH1* hOld, TH1* hNew ){
+	for (int i=0; i<hOld->GetNbinsX()+2; i++ ){
+		float width=hNew->GetBinLowEdge(i+1)-hNew->GetBinLowEdge(i);
+		//float width=1;
+		hNew->SetBinContent(i, hOld->GetBinContent(i)/width);
+		hNew->SetBinError(i, hOld->GetBinError(i)/width);
+	}
+}
+
+void integral_and_error( TH1* hOld){
+  double bin_error = 0;
+  for (int i=0; i<hOld->GetNbinsX()+2; i++ ){
+    bin_error +=hOld->GetBinError(i)*hOld->GetBinError(i);
+  }
+   bin_error = sqrt(bin_error);
+   std::cout << hOld->GetName() << " & $ " << hOld->Integral() << " \\pm " << bin_error<< "$" <<std::endl;
+}
+
+
+
+void VBFboosted_function_draw(TString region, TString region_withoutfile, TString np_name, TFile* f){
+	double xmin, xmax;
+
+
+	//boosted ggF
+	const int nbins = 11;
+	double bins[nbins+1] = {500,575,660,755,860,975,1100,1235,1380,1535,1875,5000}; 
+
+
+	xmin=bins[0];
+	xmax=bins[nbins];
+	TString blah = "PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0";
+	cout << "blah is : " << blah << endl;
+	TCanvas* can=(TCanvas*)f->Get("PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0");
+	if( !can ){
+	cerr<<"Canvas PlotsAfterGlobalFit/unconditional/can_DistriAfterFit__GlobalFit_unconditionnal_mu0 doesn't exist"<<endl;
+	exit(6);
+	}
+
+	cout << "got canvas" << endl;
+	vector<TH1*> vec_histo;
+	TGraphAsymmErrors *gdata;
+
+	TPad* padone = (TPad *)can->FindObject("pad1");
+	cout << "got pad" << endl;
+	TString plotname = region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile;
+	plotname.Append(".pdf");
+
+	TCanvas* c_work=new TCanvas("c_work", "", 600, 600);
+	c_work->cd();
+	TPad* p1=new TPad("p1", "p1", 0, 0.28, 1, 1);
+	TPad* p2=new TPad("p2", "p2", 0, 0, 1, 0.3); //was 0.34 last number
+	p1->SetBottomMargin(0.09);
+	p1->SetTickx();
+	p1->SetTicky();
+	p1->Draw();
+	p2->SetBottomMargin(0.35);
+	p2->SetTopMargin(0.09);
+	p2->SetTickx();
+	p2->SetTicky();
+	p2->Draw();
+	p1->cd();
+	p1->SetLogy();
+
+	TH1* old_nominal_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile);
+	TH1* nominal_plot;
+	nominal_plot=new TH1D("nominal_plot",";m_{WV} GeV;Entries", nbins, bins);
+	nominal_plot->Sumw2();
+	setBins( old_nominal_plot, nominal_plot);
+
+
+	TH1* old_p1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__p1sigma__obs_x_"+region_withoutfile);
+	TH1* p1_plot;
+	p1_plot=new TH1D("p1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	p1_plot->Sumw2();
+	setBins( old_p1_plot, p1_plot);
+
+	TH1* old_m1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__m1sigma__obs_x_"+region_withoutfile);
+	TH1* m1_plot;
+	m1_plot=new TH1D("m1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	m1_plot->Sumw2();
+	setBins( old_m1_plot, m1_plot);
+
+	TH1* old_data_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__data__obs_x_"+region_withoutfile);
+	TH1* data_plot;
+	data_plot=new TH1D("data_plot",";m_{WV} GeV;Entries", nbins, bins);
+	data_plot->Sumw2();
+	setBins( old_data_plot, data_plot);
+	
+
+	TH1* frame=gPad->DrawFrame(xmin, 0,  xmax, p1_plot->GetMaximum());
+	frame->Draw();
+
+
+	p1_plot->SetLineColor(kRed);
+	p1_plot->SetLineWidth(2);
+	p1_plot->SetLineStyle(2);
+	m1_plot->SetLineColor(kGreen);
+	m1_plot->SetLineWidth(2);
+	m1_plot->SetLineStyle(3);
+	
+	p1_plot->Draw("hist ");
+	data_plot->SetLineColor(kBlack);
+	data_plot->Draw("E1 same");
+	p1_plot->SetTitle(region+"_"+np_name);
+	nominal_plot->SetLineColor(kBlue);
+	nominal_plot->Draw("hist same ");
+	m1_plot->Draw("hist same ");
+
+
+
+	p2->cd();
+//	p2->SetLogy();
+	gStyle->SetOptStat(0);
+	TH1* frame_ratio=gPad->DrawFrame(xmin, -5.0,  xmax, 5.0);
+	frame_ratio->Draw();
+	TH1* p1ratio=(TH1D*)p1_plot->Clone("p1ratio");
+	p1ratio->Add(nominal_plot,-1);
+	p1ratio->Divide(nominal_plot); 
+	p1ratio->Scale(100);
+	p1ratio->SetLineStyle(1);
+
+	TH1* m1ratio=(TH1D*)m1_plot->Clone("m1ratio");
+	m1ratio->Add(nominal_plot,-1); 
+	m1ratio->Divide(nominal_plot); 
+	m1ratio->Scale(100);
+	double ratio_xmax = 0;
+	if (m1ratio->GetMaximum() > p1ratio->GetMaximum()) ratio_xmax = m1ratio->GetMaximum();
+	else ratio_xmax = p1ratio->GetMaximum();
+	p1ratio->SetMaximum(1.5*ratio_xmax);
+
+	 TH1* ratio=(TH1D*)data_plot->Clone("ratio");
+	 ratio->Add(nominal_plot,-1);
+	 ratio->Divide(nominal_plot); 
+	 ratio->Scale(100);
+	  bool error = false;
+	  ratiograph=MakeTGAEFromHist(ratio,error);
+
+	double ratio_xmin = 0;
+	cout << "m1 min " << m1ratio->GetMinimum()<< endl;;
+	cout << "p1 min " << p1ratio->GetMinimum()<< endl;;
+	if (m1ratio->GetMinimum() < p1ratio->GetMinimum()) ratio_xmin = m1ratio->GetMinimum();
+	else ratio_xmin = p1ratio->GetMinimum();
+	p1ratio->SetMinimum(ratio_xmin - 0.5*fabs(ratio_xmin));
+
+
+//	p1ratio->SetMaximum(1.15);
+//	p1ratio->SetMinimum(0.95);
+//	cout << "minimum is : " << ratio_xmin << endl;
+//	cout << "maximum is : " << ratio_xmax << endl;
+
+
+	p1ratio->SetTitle("");
+	gStyle->SetOptStat(0);
+	p1ratio->Draw("hist ");
+	m1ratio->Draw("hist same ");
+	ratiograph->Draw("same:0EP");
+
+
+
+////////
+	c_work->Print(plotname);
+	c_work->Close();
+
+	delete data_plot;
+	delete nominal_plot;
+	delete p1_plot;
+	delete m1_plot;
+	data_plot = 0;
+	nominal_plot = 0;
+	p1_plot = 0;
+	m1_plot = 0;
+
+}
+
+void VBFfunction_draw(TString region, TString region_withoutfile, TString np_name, TFile* f){
+	double xmin, xmax;
+
+	//resolved ggF
+	const int nbins = 9;
+	double bins[nbins+1] = {300,360,420,500,575,660,755,860,975,1500}; 
+
+	//boosted ggF
+	//const int boosted_nbins = 20;
+	//double bins[boostd_nbins+1] = {500,575,660,755,860,975,1100,1235,1380,1535,1700,1875,2060,2255,2460,2675,2900,3135,3380,3800,15000}; 
+
+
+	xmin=bins[0];
+	xmax=bins[nbins];
+	TString blah = "PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0";
+	cout << "blah is : " << blah << endl;
+	TCanvas* can=(TCanvas*)f->Get("PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0");
+	if( !can ){
+	cerr<<"Canvas PlotsAfterGlobalFit/unconditional/can_DistriAfterFit__GlobalFit_unconditionnal_mu0 doesn't exist"<<endl;
+	exit(6);
+	}
+
+	cout << "got canvas" << endl;
+	vector<TH1*> vec_histo;
+	TGraphAsymmErrors *gdata;
+
+	TPad* padone = (TPad *)can->FindObject("pad1");
+	cout << "got pad" << endl;
+	TString plotname = region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile;
+	plotname.Append(".pdf");
+
+	TCanvas* c_work=new TCanvas("c_work", "", 600, 600);
+	c_work->cd();
+	TPad* p1=new TPad("p1", "p1", 0, 0.28, 1, 1);
+	TPad* p2=new TPad("p2", "p2", 0, 0, 1, 0.3); //was 0.34 last number
+	p1->SetBottomMargin(0.09);
+	p1->SetTickx();
+	p1->SetTicky();
+	p1->Draw();
+	p2->SetBottomMargin(0.35);
+	p2->SetTopMargin(0.09);
+	p2->SetTickx();
+	p2->SetTicky();
+	p2->Draw();
+	p1->cd();
+	p1->SetLogy();
+
+	TH1* old_nominal_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile);
+	TH1* nominal_plot;
+	nominal_plot=new TH1D("nominal_plot",";m_{WV} GeV;Entries", nbins, bins);
+	nominal_plot->Sumw2();
+	setBins( old_nominal_plot, nominal_plot);
+
+
+	TH1* old_p1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__p1sigma__obs_x_"+region_withoutfile);
+	TH1* p1_plot;
+	p1_plot=new TH1D("p1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	p1_plot->Sumw2();
+	setBins( old_p1_plot, p1_plot);
+
+	TH1* old_m1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__m1sigma__obs_x_"+region_withoutfile);
+	TH1* m1_plot;
+	m1_plot=new TH1D("m1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	m1_plot->Sumw2();
+	setBins( old_m1_plot, m1_plot);
+
+	TH1* old_data_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__data__obs_x_"+region_withoutfile);
+	TH1* data_plot;
+	data_plot=new TH1D("data_plot",";m_{WV} GeV;Entries", nbins, bins);
+	data_plot->Sumw2();
+	setBins( old_data_plot, data_plot);
+	
+
+	TH1* frame=gPad->DrawFrame(xmin, 0,  xmax, p1_plot->GetMaximum());
+	frame->Draw();
+
+
+	p1_plot->SetLineColor(kRed);
+	p1_plot->SetLineWidth(2);
+	p1_plot->SetLineStyle(2);
+	m1_plot->SetLineColor(kGreen);
+	m1_plot->SetLineWidth(2);
+	m1_plot->SetLineStyle(3);
+
+	p1_plot->Draw("hist ");
+	data_plot->SetLineColor(kBlack);
+	data_plot->Draw("E1 same");
+	p1_plot->SetTitle(region+"_"+np_name);
+	nominal_plot->SetLineColor(kBlue);
+	nominal_plot->Draw("hist same ");
+	m1_plot->Draw("hist same ");
+
+	p2->cd();
+//	p2->SetLogy();
+	gStyle->SetOptStat(0);
+	TH1* frame_ratio=gPad->DrawFrame(xmin, -5.0,  xmax, 5.0);
+	frame_ratio->Draw();
+	TH1* p1ratio=(TH1D*)p1_plot->Clone("p1ratio");
+	p1ratio->Add(nominal_plot,-1);
+	p1ratio->Divide(nominal_plot); 
+	p1ratio->Scale(100);
+	p1ratio->SetLineStyle(1);
+
+	TH1* m1ratio=(TH1D*)m1_plot->Clone("m1ratio");
+	m1ratio->Add(nominal_plot,-1); 
+	m1ratio->Divide(nominal_plot); 
+	m1ratio->Scale(100);
+	double ratio_xmax = 0;
+	if (m1ratio->GetMaximum() > p1ratio->GetMaximum()) ratio_xmax = m1ratio->GetMaximum();
+	else ratio_xmax = p1ratio->GetMaximum();
+	p1ratio->SetMaximum(1.5*ratio_xmax);
+
+	 TH1* ratio=(TH1D*)data_plot->Clone("ratio");
+	 ratio->Add(nominal_plot,-1);
+	 ratio->Divide(nominal_plot); 
+	 ratio->Scale(100);
+	  bool error = false;
+	  ratiograph=MakeTGAEFromHist(ratio,error);
+
+	double ratio_xmin = 0;
+	cout << "m1 min " << m1ratio->GetMinimum()<< endl;;
+	cout << "p1 min " << p1ratio->GetMinimum()<< endl;;
+	if (m1ratio->GetMinimum() < p1ratio->GetMinimum()) ratio_xmin = m1ratio->GetMinimum();
+	else ratio_xmin = p1ratio->GetMinimum();
+	p1ratio->SetMinimum(ratio_xmin - 0.5*fabs(ratio_xmin));
+
+
+//	p1ratio->SetMaximum(1.15);
+//	p1ratio->SetMinimum(0.95);
+//	cout << "minimum is : " << ratio_xmin << endl;
+//	cout << "maximum is : " << ratio_xmax << endl;
+
+
+	p1ratio->SetTitle("");
+	gStyle->SetOptStat(0);
+	p1ratio->Draw("hist ");
+	m1ratio->Draw("hist same ");
+	ratiograph->Draw("same:0EP");
+
+
+	c_work->Print(plotname);
+	c_work->Close();
+
+	delete data_plot;
+	delete nominal_plot;
+	delete p1_plot;
+	delete m1_plot;
+	data_plot = 0;
+	nominal_plot = 0;
+	p1_plot = 0;
+	m1_plot = 0;
+
+}
+
+
+
+
+
+
+///end of VBF***********
+void boosted_function_draw(TString region, TString region_withoutfile, TString np_name, TFile* f){
+	double xmin, xmax;
+
+
+	//boosted ggF
+	const int nbins = 20;
+	double bins[nbins+1] = {500,575,660,755,860,975,1100,1235,1380,1535,1700,1875,2060,2255,2460,2675,2900,3135,3380,3800,5000}; 
+
+
+	xmin=bins[0];
+	xmax=bins[nbins];
+	TString blah = "PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0";
+	cout << "blah is : " << blah << endl;
+	TCanvas* can=(TCanvas*)f->Get("PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0");
+	if( !can ){
+	cerr<<"Canvas PlotsAfterGlobalFit/unconditional/can_DistriAfterFit__GlobalFit_unconditionnal_mu0 doesn't exist"<<endl;
+	exit(6);
+	}
+
+	cout << "got canvas" << endl;
+	vector<TH1*> vec_histo;
+	TGraphAsymmErrors *gdata;
+
+	TPad* padone = (TPad *)can->FindObject("pad1");
+	cout << "got pad" << endl;
+	TString plotname = region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile;
+	plotname.Append(".pdf");
+
+	TCanvas* c_work=new TCanvas("c_work", "", 600, 600);
+	c_work->cd();
+	TPad* p1=new TPad("p1", "p1", 0, 0.28, 1, 1);
+	TPad* p2=new TPad("p2", "p2", 0, 0, 1, 0.3); //was 0.34 last number
+	p1->SetBottomMargin(0.09);
+	p1->SetTickx();
+	p1->SetTicky();
+	p1->Draw();
+	p2->SetBottomMargin(0.35);
+	p2->SetTopMargin(0.09);
+	p2->SetTickx();
+	p2->SetTicky();
+	p2->Draw();
+//	p2->SetLogy();
+	p1->cd();
+	p1->SetLogy();
+
+	TH1* old_nominal_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile);
+	TH1* nominal_plot;
+	nominal_plot=new TH1D("nominal_plot",";m_{WV} GeV;Entries", nbins, bins);
+	nominal_plot->Sumw2();
+	setBins( old_nominal_plot, nominal_plot);
+
+
+	TH1* old_p1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__p1sigma__obs_x_"+region_withoutfile);
+	TH1* p1_plot;
+	p1_plot=new TH1D("p1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	p1_plot->Sumw2();
+	setBins( old_p1_plot, p1_plot);
+
+	TH1* old_m1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__m1sigma__obs_x_"+region_withoutfile);
+	TH1* m1_plot;
+	m1_plot=new TH1D("m1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	m1_plot->Sumw2();
+	setBins( old_m1_plot, m1_plot);
+
+	TH1* old_data_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__data__obs_x_"+region_withoutfile);
+	TH1* data_plot;
+	data_plot=new TH1D("data_plot",";m_{WV} GeV;Entries", nbins, bins);
+	data_plot->Sumw2();
+	setBins( old_data_plot, data_plot);
+	
+
+	TH1* frame=gPad->DrawFrame(xmin, 0,  xmax, p1_plot->GetMaximum());
+	frame->Draw();
+
+
+	p1_plot->SetLineColor(kRed);
+	p1_plot->SetLineWidth(2);
+	p1_plot->SetLineStyle(2);
+	m1_plot->SetLineColor(kGreen);
+	m1_plot->SetLineWidth(2);
+	m1_plot->SetLineStyle(3);
+
+
+	
+	p1_plot->Draw("hist ");
+	data_plot->SetLineColor(kBlack);
+	data_plot->Draw("E1 same");
+	p1_plot->SetTitle(region+"_"+np_name);
+	nominal_plot->SetLineColor(kBlue);
+	nominal_plot->Draw("hist same ");
+	m1_plot->Draw("hist same ");
+
+
+	p2->cd();
+//	p2->SetLogy();
+	gStyle->SetOptStat(0);
+	TH1* frame_ratio=gPad->DrawFrame(xmin, -5.0,  xmax, 5.0);
+	frame_ratio->Draw();
+	TH1* p1ratio=(TH1D*)p1_plot->Clone("p1ratio");
+	p1ratio->Add(nominal_plot,-1);
+	p1ratio->Divide(nominal_plot); 
+	p1ratio->Scale(100);
+	p1ratio->SetLineStyle(1);
+
+	TH1* m1ratio=(TH1D*)m1_plot->Clone("m1ratio");
+	m1ratio->Add(nominal_plot,-1); 
+	m1ratio->Divide(nominal_plot); 
+	m1ratio->Scale(100);
+	double ratio_xmax = 0;
+	if (m1ratio->GetMaximum() > p1ratio->GetMaximum()) ratio_xmax = m1ratio->GetMaximum();
+	else ratio_xmax = p1ratio->GetMaximum();
+	p1ratio->SetMaximum(1.5*ratio_xmax);
+
+	 TH1* ratio=(TH1D*)data_plot->Clone("ratio");
+	 ratio->Add(nominal_plot,-1);
+	 ratio->Divide(nominal_plot); 
+	 ratio->Scale(100);
+	  bool error = false;
+	  ratiograph=MakeTGAEFromHist(ratio,error);
+
+	double ratio_xmin = 0;
+	cout << "m1 min " << m1ratio->GetMinimum()<< endl;;
+	cout << "p1 min " << p1ratio->GetMinimum()<< endl;;
+	if (m1ratio->GetMinimum() < p1ratio->GetMinimum()) ratio_xmin = m1ratio->GetMinimum();
+	else ratio_xmin = p1ratio->GetMinimum();
+	p1ratio->SetMinimum(ratio_xmin - 0.5*fabs(ratio_xmin));
+
+
+//	p1ratio->SetMaximum(1.15);
+//	p1ratio->SetMinimum(0.95);
+//	cout << "minimum is : " << ratio_xmin << endl;
+//	cout << "maximum is : " << ratio_xmax << endl;
+
+
+	p1ratio->SetTitle("");
+	gStyle->SetOptStat(0);
+	p1ratio->Draw("hist ");
+	m1ratio->Draw("hist same ");
+	ratiograph->Draw("same:0EP");
+
+	c_work->Print(plotname);
+	c_work->Close();
+
+	delete data_plot;
+	delete nominal_plot;
+	delete p1_plot;
+	delete m1_plot;
+	data_plot = 0;
+	nominal_plot = 0;
+	p1_plot = 0;
+	m1_plot = 0;
+
+}
+
+void function_draw(TString region, TString region_withoutfile, TString np_name, TFile* f){
+	double xmin, xmax;
+
+	//resolved ggF
+	const int nbins = 10;
+	double bins[nbins+1] = {300,360,420,500,575,660,755,860,975,1100,1500}; 
+
+	//boosted ggF
+	//const int boosted_nbins = 20;
+	//double bins[boostd_nbins+1] = {500,575,660,755,860,975,1100,1235,1380,1535,1700,1875,2060,2255,2460,2675,2900,3135,3380,3800,15000}; 
+
+
+	xmin=bins[0];
+	xmax=bins[nbins];
+	TString blah = "PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0";
+	cout << "blah is : " << blah << endl;
+	TCanvas* can=(TCanvas*)f->Get("PlotsBeforeFit/MuIsEqualTo_0/"+region+"/can_"+region+"_AllBkgmu0_"+np_name+"_mu0");
+	if( !can ){
+	cerr<<"Canvas PlotsAfterGlobalFit/unconditional/can_DistriAfterFit__GlobalFit_unconditionnal_mu0 doesn't exist"<<endl;
+	exit(6);
+	}
+
+	cout << "got canvas" << endl;
+	vector<TH1*> vec_histo;
+	TGraphAsymmErrors *gdata;
+
+	TPad* padone = (TPad *)can->FindObject("pad1");
+	cout << "got pad" << endl;
+	TString plotname = region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile;
+	plotname.Append(".pdf");
+
+	TCanvas* c_work=new TCanvas("c_work", "", 600, 600);
+	c_work->cd();
+	TPad* p1=new TPad("p1", "p1", 0, 0.28, 1, 1);
+	TPad* p2=new TPad("p2", "p2", 0, 0, 1, 0.3); //was 0.34 last number
+	p1->SetBottomMargin(0.09);
+	p1->SetTickx();
+	p1->SetTicky();
+	p1->Draw();
+	p2->SetBottomMargin(0.35);
+	p2->SetTopMargin(0.09);
+	p2->SetTickx();
+	p2->SetTicky();
+	p2->Draw();
+	p1->cd();
+	p1->SetLogy();
+
+	TH1* old_nominal_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__nominal__obs_x_"+region_withoutfile);
+	TH1* nominal_plot;
+	nominal_plot=new TH1D("nominal_plot",";m_{WV} GeV;Entries", nbins, bins);
+	nominal_plot->Sumw2();
+	setBins( old_nominal_plot, nominal_plot);
+
+
+	TH1* old_p1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__p1sigma__obs_x_"+region_withoutfile);
+	TH1* p1_plot;
+	p1_plot=new TH1D("p1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	p1_plot->Sumw2();
+	setBins( old_p1_plot, p1_plot);
+
+	TH1* old_m1_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__m1sigma__obs_x_"+region_withoutfile);
+	TH1* m1_plot;
+	m1_plot=new TH1D("m1_plot",";m_{WV} GeV;Entries", nbins, bins);
+	m1_plot->Sumw2();
+	setBins( old_m1_plot, m1_plot);
+
+	TH1* old_data_plot = (TH1F*)padone->GetPrimitive(region+"_"+np_name+"__data__obs_x_"+region_withoutfile);
+	TH1* data_plot;
+	data_plot=new TH1D("data_plot",";m_{WV} GeV;Entries", nbins, bins);
+	data_plot->Sumw2();
+	setBins( old_data_plot, data_plot);
+	
+
+	TH1* frame=gPad->DrawFrame(xmin, 0,  xmax, p1_plot->GetMaximum());
+	frame->Draw();
+
+
+	p1_plot->SetLineColor(kRed);
+	p1_plot->SetLineWidth(2);
+	p1_plot->SetLineStyle(2);
+	m1_plot->SetLineColor(kGreen);
+	m1_plot->SetLineWidth(2);
+	m1_plot->SetLineStyle(3);
+
+	p1_plot->Draw("hist ");
+	data_plot->SetLineColor(kBlack);
+	data_plot->Draw("E1 same");
+	p1_plot->SetTitle(region+"_"+np_name);
+	nominal_plot->SetLineColor(kBlue);
+	nominal_plot->Draw("hist same ");
+	m1_plot->Draw("hist same ");
+
+
+
+	p2->cd();
+//	p2->SetLogy();
+	gStyle->SetOptStat(0);
+	TH1* frame_ratio=gPad->DrawFrame(xmin, -5.0,  xmax, 5.0);
+	frame_ratio->Draw();
+	TH1* p1ratio=(TH1D*)p1_plot->Clone("p1ratio");
+	p1ratio->SetTitle("");
+	p1ratio->GetXaxis()->SetTitle("data/nominal");
+	p1ratio->Add(nominal_plot,-1);
+	 p1ratio->Divide(nominal_plot); 
+	p1ratio->Scale(100);
+	p1ratio->SetLineStyle(1);
+
+	TH1* m1ratio=(TH1D*)m1_plot->Clone("m1ratio");
+	m1ratio->Add(nominal_plot,-1); 
+	m1ratio->Divide(nominal_plot); 
+	m1ratio->Scale(100);
+	double ratio_xmax = 0;
+	if (m1ratio->GetMaximum() > p1ratio->GetMaximum()) ratio_xmax = m1ratio->GetMaximum();
+	else ratio_xmax = p1ratio->GetMaximum();
+	p1ratio->SetMaximum(1.5*ratio_xmax);
+
+	  TH1* ratio=(TH1D*)data_plot->Clone("ratio");
+	  ratio->Add(nominal_plot,-1);
+	 ratio->Divide(nominal_plot); 
+	ratio->Scale(100);
+	  bool error = false;
+	  ratiograph=MakeTGAEFromHist(ratio,error);
+
+	double ratio_xmin = 0;
+	cout << "m1 min " << m1ratio->GetMinimum()<< endl;;
+	cout << "p1 min " << p1ratio->GetMinimum()<< endl;;
+	if (m1ratio->GetMinimum() < p1ratio->GetMinimum()) ratio_xmin = m1ratio->GetMinimum();
+	else ratio_xmin = p1ratio->GetMinimum();
+	p1ratio->SetMinimum(ratio_xmin - 0.5*fabs(ratio_xmin));
+
+
+//	p1ratio->SetMaximum(1.15);
+//	p1ratio->SetMinimum(0.95);
+
+	p1ratio->SetTitle("");
+	gStyle->SetOptStat(0);
+	p1ratio->Draw("hist ");
+	m1ratio->Draw("hist same ");
+	ratiograph->Draw("same:0EP");
+
+
+
+	c_work->Print(plotname);
+	c_work->Close();
+
+	delete data_plot;
+	delete nominal_plot;
+	delete p1_plot;
+	delete m1_plot;
+	data_plot = 0;
+	nominal_plot = 0;
+	p1_plot = 0;
+	m1_plot = 0;
+
+}
+
+
+void drawPreFit(TString fname="results2/FitCrossChecks.root", TString region="ggF", TString fstate="WW"){		  
+
+	  TFile* f = TFile::Open( fname, "READ" );
+	  if( !f ){
+	    cerr<<"File "<<fname<<" doesn't exist"<<endl;
+	    exit(6);
+	  }
+
+	vector<TString> nps;
+//	nps.push_back("FT_EFF_extrapolation_AntiKt4EMTopoJets");
+
+nps.push_back("FATJET_Medium_JET_Comb_Baseline_Kin");
+nps.push_back("FATJET_D2R");
+nps.push_back("JET_21NP_JET_Pileup_OffsetNPV");
+//nps.push_back("EG_RESOLUTION_ALL");
+/*nps.push_back("EG_SCALE_ALL");
+nps.push_back("EL_EFF_ID_TOTAL_1NPCOR_PLUS_UNCOR");
+nps.push_back("EL_EFF_Iso_TOTAL_1NPCOR_PLUS_UNCOR");
+nps.push_back("EL_EFF_Reco_TOTAL_1NPCOR_PLUS_UNCOR");
+nps.push_back("EL_EFF_Trigger_TOTAL_1NPCOR_PLUS_UNCOR");
+nps.push_back("FATJET_D2R");
+nps.push_back("FATJET_JER");
+nps.push_back("FATJET_JMR");
+nps.push_back("FATJET_Medium_JET_Comb_Baseline_Kin");
+nps.push_back("FATJET_Medium_JET_Comb_Modelling_Kin");
+nps.push_back("FATJET_Medium_JET_Comb_TotalStat_Kin");
+nps.push_back("FATJET_Medium_JET_Comb_Tracking_Kin");
+nps.push_back("FATJET_Weak_JET_Rtrk_Baseline_D2Beta1");
+nps.push_back("FATJET_Weak_JET_Rtrk_Modelling_D2Beta1");
+nps.push_back("FATJET_Weak_JET_Rtrk_TotalStat_D2Beta1");
+nps.push_back("FATJET_Weak_JET_Rtrk_Tracking_D2Beta1");
+nps.push_back("JET_21NP_JET_BJES_Response");
+nps.push_back("JET_21NP_JET_EffectiveNP_1");
+nps.push_back("JET_21NP_JET_EffectiveNP_2");
+nps.push_back("JET_21NP_JET_EffectiveNP_3");
+nps.push_back("JET_21NP_JET_EffectiveNP_4");
+nps.push_back("JET_21NP_JET_EffectiveNP_5");
+nps.push_back("JET_21NP_JET_EffectiveNP_6");
+nps.push_back("JET_21NP_JET_EffectiveNP_7");
+nps.push_back("JET_21NP_JET_EffectiveNP_8restTerm");
+nps.push_back("JET_21NP_JET_EtaIntercalibration_Modelling");
+nps.push_back("JET_21NP_JET_EtaIntercalibration_NonClosure");
+nps.push_back("JET_21NP_JET_EtaIntercalibration_TotalStat");
+nps.push_back("JET_21NP_JET_Flavor_Composition");
+nps.push_back("JET_21NP_JET_Flavor_Response");
+nps.push_back("JET_21NP_JET_Pileup_OffsetMu");
+nps.push_back("JET_21NP_JET_Pileup_OffsetNPV");
+nps.push_back("JET_21NP_JET_Pileup_PtTerm");
+nps.push_back("JET_21NP_JET_Pileup_RhoTopology");
+nps.push_back("JET_21NP_JET_PunchThrough_MC15");
+nps.push_back("JET_21NP_JET_SingleParticle_HighPt");
+nps.push_back("JET_JER_SINGLE_NP");
+nps.push_back("JET_JvtEfficiency");
+nps.push_back("LumiNP");
+nps.push_back("METTrigStat");
+nps.push_back("METTrigTop");
+nps.push_back("MET_SoftTrk_ResoPara");
+nps.push_back("MET_SoftTrk_ResoPerp");
+nps.push_back("MET_SoftTrk_Scale");
+nps.push_back("MUON_EFF_STAT");
+nps.push_back("MUON_EFF_STAT_LOWPT");
+nps.push_back("MUON_EFF_SYS");
+nps.push_back("MUON_EFF_SYS_LOWPT");
+nps.push_back("MUON_ID");
+nps.push_back("MUON_ISO_STAT");
+nps.push_back("MUON_ISO_SYS");
+nps.push_back("MUON_MS");
+nps.push_back("MUON_SAGITTA_RESBIAS");
+nps.push_back("MUON_SAGITTA_RHO");
+nps.push_back("MUON_SCALE");
+nps.push_back("MUON_TTVA_STAT");
+nps.push_back("MUON_TTVA_SYS");
+nps.push_back("PRW_DATASF");
+nps.push_back("Signal_ISR_FSR");
+nps.push_back("Signal_PDF");
+nps.push_back("TopModeling_Herwig");
+nps.push_back("TopModeling_MCatNLO");
+nps.push_back("TopModeling_Rad");
+nps.push_back("WjetsModeling_AlphaS");
+nps.push_back("WjetsModeling_CKKW15");
+nps.push_back("WjetsModeling_CKKW30");
+nps.push_back("WjetsModeling_MadGraph");
+nps.push_back("WjetsModeling_PDF");
+nps.push_back("WjetsModeling_Scale");
+nps.push_back("XS_Dibosons");
+nps.push_back("XS_SingleTop");
+nps.push_back("XS_Zjets");
+nps.push_back("FT_EFF_Eigen_B_0_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_B_1_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_B_2_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_C_0_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_C_1_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_C_2_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_C_3_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_Light_0_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_Light_1_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_Light_2_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_Light_3_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_Eigen_Light_4_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_extrapolation_AntiKt4EMTopoJets");
+nps.push_back("FT_EFF_extrapolation_from_charm_AntiKt4EMTopoJets");
+*/
+	cout << "vector entry at 0: " << nps[0] << endl;
+if (region ==""){
+	for (size_t i = 0; i< nps.size(); i++){
+		TString full_filename = "SR"+fstate+"_Resolved"+region+"_fileThree";
+		TString filename = "SR"+fstate+"_Resolved"+region;
+		function_draw(full_filename, filename,nps[i], f);
+
+		TString btagfull_filename = "Btag_Resolved"+region+"_fileThree";
+		TString btagfilename = "Btag_Resolved"+region;
+		function_draw(btagfull_filename, btagfilename,nps[i], f);
+		
+		TString sidefull_filename = "Sideband_Resolved"+region+"_fileThree";
+		TString sidefilename = "Sideband_Resolved"+region;
+		function_draw(sidefull_filename, sidefilename,nps[i], f);
+
+
+		TString hp_full_filename = "SR"+fstate+"_fileOne";
+		TString hp_filename = "SR"+fstate;
+		boosted_function_draw(hp_full_filename,hp_filename,nps[i],f);
+
+		TString hp_btagfull_filename = "Btag_fileOne";
+		TString hp_btagfilename = "Btag";
+		boosted_function_draw(hp_btagfull_filename, hp_btagfilename,nps[i], f);
+		
+		TString hpsidefull_filename = "Sideband_fileOne";
+		TString hpsidefilename = "Sideband";
+		boosted_function_draw(hpsidefull_filename, hpsidefilename,nps[i], f);
+
+
+
+		TString lp_full_filename = "SR"+fstate+"_LP_fileTwo";
+		TString lp_filename = "SR"+fstate+"_LP";
+		cout << "full file name: " << lp_full_filename << endl;
+		boosted_function_draw(lp_full_filename,lp_filename,nps[i],f);
+
+		TString lp_btagfull_filename = "Btag_LP_fileTwo";
+		TString lp_btagfilename = "Btag_LP";
+		cout << "full file name: " << lp_btagfull_filename << endl;
+		boosted_function_draw(lp_btagfull_filename, lp_btagfilename,nps[i], f);
+		
+		TString lpsidefull_filename = "Sideband_LP_fileTwo";
+		TString lpsidefilename = "Sideband_LP";
+		cout << "full file name: " << lpsidefull_filename << endl;
+		boosted_function_draw(lpsidefull_filename, lpsidefilename,nps[i], f);
+	}
+}
+
+
+
+if (region =="VBF"){
+	for (size_t i = 0; i< nps.size(); i++){
+		TString full_filename = "SR"+fstate+"_Resolved"+region+"_fileThree";
+		TString filename = "SR"+fstate+"_Resolved"+region;
+		VBFfunction_draw(full_filename, filename,nps[i], f);
+
+		TString btagfull_filename = "Btag_Resolved"+region+"_fileThree";
+		TString btagfilename = "Btag_Resolved"+region;
+		VBFfunction_draw(btagfull_filename, btagfilename,nps[i], f);
+		
+		TString sidefull_filename = "Sideband_Resolved"+region+"_fileThree";
+		TString sidefilename = "Sideband_Resolved"+region;
+		VBFfunction_draw(sidefull_filename, sidefilename,nps[i], f);
+
+
+		TString hp_full_filename = "SR"+fstate+"_fileOne";
+		TString hp_filename = "SR"+fstate;
+		VBFboosted_function_draw(hp_full_filename,hp_filename,nps[i],f);
+
+		TString hp_btagfull_filename = "Btag_fileOne";
+		TString hp_btagfilename = "Btag";
+		VBFboosted_function_draw(hp_btagfull_filename, hp_btagfilename,nps[i], f);
+		
+		TString hpsidefull_filename = "Sideband_fileOne";
+		TString hpsidefilename = "Sideband";
+		VBFboosted_function_draw(hpsidefull_filename, hpsidefilename,nps[i], f);
+
+
+
+		TString lp_full_filename = "SR"+fstate+"_LP_fileTwo";
+		TString lp_filename = "SR"+fstate+"_LP";
+		cout << "full file name: " << lp_full_filename << endl;
+		VBFboosted_function_draw(lp_full_filename,lp_filename,nps[i],f);
+
+		TString lp_btagfull_filename = "Btag_LP_fileTwo";
+		TString lp_btagfilename = "Btag_LP";
+		cout << "full file name: " << lp_btagfull_filename << endl;
+		VBFboosted_function_draw(lp_btagfull_filename, lp_btagfilename,nps[i], f);
+		
+		TString lpsidefull_filename = "Sideband_LP_fileTwo";
+		TString lpsidefilename = "Sideband_LP";
+		cout << "full file name: " << lpsidefull_filename << endl;
+		VBFboosted_function_draw(lpsidefull_filename, lpsidefilename,nps[i], f);
+	}
+}
+
+}
+
+
+
+void ExctractHistoFromCanvas(TCanvas* can, vector<TH1*> &vec_histo, TGraphAsymmErrors* gdataAsymErr){
+  cout << "in extract histo from canvas" << endl;
+  vector<TObject*> vec_MyObjects;
+  TList *ListOfObject = can->GetListOfPrimitives();
+  if (ListOfObject) {
+    TIter next(ListOfObject);
+    TObject *ThisObject;
+    vec_MyObjects.clear();
+    while ( (ThisObject=(TObject*)next()) ) {
+      vec_MyObjects.push_back( ThisObject->Clone() );      
+      cout << "reached iteration loop" << endl;
+    }
+  }
+
+  TH1D *hmodel(0);
+  for (unsigned i=0 ; i<vec_MyObjects.size() ; i++){
+    TString ObjectName = vec_MyObjects[i]->GetName();
+    TString ClassName  = vec_MyObjects[i]->ClassName();
+    cout << "vec object name: " << vec_MyObjects[i]->GetName() << endl;
+    if (ObjectName.Contains("NotAppears")) continue;
+    if (ObjectName.Contains("Stacked_") && !ObjectName.Contains("NoStacked_")  ) continue;
+
+    if(ClassName=="TH1D" && !hmodel)
+      hmodel = (TH1D*) can->FindObject(ObjectName);
+    if (!hmodel) continue;
+
+    TH1D *htemp(0); 
+
+    if(ClassName=="RooHist"){
+      TGraphAsymmErrors *gRooHist = (TGraphAsymmErrors*) can->FindObject(ObjectName);
+      if (!gRooHist) cout << "TGraphAsymmErrors object for " << ObjectName << " (class : " << ClassName << ") was not found !" << endl;
+      if ( ObjectName=="Data" ){
+	gdataAsymErr = (TGraphAsymmErrors*) gRooHist->Clone("DataAsymError");
+    	gdataAsymErr->SetTitle("DataAsymError");
+	gdataAsymErr->SetLineWidth(2);
+	gdataAsymErr->SetLineColor(1);
+	gdataAsymErr->SetLineStyle(1);
+      }
+      htemp = TGraphAsymmErrorsToTH1D(gRooHist,hmodel);
+      can->cd();
+      gRooHist->Draw("LP");
+    }  
+
+    if(ClassName=="RooCurve"){
+      TGraph *gRooCurve = (TGraph*) can->FindObject(ObjectName);
+      if (!gRooCurve) cout << "TGraph object for " << ObjectName << " (class : " << ClassName << ") was not found !" << endl;
+      htemp = TGraphToTH1D(gRooCurve,hmodel);
+    }
+    
+    if (htemp) vec_histo.push_back(htemp);
+  }
+  
+  return;
+}
+
+TH1D* TGraphAsymmErrorsToTH1D(TGraphAsymmErrors *g, TH1D *hmodel){
+  TH1D* hres = (TH1D*) hmodel->Clone();
+  hres->Reset();
+  TString hnameOld = (TString)g->GetName();
+  if (hnameOld.Contains("BeforeFit") && !hnameOld.Contains("BkgBeforeFit")) hnameOld.ReplaceAll("BeforeFit","BeforeFit_BkgTot");
+  hnameOld.ReplaceAll("NoStacked_","");
+  hnameOld.ReplaceAll("BkgBeforeFit_","BeforeFit_");
+  hres->SetName("My_"+hnameOld);
+  hres->SetTitle(hnameOld);
+  hres->SetLineWidth( 2 );
+  hres->SetLineColor( 1 );
+  hres->SetLineStyle( 1 );
+
+
+  int Npts = g->GetN();
+  double xprevious = 0.0;
+  for (int ip=0 ; ip<Npts ; ip++){
+    double x,y,erry;
+    g->GetPoint(ip,x,y);
+    erry = g->GetErrorY(ip);
+    if (!(xprevious==x) || ip==0){
+      double xbin = (x+xprevious)/2. ;
+      double ycontent = y;
+      //int ib = hres->FindBin(xbin);
+      int ib = hres->FindBin(x);
+      if (ib<=hres->GetNbinsX()) {
+	hres->SetBinContent(ib,ycontent);
+	hres->SetBinError(ib,erry);
+      }
+    }    
+    xprevious = x;
+  }
+
+  TCanvas *can = new TCanvas(hres->GetName(),hres->GetName(),600,600);
+  can->cd();
+  hres->Draw();
+//  can->SaveAs((TString)hres->GetName()+".png");
+  return hres;
+}
+
+
+TH1D* TGraphToTH1D(TGraph *g, TH1D *hmodel){
+  
+  TString gname = (TString)g->GetName();
+  bool IsForError=false;
+  if (gname=="FitError_AfterFit") IsForError=true;
+
+  TH1D* hres = (TH1D*) hmodel->Clone();
+  hres->Reset();
+  TString hnameOld = (TString)g->GetName();
+  if (hnameOld.Contains("BeforeFit") && !hnameOld.Contains("BkgBeforeFit")) hnameOld.ReplaceAll("BeforeFit","BeforeFit_BkgTot");
+  hnameOld.ReplaceAll("NoStacked_","");
+  hnameOld.ReplaceAll("BkgBeforeFit_","BeforeFit_");
+  hres->SetName("My_"+hnameOld);
+  hres->SetTitle(hnameOld);
+  hres->SetLineWidth( 2 );
+  hres->SetLineColor( 1 );
+  hres->SetLineStyle( 1 );
+  
+  // Get TH1F of the errors
+  if (IsForError){
+
+    double xl,yl,xh,yh;
+    int NN=g->GetN() / 2;
+
+    TGraph* gUp=new TGraph(NN);
+    TGraph* gLow=new TGraph(NN);
+
+    vector<double> ratios;
+    for(int i=0;i<NN;i++) {
+      g->GetPoint(i,xl,yl);
+      g->GetPoint(i+NN,xh,yh);
+      gUp->SetPoint(NN-1-i,xh,yh);
+      gLow->SetPoint(i,xl,yl);
+    }
+
+    int Nbins = hmodel->GetNbinsX();
+    double xc,yc,xu,yu,xl2,yl2;
+    for(int i=0;i<NN;i++) {
+      gUp->GetPoint(i,xu,yu);
+      gLow->GetPoint(i,xl2,yl2);
+      for (int ib=0 ; ib<Nbins+1 ; ib++){
+	double dx=hmodel->GetBinWidth(ib);
+	double xbin=hmodel->GetBinCenter(ib);
+	xc=xl2+dx/2.0;
+	yc=(yu+yl2)/2.0;
+	if (fabs(xc-xbin)<dx/10.){
+	  hres->SetBinContent(ib,yc);
+	  hres->SetBinError(ib,fabs((yu-yl2)/2.0));
+	}
+      }
+    }
+    
+    return hres;
+  }
+ 
+
+for(int b=0; b<hres->GetNbinsX()+1; b++){
+
+	double x = hres->GetBinCenter(b);
+	double y = g->Eval(x);
+	hres->SetBinContent(b,y);
+
+ }
+
+
+ 
+  return hres;
+}
+TGraphAsymmErrors* MakeTGAEFromHist(TH1* h, bool usePoissonErrors){
+  if(!h)
+    return new TGraphAsymmErrors();
+
+  bool simple=false;
+  if(simple)
+    return new TGraphAsymmErrors(h);
+
+  // need to make a graph from all the non-zero bins in the histogram. 
+  int nbins = h->GetNbinsX();
+  double* x = new double[nbins];
+  double* y = new double[nbins];
+  double* exl = new double[nbins];
+  double* exh = new double[nbins];
+  double* eyl = new double[nbins];
+  double* eyh = new double[nbins];
+  double* ePyl = new double[nbins];
+  double* ePyh = new double[nbins];
+
+  int goodBins=0;
+  double y1=0.,d1=0.,y2=0.,d2=0.;
+  double binValue=0.;
+  for(int i=1; i<nbins+1; i++){
+    if(h->GetBinContent(i)>0.){
+      binValue = h->GetBinContent(i);
+      x[goodBins]   = h->GetBinCenter(i);
+      exl[goodBins] = 0;
+      exh[goodBins] = 0;
+//      exl[goodBins] = fabs(h->GetBinCenter(i) - h->GetBinLowEdge(i));
+  //    exh[goodBins] = fabs(h->GetBinCenter(i) - h->GetBinLowEdge(i));
+      y[goodBins]   = binValue;
+      eyl[goodBins] = h->GetBinError(i);
+      eyh[goodBins] = h->GetBinError(i);
+
+      y1 = binValue + 1.0;
+      d1 = 1.0 - 1.0/(9.0*y1) + 1.0/(3.0*TMath::Sqrt(y1));
+      ePyh[goodBins] = y1*d1*d1*d1 - binValue;
+
+      y2 = binValue;
+      d2 = 1.0 - 1.0/(9.0*y2) - 1.0/(3.0*TMath::Sqrt(y2));
+      ePyl[goodBins] = binValue - y2*d2*d2*d2;
+
+      goodBins++;
+    }
+  }
+  TGraphAsymmErrors* g;
+  if(!usePoissonErrors)
+    g = new TGraphAsymmErrors(goodBins,
+                              x, y,
+                              exl, exh,
+                              eyl, eyh);
+  else
+    g = new TGraphAsymmErrors(goodBins,
+                              x, y,
+                              exl, exh,
+                              ePyl, ePyh);
+
+
+  g->SetMarkerStyle(h->GetMarkerStyle());
+  g->SetMarkerColor(h->GetMarkerColor());
+  g->SetMarkerSize(h->GetMarkerSize());
+  g->SetLineColor(h->GetLineColor());
+  g->SetLineStyle(h->GetLineStyle());
+
+  return g;
+}

@@ -1,0 +1,532 @@
+% !TEX root = ../../main.tex
+\chapter{Monte Carlo Sample List}
+\label{ch:samples}
+
+All of the Monte Carlo (MC) samples used for the Standard Model (SM) background estimation and benchmark signal modeling are listed in this Appendix.
+
+
+\section{Background Monte Carlo Samples}
+\Tabrange{\ref{tabular:mc_samples_Wenujets}}{\ref{tabular:mc_samples_diboson}} describe the the MC samples used to 
+estimate the SM background expectation for this analysis: namely, \Wjets, \ttbar, \Zjets, \Singlet and SM Dibosons. 
+For each MC sample, the dataset ID (DS ID), sample name including MC generator, cross section times branching ratio\footnote{
+	The branching ratio is to the final state as can be discerned from the sample name, for example a $Zee$ sample will list the cross section times branching ratio of $Z\rightarrow ee$ for the specific phase space of the sample
+}, k-factor\footnote{
+	The k-factor is a ratio of the cross section for a particular process at different orders (NLO/LO for example), acting as a correction to a lower order estimate of the cross section that the MC samples are generated with. The factor can depend strongly on phase space and the particular pdfs used~\cite{Kfactors}. 
+	}, filter efficiency \footnote{
+	When generating a MC sample, a ``filter" is placed to produce only certain decays for a specified final state (for example filtering out $W\rightarrow qq$ if $W\rightarrow \ell\nu$ is desired. The efficiency of such a filter is quoted.)
+		}, and total number of generated events are listed. 
+
+\begin{landscape}
+%\mbox{}\\
+
+% W->e nu
+\begin{table}[p]
+\caption[$W\to e\nu+$ jets Monte Carlo samples for background estimation]{$W \to e\nu$+jets samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+\label{tabular:mc_samples_Wenujets}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Name & $\sigma\times\text{BR}$ [pb] & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+364170 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV0\_70\_CVetoBVeto & 19127 & 0.9702 & 0.82447 & 24740000 \\
+364171 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV0\_70\_CFilterBVeto & 19130 & 0.9702 & 0.1303 & 9853500 \\
+364172 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV0\_70\_BFilter & 19135 & 0.9702 & 0.044141 & 17242400 \\
+364173 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV70\_140\_CVetoBVeto & 942.58 & 0.9702 & 0.66872 & 14660500 \\
+364174 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV70\_140\_CFilterBVeto & 945.67 & 0.9702 & 0.22787 & 9818400 \\
+364175 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV70\_140\_BFilter & 945.15 & 0.9702 & 0.10341 & 9801900 \\
+364176 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV140\_280\_CVetoBVeto & 339.81 & 0.9702 & 0.59691 & 9879000 \\
+364177 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV140\_280\_CFilterBVeto & 339.87 & 0.9702 & 0.28965 & 7410000 \\
+364178 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV140\_280\_BFilter & 339.48 & 0.9702 & 0.10898 & 9880900 \\
+364179 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV280\_500\_CVetoBVeto & 72.084 & 0.9702 & 0.54441 & 4923800 \\
+364180 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV280\_500\_CFilterBVeto & 72.128 & 0.9702 & 0.31675 & 2963400 \\
+364181 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV280\_500\_BFilter & 72.113 & 0.9702 & 0.13391 & 2958000 \\
+364182 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV500\_1000 & 15.224 & 0.9702 & 1 & 5916800 \\
+364183 & Sherpa\_221\_NNPDF30NNLO\_Wenu\_MAXHTPTV1000\_E\_CMS & 1.2334 & 0.9702 & 1 & 3947000 \\
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% W->mu nu
+\begin{table}[!htb]
+\caption[$W\to \mu\nu+$ jets Monte Carlo samples for background estimation]{$W \to \mu\nu$+jets samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+\label{tabular:mc_samples_Wmunujets}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Name & $\sigma\times\text{BR}$ [pb] & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+364156 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV0\_70\_CVetoBVeto & 19143 & 0.9702 & 0.8238 & 24723000 \\
+364157 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV0\_70\_CFilterBVeto & 19121 & 0.9702 & 0.1304 & 9847000 \\
+364158 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV0\_70\_BFilter & 19135 & 0.9702 & 0.044118 & 17226200 \\
+364159 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV70\_140\_CVetoBVeto & 944.85 & 0.9702 & 0.67463 & 14788000 \\
+364160 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV70\_140\_CFilterBVeto & 937.78 & 0.9702 & 0.23456 & 9853800 \\
+364161 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV70\_140\_BFilter & 944.63 & 0.9702 & 0.075648 & 19639000 \\
+364162 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV140\_280\_CVetoBVeto & 339.54 & 0.9702 & 0.62601 & 9882000 \\
+364163 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV140\_280\_CFilterBVeto & 340.06 & 0.9702 & 0.28947 & 7408000 \\
+364164 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV140\_280\_BFilter & 339.54 & 0.9702 & 0.10872 & 9826000 \\
+364165 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV280\_500\_CVetoBVeto & 72.067 & 0.9702 & 0.54647 & 4940000 \\
+364166 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV280\_500\_CFilterBVeto & 72.198 & 0.9702 & 0.31743 & 2958000 \\
+364167 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV280\_500\_BFilter & 72.045 & 0.9702 & 0.13337 & 2959500 \\
+364168 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV500\_1000 & 15.01 & 0.9702 & 1 & 5910500 \\
+364169 & Sherpa\_221\_NNPDF30NNLO\_Wmunu\_MAXHTPTV1000\_E\_CMS & 1.2344 & 0.9702 & 1 & 3959000 \\
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% W->tau nu
+\begin{table}[!htb]
+\caption[$W\to\tau\nu+$ jets Monte Carlo samples for background estimation]{$W \to \tau\nu$+jets samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+\label{tabular:mc_samples_Wtaunujets}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Name & $\sigma\times\text{BR}$ [pb] & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+364184 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV0\_70\_CVetoBVeto & 19152 & 0.9702 & 0.82495 & 24784000 \\
+364185 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV0\_70\_CFilterBVeto & 19153 & 0.9702 & 0.12934 & 9865600 \\
+364186 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV0\_70\_BFilter & 19163 & 0.9702 & 0.044594 & 17273200 \\
+364187 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV70\_140\_CVetoBVeto & 947.65 & 0.9702 & 0.67382 & 14808500 \\
+364188 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV70\_140\_CFilterBVeto & 946.73 & 0.9702 & 0.22222 & 9860000 \\
+364189 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV70\_140\_BFilter & 943.3 & 0.9702 & 0.10391 & 9857000 \\
+364190 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV140\_280\_CVetoBVeto & 339.36 & 0.9702 & 0.59622 & 9899000 \\
+364191 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV140\_280\_CFilterBVeto & 339.63 & 0.9702 & 0.29025 & 7405000 \\
+364192 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV140\_280\_BFilter & 339.54 & 0.9702 & 0.11799 & 9834000 \\
+364193 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV280\_500\_CVetoBVeto & 72.065 & 0.9702 & 0.54569 & 4931200 \\
+364194 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV280\_500\_CFilterBVeto & 71.976 & 0.9702 & 0.31648 & 2956400 \\
+364195 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV280\_500\_BFilter & 72.026 & 0.9702 & 0.13426 & 2954100 \\
+364196 & Sherpa\_221\_NNPDF30NNLO\_Wtaunu\_MAXHTPTV500\_1000 & 15.046 & 0.9702 & 1 & 5945000 \\
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% Z->ee samples
+\begin{table}[!htb]
+\caption[$Z\to ee +$ jets Monte Carlo samples for background estimation]{$Z \to ee$+jets samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+\label{tabular:mc_samples_Zeejets}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Name & $\sigma\times\text{BR}$ [pb] & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+364114 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV0\_70\_CVetoBVeto & 1981.8 & 0.9751 & 0.82106 & 7900000 \\
+364115 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV0\_70\_CFilterBVeto & 1980.8 & 0.9751 & 0.11295 & 4940500 \\
+364116 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV0\_70\_BFilter & 1981.7 & 0.9751 & 0.063809 & 7883600 \\
+364117 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV70\_140\_CVetoBVeto & 110.5 & 0.9751 & 0.69043 & 5925000 \\
+364118 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV70\_140\_CFilterBVeto & 110.63 & 0.9751 & 0.18382 & 1972600 \\
+364119 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV70\_140\_BFilter & 110.31 & 0.9751 & 0.11443 & 5855000 \\
+364120 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV140\_280\_CVetoBVeto & 40.731 & 0.9751 & 0.61452 & 4949000 \\
+364121 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV140\_280\_CFilterBVeto & 40.67 & 0.9751 & 0.23044 & 2962600 \\
+364122 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV140\_280\_BFilter & 40.694 & 0.9751 & 0.14927 & 12330900 \\
+364123 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV280\_500\_CVetoBVeto & 8.6743 & 0.9751 & 0.56134 & 1932800 \\
+364124 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV280\_500\_CFilterBVeto & 8.6711 & 0.9751 & 0.26294 & 988900 \\
+364125 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV280\_500\_BFilter & 8.6766 & 0.9751 & 0.17223 & 1976850 \\
+364126 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV500\_1000 & 1.8081 & 0.9751 & 1 & 2973000 \\
+364127 & Sherpa\_221\_NNPDF30NNLO\_Zee\_MAXHTPTV1000\_E\_CMS & 0.14857 & 0.9751 & 1 & 988000 \\
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% Z->mumu samples
+\begin{table}[!htb]
+\caption[$Z \to \mu\mu +$ jets Monte Carlo samples for background estimation]{$Z \to \mu\mu$+jets samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+\label{tabular:mc_samples_Zmumujets}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Name & $\sigma\times\text{BR}$ [pb] & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+364100 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV0\_70\_CVetoBVeto & 1983 & 0.9751 & 0.8221 & 7891000 \\
+364101 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV0\_70\_CFilterBVeto & 1978.4 & 0.9751 & 0.11308 & 4917000 \\
+364102 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV0\_70\_BFilter & 1982.2 & 0.9751 & 0.064161 & 7902000 \\
+364103 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV70\_140\_CVetoBVeto & 108.92 & 0.9751 & 0.68873 & 5917000 \\
+364104 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV70\_140\_CFilterBVeto & 109.42 & 0.9751 & 0.18596 & 1969800 \\
+364105 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV70\_140\_BFilter & 108.91 & 0.9751 & 0.11375 & 5900600 \\
+364106 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV140\_280\_CVetoBVeto & 39.878 & 0.9751 & 0.60899 & 4943000 \\
+364107 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV140\_280\_CFilterBVeto & 39.795 & 0.9751 & 0.23308 & 2954400 \\
+364108 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV140\_280\_BFilter & 39.908 & 0.9751 & 0.14618 & 12339300 \\
+364109 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV280\_500\_CVetoBVeto & 8.5375 & 0.9751 & 0.55906 & 1973000 \\
+364110 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV280\_500\_CFilterBVeto & 8.5403 & 0.9751 & 0.26528 & 986000 \\
+364111 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV280\_500\_BFilter & 8.4932 & 0.9751 & 0.17559 & 1971400 \\
+364112 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV500\_1000 & 1.7881 & 0.9751 & 1 & 2960500 \\
+364113 & Sherpa\_221\_NNPDF30NNLO\_Zmumu\_MAXHTPTV1000\_E\_CMS & 0.14769 & 0.9751 & 1 & 988000 \\
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% Z-> tautau samples
+\begin{table}[!htb]
+\caption[$Z\to \tau\tau + $ jets Monte Carlo samples for background estimation]{$Z \to \tau\tau$+jets samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+\label{tabular:mc_samples_Ztautaujets}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Name & $\sigma\times\text{BR}$ [pb] & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+364128 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV0\_70\_CVetoBVeto & 1981.6 & 0.9751 & 0.82142 & 7907000 \\
+364129 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV0\_70\_CFilterBVeto & 1978.8 & 0.9751 & 0.11314 & 4941000 \\
+364130 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV0\_70\_BFilter & 1981.8 & 0.9751 & 0.064453 & 7890600 \\
+364131 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV70\_140\_CVetoBVeto & 110.37 & 0.9751 & 0.68883 & 5935500 \\
+364132 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV70\_140\_CFilterBVeto & 110.51 & 0.9751 & 0.1829 & 1961200 \\
+364133 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV70\_140\_BFilter & 110.87 & 0.9751 & 0.1283 & 5912550 \\
+364134 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV140\_280\_CVetoBVeto & 40.781 & 0.9751 & 0.60821 & 4956000 \\
+364135 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV140\_280\_CFilterBVeto & 40.74 & 0.9751 & 0.22897 & 2973000 \\
+364136 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV140\_280\_BFilter & 40.761 & 0.9751 & 0.13442 & 4932950 \\
+364137 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV280\_500\_CVetoBVeto & 8.5502 & 0.9751 & 0.56036 & 1973000 \\
+364138 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV280\_500\_CFilterBVeto & 8.6707 & 0.9751 & 0.26245 & 986000 \\
+364139 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV280\_500\_BFilter & 8.6804 & 0.9751 & 0.17313 & 1974950 \\
+364140 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV500\_1000 & 1.8096 & 0.9751 & 1 & 2944800 \\
+364141 & Sherpa\_221\_NNPDF30NNLO\_Ztautau\_MAXHTPTV1000\_E\_CMS & 0.14834 & 0.9751 & 1 & 980000 \\
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% ttbar & Single-t samples
+\begin{table}[!htb]
+\caption[\ttbar and single-$t$ Monte Carlo samples for background estimation]{$t\bar{t}$ and single top samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+\label{tabular:mc_samples_top}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|cr}
+	\hline\hline
+	DS ID  & Name & $\sigma\times\text{BR}$ [pb]  & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+410000 & PowhegPythiaEvtGen\_P2012\_ttbar\_hdamp172p5\_nonallhad & 831.76 & 1 & 0.543 & 48138600 \\
+410011 & PowhegPythiaEvtGen\_P2012\_singletop\_tchan\_lept\_top & 43.739 & 1.0094 & 1 & 4986200 \\
+410012 & PowhegPythiaEvtGen\_P2012\_singletop\_tchan\_lept\_antitop & 25.778 & 1.0193 & 1 & 4989800 \\
+410013 & PowhegPythiaEvtGen\_P2012\_Wt\_inclusive\_top & 34.009 & 1.054 & 1 & 4985800 \\
+410014 & PowhegPythiaEvtGen\_P2012\_Wt\_inclusive\_antitop & 33.989 & 1.054 & 1 & 4985600 \\
+410025 & PowhegPythiaEvtGen\_P2012\_SingleTopSchan\_noAllHad\_top & 2.0517 & 1.0046 & 1 & 997800 \\
+410026 & PowhegPythiaEvtGen\_P2012\_SingleTopSchan\_noAllHad\_antitop & 1.2615 & 1.0215 & 1 & 995400 \\
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% SM Diboson
+\begin{table}[!htb]
+\caption[Standard Model diboson Monte Carlo samples for background estimation]{Standard Model (SM) Diboson samples used in the analysis. The dataset ID, sample name including MC generator, production cross section, k-factor, filter efficiency and total number of generated events are shown.}
+% check k-filter (I am not sure)
+\label{tabular:mc_samples_diboson}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|cr}
+	\hline\hline
+        DS ID  & Name & $\sigma\times\text{BR}$ [pb]  & k-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+361091 & Sherpa\_CT10\_WplvWmqq\_SHv21\_improved & 24.885 & 0.91 & 1 & 3993900 \\
+361092 & Sherpa\_CT10\_WpqqWmlv\_SHv21\_improved & 24.857 & 0.91 & 1 & 3993700 \\
+361093 & Sherpa\_CT10\_WlvZqq\_SHv21\_improved & 11.494 & 0.91 & 1 & 3993600 \\
+361094 & Sherpa\_CT10\_WqqZll\_SHv21\_improved & 3.4234 & 0.91 & 1 & 3990500 \\
+361095 & Sherpa\_CT10\_WqqZvv\_SHv21\_improved & 6.777 & 0.91 & 1 & 4962400 \\
+361096 & Sherpa\_CT10\_ZqqZll\_SHv21\_improved & 16.445 & 0.91 & 0.14307 & 3988900 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+\end{landscape}
+
+%%
+\clearpage
+\section{Signal Monte Carlo Samples}
+
+\Tab{\ref{tabular:mc_samples_graviton}} lists the signal samples used for the (spin-2) bulk RS Graviton decaying through $WW \to \ell\nu qq$, for masses from 300\,\GeV\, to 5\,\TeV\footnote{
+	The width of the Graviton is proportional to $(k/\bar{M}_{\rm pl})^2$ where $k$ is the curvature and $\bar{M}_{\rm pl}$ is the reduced Planck scale. Thus, for interpretations with different choices of $k/\bar{M}_{\rm pl}$, a generated sample must be re-weighted to account for the difference in width. 
+}.
+\Tabrange{\ref{tabular:mc_samples_Zprime}}{\ref{tabular:mc_samples_WprimeVBF}} list the signal samples for the (spin-1) HVT $W'$ and $Z'$ decaying to $WZ\to \ell\nu qq$ and $WW\to \ell\nu qq$ respectively, for masses from 300\,\GeV\, to 5\,\TeV (4\,\TeV\, for the VBF samples)\footnote{
+	Two interpretations for HVT signals are presented, Model A and Model B. While Model A represents a weakly coupled vector boson, as an extension of the gauge group and Model B represents a composite Higgs model, their widths are equal. Thus, Model A MC samples are produced for both interpretations, and the final cross section predictions are simply scaled for Model B.
+}.
+\Tabrange{\ref{tabular:mc_samples_ggFH_NWA}}{\ref{tabular:mc_samples_VBFH_NWA}} list the signal samples for the scalar (spin-0) Narrow Width Approximation (NWA) neutral heavy Higgs decaying via $WW\rightarrow\ell\nu qq$, for masses from 300\,\GeV\, to 3\,\TeV. For each MC sample, the dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are listed. The cross sections are taken from the ATLAS Metadata Interface (AMI)\cite{AMI}.
+
+\begin{landscape}
+
+% RS G* k/Mpl =?
+\begin{table}[!htb]
+\caption[RS Graviton Monte Carlo samples]{RS Graviton (spin-2) with $k/\bar{M}_{\textrm pl}=1$ samples used in the analysis. The dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are shown.}
+\label{tabular:mc_samples_graviton}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID  & Process & Generator & $\sigma\times\text{BR}$ [nb]  & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+	307474 & RS $G \to WW \to \ell\nu qq ~c=1  ~m=300$ GeV& MadGraph 5 + Pythia 8 & 3.172E-02  & 1.0 & 29000 \\
+	307475 & RS $G \to WW \to \ell\nu qq ~c=1  ~m=400$ GeV& MadGraph 5 + Pythia 8 & 7.262E-03  & 1.0 & 30000 \\
+  303224 & RS $G \to WW \to \ell\nu qq ~c=1  ~m=500$ GeV& MadGraph 5 + Pythia 8 & 1.815E-03   &1.0& 30000 \\
+  303225 & RS $G \to WW \to \ell\nu qq ~c=1  ~m=600$ GeV& MadGraph 5 + Pythia 8 & 6.132E-04   &1.0& 29000 \\
+  303226 & RS $G \to WW \to \ell\nu qq ~c=1  ~m=700$ GeV& MadGraph 5 + Pythia 8 & 2.522E-04   &1.0& 29000 \\
+  303227 & RS $G \to WW \to \ell\nu qq ~c=1  ~m=800$ GeV& MadGraph 5 + Pythia 8 & 1.181E-04   &1.0& 29000 \\
+  303228 & RS $G \to WW \to \ell\nu qq ~c=1  ~m=900$ GeV& MadGraph 5 + Pythia 8 & 6.054E-05   &1.0& 30000 \\
+  303229 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1000$ GeV& MadGraph 5 + Pythia 8 & 3.3215E-05  &1.0& 29000 \\
+  303230 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1100$ GeV& MadGraph 5 + Pythia 8 & 1.913E-05   &1.0& 30000 \\
+  303231 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1200$ GeV& MadGraph 5 + Pythia 8 & 1.152E-05   &1.0& 30000 \\
+  303232 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1300$ GeV& MadGraph 5 + Pythia 8 & 7.164E-06   &1.0& 29000 \\
+  303233 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1400$ GeV& MadGraph 5 + Pythia 8 & 4.579E-06   &1.0& 30000 \\
+  303234 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1500$ GeV& MadGraph 5 + Pythia 8 & 2.997E-06   &1.0& 30000 \\
+  303235 & RS $G \to WW \to \ell\nu qq ~c=1 `m=1600$ GeV& MadGraph 5 + Pythia 8 & 2.002E-06   &1.0& 30000 \\
+  303236 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1700$ GeV& MadGraph 5 + Pythia 8 & 1.362E-06   &1.0& 30000 \\
+  303237 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1800$ GeV& MadGraph 5 + Pythia 8 & 9.381E-07   &1.0& 30000 \\
+  303238 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=1900$ GeV& MadGraph 5 + Pythia 8 & 6.565E-07   &1.0& 29000 \\
+  303239 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=2000$ GeV& MadGraph 5 + Pythia 8 & 4.641E-07   &1.0& 30000 \\
+  303240 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=2200$ GeV& MadGraph 5 + Pythia 8 & 2.397E-07   &1.0& 29000 \\
+  303241 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=2400$ GeV& MadGraph 5 + Pythia 8 & 1.279E-07   &1.0& 30000 \\
+  303242 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=2600$ GeV& MadGraph 5 + Pythia 8 & 7.015E-08   &1.0& 30000 \\
+  303243 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=2800$ GeV& MadGraph 5 + Pythia 8 & 3.926E-08   &1.0& 29000 \\
+  303244 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=3000$ GeV& MadGraph 5 + Pythia 8 & 2.2365E-08  &1.0& 30000 \\
+  303245 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=3500$ GeV& MadGraph 5 + Pythia 8 & 5.831E-09   &1.0& 29000 \\
+  303246 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=4000$ GeV& MadGraph 5 + Pythia 8 & 1.613E-09   &1.0& 30000 \\
+  303247 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=4500$ GeV& MadGraph 5 + Pythia 8 & 4.658E-10   &1.0& 30000 \\
+  303248 & RS $G \to WW \to \ell\nu qq ~c=1 ~m=5000$ GeV& MadGraph 5 + Pythia 8 & 1.403E-10   &1.0& 30000 \\ 
+	\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% HVT WW Model A
+\begin{table}[!htb]
+\caption[HVT $Z'$ Monte Carlo samples]{HVT $Z'$ (spin-1) Model A ($g_V=1$) samples used in the analysis. The dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are shown.}
+\label{tabular:mc_samples_Zprime}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+\hline \hline
+DS ID  & Process & Generator & $\sigma\times\text{BR}$ [nb]  & $\epsilon_{\text{filter}}$ & Events \\ \hline \hline
+	307365 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=300$  GeV& MadGraph 5 + Pythia 8 & 1.381E-02 &1.0& 29000 \\
+	307366 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=400$  GeV& MadGraph 5 + Pythia 8 & 4.367E-03 &1.0& 30000 \\
+	302116 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=500$  GeV& MadGraph 5 + Pythia 8 & 1.745E-03  &1.0& 25000 \\
+	302117 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=600$  GeV& MadGraph 5 + Pythia 8 & 8.184E-04  &1.0& 30000 \\
+	302118 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=700$  GeV& MadGraph 5 + Pythia 8 & 4.29E-04   &1.0& 29000 \\
+	302119 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=800$  GeV& MadGraph 5 + Pythia 8 & 2.434E-04  &1.0& 30000 \\
+	302120 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=900$  GeV& MadGraph 5 + Pythia 8 & 1.474E-04  &1.0& 19000 \\
+	302121 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1000$ GeV& MadGraph 5 + Pythia 8 & 9.314E-05  &1.0& 30000 \\
+	302122 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1100$ GeV& MadGraph 5 + Pythia 8 & 6.114E-05  &1.0& 25000 \\
+	302123 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1200$ GeV& MadGraph 5 + Pythia 8 & 4.13E-05   &1.0& 30000 \\
+	302124 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1300$ GeV& MadGraph 5 + Pythia 8 & 2.859E-05  &1.0& 28000 \\
+	302125 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1400$ GeV& MadGraph 5 + Pythia 8 & 2.023E-05  &1.0& 29000 \\
+	302126 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1500$ GeV& MadGraph 5 + Pythia 8 & 1.449E-05  &1.0& 15000 \\
+	302127 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1600$ GeV& MadGraph 5 + Pythia 8 & 1.052E-05  &1.0& 29000 \\
+	302128 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1700$ GeV& MadGraph 5 + Pythia 8 & 7.784E-06  &1.0& 24000 \\
+	302129 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1800$ GeV& MadGraph 5 + Pythia 8 & 5.816E-06  &1.0& 10000 \\
+	302130 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=1900$ GeV& MadGraph 5 + Pythia 8 & 4.38E-06   &1.0& 30000 \\
+	302131 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=2000$ GeV& MadGraph 5 + Pythia 8 & 3.328E-06  &1.0& 24000 \\
+	302132 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=2200$ GeV& MadGraph 5 + Pythia 8 & 1.971E-06  &1.0& 24000 \\
+	302133 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=2400$ GeV& MadGraph 5 + Pythia 8 & 1.193E-06  &1.0& 30000 \\
+	302134 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=2600$ GeV& MadGraph 5 + Pythia 8 & 7.374E-07  &1.0& 29000 \\
+	302135 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=2800$ GeV& MadGraph 5 + Pythia 8 & 4.6252E-07 &1.0& 23000 \\
+	302136 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=3000$ GeV& MadGraph 5 + Pythia 8 & 2.949E-07  &1.0& 30000 \\
+	302137 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=3500$ GeV& MadGraph 5 + Pythia 8 & 9.894E-08  &1.0& 30000 \\
+	302138 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=4000$ GeV& MadGraph 5 + Pythia 8 & 3.45E-08   &1.0& 25000 \\
+	302139 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=4500$ GeV& MadGraph 5 + Pythia 8 & 1.224E-08  &1.0& 30000 \\
+	302140 & $Z' \to WW \to \ell\nu qq $ , Model-A $g_V=1$ $m=5000$ GeV& MadGraph 5 + Pythia 8 & 4.383E-08  &1.0& 30000 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% HVT WZ Model A
+\begin{table}[!htb]
+\caption[HVT $W'$ Monte Carlo samples]{HVT $W'$ (spin-1) Model A ($g_V=1$) samples used in the analysis. The dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are shown.}
+\label{tabular:mc_samples_Wprime}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Process & Generator & $\sigma\times\text{BR}$ [nb] & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+	307374 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=300$  GeV& MadGraph 5 + Pythia 8 & 3.172E-02  & 1.0& 30000 \\ 
+	307375 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=400$  GeV& MadGraph 5 + Pythia 8 & 7.262E-03 & 1.0& 29000 \\ 
+	302191 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=500$  GeV& MadGraph 5 + Pythia 8 & 1.891E-03 & 1.0& 30000 \\ 
+	302192 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=600$  GeV& MadGraph 5 + Pythia 8 & 8.808E-04 & 1.0& 25000 \\ 
+	302193 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=700$  GeV& MadGraph 5 + Pythia 8 & 4.614E-04 & 1.0& 10000 \\ 
+	302194 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=800$  GeV& MadGraph 5 + Pythia 8 & 2.627E-04 & 1.0& 30000 \\ 
+	302195 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=900$  GeV& MadGraph 5 + Pythia 8 & 1.594E-04 & 1.0& 25000 \\ 
+	302196 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1000$ GeV& MadGraph 5 + Pythia 8 & 1.008E-04 & 1.0& 29000 \\ 
+	302197 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1100$ GeV& MadGraph 5 + Pythia 8 & 6.645E-05 & 1.0& 30000 \\ 
+	302198 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1200$ GeV& MadGraph 5 + Pythia 8 & 4.499E-05 & 1.0& 30000 \\ 
+	302199 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1300$ GeV& MadGraph 5 + Pythia 8 & 3.119E-05 & 1.0& 29000 \\ 
+	302200 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1400$ GeV& MadGraph 5 + Pythia 8 & 2.216E-05 & 1.0& 29000 \\ 
+	302201 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1500$ GeV& MadGraph 5 + Pythia 8 & 1.60E-05  & 1.0& 30000 \\ 
+	302202 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1600$ GeV& MadGraph 5 + Pythia 8 & 1.172E-05 & 1.0& 30000 \\ 
+	302203 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1700$ GeV& MadGraph 5 + Pythia 8 & 8.66E-06  & 1.0& 25000 \\ 
+	302204 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1800$ GeV& MadGraph 5 + Pythia 8 & 6.494E-06 & 1.0& 30000 \\ 
+	302205 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=1900$ GeV& MadGraph 5 + Pythia 8 & 4.905E-06 & 1.0& 20000 \\ 
+	302206 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=2000$ GeV& MadGraph 5 + Pythia 8 & 3.748E-06 & 1.0& 20000 \\
+	302207 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=2200$ GeV& MadGraph 5 + Pythia 8 & 2.225E-06 & 1.0& 20000 \\
+	302208 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=2400$ GeV& MadGraph 5 + Pythia 8 & 1.353E-06 & 1.0& 30000 \\
+	302209 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=2600$ GeV& MadGraph 5 + Pythia 8 & 8.401E-07 & 1.0& 30000 \\
+	302210 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=2800$ GeV& MadGraph 5 + Pythia 8 & 5.272E-07 & 1.0& 30000 \\
+	302211 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=3000$ GeV& MadGraph 5 + Pythia 8 & 3.349E-07 & 1.0& 27000 \\
+	302212 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=3500$ GeV& MadGraph 5 + Pythia 8 & 1.126E-07 & 1.0& 30000 \\
+	302213 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=4000$ GeV& MadGraph 5 + Pythia 8 & 3.908E-08 & 1.0& 30000 \\
+	302214 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=4500$ GeV& MadGraph 5 + Pythia 8 & 1.378E-08 & 1.0& 15000 \\
+	302215 & $W' \to WZ \to \ell\nu qq $ , Model-A $g_V=1$ $m=5000$ GeV& MadGraph 5 + Pythia 8 & 4.883E-09 & 1.0 & 30000 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% VBF HVT WW Model A
+\begin{table}[!htb]
+\caption[HVT $Z'$ Monte Carlo samples (vector boson fusion production)]{VBF HVT $Z'$ (spin-1) Model A ($g_V=1$) samples used in the analysis. The dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are shown.}
+\label{tabular:mc_samples_ZprimeVBF}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Process & Generator & $\sigma\times\text{BR}$ [nb] & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+	307563 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=300$  GeV& MadGraph 5 + Pythia 8 & 5.483e-05 & 1  & 48000 \\
+	307564 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=400$  GeV& MadGraph 5 + Pythia 8 & 1.359e-05 & 1  & 47000 \\
+	307565 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=500$  GeV& MadGraph 5 + Pythia 8 & 5.033e-06 & 1  & 50000 \\
+	307566 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=600$  GeV& MadGraph 5 + Pythia 8 & 2.24e-06 & 1  & 49000 \\ 
+	307567 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=700$  GeV& MadGraph 5 + Pythia 8 & 1.108e-06 & 1  & 50000 \\
+	307568 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=800$  GeV& MadGraph 5 + Pythia 8 & 5.931e-07 & 1  & 48000 \\
+	307569 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=900$  GeV& MadGraph 5 + Pythia 8 & 3.383e-07 & 1  & 48000 \\
+	307570 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1000$ GeV& MadGraph 5 + Pythia 8 & 2.027e-07 & 1  & 49000 \\
+	307571 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1100$ GeV& MadGraph 5 + Pythia 8  & 1.254e-07 & 1  & 50000 \\
+	307572 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1200$ GeV& MadGraph 5 + Pythia 8 & 7.984e-08 & 1  & 49000 \\
+	307573 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1300$ GeV& MadGraph 5 + Pythia 8 & 5.235e-08 & 1  & 50000 \\
+	307574 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1400$ GeV& MadGraph 5 + Pythia 8 & 3.489e-08 & 1  & 50000 \\
+	307575 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1500$ GeV& MadGraph 5 + Pythia 8 & 2.367e-08 & 1  & 47000 \\
+	307576 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1600$ GeV& MadGraph 5 + Pythia 8 & 1.642e-08 & 1  & 46000 \\
+	307577 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1700$ GeV& MadGraph 5 + Pythia 8 & 1.145e-08 & 1  & 50000 \\
+	307578 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1800$ GeV& MadGraph 5 + Pythia 8 & 8.099e-09 & 1  & 49000 \\
+	307579 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1900$ GeV& MadGraph 5 + Pythia 8 & 5.788e-09 & 1  & 50000 \\
+	307580 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2000$ GeV& MadGraph 5 + Pythia 8 & 4.168e-09 & 1  & 48000 \\
+	307581 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2200$ GeV& MadGraph 5 + Pythia 8 & 2.236e-09 & 1  & 47000 \\
+	307582 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2400$ GeV& MadGraph 5 + Pythia 8 & 1.221e-09 & 1  & 50000 \\
+	307583 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2600$ GeV& MadGraph 5 + Pythia 8 & 6.887e-10 & 1  & 50000 \\
+	307584 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2800$ GeV& MadGraph 5 + Pythia 8 & 3.929e-10 & 1  & 49000 \\
+	307585 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=3000$ GeV& MadGraph 5 + Pythia 8 & 2.283e-10 & 1  & 50000 \\
+	307586 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=3500$ GeV& MadGraph 5 + Pythia 8 & 6.143e-11 & 1  & 49000 \\
+	307587 & $q\bar{q} \to Z'\left(\to WW \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=4000$ GeV& MadGraph 5 + Pythia 8 & 1.739e-11 & 1  & 49000 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% VBF HVT WZ Model A
+\begin{table}[!htb]
+\caption[HVT $W'$ Monte Carlo samples (vector boson fusion production)]{VBF HVT $W'$ (spin-1) Model A ($g_V=1$) samples used in the analysis. The dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are shown.}
+\label{tabular:mc_samples_WprimeVBF}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Process & Generator & $\sigma\times\text{BR}$ [nb] & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+	307647 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=300$  GeV& MadGraph 5 + Pythia 8 & 5.4802e-05 & 1  & 50000 \\
+	307648 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=400$  GeV& MadGraph 5 + Pythia 8 & 1.193e-05 & 1  & 50000 \\
+	307649 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=500$  GeV& MadGraph 5 + Pythia 8 & 4.1372e-06 & 1  & 48000 \\
+	307650 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=600$  GeV& MadGraph 5 + Pythia 8 & 1.789e-06 & 1  & 49000 \\
+	307651 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=700$  GeV& MadGraph 5 + Pythia 8 & 8.642e-07 & 1  & 50000 \\
+	307652 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=800$  GeV& MadGraph 5 + Pythia 8 & 4.5785e-07 & 1  & 47000 \\
+	307653 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=900$  GeV& MadGraph 5 + Pythia 8 & 2.591e-07 & 1  & 47000 \\
+	307654 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1000$ GeV& MadGraph 5 + Pythia 8 & 1.543e-07 & 1  & 50000 \\
+	307655 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1100$ GeV& MadGraph 5 + Pythia 8 & 9.479e-08 & 1  & 47000 \\
+	307656 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1200$ GeV& MadGraph 5 + Pythia 8 & 6.071e-08 & 1  & 50000 \\
+	307657 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1300$ GeV& MadGraph 5 + Pythia 8 & 3.939e-08 & 1  & 47000 \\
+	307658 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1400$ GeV& MadGraph 5 + Pythia 8 & 2.628e-08 &  1 & 48000 \\
+	307659 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1500$ GeV& MadGraph 5 + Pythia 8 & 1.8e-08 & 1  & 50000 \\
+	307660 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1600$ GeV& MadGraph 5 + Pythia 8 & 1.251e-08 & 1  & 50000 \\
+	307661 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1700$ GeV& MadGraph 5 + Pythia 8 & 8.723e-09 & 1  & 49000 \\
+	307662 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1800$ GeV& MadGraph 5 + Pythia 8 & 6.2035e-09 & 1  & 48000 \\
+	307663 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=1900$ GeV& MadGraph 5 + Pythia 8 & 4.481e-09 & 1  & 48000 \\
+	307664 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2000$ GeV& MadGraph 5 + Pythia 8 & 3.222e-09 & 1  & 50000 \\
+	307665 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2200$ GeV& MadGraph 5 + Pythia 8 & 1.7372e-09 & 1  & 50000 \\
+	307666 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2400$ GeV& MadGraph 5 + Pythia 8 & 9.602e-10 & 1  & 48000 \\
+	307667 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2600$ GeV& MadGraph 5 + Pythia 8 & 5.446e-10 & 1  & 49000 \\
+	307668 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=2800$ GeV& MadGraph 5 + Pythia 8 & 3.131e-10 & 1  & 49000 \\
+	307669 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=3000$ GeV& MadGraph 5 + Pythia 8 & 1.8333e-10 & 1  & 50000 \\
+	307670 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=3500$ GeV& MadGraph 5 + Pythia 8 & 5.009e-11 & 1  & 48000 \\
+	307671 & $q\bar{q} \to W'\left(\to WZ \to \ell\nu qq\right) jj$ , Model-A $g_V=1$ $m=4000$ GeV& MadGraph 5 + Pythia 8 & 1.448e-11 & 1  & 48000 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% NWA Higgs ggF
+\begin{table}[!htb]
+\caption[Narrow Higgs Monte Carlo samples (gluon-gluon fusion production)]{NWA Higgs (spin-0) samples used in the analysis produced via gluon-gluon fusion. 
+The dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are shown.}
+\label{tabular:mc_samples_ggFH_NWA}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Process & Generator & $\sigma\times\text{BR}$ [nb] & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+	341037 & $gg \to H(300) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 6.6460E-03 & 4.3692E-01 & 99600 \\
+	341038 & $gg \to H(400) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 6.3551E-03 & 4.3689E-01 & 99800 \\
+	341039 & $gg \to H(500) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 3.0766E-03 & 4.3760E-01 & 99600 \\
+	341040 & $gg \to H(600) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.3755E-03 & 4.3695E-01 & 100000 \\
+	341041 & $gg \to H(700) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 6.4050E-04 & 4.3775E-01 & 99800 \\
+	343467 & $gg \to H(750) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} &  4.4634E-04 & 4.3929E-01 & 98000 \\
+	341042 & $gg \to H(800) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 3.1537E-04 & 4.3736E-01 & 99800 \\
+	341043 & $gg \to H(900) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.6359E-04 & 4.3745E-01 & 100000 \\
+	341044 & $gg \to H(1000) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 8.8946E-05 & 4.3938E-01 & 100000 \\
+	343383 & $gg \to H(1200) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 2.6436E-05 & 4.3911E-01 &  99000 \\
+	341045 & $gg \to H(1400) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 9.5454E-06 & 4.3602E-01 & 100000 \\
+	343384 & $gg \to H(1600) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 3.7775E-06 & 4.3636E-01 & 97000 \\
+	341046 & $gg \to H(1800) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.6065E-06 & 4.3956E-01 & 100000 \\
+	343385 & $gg \to H(2000) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 7.0844E-07 & 4.3935E-01 & 98000 \\
+	341047 & $gg \to H(2200) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 3.3466E-07 & 4.3695E-01 & 99600 \\
+	343386 & $gg \to H(2400) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.6438E-07 & 4.3972E-01 & 99000 \\
+	341048 & $gg \to H(2600) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 8.3436E-08 & 4.3865E-01 & 100000 \\
+	343387 & $gg \to H(2800) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 4.3535E-08 & 4.3729E-01 & 97000 \\
+	341049 & $gg \to H(3000) \to WW \to \ell\nu qq$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 2.3253E-08 & 4.3755E-01 & 99600 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+% NWA Higgs VBF
+\begin{table}[!htb]
+\caption[Narrow Higgs Monte Carlo samples (vector boson fusion production)]{NWA Higgs (spin-0) samples used in the analysis produced via vector boson fusions. 
+The dataset ID (DS ID), decay mode, theoretical model, signal mass, MC generator, cross section times branching ratio, filter efficiency, and total number of generated events are shown.}
+\label{tabular:mc_samples_VBFH_NWA}
+\begin{footnotesize}
+\begin{center}
+\begin{tabular}{c|l|c|c|c|cr}
+	\hline\hline
+	DS ID & Process & Generator & $\sigma\times\text{BR}$ [nb] & $\epsilon_{\text{filter}}$ & Events \\ \hline\hline
+	341052 & $q\bar{q} \to H(300) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.2220E-03 & 4.3747E-01 & 49600 \\
+	341053 & $q\bar{q} \to H(400) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 7.4059E-04 & 4.3614E-01 & 50000 \\
+	341054 & $q\bar{q} \to H(500) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 4.7430E-04 & 4.3487E-01 & 49600 \\
+	341055 & $q\bar{q} \to H(600) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 3.1797E-04 & 4.3939E-01 & 50000 \\
+	341056 & $q\bar{q} \to H(700) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 2.2138E-04 & 4.3941E-01 & 50000 \\
+	343468 & $q\bar{q} \to H(750) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.8241E-04 & 4.3726E-01 & 49000 \\
+	341057 & $q\bar{q} \to H(800) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.5801E-04 & 4.3856E-01 & 50000 \\
+	341058 & $q\bar{q} \to H(900) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.1456E-04 & 4.4044E-01 & 49800 \\
+	341059 & $q\bar{q} \to H(1000) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 8.7286E-05 & 4.3650E-01 & 49800 \\
+	343378 & $q\bar{q} \to H(1200) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 4.8397E-05 & 4.3868E-01 & 50000 \\
+	341060 & $q\bar{q} \to H(1400) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 2.8654E-05 & 4.3795E-01 & 49800 \\
+	343379 & $q\bar{q} \to H(1600) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.6978E-05 & 4.4139E-01 & 50000 \\
+	341070 & $q\bar{q} \to H(1800) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.0408E-05 & 4.3987E-01 & 50000 \\
+	343380 & $q\bar{q} \to H(2000) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 6.7688E-06 & 4.3715E-01 & 50000 \\
+	341071 & $q\bar{q} \to H(2200) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 4.2676E-06 & 4.3674E-01 & 50000 \\
+	343381 & $q\bar{q} \to H(2400) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 2.6168E-06 & 4.4344E-01 & 45000 \\
+	341072 & $q\bar{q} \to H(2600) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 2.3456E-06 & 4.4122E-01 & 49800 \\
+	343382 & $q\bar{q} \to H(2800) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 1.2244E-06 & 4.3845E-01 & 48000 \\
+	341073 & $q\bar{q} \to H(3000) \to WW \to \ell\nu qq  jj$, $\Gamma_H=0.4\,\%$ & \textsc{Powheg}+\textsc{Pythia8} & 8.1174E-07 & 4.3501E-01 & 50000 \\
+        \hline\hline
+\end{tabular}
+\end{center}
+\end{footnotesize}
+\end{table}
+
+
+\end{landscape}

@@ -1,0 +1,99 @@
+\BOOKMARK [0][]{section*.4}{Acknowledgements}{}% 1
+\BOOKMARK [0][]{section*.5}{Foreward}{}% 2
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 3
+\BOOKMARK [0][]{chapter.2}{2 The Standard Model}{}% 4
+\BOOKMARK [1][]{section.2.1}{2.1 Particle Content}{chapter.2}% 5
+\BOOKMARK [1][]{section.2.2}{2.2 Formulation of Symmetries}{chapter.2}% 6
+\BOOKMARK [1][]{section.2.3}{2.3 Electroweak Sector}{chapter.2}% 7
+\BOOKMARK [1][]{section.2.4}{2.4 Strong Sector}{chapter.2}% 8
+\BOOKMARK [0][]{chapter.3}{3 Physics Beyond the Standard Model}{}% 9
+\BOOKMARK [1][]{section.3.1}{3.1 Beyond the Standard Model}{chapter.3}% 10
+\BOOKMARK [1][]{section.3.2}{3.2 Benchmark Models of New Physics}{chapter.3}% 11
+\BOOKMARK [0][]{chapter.4}{4 The Large Hadron Collider}{}% 12
+\BOOKMARK [1][]{section.4.1}{4.1 Accelerator Physics}{chapter.4}% 13
+\BOOKMARK [1][]{section.4.2}{4.2 Injection Chain}{chapter.4}% 14
+\BOOKMARK [1][]{section.4.3}{4.3 LHC Design}{chapter.4}% 15
+\BOOKMARK [1][]{section.4.4}{4.4 Experiments at the LHC}{chapter.4}% 16
+\BOOKMARK [0][]{chapter.5}{5 The ATLAS Detector}{}% 17
+\BOOKMARK [1][]{section.5.1}{5.1 Inner Detector}{chapter.5}% 18
+\BOOKMARK [2][]{subsection.5.1.1}{5.1.1 Pixel Detector and Insertable B-Layer}{section.5.1}% 19
+\BOOKMARK [2][]{subsection.5.1.2}{5.1.2 Semiconductor Tracker}{section.5.1}% 20
+\BOOKMARK [2][]{subsection.5.1.3}{5.1.3 Transition Radiation Tracker}{section.5.1}% 21
+\BOOKMARK [1][]{section.5.2}{5.2 Calorimetry}{chapter.5}% 22
+\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Particle Showers}{section.5.2}% 23
+\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Liquid Argon Calorimeter}{section.5.2}% 24
+\BOOKMARK [2][]{subsection.5.2.3}{5.2.3 Tile Calorimeter}{section.5.2}% 25
+\BOOKMARK [1][]{section.5.3}{5.3 Muon Spectrometer}{chapter.5}% 26
+\BOOKMARK [2][]{subsection.5.3.1}{5.3.1 Precision Chambers}{section.5.3}% 27
+\BOOKMARK [2][]{subsection.5.3.2}{5.3.2 Trigger Chambers}{section.5.3}% 28
+\BOOKMARK [1][]{section.5.4}{5.4 Forward Detectors}{chapter.5}% 29
+\BOOKMARK [1][]{section.5.5}{5.5 Magnet System}{chapter.5}% 30
+\BOOKMARK [1][]{section.5.6}{5.6 Trigger and Data Acquisition}{chapter.5}% 31
+\BOOKMARK [0][]{chapter.6}{6 Object Reconstruction and Identification}{}% 32
+\BOOKMARK [1][]{section.6.1}{6.1 Electrons}{chapter.6}% 33
+\BOOKMARK [1][]{section.6.2}{6.2 Muons}{chapter.6}% 34
+\BOOKMARK [1][]{section.6.3}{6.3 Jets}{chapter.6}% 35
+\BOOKMARK [2][]{subsection.6.3.1}{6.3.1 Small-R Jets}{section.6.3}% 36
+\BOOKMARK [2][]{subsection.6.3.2}{6.3.2 Large-R Jets}{section.6.3}% 37
+\BOOKMARK [1][]{section.6.4}{6.4 Missing Transverse Energy}{chapter.6}% 38
+\BOOKMARK [1][]{section.6.5}{6.5 Overlap Removal}{chapter.6}% 39
+\BOOKMARK [0][]{chapter.7}{7 Analysis Strategy}{}% 40
+\BOOKMARK [1][]{section.7.1}{7.1 Event Topology}{chapter.7}% 41
+\BOOKMARK [1][]{section.7.2}{7.2 Main Backgrounds}{chapter.7}% 42
+\BOOKMARK [1][]{section.7.3}{7.3 Signal and Background Modeling}{chapter.7}% 43
+\BOOKMARK [2][]{subsection.7.3.1}{7.3.1 Monte Carlo Generators}{section.7.3}% 44
+\BOOKMARK [2][]{subsection.7.3.2}{7.3.2 Signal Modeling}{section.7.3}% 45
+\BOOKMARK [2][]{subsection.7.3.3}{7.3.3 Background Modeling}{section.7.3}% 46
+\BOOKMARK [0][]{chapter.8}{8 Event Selection}{}% 47
+\BOOKMARK [1][]{section.8.1}{8.1 Dataset}{chapter.8}% 48
+\BOOKMARK [1][]{section.8.2}{8.2 Trigger Selection}{chapter.8}% 49
+\BOOKMARK [1][]{section.8.3}{8.3 Event Preselection}{chapter.8}% 50
+\BOOKMARK [1][]{section.8.4}{8.4 Event Reweighting}{chapter.8}% 51
+\BOOKMARK [1][]{section.8.5}{8.5 Event Categorization by Production Mechanism}{chapter.8}% 52
+\BOOKMARK [1][]{section.8.6}{8.6 Kinematic and Topological Selections}{chapter.8}% 53
+\BOOKMARK [1][]{section.8.7}{8.7 Signal and Control Regions}{chapter.8}% 54
+\BOOKMARK [2][]{subsection.8.7.1}{8.7.1 High Purity Selection}{section.8.7}% 55
+\BOOKMARK [2][]{subsection.8.7.2}{8.7.2 Low Purity Selection}{section.8.7}% 56
+\BOOKMARK [1][]{section.8.8}{8.8 Signal Efficiency and Acceptance}{chapter.8}% 57
+\BOOKMARK [1][]{section.8.9}{8.9 Background Validation}{chapter.8}% 58
+\BOOKMARK [0][]{chapter.9}{9 Systematic Uncertainties}{}% 59
+\BOOKMARK [1][]{section.9.1}{9.1 Experimental Uncertainties}{chapter.9}% 60
+\BOOKMARK [2][]{subsection.9.1.1}{9.1.1 General Uncertainties}{section.9.1}% 61
+\BOOKMARK [2][]{subsection.9.1.2}{9.1.2 Leptons}{section.9.1}% 62
+\BOOKMARK [2][]{subsection.9.1.3}{9.1.3 Small-R Jets}{section.9.1}% 63
+\BOOKMARK [2][]{subsection.9.1.4}{9.1.4 Large-R Jets}{section.9.1}% 64
+\BOOKMARK [2][]{subsection.9.1.5}{9.1.5 Missing Transverse Energy}{section.9.1}% 65
+\BOOKMARK [1][]{section.9.2}{9.2 Background Uncertainties}{chapter.9}% 66
+\BOOKMARK [2][]{subsection.9.2.1}{9.2.1 W+jets Shape Uncertainties}{section.9.2}% 67
+\BOOKMARK [2][]{subsection.9.2.2}{9.2.2 t Shape Uncertainties}{section.9.2}% 68
+\BOOKMARK [1][]{section.9.3}{9.3 Signal Uncertainties}{chapter.9}% 69
+\BOOKMARK [2][]{subsection.9.3.1}{9.3.1 Initial State and Final State Radiation Uncertainties}{section.9.3}% 70
+\BOOKMARK [2][]{subsection.9.3.2}{9.3.2 Parton Distribution Function Uncertainties}{section.9.3}% 71
+\BOOKMARK [0][]{chapter.10}{10 Statistical Analysis}{}% 72
+\BOOKMARK [1][]{section.10.1}{10.1 Variable Binning}{chapter.10}% 73
+\BOOKMARK [1][]{section.10.2}{10.2 Binned Maximum Likelihood Fit}{chapter.10}% 74
+\BOOKMARK [1][]{section.10.3}{10.3 Upper Limits on Cross Section}{chapter.10}% 75
+\BOOKMARK [0][]{chapter.11}{11 Results}{}% 76
+\BOOKMARK [1][]{section.11.1}{11.1 Background-Only Fit}{chapter.11}% 77
+\BOOKMARK [1][]{section.11.2}{11.2 Expected and Observed Upper Limits}{chapter.11}% 78
+\BOOKMARK [1][]{section.11.3}{11.3 Comparison with Previous Results}{chapter.11}% 79
+\BOOKMARK [0][]{chapter.12}{12 Conclusions}{}% 80
+\BOOKMARK [0][]{section*.87}{Bibliography}{}% 81
+\BOOKMARK [0][]{section*.89}{Appendices}{}% 82
+\BOOKMARK [0][]{appendix.A}{A Event Displays}{}% 83
+\BOOKMARK [1][]{section.A.1}{A.1 Highest VBF Candidate: 2.76TeV}{appendix.A}% 84
+\BOOKMARK [1][]{section.A.2}{A.2 Highest ggF e-channel Candidate: 3.85TeV}{appendix.A}% 85
+\BOOKMARK [1][]{section.A.3}{A.3 Highest ggF -channel Candidate: 3.41TeV}{appendix.A}% 86
+\BOOKMARK [0][]{appendix.B}{B Reconstructing Neutrino pz}{}% 87
+\BOOKMARK [0][]{appendix.C}{C QCD Estimation}{}% 88
+\BOOKMARK [1][]{section.C.1}{C.1 Multijet Cut}{appendix.C}% 89
+\BOOKMARK [1][]{section.C.2}{C.2 Data Driven QCD Estimation}{appendix.C}% 90
+\BOOKMARK [0][]{appendix.D}{D Impact of Multijet Cut}{}% 91
+\BOOKMARK [0][]{appendix.E}{E Signal Region Optimizations}{}% 92
+\BOOKMARK [1][]{section.E.1}{E.1 Low Purity Signal Region Definition}{appendix.E}% 93
+\BOOKMARK [1][]{section.E.2}{E.2 Selection of Vector Boson Fusion Jets}{appendix.E}% 94
+\BOOKMARK [1][]{section.E.3}{E.3 Track Assisted Mass}{appendix.E}% 95
+\BOOKMARK [0][]{appendix.F}{F Event Cutflow}{}% 96
+\BOOKMARK [0][]{appendix.G}{G Monte Carlo Sample List}{}% 97
+\BOOKMARK [1][]{section.G.1}{G.1 Background Monte Carlo Samples}{appendix.G}% 98
+\BOOKMARK [1][]{section.G.2}{G.2 Signal Monte Carlo Samples}{appendix.G}% 99

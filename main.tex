@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%
+% Ph.D. Thesis %
+%%%%%%%%%%%%%%%%
+
+%% >> Document Class
+% USE THIS FOR DOUBLE SIDED
+    %\documentclass[11pt,openright,twoside,letterpaper,onecolumn]{report} 
+%% USE THIS FOR SINGLE SIDED
+\documentclass[11pt,openright,oneside,letterpaper,onecolumn]{report}  
+
+%% >> Document Formatting
+% Holds formatting for document and 
+% Title Page, Copyright Page, and Abstract layout
+% Change Name/Year/Thesis Title here
+\input{sty/header}
+
+%% >> Start Document
+\begin{document}
+
+
+%%___________________________
+%% Title, Copyright, Abstract
+%%---------------------------
+% For the first pages we do not have numbering 
+\pagestyle{empty}
+
+\thesistitlepage
+\thesiscopyrightpage
+\thesisabstract
+
+
+%%___________________________________________________
+%% Table of Contents, List of Figures, List of Tables
+%%---------------------------------------------------
+% In the "roman-numbered" section of the thesis, we have numbers at the bottom
+% and we have to reduce the text height of the text to make space for the number
+\pagenumbering{roman}
+\pagestyle{plain}
+
+\setlength{\footskip}{0.5in}
+
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Table of Contents}
+
+%%__________________
+%% TABLE OF CONTENTS
+%%------------------
+\tableofcontents
+\cleardoublepage                     % allows next section to jump correctly
+
+%%_________________
+%% LIST OF FIGURES
+%%-----------------
+\listoffigures
+\cleardoublepage                     % allows next section to jump correctly
+
+%%________________
+%% LIST OF TABLES
+%%----------------
+\listoftables 
+\cleardoublepage                     % allows next section to jump correctly
+
+%%_________________
+%% ACKNOWLEDGEMENTS
+%%-----------------
+\phantomsection \label{sec:ack}      % need this to jump to correct location
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\input{tex/misc/acknowledgements.tex}
+\cleardoublepage                     % allows next section to jump correctly
+
+%%_________________
+%% DEDICATION
+%%-----------------
+% Vertically centered text
+\thispagestyle{plain}
+\strut \vfill
+\centerline{
+    \LARGE 
+    To my parents,
+}
+\centerline{
+    \LARGE 
+    John and Velta
+}
+\vfill \strut
+\cleardoublepage                     % allows next section to jump correctly
+
+%%__________
+%% FORWARD
+%%----------
+\phantomsection \label{sec:forward}  % need this to jump to correct location
+\addcontentsline{toc}{chapter}{Foreward}
+\input{tex/misc/forward.tex}
+\cleardoublepage                     % allows next section to jump correctly
+
+%%_________________
+%%  Draft Version
+%%-----------------
+%\draft                              % Generates a draft version in single-space
+
+%%____________
+%% BODY
+%%------------
+% In the "arabic" section of the thesis, we do not have numbers at  the
+% bottom and we want to use the full length of the page to avoid vbox
+% underfulls. We use the fancyheaders package to adapt the headers
+% according to the  Columbia requirements.
+\pagestyle{headings}
+\pagenumbering{arabic}
+\setlength{\textheight}{8.5in}
+\setlength{\footskip}{0in}
+
+% We change the pagestyle 
+\fancypagestyle{plain} {
+    \fancyhf{}
+    %% These two lines for DOUBLE SIDED
+        %\fancyhead[LE,RO]{\thepage}
+        %\fancyhead[RE,LO]{\itshape \leftmark}
+    %% OR These two lines for SINGLE SIDED
+        \fancyhead[R]{\thepage}
+        \fancyhead[L]{\itshape \leftmark}
+    \renewcommand{\headrulewidth}{0pt}
+}
+\pagestyle{plain}
+
+%%______________________________
+%% PREFACE:
+%% Introduction
+%% Standard Model, Limitations
+%% LHC
+%% ATLAS Detector
+%%------------------------------
+\input{tex/sec-preface}
+
+%%_______________________
+%% METHODS:
+%% Object Reconstruction & Id
+%% Event Selection
+%% Background and Signal Estimation
+%%-----------------------
+\input{tex/sec-methods}
+
+%%________________
+%% DATA:
+%% Background Validation
+%% Systematics
+%% Results
+%%----------------
+\input{tex/sec-data}
+
+%%________________
+%% CONCLUSIONS 
+%%----------------
+\input{tex/misc/conclusions}
+\cleardoublepage                             % allows next section to jump correctly
+
+%%_____________
+%% BIBLIOGRAPHY
+%%-------------
+%%\part{Bibliography}
+\phantomsection \label{sec:bibliography}     % need this to jump to section correctly
+\addcontentsline{toc}{chapter}{Bibliography} % add to TOC
+\bibliographystyle{sty/atlasBibStyleWoTitle2} % ATLAS style refs, no title
+\bibliography{refs.bib}                      % file with all the refs
+\cleardoublepage                             % allows next section to jump correctly 
+
+%%____________
+%% APPENDICES
+%%------------
+\phantomsection \label{sec:appendices}       % need this to jump to section correctly
+\addcontentsline{toc}{chapter}{Appendices}   % add to TOC
+\markboth{}{}                                % since unnumbered, remove prev leftmark
+\part*{Appendices}                           % make unnumbered 'part'-styled page
+\appendix                                    % start appendices
+\input{tex/sec-appendix}
+%\input{tex/sec-appendix}                         % appendices listed here
+\cleardoublepage
+
+%%______________
+%% Todo List
+%%--------------
+%\phantomsection \label{sec:todo}     % need this to jump to section correctly
+%\todototoc
+%\listoftodos
+
+
+%% >> End Document
+\end{document}

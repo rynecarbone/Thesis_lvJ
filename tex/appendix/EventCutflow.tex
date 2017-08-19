@@ -1,0 +1,166 @@
+% !TEX root = ../../main.tex
+\chapter{Event Cutflow}
+\label{ch:eventCutflow}
+
+The event selection for this analysis is detailed in~\Ch{\ref{ch:event_selection}}. The efficiencies of the preselection cuts for the background MC samples are listed in~\Tab{\ref{tab:pre_cutflow}}. In~\Tab{\ref{tab:ggf_cutflow}} and~\Tab{\ref{tab:vbf_cutflow}}, the weighted event yields and cumulative efficiencies (with respect to event yields after preselection) for the background MC samples are presented for the ggF selection and VBF selection, respectively. 
+%The background composition percentage of each simulated background, in each of the signal and control regions, is given in~\Tab{\ref{tab:bkg_comp}}. 
+The raw event yields, and cumulative efficiencies (with respect to event yields after preselection) for a simulated 2\,\TeV\, HVT $Z'$ and 2\,\TeV\, heavy Higgs is presented in~\Tab{\ref{tab:sig_cutflow_ggF}} and~\Tab{\ref{tab:sig_cutflow_VBF}}, respectively.
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l|rrrrr}
+\hline\hline
+Cut & Total Bkg. & \Wjets & Top & Diboson & \Zjets \\ \hline
+Bad Jet Veto&99.71&99.67&99.77&99.96&99.91\\
+Second Lepton Veto&96.96&97.00&97.20&97.22&	96.01\\
+%Lepton \pT&90.08&89.99&91.03&91.14&	89.02\\
+Signal Lepton&87.38&87.39&88.03&88.52&	85.66\\
+%Trigger&87.38&87.39&88.03&88.52&	85.66\\
+Trigger \& Matching&86.89&86.91&87.59&88.12&	85.01\\\hline\hline
+\end{tabular}
+\caption[Preselection event cutflow]{Cumulative efficiencies (\%) of the preselection cuts for background MC samples. The top background includes both \ttbar and \Singlet.}
+\label{tab:pre_cutflow}
+\end{table}
+
+
+%ggF
+\begin{landscape}
+\begin{table}[tbp]
+\centering
+\begin{tabular}{l|rr|rr|rr|rr|rr}
+\hline\hline
+Cut&\multicolumn{2}{c|}{Total Bkg.}& \multicolumn{2}{c|}{\Wjets}&\multicolumn{2}{c|}{Top}&\multicolumn{2}{c|}{Diboson}&\multicolumn{2}{c}{\Zjets}\\
+&Events&Eff.&Events&Eff.&Events&Eff.&Events& Eff.&Events&Eff.\\\hline
+Fail VBF&14593511.7&59.03&11019117.9&57.23&2367361.7&66.43&132117.3&63.33&1074914.9&63.39\\
+$n(J)>1$&1917949.7&7.76&1315368.2&6.83&516870.4&14.50&27279.7&13.08&58431.3&3.45\\
+$\MET>100\,\GeV$&896635.6&3.63&604994.3&3.14&263895.1&7.40&12518.5&6.00&15227.7&0.90\\
+$\MET/\pT(e\nu)>0.2$&896198.4&3.62&604629.9&3.14&263842.6&7.40&12501.6&5.99&15224.3&0.90\\
+$\pT(\ell\nu)>200\,\GeV$&662701.9&2.68&465166.6&2.42&177584.1&4.98&9887.1&4.74&10064.1&0.59\\
+$\pT(\ell\nu)/m(\ell\nu J)>0.4$&436307.5&1.76&328896.7&1.71&94441.7&2.65&6555.6&3.14&6413.5&0.38\\
+$\pT(J)/m(\ell\nu J)>0.4$&379466.5&1.53&287757.8&1.49&80380.8&2.26&5537.5&2.65&5790.5&0.34\\\hline
+%Boson Tag&21058.3&0.09&6888.1&0.04&13123.1&0.37&920.5&0.44&126.6&0.01\\
+SR HP (inclusive)&10613.5&0.04&6188.6&0.03&3485.6&0.10&832.4&0.40&106.9&0.01\\
+SR $WZ$ HP&8574.2&0.03&4900.8&0.03&2909.6&0.08&677.4&0.32&86.4&0.01\\
+SR $WW$ HP&7466.0&0.03&4190.8&0.02&2513.4&0.07&691.7&0.33&70.1&$<0.01$\\
+Top CR HP&10487.4&0.04&704.8&$<0.01$&9674.6&0.27&87.9&0.04&20.1&$<0.01$\\
+\Wjets CR HP&14775.6&0.06&10143.5&0.05&4054.0&0.11&374.0&0.18&204.1&0.01\\\hline
+SR LP (inclusive)&28285.3&0.11&21153.8&0.11&5595.7&0.16&1121.9&0.54&413.9&0.02\\
+SR $WZ$ LP&23494.0&0.10&17564.4&0.09&4648.0&0.13&937.6&0.45&344.0&0.02\\
+SR $WW$ LP&19262.2&0.08&14658.2&0.08&3521.8&0.10&793.5&0.38&288.7&0.02\\
+Top CR LP&14562.4&0.06&2113.3&0.01&12243.5&0.34&140.0&0.07&65.6&$<0.01$\\
+\Wjets CR LP&22384.9&0.09&16529.4&0.09&5111.7&0.14&427.1&0.20&316.6&0.02\\\hline\hline
+\end{tabular}
+\caption[Cutflow, background Monte Carlo samples (gluon-gluon fusion selection)]{Cutflow for background MC samples for the ggF selection. The efficiency (\%) is cumulative, and with respect to event yields after preselection. The Top background includes both \ttbar and \Singlet. The inclusive signal regions (SR) includes events from $WW$ or $WZ$ SR. }
+\label{tab:ggf_cutflow}
+\end{table}
+\end{landscape}
+
+
+%VBF
+\begin{landscape}
+\begin{table}[tbp]
+\centering
+\begin{tabular}{l|rr|rr|rr|rr|rr}
+\hline\hline
+Cut&\multicolumn{2}{c|}{Total Bkg.}& \multicolumn{2}{c|}{\Wjets}&\multicolumn{2}{c|}{Top}&\multicolumn{2}{c|}{Diboson}&\multicolumn{2}{c}{\Zjets}\\
+&Events&Eff.&Events&Eff.&Events&Eff.&Events& Eff.&Events&Eff.\\\hline
+Pass VBF&509462.9&2.061&351102.4&1.823&105145.9&2.950&6500.1&3.116&46714.5&2.755\\
+$n(J)>1$&55006.5&0.222&31980.0&0.166&19119.9&0.536&1089.4&0.522&2817.2&0.166\\
+$\MET>100\,\GeV$&22831.2&0.092&12656.9&0.066&9326.1&0.262&449.7&0.216&398.4&0.023\\
+$\MET/\pT(e\nu)>0.2$&22823.0&0.092&12651.5&0.066&9324.6&0.262&448.5&0.215&398.4&0.023\\
+$\pT(\ell\nu)>200\,\GeV$&14463.3&0.059&8094.5&0.042&5853.3&0.164&314.2&0.151&201.4&0.012\\
+$\pT(\ell\nu)/m(\ell\nu J)>0.4$&12549.8&0.051&6955.5&0.036&5146.2&0.144&284.2&0.136&163.8&0.010\\
+$\pT(J)/m(\ell\nu J)>0.4$&12013.9&0.049&6589.8&0.034&4995.9&0.140&270.6&0.130&157.6&0.009\\\hline
+%Boson Tag&842.4&0.003&207.1&0.001&603.5&0.017&27.8&0.013&4.1&0.000\\
+SR HP (inclusive)&356.2&0.001&174.0&0.001&158.2&0.004&20.8&0.010&3.2&$<0.001$\\
+SR $WZ$ HP&281.0&0.001&130.7&0.001&129.8&0.004&18.2&0.009&2.4&$<0.001$\\
+SR $WW$ HP&242.0&0.001&119.8&0.001&104.9&0.003&14.9&0.007&2.5&$<0.001$\\
+Top CR HP&481.3&0.002&30.3&$<0.001$&443.2&0.012&7.0&0.003&0.8&$<0.001$\\
+\Wjets CR HP&635.6&0.003&352.3&0.002&255.4&0.007&21.6&0.010&6.3&$<0.001$\\\hline
+SR LP (inclusive)&948.5&0.004&641.9&0.003&252.0&0.007&38.6&0.019&16.0&0.001\\
+SR $WZ$ LP&791.2&0.003&541.6&0.003&203.0&0.006&32.5&0.016&14.1&0.001\\
+SR $WW$ LP&633.2&0.003&438.9&0.002&157.8&0.004&24.9&0.012&11.6&0.001\\
+Top CR LP&777.5&0.003&97.5&0.001&669.8&0.019&7.4&0.004&2.9&$<0.001$\\
+\Wjets CR LP&913.4&0.004&527.7&0.003&350.6&0.010&21.6&0.010&13.5&0.001\\\hline\hline
+\end{tabular}
+\caption[Cutflow, background Monte Carlo samples (vector boson fusion selection)]{Cutflow for background MC samples for the VBF selection. The efficiency (\%) is cumulative, and with respect to event yields after preselection. The Top background includes both \ttbar and \Singlet. The inclusive signal regions (SR) includes events from $WW$ or $WZ$ SR. }
+\label{tab:vbf_cutflow}
+\end{table}
+\end{landscape}
+
+% Bkg Comp
+%\begin{table}[tbp]
+%\centering
+%\begin{tabular}{l|rr|rr|rr|rr}
+%\hline\hline
+%Region&\multicolumn{2}{c|}{\Wjets}&\multicolumn{2}{c|}{Top}&\multicolumn{2}{c|}{Diboson}&\multicolumn{2}{c}{\Zjets}\\
+%&ggF&VBF&ggF&VBF&ggF&VBF&ggF&VBF\\\hline
+%SR HP (inclusive)&58.3&48.8&32.8&44.4&7.8&5.8&1.0&0.9\\
+%Top CR HP &6.7&6.3&92.2&92.1&0.8&1.5&0.2&0.2\\
+%\Wjets CR HP &68.7&55.4&27.4&40.2&2.5&3.4&1.4&1.0\\\hline
+%SR LP (inclusive)&74.8&67.7&19.8&26.6&4.0&4.1&1.5&1.7\\
+%Top CR LP&14.5&12.5&84.1&86.1&1.0&1.0&0.5&0.4\\
+%\Wjets CR LP&73.8&57.8&22.8&38.4&1.9&2.4&1.4&1.5\\\hline\hline
+%\end{tabular}
+%\caption[Background composition in signal regions and control regions]{The background composition percentage for each background in the signal regions and control regions. The Top background includes both \ttbar and \Singlet. The inclusive signal regions (SR) includes events from $WW$ or $WZ$ SR. }
+%\label{tab:bkg_comp}
+%\end{table}
+
+% Sig Eff
+% ggF
+\begin{table}[tbp]
+\centering
+\begin{tabular}{l|rr|rr}
+\hline\hline
+Cut& \multicolumn{2}{c|}{$e$-channel}&\multicolumn{2}{c}{$\mu$-channel}\\
+&Raw Evts.&Eff.&Raw Evts.&Eff\\\hline
+Fail VBF&6535&98.23&6521&98.73\\
+$n(J)>1$&6430&96.65&6451&97.67\\
+$\MET>100\,\GeV$&6062&91.12&6081&92.07\\
+$\MET/\pT(e\nu)>0.2$&5721&85.99&--&--\\
+$\pT(\ell\nu)>200\,\GeV$&5720&85.98&6079&92.04\\
+$\pT(\ell\nu)/m(\ell\nu J)>0.4$&4727&71.05&4660&70.55\\
+$\pT(J)/m(\ell\nu J)>0.4$&4530&68.09&4469&67.66\\\hline
+SR HP (inclusive)&2336&35.11&2351&35.59\\
+Top CR HP&165&2.48&178&2.69\\
+\Wjets CR HP&126&1.89&117&1.77\\\hline
+SR LP (inclusive)&2139&32.15&2065&31.26\\
+Top CR LP&131&1.97&118&1.79\\
+\Wjets CR LP&62&0.93&73&1.11\\\hline\hline
+\end{tabular}
+\caption[Cutflow, 2\,\TeV\,HVT $Z'$ signal sample (gluon-gluon fusion selection)]{Cutflow for 2\,\TeV\, HVT $Z'$ MC sample for the ggF selection. The efficiency (\%) is cumulative, and with respect to event yields after preselection. After preselection, the weighted number of events per \ifb\, is 1.23 (1.22) for the $e$-channel ($\mu$-channel). The Top background includes both \ttbar and \Singlet. The inclusive signal regions (SR) includes events from $WW$ or $WZ$ SR. }
+\label{tab:sig_cutflow_ggF}
+\end{table}
+
+
+% VBF
+\begin{table}[tbp]
+\centering
+\begin{tabular}{l|rr|rr}
+\hline\hline
+Cut& \multicolumn{2}{c|}{$e$-channel}&\multicolumn{2}{c}{$\mu$-channel}\\
+&Raw Evts.&Eff.&Raw Evts.&Eff\\\hline
+Pass VBF&4279&27.50&4531&28.11\\
+$n(J)>1$&3102&19.94&3318&20.58\\
+$\MET>100\,\GeV$&2934&18.86&3094&19.19\\
+$\MET/\pT(e\nu)>0.2$&2773&17.82&--&--\\
+$\pT(\ell\nu)>200\,\GeV$&2773&17.82&3092&19.18\\
+$\pT(\ell\nu)/m(\ell\nu J)>0.4$&2499&16.06&2707&16.79\\
+$\pT(J)/m(\ell\nu J)>0.4$&2419&15.55&2605&16.16\\\hline
+SR HP (inclusive)&1316&8.46&1449&8.99\\
+Top CR HP&22&0.14&28&0.17\\
+\Wjets CR HP&77&0.49&91&0.56\\\hline
+SR LP (inclusive)&1063&6.83&1140&7.07\\
+Top CR LP&46&0.30&54&0.34\\
+\Wjets CR LP&10&0.06&6&0.04\\\hline\hline
+\end{tabular}
+\caption[Cutflow, 2\,\TeV\,heavy Higgs signal sample (vector boson fusion selection)]{Cutflow for 2\,\TeV\, heavy Higgs (NWA) MC sample for the VBF selection. The efficiency (\%) is cumulative, and with respect to event yields after preselection. After preselection, the weighted number of events per \ifb\, is 0.90 (0.93) for the $e$-channel ($\mu$-channel). The Top background includes both \ttbar and \Singlet. The inclusive signal regions (SR) includes events from $WW$ or $WZ$ SR. }
+\label{tab:sig_cutflow_VBF}
+\end{table}
+
+
+
+
+
