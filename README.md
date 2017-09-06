@@ -1,5 +1,4 @@
-# Thesis_lvJ
-A search for new diboson resonances in the boosted semi-leptonic final state at √s = 13 TeV with the ATLAS detector
+# A search for new diboson resonances in the boosted semi-leptonic final state at √s = 13 TeV with the ATLAS detector
 
 A search is presented for new resonances decaying to a pair of boosted Standard Model bosons, WV, 
 where the W boson decays leptonically (W → lν, with l = e, μ) and the other
