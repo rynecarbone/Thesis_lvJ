@@ -1,5 +1,5 @@
 \contentsline {chapter}{Acknowledgements}{xi}{section*.4}
-\contentsline {chapter}{Foreward}{xiii}{section*.5}
+\contentsline {chapter}{Foreword}{xiv}{section*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}The Standard Model}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Particle Content}{4}{section.2.1}
@@ -16,84 +16,84 @@
 \contentsline {section}{\numberline {4.4}Experiments at the LHC}{28}{section.4.4}
 \contentsline {chapter}{\numberline {5}The ATLAS Detector}{30}{chapter.5}
 \contentsline {section}{\numberline {5.1}Inner Detector}{32}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Pixel Detector and Insertable B-Layer}{34}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Pixel Detector and Insertable B-Layer}{35}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Semiconductor Tracker}{36}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Transition Radiation Tracker}{38}{subsection.5.1.3}
 \contentsline {section}{\numberline {5.2}Calorimetry}{39}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Particle Showers}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Particle Showers}{42}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Liquid Argon Calorimeter}{42}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Tile Calorimeter}{45}{subsection.5.2.3}
 \contentsline {section}{\numberline {5.3}Muon Spectrometer}{46}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Precision Chambers}{46}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Trigger Chambers}{48}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Forward Detectors}{50}{section.5.4}
+\contentsline {section}{\numberline {5.4}Forward Detectors}{51}{section.5.4}
 \contentsline {section}{\numberline {5.5}Magnet System}{52}{section.5.5}
-\contentsline {section}{\numberline {5.6}Trigger and Data Acquisition}{53}{section.5.6}
-\contentsline {chapter}{\numberline {6}Object Reconstruction and Identification}{56}{chapter.6}
-\contentsline {section}{\numberline {6.1}Electrons}{56}{section.6.1}
-\contentsline {section}{\numberline {6.2}Muons}{59}{section.6.2}
-\contentsline {section}{\numberline {6.3}Jets}{60}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Small-R Jets}{62}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Large-R Jets}{62}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Missing Transverse Energy}{66}{section.6.4}
-\contentsline {section}{\numberline {6.5}Overlap Removal}{67}{section.6.5}
-\contentsline {chapter}{\numberline {7}Analysis Strategy}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Event Topology}{69}{section.7.1}
-\contentsline {section}{\numberline {7.2}Main Backgrounds}{72}{section.7.2}
-\contentsline {section}{\numberline {7.3}Signal and Background Modeling}{74}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Monte Carlo Generators}{75}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Signal Modeling}{76}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Background Modeling}{77}{subsection.7.3.3}
-\contentsline {chapter}{\numberline {8}Event Selection}{79}{chapter.8}
-\contentsline {section}{\numberline {8.1}Dataset}{79}{section.8.1}
-\contentsline {section}{\numberline {8.2}Trigger Selection}{80}{section.8.2}
-\contentsline {section}{\numberline {8.3}Event Preselection}{81}{section.8.3}
-\contentsline {section}{\numberline {8.4}Event Reweighting}{83}{section.8.4}
-\contentsline {section}{\numberline {8.5}Event Categorization by Production Mechanism}{83}{section.8.5}
-\contentsline {section}{\numberline {8.6}Kinematic and Topological Selections}{84}{section.8.6}
-\contentsline {section}{\numberline {8.7}Signal and Control Regions}{85}{section.8.7}
-\contentsline {subsection}{\numberline {8.7.1}High Purity Selection}{85}{subsection.8.7.1}
-\contentsline {subsection}{\numberline {8.7.2}Low Purity Selection}{87}{subsection.8.7.2}
-\contentsline {section}{\numberline {8.8}Signal Efficiency and Acceptance}{91}{section.8.8}
-\contentsline {section}{\numberline {8.9}Background Validation}{94}{section.8.9}
-\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{97}{chapter.9}
-\contentsline {section}{\numberline {9.1}Experimental Uncertainties}{97}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}General Uncertainties}{97}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Leptons}{98}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}Small-R Jets}{98}{subsection.9.1.3}
-\contentsline {subsection}{\numberline {9.1.4}Large-R Jets}{99}{subsection.9.1.4}
-\contentsline {subsection}{\numberline {9.1.5}Missing Transverse Energy}{101}{subsection.9.1.5}
-\contentsline {section}{\numberline {9.2}Background Uncertainties}{102}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}\ensuremath {W+}\textrm {jets}\xspace Shape Uncertainties}{102}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}\ensuremath {t\mathaccentV {bar}916{t}}\xspace Shape Uncertainties}{104}{subsection.9.2.2}
-\contentsline {section}{\numberline {9.3}Signal Uncertainties}{104}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Initial State and Final State Radiation Uncertainties}{104}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Parton Distribution Function Uncertainties}{105}{subsection.9.3.2}
-\contentsline {chapter}{\numberline {10}Statistical Analysis}{107}{chapter.10}
-\contentsline {section}{\numberline {10.1}Variable Binning}{107}{section.10.1}
-\contentsline {section}{\numberline {10.2}Binned Maximum Likelihood Fit}{109}{section.10.2}
-\contentsline {section}{\numberline {10.3}Upper Limits on Cross Section}{112}{section.10.3}
-\contentsline {chapter}{\numberline {11}Results}{115}{chapter.11}
-\contentsline {section}{\numberline {11.1}Background-Only Fit}{115}{section.11.1}
-\contentsline {section}{\numberline {11.2}Expected and Observed Upper Limits}{123}{section.11.2}
-\contentsline {section}{\numberline {11.3}Comparison with Previous Results}{129}{section.11.3}
-\contentsline {chapter}{\numberline {12}Conclusions}{132}{chapter.12}
-\contentsline {chapter}{Bibliography}{135}{section*.87}
-\contentsline {chapter}{Appendices}{144}{section*.89}
-\contentsline {chapter}{\numberline {A}Event Displays}{145}{appendix.A}
-\contentsline {section}{\numberline {A.1}Highest VBF Candidate: $2.76\tmspace +\thinmuskip {.1667em}\textrm {Te\kern -0.1em V}$}{147}{section.A.1}
-\contentsline {section}{\numberline {A.2}Highest ggF $e$-channel Candidate: $3.85\tmspace +\thinmuskip {.1667em}\textrm {Te\kern -0.1em V}$}{148}{section.A.2}
-\contentsline {section}{\numberline {A.3}Highest ggF $\mu $-channel Candidate: $3.41\tmspace +\thinmuskip {.1667em}\textrm {Te\kern -0.1em V}$}{149}{section.A.3}
-\contentsline {chapter}{\numberline {B}Reconstructing Neutrino $p_z$}{150}{appendix.B}
-\contentsline {chapter}{\numberline {C}QCD Estimation}{153}{appendix.C}
-\contentsline {section}{\numberline {C.1}Multijet Cut}{154}{section.C.1}
-\contentsline {section}{\numberline {C.2}Data Driven QCD Estimation}{159}{section.C.2}
-\contentsline {chapter}{\numberline {D}Impact of Multijet Cut}{163}{appendix.D}
-\contentsline {chapter}{\numberline {E}Signal Region Optimizations}{166}{appendix.E}
-\contentsline {section}{\numberline {E.1}Low Purity Signal Region Definition}{166}{section.E.1}
-\contentsline {section}{\numberline {E.2}Selection of Vector Boson Fusion Jets}{169}{section.E.2}
-\contentsline {section}{\numberline {E.3}Track Assisted Mass}{171}{section.E.3}
-\contentsline {chapter}{\numberline {F}Event Cutflow}{173}{appendix.F}
-\contentsline {chapter}{\numberline {G}Monte Carlo Sample List}{177}{appendix.G}
-\contentsline {section}{\numberline {G.1}Background Monte Carlo Samples}{177}{section.G.1}
-\contentsline {section}{\numberline {G.2}Signal Monte Carlo Samples}{185}{section.G.2}
+\contentsline {section}{\numberline {5.6}Trigger and Data Acquisition}{54}{section.5.6}
+\contentsline {chapter}{\numberline {6}Object Reconstruction and Identification}{57}{chapter.6}
+\contentsline {section}{\numberline {6.1}Electrons}{57}{section.6.1}
+\contentsline {section}{\numberline {6.2}Muons}{60}{section.6.2}
+\contentsline {section}{\numberline {6.3}Jets}{61}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Small-R Jets}{63}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Large-R Jets}{63}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Missing Transverse Energy}{67}{section.6.4}
+\contentsline {section}{\numberline {6.5}Overlap Removal}{68}{section.6.5}
+\contentsline {chapter}{\numberline {7}Analysis Strategy}{70}{chapter.7}
+\contentsline {section}{\numberline {7.1}Event Topology}{70}{section.7.1}
+\contentsline {section}{\numberline {7.2}Main Backgrounds}{73}{section.7.2}
+\contentsline {section}{\numberline {7.3}Signal and Background Modeling}{75}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Monte Carlo Generators}{76}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Signal Modeling}{77}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Background Modeling}{78}{subsection.7.3.3}
+\contentsline {chapter}{\numberline {8}Event Selection}{80}{chapter.8}
+\contentsline {section}{\numberline {8.1}Dataset}{80}{section.8.1}
+\contentsline {section}{\numberline {8.2}Trigger Selection}{81}{section.8.2}
+\contentsline {section}{\numberline {8.3}Event Preselection}{82}{section.8.3}
+\contentsline {section}{\numberline {8.4}Event Reweighting}{84}{section.8.4}
+\contentsline {section}{\numberline {8.5}Event Categorization by Production Mechanism}{84}{section.8.5}
+\contentsline {section}{\numberline {8.6}Kinematic and Topological Selections}{85}{section.8.6}
+\contentsline {section}{\numberline {8.7}Signal and Control Regions}{86}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}High Purity Selection}{86}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Low Purity Selection}{88}{subsection.8.7.2}
+\contentsline {section}{\numberline {8.8}Signal Efficiency and Acceptance}{92}{section.8.8}
+\contentsline {section}{\numberline {8.9}Background Validation}{95}{section.8.9}
+\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{98}{chapter.9}
+\contentsline {section}{\numberline {9.1}Experimental Uncertainties}{98}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}General Uncertainties}{98}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Leptons}{99}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Small-R Jets}{99}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.4}Large-R Jets}{100}{subsection.9.1.4}
+\contentsline {subsection}{\numberline {9.1.5}Missing Transverse Energy}{102}{subsection.9.1.5}
+\contentsline {section}{\numberline {9.2}Background Uncertainties}{103}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}\ensuremath {W+}\textrm {jets}\xspace Shape Uncertainties}{103}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}\ensuremath {t\mathaccentV {bar}916{t}}\xspace Shape Uncertainties}{105}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Signal Uncertainties}{105}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Initial State and Final State Radiation Uncertainties}{105}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Parton Distribution Function Uncertainties}{106}{subsection.9.3.2}
+\contentsline {chapter}{\numberline {10}Statistical Analysis}{108}{chapter.10}
+\contentsline {section}{\numberline {10.1}Variable Binning}{108}{section.10.1}
+\contentsline {section}{\numberline {10.2}Binned Maximum Likelihood Fit}{110}{section.10.2}
+\contentsline {section}{\numberline {10.3}Upper Limits on Cross Section}{113}{section.10.3}
+\contentsline {chapter}{\numberline {11}Results}{116}{chapter.11}
+\contentsline {section}{\numberline {11.1}Background-Only Fit}{116}{section.11.1}
+\contentsline {section}{\numberline {11.2}Expected and Observed Upper Limits}{124}{section.11.2}
+\contentsline {section}{\numberline {11.3}Comparison with Previous Results}{130}{section.11.3}
+\contentsline {chapter}{\numberline {12}Conclusions}{133}{chapter.12}
+\contentsline {chapter}{Bibliography}{136}{section*.87}
+\contentsline {chapter}{Appendices}{145}{section*.89}
+\contentsline {chapter}{\numberline {A}Event Displays}{146}{appendix.A}
+\contentsline {section}{\numberline {A.1}Highest VBF Candidate: $2.76\tmspace +\thinmuskip {.1667em}\textrm {Te\kern -0.1em V}$}{148}{section.A.1}
+\contentsline {section}{\numberline {A.2}Highest ggF $e$-channel Candidate: $3.85\tmspace +\thinmuskip {.1667em}\textrm {Te\kern -0.1em V}$}{149}{section.A.2}
+\contentsline {section}{\numberline {A.3}Highest ggF $\mu $-channel Candidate: $3.41\tmspace +\thinmuskip {.1667em}\textrm {Te\kern -0.1em V}$}{150}{section.A.3}
+\contentsline {chapter}{\numberline {B}Reconstructing Neutrino $p_z$}{151}{appendix.B}
+\contentsline {chapter}{\numberline {C}QCD Estimation}{154}{appendix.C}
+\contentsline {section}{\numberline {C.1}Multijet Cut}{155}{section.C.1}
+\contentsline {section}{\numberline {C.2}Data Driven QCD Estimation}{160}{section.C.2}
+\contentsline {chapter}{\numberline {D}Impact of Multijet Cut}{164}{appendix.D}
+\contentsline {chapter}{\numberline {E}Signal Region Optimizations}{167}{appendix.E}
+\contentsline {section}{\numberline {E.1}Low Purity Signal Region Definition}{167}{section.E.1}
+\contentsline {section}{\numberline {E.2}Selection of Vector Boson Fusion Jets}{170}{section.E.2}
+\contentsline {section}{\numberline {E.3}Track Assisted Mass}{172}{section.E.3}
+\contentsline {chapter}{\numberline {F}Event Cutflow}{174}{appendix.F}
+\contentsline {chapter}{\numberline {G}Monte Carlo Sample List}{178}{appendix.G}
+\contentsline {section}{\numberline {G.1}Background Monte Carlo Samples}{178}{section.G.1}
+\contentsline {section}{\numberline {G.2}Signal Monte Carlo Samples}{186}{section.G.2}

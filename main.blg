@@ -2,25 +2,26 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: sty/atlasBibStyleWoTitle2.bst
+Reallocated field_info (elt_size=4) to 10022 items from 5000.
 Database file #1: refs.bib.bib
 Warning--entry type for "LArCaloPublicResults2015" isn't style-file defined
---line 867 of file refs.bib.bib
+--line 875 of file refs.bib.bib
 Warning--entry type for "25_vertices_z" isn't style-file defined
---line 894 of file refs.bib.bib
+--line 902 of file refs.bib.bib
 Warning--entry type for "Lumi_Public_Run2" isn't style-file defined
---line 899 of file refs.bib.bib
+--line 907 of file refs.bib.bib
 Warning--entry type for "AMI" isn't style-file defined
---line 914 of file refs.bib.bib
+--line 922 of file refs.bib.bib
 Warning--entry type for "Atlantis" isn't style-file defined
---line 919 of file refs.bib.bib
+--line 927 of file refs.bib.bib
 Warning--entry type for "TRT_twiki" isn't style-file defined
---line 924 of file refs.bib.bib
+--line 932 of file refs.bib.bib
 Warning--entry type for "Atlas_mag" isn't style-file defined
---line 929 of file refs.bib.bib
+--line 937 of file refs.bib.bib
 Warning--entry type for "lhc_closer_look" isn't style-file defined
---line 939 of file refs.bib.bib
+--line 947 of file refs.bib.bib
 Warning--entry type for "rs_pic" isn't style-file defined
---line 1237 of file refs.bib.bib
+--line 1245 of file refs.bib.bib
 Warning--empty title in Nevis12_paper
 Warning--empty title in ryne_ichep_talk
 Warning--empty title in diphoton_paper
@@ -142,36 +143,36 @@ Warning--empty title in hvt_polarization
 Warning--empty title in Kfactors
 Warning--empty booktitle in Kfactors
 Warning--empty year in Kfactors
-You've used 161 entries,
+You've used 162 entries,
             2330 wiz_defined-function locations,
-            1427 strings with 25712 characters,
-and the built_in function-call counts, 37807 in all, are:
-= -- 3351
-> -- 1036
+            1432 strings with 25945 characters,
+and the built_in function-call counts, 37951 in all, are:
+= -- 3363
+> -- 1040
 < -- 0
-+ -- 430
-- -- 269
-* -- 2725
-:= -- 4170
-add.period$ -- 189
-call.type$ -- 161
-change.case$ -- 86
++ -- 432
+- -- 270
+* -- 2729
+:= -- 4190
+add.period$ -- 190
+call.type$ -- 162
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 282
-duplicate$ -- 2322
-empty$ -- 4275
-format.name$ -- 269
-if$ -- 9900
+cite$ -- 283
+duplicate$ -- 2331
+empty$ -- 4298
+format.name$ -- 270
+if$ -- 9938
 int.to.chr$ -- 0
-int.to.str$ -- 161
+int.to.str$ -- 162
 missing$ -- 518
-newline$ -- 514
-num.names$ -- 158
-pop$ -- 1109
+newline$ -- 517
+num.names$ -- 159
+pop$ -- 1116
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1578
+skip$ -- 1580
 stack$ -- 0
 substring$ -- 1645
 swap$ -- 952
@@ -180,7 +181,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 121
-while$ -- 305
-width$ -- 164
-write$ -- 1116
+while$ -- 306
+width$ -- 165
+write$ -- 1125
 (There were 130 warnings)

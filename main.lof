@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces ATLAS mean interactions per bunch crossing in 2016}}{33}{figure.caption.18}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces High vertex multiplicity event}}{34}{figure.caption.19}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Semiconductor Tracker layout}}{37}{figure.caption.21}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Transition Radiation Tracker wire impact parameter vs drift time}}{38}{figure.caption.23}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Transition Radiation Tracker wire impact parameter vs drift time}}{39}{figure.caption.23}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Layout of Liquid Argon and Tile calorimters}}{40}{figure.caption.24}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Radiation lengths in ATLAS electromagnetic calorimeters}}{41}{figure.caption.25}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Interaction lengths in ATLAS calorimeters}}{41}{figure.caption.25}
@@ -24,32 +24,32 @@
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Liquid Argon calorimeter signal pulse}}{43}{figure.caption.26}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Liquid Argon electromagnetic calorimeter layout}}{44}{figure.caption.27}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Tile calorimeter module}}{45}{figure.caption.28}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Layout of Muon Spectrometer}}{46}{figure.caption.29}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Layout of Muon Spectrometer}}{47}{figure.caption.29}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Schematic of muon precision tracking chambers}}{48}{figure.caption.31}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Schematic of muon trigger chambers}}{49}{figure.caption.32}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Structure of the muon Resistive Plate Chambers and Thin Gap Chambers}}{50}{figure.caption.33}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Photo of ATLAS solenoid and barrel toroid magnets}}{52}{figure.caption.35}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Photo of ATLAS solenoid and barrel toroid magnets}}{53}{figure.caption.35}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Magnetic field of barrel toroid magnet}}{53}{figure.caption.36}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Trigger and Data Acquisition architecture in Run-II}}{54}{figure.caption.37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Electron reconstruction and identification efficiencies}}{58}{figure.caption.39}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Jet trimming illustration}}{63}{figure.caption.42}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Performance of combined mass for large-R jets}}{65}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{65}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{65}{subfigure.3.2}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Boson tagger mass and substructure cuts}}{66}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{subfigure.4.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Electron reconstruction and identification efficiencies}}{59}{figure.caption.39}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Jet trimming illustration}}{64}{figure.caption.42}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Performance of combined mass for large-R jets}}{66}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{subfigure.3.2}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Boson tagger mass and substructure cuts}}{67}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{67}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{67}{subfigure.4.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Boosted and resolved regimes}}{70}{figure.caption.46}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Separation of quarks as function of boson \ensuremath {p_{\text {T}}}\xspace }}{71}{figure.caption.47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{71}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{71}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{71}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{71}{subfigure.2.4}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagram of event topologies}}{72}{figure.caption.48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{72}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{72}{subfigure.3.2}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Boosted and resolved regimes}}{71}{figure.caption.46}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Separation of quarks as function of boson \ensuremath {p_{\text {T}}}\xspace }}{72}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{72}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{72}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{72}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{72}{subfigure.2.4}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagram of event topologies}}{73}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{73}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{73}{subfigure.3.2}
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Selected leading order Feynman diagrams for background processes}}{74}{figure.caption.49}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{74}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{74}{subfigure.4.2}
@@ -57,164 +57,164 @@
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{74}{subfigure.4.4}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{74}{subfigure.4.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Electron trigger efficiencies for 2016}}{81}{figure.caption.52}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Large-R jet distributions in the high purity signal regions}}{86}{figure.caption.54}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{86}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{86}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{86}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{86}{subfigure.2.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{86}{subfigure.2.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{86}{subfigure.2.6}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Invariant mass distribution of signal and background samples in the signal regions}}{89}{figure.caption.56}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{89}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{89}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{89}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{89}{subfigure.3.4}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Illustration of high purity and low purity signal region for large-R jets}}{90}{figure.caption.57}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Signal efficiency times acceptance for models with vector boson fusion production}}{92}{figure.caption.59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{92}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{92}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{92}{subfigure.5.3}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Signal efficiency times acceptance for models with gluon gluon fusion production}}{93}{figure.caption.60}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{93}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{93}{subfigure.6.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{93}{subfigure.6.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{93}{subfigure.6.4}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Data and Monte Carlo comparison in the high purity control regions}}{95}{figure.caption.61}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{95}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{95}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{95}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{95}{subfigure.7.4}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Data and Monte Carlo comparison in the low purity control regions}}{96}{figure.caption.62}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{96}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{96}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{96}{subfigure.8.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{96}{subfigure.8.4}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Electron trigger efficiencies for 2016}}{82}{figure.caption.52}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Large-R jet distributions in the high purity signal regions}}{87}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{87}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{87}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{87}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{87}{subfigure.2.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{87}{subfigure.2.6}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Invariant mass distribution of signal and background samples in the signal regions}}{90}{figure.caption.56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{90}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{90}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{90}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{90}{subfigure.3.4}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Illustration of high purity and low purity signal region for large-R jets}}{91}{figure.caption.57}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Signal efficiency times acceptance for models with vector boson fusion production}}{93}{figure.caption.59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{93}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{93}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{93}{subfigure.5.3}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Signal efficiency times acceptance for models with gluon gluon fusion production}}{94}{figure.caption.60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{94}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{94}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{94}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{94}{subfigure.6.4}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Data and Monte Carlo comparison in the high purity control regions}}{96}{figure.caption.61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{96}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{96}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{96}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{96}{subfigure.7.4}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Data and Monte Carlo comparison in the low purity control regions}}{97}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{97}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{97}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{97}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{97}{subfigure.8.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Fractional jet energy scale uncertainty for small-R jets}}{99}{figure.caption.63}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{99}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{99}{subfigure.1.2}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Fractional scale uncertainty for large-R jet \ensuremath {p_{\text {T}}}\xspace , mass, and $D_2^{\beta =1}$}}{100}{figure.caption.64}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{100}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{100}{subfigure.2.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Large-R jet mass and substructure resolution}}{101}{figure.caption.65}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{101}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{101}{subfigure.3.2}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces \ensuremath {W+}\textrm {jets}\xspace modeling variations in the \ensuremath {W+}\textrm {jets}\xspace high purity control region}}{103}{figure.caption.66}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{103}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{103}{subfigure.4.2}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Initial state and final state radiation uncertainties}}{105}{figure.caption.67}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{105}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{105}{subfigure.5.2}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Parton distribution function uncertainties}}{106}{figure.caption.68}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{106}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{106}{subfigure.6.2}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Fractional jet energy scale uncertainty for small-R jets}}{100}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{100}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{100}{subfigure.1.2}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Fractional scale uncertainty for large-R jet \ensuremath {p_{\text {T}}}\xspace , mass, and $D_2^{\beta =1}$}}{101}{figure.caption.64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{101}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{101}{subfigure.2.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Large-R jet mass and substructure resolution}}{102}{figure.caption.65}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{102}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{102}{subfigure.3.2}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces \ensuremath {W+}\textrm {jets}\xspace modeling variations in the \ensuremath {W+}\textrm {jets}\xspace high purity control region}}{104}{figure.caption.66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{104}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{104}{subfigure.4.2}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Initial state and final state radiation uncertainties}}{106}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{106}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{106}{subfigure.5.2}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Parton distribution function uncertainties}}{107}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{107}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{107}{subfigure.6.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Extraction of signal mass resolution}}{108}{figure.caption.69}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Resolution of simulated signal samples}}{109}{figure.caption.71}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{109}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{109}{subfigure.2.2}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Extraction of signal mass resolution}}{109}{figure.caption.69}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Resolution of simulated signal samples}}{110}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{110}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{110}{subfigure.2.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for high purity, vector boson fusion selection}}{116}{figure.caption.73}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{116}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{116}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{116}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{116}{subfigure.1.4}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for low purity, vector boson fusion selection}}{117}{figure.caption.74}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{117}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{117}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{117}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{117}{subfigure.2.4}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for high purity, gluon-gluon fusion selection}}{118}{figure.caption.75}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{118}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{118}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{118}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{118}{subfigure.3.4}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for low purity, gluon-gluon fusion selection}}{119}{figure.caption.76}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{119}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{119}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{119}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{119}{subfigure.4.4}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Observed and expected upper limits for RS $G^*$ model (gluon-gluon fusion selection)}}{125}{figure.caption.81}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{125}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{125}{subfigure.5.2}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Observed and expected upper limits for HVT $Z'$ and $W'$ model (gluon-gluon fusion selection)}}{126}{figure.caption.82}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{126}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{126}{subfigure.6.2}
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Observed and expected upper limits for HVT $Z'$ and $W'$ model (vector boson fusion selection)}}{127}{figure.caption.83}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{127}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{127}{subfigure.7.2}
-\contentsline {figure}{\numberline {11.8}{\ignorespaces Observed and expected upper limits for narrow, heavy Higgs model (gluon-gluon fusion and vector boson fusion selection)}}{128}{figure.caption.84}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{128}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{128}{subfigure.8.2}
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Local $p$-value for HVT signal (vector boson fusion selection)}}{129}{figure.caption.85}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{129}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{129}{subfigure.9.2}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for high purity, vector boson fusion selection}}{117}{figure.caption.73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{117}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{117}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{117}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{117}{subfigure.1.4}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for low purity, vector boson fusion selection}}{118}{figure.caption.74}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{118}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{118}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{118}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{118}{subfigure.2.4}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for high purity, gluon-gluon fusion selection}}{119}{figure.caption.75}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{119}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{119}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{119}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{119}{subfigure.3.4}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Post-fit $m(\ell \nu J)$ distribution for low purity, gluon-gluon fusion selection}}{120}{figure.caption.76}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{120}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{120}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{120}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{120}{subfigure.4.4}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Observed and expected upper limits for RS $G^*$ model (gluon-gluon fusion selection)}}{126}{figure.caption.81}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{126}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{126}{subfigure.5.2}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Observed and expected upper limits for HVT $Z'$ and $W'$ model (gluon-gluon fusion selection)}}{127}{figure.caption.82}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{127}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{127}{subfigure.6.2}
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Observed and expected upper limits for HVT $Z'$ and $W'$ model (vector boson fusion selection)}}{128}{figure.caption.83}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{128}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{128}{subfigure.7.2}
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Observed and expected upper limits for narrow, heavy Higgs model (gluon-gluon fusion and vector boson fusion selection)}}{129}{figure.caption.84}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{129}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{129}{subfigure.8.2}
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Local $p$-value for HVT signal (vector boson fusion selection)}}{130}{figure.caption.85}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{130}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{130}{subfigure.9.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Event display for highest mass candidate (vector boson fusion selection)}}{147}{figure.caption.92}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Event display for highest mass candidate (gluon-gluon fusion selection, $e$-channel)}}{148}{figure.caption.93}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Event display for highest mass candidate (gluon-gluon fusion selection, $\mu $-channel)}}{149}{figure.caption.94}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Event display for highest mass candidate (vector boson fusion selection)}}{148}{figure.caption.92}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Event display for highest mass candidate (gluon-gluon fusion selection, $e$-channel)}}{149}{figure.caption.93}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Event display for highest mass candidate (gluon-gluon fusion selection, $\mu $-channel)}}{150}{figure.caption.94}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Neutrino $p_{z}$ solution comparisons}}{152}{figure.caption.95}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{152}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{152}{subfigure.1.2}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Comparison between reconstructed invariant mass and reconstructed transverse mass}}{152}{figure.caption.96}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Neutrino $p_{z}$ solution comparisons}}{153}{figure.caption.95}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{153}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{153}{subfigure.1.2}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Comparison between reconstructed invariant mass and reconstructed transverse mass}}{153}{figure.caption.96}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Distribution of $\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace /\ensuremath {p_{\text {T}}}\xspace (W\ensuremath {\rightarrow }\xspace e\nu )$ in the \ensuremath {W+}\textrm {jets}\xspace control region with inverted and relaxed \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cuts. }}{154}{figure.caption.97}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{154}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{154}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{154}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{154}{subfigure.1.4}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Electron $\ensuremath {p_{\text {T}}}\xspace $ distribution including a di-jet Monte Carlo sample}}{155}{figure.caption.98}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{155}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{155}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{155}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{155}{subfigure.2.4}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Distribution of $\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace /\ensuremath {p_{\text {T}}}\xspace (W\ensuremath {\rightarrow }\xspace e\nu )$ including a di-jet Monte Carlo sample}}{156}{figure.caption.99}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{156}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{156}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{156}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{156}{subfigure.3.4}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Distribution of $\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace /\ensuremath {p_{\text {T}}}\xspace (W\ensuremath {\rightarrow }\xspace \mu \nu )$ including a di-jet Monte Carlo sample}}{157}{figure.caption.100}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{157}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{157}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{157}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{157}{subfigure.4.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Signal efficiency and significance of multijet cut for an HVT $W$' and a heavy Higgs}}{158}{figure.caption.101}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{158}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{158}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{158}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{158}{subfigure.5.4}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Multijet estimation for the electron channel}}{160}{figure.caption.102}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{160}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{160}{subfigure.6.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{160}{subfigure.6.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{160}{subfigure.6.4}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Multijet estimation for the muon channel}}{161}{figure.caption.103}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{161}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{161}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{161}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{161}{subfigure.7.4}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Multijet estimation for events with high transverse momentum electrons}}{162}{figure.caption.104}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{162}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{162}{subfigure.8.2}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Distribution of $\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace /\ensuremath {p_{\text {T}}}\xspace (W\ensuremath {\rightarrow }\xspace e\nu )$ in the \ensuremath {W+}\textrm {jets}\xspace control region with inverted and relaxed \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cuts. }}{155}{figure.caption.97}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{155}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{155}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{155}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{155}{subfigure.1.4}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Electron $\ensuremath {p_{\text {T}}}\xspace $ distribution including a di-jet Monte Carlo sample}}{156}{figure.caption.98}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{156}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{156}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{156}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{156}{subfigure.2.4}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Distribution of $\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace /\ensuremath {p_{\text {T}}}\xspace (W\ensuremath {\rightarrow }\xspace e\nu )$ including a di-jet Monte Carlo sample}}{157}{figure.caption.99}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{157}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{157}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{157}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{157}{subfigure.3.4}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Distribution of $\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace /\ensuremath {p_{\text {T}}}\xspace (W\ensuremath {\rightarrow }\xspace \mu \nu )$ including a di-jet Monte Carlo sample}}{158}{figure.caption.100}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{158}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{158}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{158}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{158}{subfigure.4.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Signal efficiency and significance of multijet cut for an HVT $W$' and a heavy Higgs}}{159}{figure.caption.101}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{159}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{159}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{159}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{159}{subfigure.5.4}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Multijet estimation for the electron channel}}{161}{figure.caption.102}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{161}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{161}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{161}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{161}{subfigure.6.4}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Multijet estimation for the muon channel}}{162}{figure.caption.103}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{162}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{162}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{162}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{162}{subfigure.7.4}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Multijet estimation for events with high transverse momentum electrons}}{163}{figure.caption.104}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{163}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{163}{subfigure.8.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Sensitivity comparison of multijet cut}}{164}{figure.caption.105}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Cos$\theta _{e,W}$ between electron and W boson before and after QCD cut}}{165}{figure.caption.106}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Sensitivity comparison of multijet cut}}{165}{figure.caption.105}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Cos$\theta _{e,W}$ between electron and W boson before and after QCD cut}}{166}{figure.caption.106}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Low purity region definition optimization}}{168}{figure.caption.107}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{168}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{168}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{168}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{168}{subfigure.1.4}
-\contentsline {figure}{\numberline {E.2}{\ignorespaces Sensitivity of selection method of vector boson fusion jets in the combined signal region}}{170}{figure.caption.108}
-\contentsline {figure}{\numberline {E.3}{\ignorespaces Sensitivity of selection method of vector boson fusion jets in the low purity signal region}}{170}{figure.caption.108}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{170}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{170}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{170}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{170}{subfigure.3.2}
-\contentsline {figure}{\numberline {E.4}{\ignorespaces Track assisted mass versus calorimeter mass of the large-R jet}}{172}{figure.caption.109}
-\contentsline {figure}{\numberline {E.5}{\ignorespaces Response of track assisted mass and calorimeter mass of large-R jet}}{172}{figure.caption.110}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Low purity region definition optimization}}{169}{figure.caption.107}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{169}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{169}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{169}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{169}{subfigure.1.4}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces Sensitivity of selection method of vector boson fusion jets in the combined signal region}}{171}{figure.caption.108}
+\contentsline {figure}{\numberline {E.3}{\ignorespaces Sensitivity of selection method of vector boson fusion jets in the low purity signal region}}{171}{figure.caption.108}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{171}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{171}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{171}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{171}{subfigure.3.2}
+\contentsline {figure}{\numberline {E.4}{\ignorespaces Track assisted mass versus calorimeter mass of the large-R jet}}{173}{figure.caption.109}
+\contentsline {figure}{\numberline {E.5}{\ignorespaces Response of track assisted mass and calorimeter mass of large-R jet}}{173}{figure.caption.110}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

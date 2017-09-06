@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  19 AUG 2017 19:00
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  3 SEP 2017 12:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -390,7 +390,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.171 seconds)
+luaotfload | main : initialization completed in 0.163 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1309,18 +1309,20 @@ ng luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman
 
 \openout7 = main.lot
  [10]
-(./tex/misc/acknowledgements.tex) [11
+(./tex/misc/acknowledgements.tex [11
 
-] [12
+]) [12] [13
 
-] (./tex/misc/forward.tex [13
+] (./tex/misc/forward.tex
+[14
 
 ](compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
 l/lmroman9-regular.luc)(load luc: /Users/karo/Library/texlive/2016/texmf-var/lua
 tex-cache/generic/fonts/otl/lmroman9-regular.luc)(compiling luc: /usr/local/texl
 ive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)(load luc
 : /Users/karo/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmro
-man5-regular.luc) [14]) [15] (./tex/sec-preface.tex (./tex/preface/intro.tex
+man5-regular.luc) [15]) [16] (./tex/sec-preface.tex
+(./tex/preface/intro.tex
 Chapter 1.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
@@ -1335,7 +1337,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 Chapter 2.
 [4
 
-] <figures/StandardModel/std_model.png, id=933, 1395.2125pt x 1334.9875pt>
+] <figures/StandardModel/std_model.png, id=940, 1395.2125pt x 1334.9875pt>
 File: figures/StandardModel/std_model.png Graphic file (type png)
 
 <use figures/StandardModel/std_model.png>
@@ -1348,7 +1350,7 @@ Chapter 3.
 [14
 
 ] [15]
-<figures/StandardModel/rs_branes.png, id=1051, 937.5025pt x 635.37375pt>
+<figures/StandardModel/rs_branes.png, id=1058, 937.5025pt x 635.37375pt>
 File: figures/StandardModel/rs_branes.png Graphic file (type png)
 
 <use figures/StandardModel/rs_branes.png>
@@ -1363,21 +1365,21 @@ LaTeX Warning: Float too large for page by 7.57837pt on input line 133.
 Chapter 4.
 [22
 
-] [23] [24] <figures/LHC/accelerator.png, id=1177, 345.9324pt x 207.4149pt>
+] [23] [24] <figures/LHC/accelerator.png, id=1184, 345.9324pt x 207.4149pt>
 File: figures/LHC/accelerator.png Graphic file (type png)
 
 <use figures/LHC/accelerator.png>
 Package luatex.def Info: figures/LHC/accelerator.png used on input line 79.
 (luatex.def)             Requested size: 346.89731pt x 208.00621pt.
  [25] [26<./figures/LHC/accelerator.png>]
-[27] <figures/Atlas/Lumi_2015.pdf, id=1201, 569.12625pt x 408.52625pt>
+[27] <figures/Atlas/Lumi_2015.pdf, id=1208, 569.12625pt x 408.52625pt>
 File: figures/Atlas/Lumi_2015.pdf Graphic file (type pdf)
 
 <use figures/Atlas/Lumi_2015.pdf>
 Package luatex.def Info: figures/Atlas/Lumi_2015.pdf used on input line 115.
 (luatex.def)             Requested size: 212.47617pt x 152.5175pt.
 
-<figures/Atlas/Lumi_2016.pdf, id=1202, 569.12625pt x 408.52625pt>
+<figures/Atlas/Lumi_2016.pdf, id=1209, 569.12625pt x 408.52625pt>
 File: figures/Atlas/Lumi_2016.pdf Graphic file (type pdf)
 
 <use figures/Atlas/Lumi_2016.pdf>
@@ -1386,7 +1388,7 @@ Package luatex.def Info: figures/Atlas/Lumi_2016.pdf used on input line 116.
  [28<./figures/Atlas/Lumi_2015.pdf><./figures/Atlas/Lumi_2016.pdf>]) (./tex/pre
 face/ATLAS.tex [29]
 Chapter 5.
-<figures/Atlas/atlas_detector.png, id=1302, 1381.16pt x 784.9325pt>
+<figures/Atlas/atlas_detector.png, id=1309, 1381.16pt x 784.9325pt>
 File: figures/Atlas/atlas_detector.png Graphic file (type png)
 
 <use figures/Atlas/atlas_detector.png>
@@ -1411,7 +1413,7 @@ converted-to.pdf figures/Atlas/atlas_id.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/atlas_id-eps-converted-to.pdf, id=1327, 2609.75pt x 1606.0pt>
+<figures/Atlas/atlas_id-eps-converted-to.pdf, id=1334, 2609.75pt x 1606.0pt>
 File: figures/Atlas/atlas_id-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/Atlas/atlas_id-eps-converted-to.pdf>
@@ -1431,7 +1433,7 @@ eps-converted-to.pdf figures/ATLAS/mu_2015_2016.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/mu_2015_2016-eps-converted-to.pdf, id=1349, 569.12625pt x 408.52
+<figures/ATLAS/mu_2015_2016-eps-converted-to.pdf, id=1357, 569.12625pt x 408.52
 625pt>
 File: figures/ATLAS/mu_2015_2016-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/ATLAS/mu_2015_2016-eps-converted-to.pdf>
@@ -1439,7 +1441,7 @@ Package luatex.def Info: figures/ATLAS/mu_2015_2016-eps-converted-to.pdf used on
  input line 70.
 (luatex.def)             Requested size: 229.81805pt x 164.966pt.
 
-<figures/Atlas/25ver_zmumu.png, id=1355, 1027.84pt x 1027.84pt>
+<figures/Atlas/25ver_zmumu.png, id=1363, 1027.84pt x 1027.84pt>
 File: figures/Atlas/25ver_zmumu.png Graphic file (type png)
 
 <use figures/Atlas/25ver_zmumu.png>
@@ -1447,7 +1449,7 @@ Package luatex.def Info: figures/Atlas/25ver_zmumu.png used on input line 84.
 (luatex.def)             Requested size: 346.89731pt x 346.90456pt.
  [33<./figures/ATLAS/mu_2015_2016-eps-converted-to.pdf>] [34<./figures/Atlas/25v
 er_zmumu.png>] [35] [36]
-<figures/ATLAS/SCT_Quadrant.png, id=1416, 748.7975pt x 426.59375pt>
+<figures/ATLAS/SCT_Quadrant.png, id=1422, 748.7975pt x 426.59375pt>
 File: figures/ATLAS/SCT_Quadrant.png Graphic file (type png)
 
 <use figures/ATLAS/SCT_Quadrant.png>
@@ -1463,23 +1465,17 @@ f>
 (epstopdf)                    size: 12997 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/trt_drift-eps
 -converted-to.pdf figures/ATLAS/trt_drift.eps>
-(epstopdf)             \includegraphics on input line 217.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/trt_drift-eps-converted-to.pdf, id=1429, 569.12625pt x 300.12125
+<figures/ATLAS/trt_drift-eps-converted-to.pdf, id=1435, 569.12625pt x 300.12125
 pt>
 File: figures/ATLAS/trt_drift-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/ATLAS/trt_drift-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/trt_drift-eps-converted-to.pdf used on in
-put line 217.
+put line 230.
 (luatex.def)             Requested size: 236.10869pt x 124.51135pt.
-
-Underfull \hbox (badness 1270) in paragraph at lines 224--231
-\EU2/lmr/m/n/10.95 made with two bonded 35$\OML/cmm/m/it/10.95 $\EU2/lmr/m/n/1
-0.95 m film
- []
-
-[38<./figures/ATLAS/trt_drift-eps-converted-to.pdf>]
+ [38]
 Package epstopdf Info: Source file: <figures/ATLAS/calorimeter_layout.eps>
 (epstopdf)                    date: 2008-01-24 23:36:44
 (epstopdf)                    size: 3456043 bytes
@@ -1489,18 +1485,18 @@ ted-to.pdf>
 (epstopdf)                    size: 287710 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/calorimeter_l
 ayout-eps-converted-to.pdf figures/ATLAS/calorimeter_layout.eps>
-(epstopdf)             \includegraphics on input line 248.
+(epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/calorimeter_layout-eps-converted-to.pdf, id=1454, 1304.875pt x 8
+<figures/ATLAS/calorimeter_layout-eps-converted-to.pdf, id=1448, 1304.875pt x 8
 53.1875pt>
 File: figures/ATLAS/calorimeter_layout-eps-converted-to.pdf Graphic file (type p
 df)
  <use figures/ATLAS/calorimeter_layout-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/calorimeter_layout-eps-converted-to.pdf u
-sed on input line 248.
+sed on input line 250.
 (luatex.def)             Requested size: 346.89731pt x 226.80963pt.
- [39]
+ [39<./figures/ATLAS/trt_drift-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/ATLAS/x0_barrel.eps>
 (epstopdf)                    date: 2008-01-27 22:24:56
 (epstopdf)                    size: 23998 bytes
@@ -1510,14 +1506,14 @@ f>
 (epstopdf)                    size: 8556 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/x0_barrel-eps
 -converted-to.pdf figures/ATLAS/x0_barrel.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/x0_barrel-eps-converted-to.pdf, id=1468, 569.12625pt x 385.44pt>
+<figures/ATLAS/x0_barrel-eps-converted-to.pdf, id=1473, 569.12625pt x 385.44pt>
 File: figures/ATLAS/x0_barrel-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/ATLAS/x0_barrel-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/x0_barrel-eps-converted-to.pdf used on in
-put line 262.
+put line 264.
 (luatex.def)             Requested size: 212.47617pt x 143.89857pt.
 Package epstopdf Info: Source file: <figures/ATLAS/x0_endcap.eps>
 (epstopdf)                    date: 2008-01-27 22:25:34
@@ -1528,14 +1524,14 @@ f>
 (epstopdf)                    size: 10049 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/x0_endcap-eps
 -converted-to.pdf figures/ATLAS/x0_endcap.eps>
-(epstopdf)             \includegraphics on input line 263.
+(epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/x0_endcap-eps-converted-to.pdf, id=1469, 569.12625pt x 385.44pt>
+<figures/ATLAS/x0_endcap-eps-converted-to.pdf, id=1474, 569.12625pt x 385.44pt>
 File: figures/ATLAS/x0_endcap-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/ATLAS/x0_endcap-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/x0_endcap-eps-converted-to.pdf used on in
-put line 263.
+put line 265.
 (luatex.def)             Requested size: 212.47617pt x 143.89857pt.
 Package epstopdf Info: Source file: <figures/ATLAS/lambda_cal.eps>
 (epstopdf)                    date: 2008-01-27 22:02:23
@@ -1546,27 +1542,27 @@ df>
 (epstopdf)                    size: 11281 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/lambda_cal-ep
 s-converted-to.pdf figures/ATLAS/lambda_cal.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/lambda_cal-eps-converted-to.pdf, id=1476, 569.12625pt x 385.44pt
+<figures/ATLAS/lambda_cal-eps-converted-to.pdf, id=1481, 569.12625pt x 385.44pt
 >
 File: figures/ATLAS/lambda_cal-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/ATLAS/lambda_cal-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/lambda_cal-eps-converted-to.pdf used on i
-nput line 266.
+nput line 268.
 (luatex.def)             Requested size: 346.89731pt x 234.9475pt.
  [40<./figures/ATLAS/calorimeter_layout-eps-converted-to.pdf>] [41<./figures/ATL
 AS/x0_barrel-eps-converted-to.pdf><./figures/ATLAS/x0_endcap-eps-converted-to.pd
 f><./figures/ATLAS/lambda_cal-eps-converted-to.pdf>] [42]
-<figures/ATLAS/lar_pulse.pdf, id=1533, 312.6101pt x 299.7631pt>
+<figures/ATLAS/lar_pulse.pdf, id=1540, 312.6101pt x 299.7631pt>
 File: figures/ATLAS/lar_pulse.pdf Graphic file (type pdf)
 
 <use figures/ATLAS/lar_pulse.pdf>
-Package luatex.def Info: figures/ATLAS/lar_pulse.pdf used on input line 298.
+Package luatex.def Info: figures/ATLAS/lar_pulse.pdf used on input line 300.
 (luatex.def)             Requested size: 216.81pt x 207.90707pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 305--306
+Underfull \hbox (badness 1622) in paragraph at lines 307--308
 \EU2/lmr/m/n/10.95 calorime-ters are seg-mented into three
  []
 
@@ -1580,15 +1576,15 @@ f>
 (epstopdf)                    size: 32151 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/lar_cross-eps
 -converted-to.pdf figures/ATLAS/lar_cross.eps>
-(epstopdf)             \includegraphics on input line 313.
+(epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/lar_cross-eps-converted-to.pdf, id=1600, 588.1975pt x 515.9275pt
+<figures/ATLAS/lar_cross-eps-converted-to.pdf, id=1605, 588.1975pt x 515.9275pt
 >
 File: figures/ATLAS/lar_cross-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/ATLAS/lar_cross-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/lar_cross-eps-converted-to.pdf used on in
-put line 313.
+put line 315.
 (luatex.def)             Requested size: 346.89731pt x 304.2765pt.
  [44<./figures/ATLAS/lar_cross-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/ATLAS/TileCal_Module.eps>
@@ -1600,23 +1596,23 @@ to.pdf>
 (epstopdf)                    size: 18898 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/TileCal_Modul
 e-eps-converted-to.pdf figures/ATLAS/TileCal_Module.eps>
-(epstopdf)             \includegraphics on input line 341.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/TileCal_Module-eps-converted-to.pdf, id=1620, 424.58624pt x 496.
+<figures/ATLAS/TileCal_Module-eps-converted-to.pdf, id=1625, 424.58624pt x 496.
 85625pt>
 File: figures/ATLAS/TileCal_Module-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/ATLAS/TileCal_Module-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/TileCal_Module-eps-converted-to.pdf used 
-on input line 341.
+on input line 339.
 (luatex.def)             Requested size: 216.81pt x 253.71175pt.
 
-Underfull \hbox (badness 2253) in paragraph at lines 349--350
-[][]\EU2/lmr/m/n/10.95 High en-ergy par-ti-cles strik-ing the
+Underfull \hbox (badness 2253) in paragraph at lines 350--351
+[]\EU2/lmr/m/n/10.95 High en-ergy par-ti-cles strik-ing the
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 349--350
+Underfull \hbox (badness 2197) in paragraph at lines 350--351
 \EU2/lmr/m/n/10.95 til-la-tion'' light, which is col-lected in
  []
 
@@ -1630,16 +1626,16 @@ pdf>
 (epstopdf)                    size: 264709 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ATLAS/muon_layout-e
 ps-converted-to.pdf figures/ATLAS/muon_layout.eps>
-(epstopdf)             \includegraphics on input line 365.
+(epstopdf)             \includegraphics on input line 366.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ATLAS/muon_layout-eps-converted-to.pdf, id=1642, 1027.84pt x 770.88pt>
+<figures/ATLAS/muon_layout-eps-converted-to.pdf, id=1647, 1027.84pt x 770.88pt>
 File: figures/ATLAS/muon_layout-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/ATLAS/muon_layout-eps-converted-to.pdf>
 Package luatex.def Info: figures/ATLAS/muon_layout-eps-converted-to.pdf used on 
-input line 365.
+input line 366.
 (luatex.def)             Requested size: 346.89731pt x 260.17842pt.
- [46<./figures/ATLAS/muon_layout-eps-converted-to.pdf>] [47]
+ [46] [47<./figures/ATLAS/muon_layout-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Atlas/MDTchamber.eps>
 (epstopdf)                    date: 2003-06-07 07:34:46
 (epstopdf)                    size: 618163 bytes
@@ -1649,15 +1645,15 @@ df>
 (epstopdf)                    size: 149889 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/Atlas/MDTchamber-ep
 s-converted-to.pdf figures/Atlas/MDTchamber.eps>
-(epstopdf)             \includegraphics on input line 406.
+(epstopdf)             \includegraphics on input line 407.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/MDTchamber-eps-converted-to.pdf, id=1665, 426.59375pt x 655.4487
+<figures/Atlas/MDTchamber-eps-converted-to.pdf, id=1671, 426.59375pt x 655.4487
 5pt>
 File: figures/Atlas/MDTchamber-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/Atlas/MDTchamber-eps-converted-to.pdf>
 Package luatex.def Info: figures/Atlas/MDTchamber-eps-converted-to.pdf used on i
-nput line 406.
+nput line 407.
 (luatex.def)             Requested size: 426.5927pt x 655.44714pt.
 Package epstopdf Info: Source file: <figures/Atlas/CSC.eps>
 (epstopdf)                    date: 2003-06-07 07:34:36
@@ -1667,15 +1663,15 @@ Package epstopdf Info: Source file: <figures/Atlas/CSC.eps>
 (epstopdf)                    size: 11745 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/Atlas/CSC-eps-conve
 rted-to.pdf figures/Atlas/CSC.eps>
-(epstopdf)             \includegraphics on input line 407.
+(epstopdf)             \includegraphics on input line 408.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/CSC-eps-converted-to.pdf, id=1666, 223.83624pt x 92.345pt>
+<figures/Atlas/CSC-eps-converted-to.pdf, id=1672, 223.83624pt x 92.345pt>
 File: figures/Atlas/CSC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/Atlas/CSC-eps-converted-to.pdf>
 Package luatex.def Info: figures/Atlas/CSC-eps-converted-to.pdf used on input li
-ne 407.
+ne 408.
 (luatex.def)             Requested size: 255.8342pt x 105.54913pt.
  [48<./figures/Atlas/MDTchamber-eps-converted-to.pdf><./figures/Atlas/CSC-eps-co
 nverted-to.pdf>]
@@ -1688,17 +1684,18 @@ ted-to.pdf>
 (epstopdf)                    size: 74733 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/Atlas/RPC_TGC_schem
 atics-eps-converted-to.pdf figures/Atlas/RPC_TGC_schematics.eps>
-(epstopdf)             \includegraphics on input line 425.
+(epstopdf)             \includegraphics on input line 426.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/RPC_TGC_schematics-eps-converted-to.pdf, id=1689, 630.355pt x 45
+<figures/Atlas/RPC_TGC_schematics-eps-converted-to.pdf, id=1695, 630.355pt x 45
 5.7025pt>
 File: figures/Atlas/RPC_TGC_schematics-eps-converted-to.pdf Graphic file (type p
 df)
  <use figures/Atlas/RPC_TGC_schematics-eps-converted-to.pdf>
 Package luatex.def Info: figures/Atlas/RPC_TGC_schematics-eps-converted-to.pdf u
-sed on input line 425.
+sed on input line 426.
 (luatex.def)             Requested size: 346.89731pt x 250.78316pt.
+ [49<./figures/Atlas/RPC_TGC_schematics-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Atlas/RPC_structure.eps>
 (epstopdf)                    date: 2008-01-28 00:43:04
 (epstopdf)                    size: 132962 bytes
@@ -1708,15 +1705,15 @@ o.pdf>
 (epstopdf)                    size: 62754 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/Atlas/RPC_structure
 -eps-converted-to.pdf figures/Atlas/RPC_structure.eps>
-(epstopdf)             \includegraphics on input line 435.
+(epstopdf)             \includegraphics on input line 436.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/RPC_structure-eps-converted-to.pdf, id=1692, 615.29875pt x 407.5
+<figures/Atlas/RPC_structure-eps-converted-to.pdf, id=1712, 615.29875pt x 407.5
 225pt>
 File: figures/Atlas/RPC_structure-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/Atlas/RPC_structure-eps-converted-to.pdf>
 Package luatex.def Info: figures/Atlas/RPC_structure-eps-converted-to.pdf used o
-n input line 435.
+n input line 436.
 (luatex.def)             Requested size: 173.44534pt x 114.87036pt.
 Package epstopdf Info: Source file: <figures/Atlas/TGC_structure.eps>
 (epstopdf)                    date: 2008-01-28 00:45:09
@@ -1727,20 +1724,18 @@ o.pdf>
 (epstopdf)                    size: 34808 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/Atlas/TGC_structure
 -eps-converted-to.pdf figures/Atlas/TGC_structure.eps>
-(epstopdf)             \includegraphics on input line 436.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/TGC_structure-eps-converted-to.pdf, id=1693, 564.1075pt x 250.93
+<figures/Atlas/TGC_structure-eps-converted-to.pdf, id=1713, 564.1075pt x 250.93
 75pt>
 File: figures/Atlas/TGC_structure-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/Atlas/TGC_structure-eps-converted-to.pdf>
 Package luatex.def Info: figures/Atlas/TGC_structure-eps-converted-to.pdf used o
-n input line 436.
+n input line 437.
 (luatex.def)             Requested size: 255.8342pt x 113.80531pt.
- [49<./figures/Atlas/RPC_TGC_schematics-eps-converted-to.pdf>] [50<./figures/Atl
-as/RPC_structure-eps-converted-to.pdf><./figures/Atlas/TGC_structure-eps-convert
-ed-to.pdf>]
-[51]
+ [50<./figures/Atlas/RPC_structure-eps-converted-to.pdf><./figures/Atlas/TGC_str
+ucture-eps-converted-to.pdf>] [51]
 Package epstopdf Info: Source file: <figures/Atlas/sol_mag.eps>
 (epstopdf)                    date: 2008-01-24 23:41:45
 (epstopdf)                    size: 792444 bytes
@@ -1750,15 +1745,15 @@ Package epstopdf Info: Source file: <figures/Atlas/sol_mag.eps>
 (epstopdf)                    size: 46860 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/Atlas/sol_mag-eps-c
 onverted-to.pdf figures/Atlas/sol_mag.eps>
-(epstopdf)             \includegraphics on input line 505.
+(epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/sol_mag-eps-converted-to.pdf, id=1740, 392.46625pt x 272.01625pt
+<figures/Atlas/sol_mag-eps-converted-to.pdf, id=1746, 392.46625pt x 272.01625pt
 >
 File: figures/Atlas/sol_mag-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/Atlas/sol_mag-eps-converted-to.pdf>
 Package luatex.def Info: figures/Atlas/sol_mag-eps-converted-to.pdf used on inpu
-t line 505.
+t line 506.
 (luatex.def)             Requested size: 208.13574pt x 144.25923pt.
 Package epstopdf Info: Source file: <figures/Atlas/bar_tor.eps>
 (epstopdf)                    date: 2008-01-24 23:42:50
@@ -1769,41 +1764,41 @@ Package epstopdf Info: Source file: <figures/Atlas/bar_tor.eps>
 (epstopdf)                    size: 494020 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/Atlas/bar_tor-eps-c
 onverted-to.pdf figures/Atlas/bar_tor.eps>
-(epstopdf)             \includegraphics on input line 506.
+(epstopdf)             \includegraphics on input line 507.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Atlas/bar_tor-eps-converted-to.pdf, id=1741, 1087.06125pt x 705.63625p
+<figures/Atlas/bar_tor-eps-converted-to.pdf, id=1747, 1087.06125pt x 705.63625p
 t>
 File: figures/Atlas/bar_tor-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/Atlas/bar_tor-eps-converted-to.pdf>
 Package luatex.def Info: figures/Atlas/bar_tor-eps-converted-to.pdf used on inpu
-t line 506.
+t line 507.
 (luatex.def)             Requested size: 221.14381pt x 143.54735pt.
- [52<./figures/Atlas/sol_mag-eps-converted-to.pdf><./figures/Atlas/bar_tor-eps-c
-onverted-to.pdf>]
-<figures/Atlas/atlas-ma-field.jpg, id=1761, 764.8575pt x 642.4pt>
+
+<figures/Atlas/atlas-ma-field.jpg, id=1750, 764.8575pt x 642.4pt>
 File: figures/Atlas/atlas-ma-field.jpg Graphic file (type jpg)
 
 <use figures/Atlas/atlas-ma-field.jpg>
-Package luatex.def Info: figures/Atlas/atlas-ma-field.jpg used on input line 517
+Package luatex.def Info: figures/Atlas/atlas-ma-field.jpg used on input line 518
 .
 (luatex.def)             Requested size: 216.81pt x 182.09587pt.
-
-Underfull \hbox (badness 2285) in paragraph at lines 524--525
+ [52]
+Underfull \hbox (badness 2285) in paragraph at lines 525--526
 \EU2/lmr/m/n/10.95 imuthal field out-side the calorime-ters,
  []
 
-[53<./figures/Atlas/atlas-ma-field.jpg>]
-<figures/Atlas/tdaq_run2_v1.pdf, id=1778, 1546.77875pt x 968.61874pt>
+[53<./figures/Atlas/sol_mag-eps-converted-to.pdf><./figures/Atlas/bar_tor-eps-co
+nverted-to.pdf><./figures/Atlas/atlas-ma-field.jpg>]
+<figures/Atlas/tdaq_run2_v1.pdf, id=1783, 1546.77875pt x 968.61874pt>
 File: figures/Atlas/tdaq_run2_v1.pdf Graphic file (type pdf)
 
 <use figures/Atlas/tdaq_run2_v1.pdf>
-Package luatex.def Info: figures/Atlas/tdaq_run2_v1.pdf used on input line 538.
+Package luatex.def Info: figures/Atlas/tdaq_run2_v1.pdf used on input line 539.
 (luatex.def)             Requested size: 212.47617pt x 133.04877pt.
- [54<./figures/Atlas/tdaq_run2_v1.pdf>]))
-(./tex/sec-methods.tex (./tex/methods/objectReconstruction.tex [55]
+ [54<./figures/Atlas/tdaq_run2_v1.pdf>]
+[55])) (./tex/sec-methods.tex (./tex/methods/objectReconstruction.tex [56]
 Chapter 6.
-[56
+[57
 
 ]
 Package epstopdf Info: Source file: <figures/ObjectReconstruction/el_id_eff.eps>
@@ -1819,7 +1814,7 @@ n/el_id_eff-eps-converted-to.pdf figures/ObjectReconstruction/el_id_eff.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ObjectReconstruction/el_id_eff-eps-converted-to.pdf, id=1821, 569.1262
+<figures/ObjectReconstruction/el_id_eff-eps-converted-to.pdf, id=1831, 569.1262
 5pt x 553.06625pt>
 File: figures/ObjectReconstruction/el_id_eff-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1828,7 +1823,7 @@ type pdf)
 Package luatex.def Info: figures/ObjectReconstruction/el_id_eff-eps-converted-to
 .pdf used on input line 41.
 (luatex.def)             Requested size: 255.8342pt x 248.61589pt.
- [57]
+ [58]
 Underfull \hbox (badness 1067) in paragraph at lines 45--47
 \OT1/cmr/m/n/10.95 5 \OMS/cmsy/m/n/10.95  \OT1/cmr/m/n/10.95 7$ \EU2/lmr/m/n/1
 0.95 cell win-dow con-tri-bu-tion
@@ -1839,21 +1834,21 @@ Underfull \hbox (badness 1622) in paragraph at lines 45--47
 \EU2/lmr/m/n/10.95 able cuts or 2) fixed cut val-
  []
 
-[58<./figures/ObjectReconstruction/el_id_eff-eps-converted-to.pdf>] [59]
+[59<./figures/ObjectReconstruction/el_id_eff-eps-converted-to.pdf>] [60]
 Overfull \hbox (9.72375pt too wide) in paragraph at lines 81--82
 []\EU2/lmr/m/n/10.95 Muon iso-la-tion is per-formed anal-o-gously to elec-tron 
 iso-la-tion: track-based and calorimeter-
  []
 
-[60] [61] [62]
-<figures/ObjectReconstruction/jet_trim.pdf, id=1902, 1171.37625pt x 385.44pt>
+[61] [62] [63]
+<figures/ObjectReconstruction/jet_trim.pdf, id=1914, 1171.37625pt x 385.44pt>
 File: figures/ObjectReconstruction/jet_trim.pdf Graphic file (type pdf)
 
 <use figures/ObjectReconstruction/jet_trim.pdf>
 Package luatex.def Info: figures/ObjectReconstruction/jet_trim.pdf used on input
  line 142.
 (luatex.def)             Requested size: 346.89731pt x 114.14491pt.
- [63<./figures/ObjectReconstruction/jet_trim.pdf>]
+ [64<./figures/ObjectReconstruction/jet_trim.pdf>]
 Package epstopdf Info: Source file: <figures/ObjectReconstruction/m_comb_res.eps
 >
 (epstopdf)                    date: 2017-02-16 13:42:33
@@ -1867,7 +1862,7 @@ n/m_comb_res-eps-converted-to.pdf figures/ObjectReconstruction/m_comb_res.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ObjectReconstruction/m_comb_res-eps-converted-to.pdf, id=1931, 569.126
+<figures/ObjectReconstruction/m_comb_res-eps-converted-to.pdf, id=1941, 569.126
 25pt x 409.53pt>
 File: figures/ObjectReconstruction/m_comb_res-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1890,7 +1885,7 @@ st_w_mass.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ObjectReconstruction/med_reconst_w_mass-eps-converted-to.pdf, id=1932,
+<figures/ObjectReconstruction/med_reconst_w_mass-eps-converted-to.pdf, id=1942,
  569.12625pt x 408.52625pt>
 File: figures/ObjectReconstruction/med_reconst_w_mass-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1900,8 +1895,8 @@ Package luatex.def Info: figures/ObjectReconstruction/med_reconst_w_mass-eps-con
 verted-to.pdf used on input line 173.
 (luatex.def)             Requested size: 212.47617pt x 152.5175pt.
 
-[64]
-<figures/ObjectReconstruction/MassWindow_newWZTagger.pdf, id=1957, 569.12625pt 
+[65]
+<figures/ObjectReconstruction/MassWindow_newWZTagger.pdf, id=1967, 569.12625pt 
 x 410.53375pt>
 File: figures/ObjectReconstruction/MassWindow_newWZTagger.pdf Graphic file (type
  pdf)
@@ -1910,7 +1905,7 @@ Package luatex.def Info: figures/ObjectReconstruction/MassWindow_newWZTagger.pdf
  used on input line 191.
 (luatex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/ObjectReconstruction/D2UpperCut_newWZTagger.pdf, id=1958, 569.12625pt 
+<figures/ObjectReconstruction/D2UpperCut_newWZTagger.pdf, id=1968, 569.12625pt 
 x 410.53375pt>
 File: figures/ObjectReconstruction/D2UpperCut_newWZTagger.pdf Graphic file (type
  pdf)
@@ -1919,15 +1914,15 @@ Package luatex.def Info: figures/ObjectReconstruction/D2UpperCut_newWZTagger.pdf
  used on input line 192.
 (luatex.def)             Requested size: 216.81pt x 156.39282pt.
 
-[65<./figures/ObjectReconstruction/m_comb_res-eps-converted-to.pdf><./figures/Ob
-jectReconstruction/med_reconst_w_mass-eps-converted-to.pdf>] [66<./figures/Objec
+[66<./figures/ObjectReconstruction/m_comb_res-eps-converted-to.pdf><./figures/Ob
+jectReconstruction/med_reconst_w_mass-eps-converted-to.pdf>] [67<./figures/Objec
 tReconstruction/MassWindow_newWZTagger.pdf><./figures/ObjectReconstruction/D2Upp
-erCut_newWZTagger.pdf>] [67]) (./tex/methods/analysisStrategy.tex [68]
+erCut_newWZTagger.pdf>] [68]) (./tex/methods/analysisStrategy.tex [69]
 Chapter 7.
-[69
+[70
 
 ]
-<figures/AnalysisStrategy/h_boosted_resolved_2.png, id=2061, 899.36pt x 724.707
+<figures/AnalysisStrategy/h_boosted_resolved_2.png, id=2071, 899.36pt x 724.707
 5pt>
 File: figures/AnalysisStrategy/h_boosted_resolved_2.png Graphic file (type png)
  <use figures/AnalysisStrategy/h_boosted_resolved_2.png>
@@ -1964,7 +1959,7 @@ s>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/AnalysisStrategy/h_DR_qq_W_500GeV-eps-converted-to.pdf, id=2065, 569.1
+<figures/AnalysisStrategy/h_DR_qq_W_500GeV-eps-converted-to.pdf, id=2075, 569.1
 2625pt x 458.71375pt>
 File: figures/AnalysisStrategy/h_DR_qq_W_500GeV-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1987,7 +1982,7 @@ eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/AnalysisStrategy/h_DR_qq_W_1000GeV-eps-converted-to.pdf, id=2066, 569.
+<figures/AnalysisStrategy/h_DR_qq_W_1000GeV-eps-converted-to.pdf, id=2076, 569.
 12625pt x 458.71375pt>
 File: figures/AnalysisStrategy/h_DR_qq_W_1000GeV-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2010,7 +2005,7 @@ eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/AnalysisStrategy/h_DR_qq_W_2000GeV-eps-converted-to.pdf, id=2067, 569.
+<figures/AnalysisStrategy/h_DR_qq_W_2000GeV-eps-converted-to.pdf, id=2077, 569.
 12625pt x 458.71375pt>
 File: figures/AnalysisStrategy/h_DR_qq_W_2000GeV-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2033,7 +2028,7 @@ eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/AnalysisStrategy/h_DR_qq_W_5000GeV-eps-converted-to.pdf, id=2068, 569.
+<figures/AnalysisStrategy/h_DR_qq_W_5000GeV-eps-converted-to.pdf, id=2078, 569.
 12625pt x 458.71375pt>
 File: figures/AnalysisStrategy/h_DR_qq_W_5000GeV-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2042,8 +2037,8 @@ le (type pdf)
 Package luatex.def Info: figures/AnalysisStrategy/h_DR_qq_W_5000GeV-eps-converte
 d-to.pdf used on input line 36.
 (luatex.def)             Requested size: 216.81pt x 174.747pt.
- [70<./figures/AnalysisStrategy/h_boosted_resolved_2.png>]
-<figures/AnalysisStrategy/event_topology.png, id=2086, 382.42876pt x 335.2525pt
+ [71<./figures/AnalysisStrategy/h_boosted_resolved_2.png>]
+<figures/AnalysisStrategy/event_topology.png, id=2096, 382.42876pt x 335.2525pt
 >
 File: figures/AnalysisStrategy/event_topology.png Graphic file (type png)
  <use figures/AnalysisStrategy/event_topology.png>
@@ -2051,24 +2046,24 @@ Package luatex.def Info: figures/AnalysisStrategy/event_topology.png used on inp
 ut line 47.
 (luatex.def)             Requested size: 212.47617pt x 186.26685pt.
 
-<figures/AnalysisStrategy/vbf_topology.png, id=2087, 382.42876pt x 335.2525pt>
+<figures/AnalysisStrategy/vbf_topology.png, id=2097, 382.42876pt x 335.2525pt>
 File: figures/AnalysisStrategy/vbf_topology.png Graphic file (type png)
 
 <use figures/AnalysisStrategy/vbf_topology.png>
 Package luatex.def Info: figures/AnalysisStrategy/vbf_topology.png used on input
  line 48.
 (luatex.def)             Requested size: 212.47617pt x 186.26685pt.
- [71<./figures/AnalysisStrategy/h_DR_qq_W_500GeV-eps-converted-to.pdf><./figures
+ [72<./figures/AnalysisStrategy/h_DR_qq_W_500GeV-eps-converted-to.pdf><./figures
 /AnalysisStrategy/h_DR_qq_W_1000GeV-eps-converted-to.pdf><./figures/AnalysisStra
 tegy/h_DR_qq_W_2000GeV-eps-converted-to.pdf><./figures/AnalysisStrategy/h_DR_qq_
-W_5000GeV-eps-converted-to.pdf>] [72<./figures/AnalysisStrategy/event_topology.p
-ng><./figures/AnalysisStrategy/vbf_topology.png>] [73] [74](compiling luc: /usr/
+W_5000GeV-eps-converted-to.pdf>] [73<./figures/AnalysisStrategy/event_topology.p
+ng><./figures/AnalysisStrategy/vbf_topology.png>] [74] [75](compiling luc: /usr/
 local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regula
 r.luc)(load luc: /Users/karo/Library/texlive/2016/texmf-var/luatex-cache/generic
-/fonts/otl/lmromancaps10-regular.luc) [75] [76] [77]) (./tex/methods/eventSelec
-tion.tex [78]
+/fonts/otl/lmromancaps10-regular.luc) [76] [77] [78]) (./tex/methods/eventSelec
+tion.tex [79]
 Chapter 8.
-[79
+[80
 
 ]
 Overfull \hbox (8.10406pt too wide) in paragraph at lines 50--53
@@ -2091,7 +2086,7 @@ _full2016.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/Eff_Et_singleOR_full2016-eps-converted-to.pdf, id=2278,
+<figures/EventSelection/Eff_Et_singleOR_full2016-eps-converted-to.pdf, id=2288,
  569.12625pt x 384.43625pt>
 File: figures/EventSelection/Eff_Et_singleOR_full2016-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2101,14 +2096,14 @@ Package luatex.def Info: figures/EventSelection/Eff_Et_singleOR_full2016-eps-con
 verted-to.pdf used on input line 56.
 (luatex.def)             Requested size: 238.49231pt x 161.09842pt.
 
-[80] [81<./figures/EventSelection/Eff_Et_singleOR_full2016-eps-converted-to.pdf>
-] [82] [83]
+[81] [82<./figures/EventSelection/Eff_Et_singleOR_full2016-eps-converted-to.pdf>
+] [83] [84]
 Overfull \hbox (0.7884pt too wide) in paragraph at lines 125--126
 []$[]$ \EU2/lmr/m/n/10.95 The lep-ton-i-cally de-cay-ing bo-son is re-quired to
  be suffi-ciently boosted:
  []
 
-[84]
+[85]
 Package epstopdf Info: Source file: <figures/EventSelection/JM_5_comb_VBF.eps>
 (epstopdf)                    date: 2017-07-25 22:28:32
 (epstopdf)                    size: 22196 bytes
@@ -2121,7 +2116,7 @@ _comb_VBF-eps-converted-to.pdf figures/EventSelection/JM_5_comb_VBF.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/JM_5_comb_VBF-eps-converted-to.pdf, id=2338, 569.12625p
+<figures/EventSelection/JM_5_comb_VBF-eps-converted-to.pdf, id=2348, 569.12625p
 t x 406.51875pt>
 File: figures/EventSelection/JM_5_comb_VBF-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2142,7 +2137,7 @@ _comb_ggF-eps-converted-to.pdf figures/EventSelection/JM_5_comb_ggF.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/JM_5_comb_ggF-eps-converted-to.pdf, id=2339, 569.12625p
+<figures/EventSelection/JM_5_comb_ggF-eps-converted-to.pdf, id=2349, 569.12625p
 t x 406.51875pt>
 File: figures/EventSelection/JM_5_comb_ggF-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2163,7 +2158,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/JD2_1_comb_VBF-eps-converted-to.pdf, id=2340, 569.12625
+<figures/EventSelection/JD2_1_comb_VBF-eps-converted-to.pdf, id=2350, 569.12625
 pt x 406.51875pt>
 File: figures/EventSelection/JD2_1_comb_VBF-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2184,7 +2179,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/JD2_1_comb_ggF-eps-converted-to.pdf, id=2341, 569.12625
+<figures/EventSelection/JD2_1_comb_ggF-eps-converted-to.pdf, id=2351, 569.12625
 pt x 406.51875pt>
 File: figures/EventSelection/JD2_1_comb_ggF-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2207,7 +2202,7 @@ VBF.eps>
 (epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/JPt_over_M_6_comb_VBF-eps-converted-to.pdf, id=2342, 56
+<figures/EventSelection/JPt_over_M_6_comb_VBF-eps-converted-to.pdf, id=2352, 56
 9.12625pt x 406.51875pt>
 File: figures/EventSelection/JPt_over_M_6_comb_VBF-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2230,7 +2225,7 @@ ggF.eps>
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/JPt_over_M_6_comb_ggF-eps-converted-to.pdf, id=2343, 56
+<figures/EventSelection/JPt_over_M_6_comb_ggF-eps-converted-to.pdf, id=2353, 56
 9.12625pt x 406.51875pt>
 File: figures/EventSelection/JPt_over_M_6_comb_ggF-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2243,12 +2238,12 @@ ted-to.pdf used on input line 157.
 
 LaTeX Warning: Float too large for page by 24.22935pt on input line 160.
 
-[85] [86<./figures/EventSelection/JM_5_comb_VBF-eps-converted-to.pdf><./figures/
+[86] [87<./figures/EventSelection/JM_5_comb_VBF-eps-converted-to.pdf><./figures/
 EventSelection/JM_5_comb_ggF-eps-converted-to.pdf><./figures/EventSelection/JD2_
 1_comb_VBF-eps-converted-to.pdf><./figures/EventSelection/JD2_1_comb_ggF-eps-con
 verted-to.pdf><./figures/EventSelection/JPt_over_M_6_comb_VBF-eps-converted-to.p
 df><./figures/EventSelection/JPt_over_M_6_comb_ggF-eps-converted-to.pdf>]
-[87]
+[88]
 Package epstopdf Info: Source file: <figures/EventSelection/VVM_0_comb_VBF.eps>
 (epstopdf)                    date: 2017-07-25 21:55:44
 (epstopdf)                    size: 18751 bytes
@@ -2261,7 +2256,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/VVM_0_comb_VBF-eps-converted-to.pdf, id=2469, 569.12625
+<figures/EventSelection/VVM_0_comb_VBF-eps-converted-to.pdf, id=2479, 569.12625
 pt x 406.51875pt>
 File: figures/EventSelection/VVM_0_comb_VBF-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2282,7 +2277,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/VVM_0_comb_ggF-eps-converted-to.pdf, id=2470, 569.12625
+<figures/EventSelection/VVM_0_comb_ggF-eps-converted-to.pdf, id=2480, 569.12625
 pt x 406.51875pt>
 File: figures/EventSelection/VVM_0_comb_ggF-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2304,7 +2299,7 @@ converted-to.pdf>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/VVM_11_comb_VBF-eps-converted-to.pdf, id=2471, 569.1262
+<figures/EventSelection/VVM_11_comb_VBF-eps-converted-to.pdf, id=2481, 569.1262
 5pt x 406.51875pt>
 File: figures/EventSelection/VVM_11_comb_VBF-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2326,7 +2321,7 @@ converted-to.pdf>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/VVM_11_comb_ggF-eps-converted-to.pdf, id=2472, 569.1262
+<figures/EventSelection/VVM_11_comb_ggF-eps-converted-to.pdf, id=2482, 569.1262
 5pt x 406.51875pt>
 File: figures/EventSelection/VVM_11_comb_ggF-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2336,17 +2331,17 @@ Package luatex.def Info: figures/EventSelection/VVM_11_comb_ggF-eps-converted-to
 .pdf used on input line 209.
 (luatex.def)             Requested size: 212.47617pt x 151.76802pt.
 
-<figures/EventSelection/HPLPdefinition.png, id=2481, 1020.4524pt x 582.0144pt>
+<figures/EventSelection/HPLPdefinition.png, id=2491, 1020.4524pt x 582.0144pt>
 File: figures/EventSelection/HPLPdefinition.png Graphic file (type png)
 
 <use figures/EventSelection/HPLPdefinition.png>
 Package luatex.def Info: figures/EventSelection/HPLPdefinition.png used on input
  line 217.
 (luatex.def)             Requested size: 325.215pt x 185.48466pt.
- [88] [89<./figures/EventSelection/VVM_0_comb_VBF-eps-converted-to.pdf><./figure
+ [89] [90<./figures/EventSelection/VVM_0_comb_VBF-eps-converted-to.pdf><./figure
 s/EventSelection/VVM_0_comb_ggF-eps-converted-to.pdf><./figures/EventSelection/V
 VM_11_comb_VBF-eps-converted-to.pdf><./figures/EventSelection/VVM_11_comb_ggF-ep
-s-converted-to.pdf>] [90<./figures/EventSelection/HPLPdefinition.png>]
+s-converted-to.pdf>] [91<./figures/EventSelection/HPLPdefinition.png>]
 Package epstopdf Info: Source file: <figures/EventSelection/VBF-HVTWW_effacc.eps
 >
 (epstopdf)                    date: 2017-07-21 17:54:22
@@ -2357,17 +2352,17 @@ Package epstopdf Info: Source file: <figures/EventSelection/VBF-HVTWW_effacc.eps
 (epstopdf)                    size: 14269 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/EventSelection/VBF-
 HVTWW_effacc-eps-converted-to.pdf figures/EventSelection/VBF-HVTWW_effacc.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/VBF-HVTWW_effacc-eps-converted-to.pdf, id=2561, 569.126
+<figures/EventSelection/VBF-HVTWW_effacc-eps-converted-to.pdf, id=2571, 569.126
 25pt x 426.59375pt>
 File: figures/EventSelection/VBF-HVTWW_effacc-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use figures/EventSelection/VBF-HVTWW_effacc-eps-converted-to.pdf>
 Package luatex.def Info: figures/EventSelection/VBF-HVTWW_effacc-eps-converted-t
-o.pdf used on input line 257.
+o.pdf used on input line 260.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
 Package epstopdf Info: Source file: <figures/EventSelection/VBF-HVTWZ_effacc.eps
 >
@@ -2379,17 +2374,17 @@ Package epstopdf Info: Source file: <figures/EventSelection/VBF-HVTWZ_effacc.eps
 (epstopdf)                    size: 14342 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/EventSelection/VBF-
 HVTWZ_effacc-eps-converted-to.pdf figures/EventSelection/VBF-HVTWZ_effacc.eps>
-(epstopdf)             \includegraphics on input line 258.
+(epstopdf)             \includegraphics on input line 261.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/VBF-HVTWZ_effacc-eps-converted-to.pdf, id=2562, 569.126
+<figures/EventSelection/VBF-HVTWZ_effacc-eps-converted-to.pdf, id=2572, 569.126
 25pt x 426.59375pt>
 File: figures/EventSelection/VBF-HVTWZ_effacc-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use figures/EventSelection/VBF-HVTWZ_effacc-eps-converted-to.pdf>
 Package luatex.def Info: figures/EventSelection/VBF-HVTWZ_effacc-eps-converted-t
-o.pdf used on input line 258.
+o.pdf used on input line 261.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
 Package epstopdf Info: Source file: <figures/EventSelection/VBFWWNWA_effacc.eps>
 
@@ -2401,17 +2396,17 @@ converted-to.pdf>
 (epstopdf)                    size: 13279 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/EventSelection/VBFW
 WNWA_effacc-eps-converted-to.pdf figures/EventSelection/VBFWWNWA_effacc.eps>
-(epstopdf)             \includegraphics on input line 259.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/VBFWWNWA_effacc-eps-converted-to.pdf, id=2563, 569.1262
+<figures/EventSelection/VBFWWNWA_effacc-eps-converted-to.pdf, id=2573, 569.1262
 5pt x 426.59375pt>
 File: figures/EventSelection/VBFWWNWA_effacc-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use figures/EventSelection/VBFWWNWA_effacc-eps-converted-to.pdf>
 Package luatex.def Info: figures/EventSelection/VBFWWNWA_effacc-eps-converted-to
-.pdf used on input line 259.
+.pdf used on input line 262.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
 Package epstopdf Info: Source file: <figures/EventSelection/HVTWW_effacc.eps>
 (epstopdf)                    date: 2017-07-21 17:54:21
@@ -2422,16 +2417,16 @@ verted-to.pdf>
 (epstopdf)                    size: 12410 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/EventSelection/HVTW
 W_effacc-eps-converted-to.pdf figures/EventSelection/HVTWW_effacc.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/HVTWW_effacc-eps-converted-to.pdf, id=2570, 569.12625pt
+<figures/EventSelection/HVTWW_effacc-eps-converted-to.pdf, id=2580, 569.12625pt
  x 426.59375pt>
 File: figures/EventSelection/HVTWW_effacc-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use figures/EventSelection/HVTWW_effacc-eps-converted-to.pdf>
 Package luatex.def Info: figures/EventSelection/HVTWW_effacc-eps-converted-to.pd
-f used on input line 266.
+f used on input line 269.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
 Package epstopdf Info: Source file: <figures/EventSelection/HVTWZ_effacc.eps>
 (epstopdf)                    date: 2017-07-21 17:54:21
@@ -2442,16 +2437,16 @@ verted-to.pdf>
 (epstopdf)                    size: 12397 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/EventSelection/HVTW
 Z_effacc-eps-converted-to.pdf figures/EventSelection/HVTWZ_effacc.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/HVTWZ_effacc-eps-converted-to.pdf, id=2571, 569.12625pt
+<figures/EventSelection/HVTWZ_effacc-eps-converted-to.pdf, id=2581, 569.12625pt
  x 426.59375pt>
 File: figures/EventSelection/HVTWZ_effacc-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use figures/EventSelection/HVTWZ_effacc-eps-converted-to.pdf>
 Package luatex.def Info: figures/EventSelection/HVTWZ_effacc-eps-converted-to.pd
-f used on input line 267.
+f used on input line 270.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
 Package epstopdf Info: Source file: <figures/EventSelection/RSGWW_effacc.eps>
 (epstopdf)                    date: 2017-07-21 17:54:21
@@ -2462,16 +2457,16 @@ verted-to.pdf>
 (epstopdf)                    size: 12644 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/EventSelection/RSGW
 W_effacc-eps-converted-to.pdf figures/EventSelection/RSGWW_effacc.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/RSGWW_effacc-eps-converted-to.pdf, id=2572, 569.12625pt
+<figures/EventSelection/RSGWW_effacc-eps-converted-to.pdf, id=2582, 569.12625pt
  x 426.59375pt>
 File: figures/EventSelection/RSGWW_effacc-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use figures/EventSelection/RSGWW_effacc-eps-converted-to.pdf>
 Package luatex.def Info: figures/EventSelection/RSGWW_effacc-eps-converted-to.pd
-f used on input line 268.
+f used on input line 271.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
 Package epstopdf Info: Source file: <figures/EventSelection/ggHWWNWA_effacc.eps>
 
@@ -2483,23 +2478,23 @@ converted-to.pdf>
 (epstopdf)                    size: 11795 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/EventSelection/ggHW
 WNWA_effacc-eps-converted-to.pdf figures/EventSelection/ggHWWNWA_effacc.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/EventSelection/ggHWWNWA_effacc-eps-converted-to.pdf, id=2573, 569.1262
+<figures/EventSelection/ggHWWNWA_effacc-eps-converted-to.pdf, id=2583, 569.1262
 5pt x 426.59375pt>
 File: figures/EventSelection/ggHWWNWA_effacc-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use figures/EventSelection/ggHWWNWA_effacc-eps-converted-to.pdf>
 Package luatex.def Info: figures/EventSelection/ggHWWNWA_effacc-eps-converted-to
-.pdf used on input line 269.
+.pdf used on input line 272.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
- [91
+ [92
 
-] [92<./figures/EventSelection/VBF-HVTWW_effacc-eps-converted-to.pdf><./figures/
+] [93<./figures/EventSelection/VBF-HVTWW_effacc-eps-converted-to.pdf><./figures/
 EventSelection/VBF-HVTWZ_effacc-eps-converted-to.pdf><./figures/EventSelection/V
-BFWWNWA_effacc-eps-converted-to.pdf>] [93<./figures/EventSelection/HVTWW_effacc-
+BFWWNWA_effacc-eps-converted-to.pdf>] [94<./figures/EventSelection/HVTWW_effacc-
 eps-converted-to.pdf><./figures/EventSelection/HVTWZ_effacc-eps-converted-to.pdf
 ><./figures/EventSelection/RSGWW_effacc-eps-converted-to.pdf><./figures/EventSel
 ection/ggHWWNWA_effacc-eps-converted-to.pdf>]
@@ -2514,17 +2509,17 @@ Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_3_comb_VBF
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_3_comb_VBF-eps-converted-to.pdf figures/BackgroundValidation/VVM_3_comb_VB
 F.eps>
-(epstopdf)             \includegraphics on input line 283.
+(epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_3_comb_VBF-eps-converted-to.pdf, id=2712, 569
+<figures/BackgroundValidation/VVM_3_comb_VBF-eps-converted-to.pdf, id=2722, 569
 .12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_3_comb_VBF-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use figures/BackgroundValidation/VVM_3_comb_VBF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_3_comb_VBF-eps-convert
-ed-to.pdf used on input line 283.
+ed-to.pdf used on input line 286.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_3_comb_ggF
 .eps>
@@ -2537,17 +2532,17 @@ Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_3_comb_ggF
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_3_comb_ggF-eps-converted-to.pdf figures/BackgroundValidation/VVM_3_comb_gg
 F.eps>
-(epstopdf)             \includegraphics on input line 284.
+(epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_3_comb_ggF-eps-converted-to.pdf, id=2713, 569
+<figures/BackgroundValidation/VVM_3_comb_ggF-eps-converted-to.pdf, id=2723, 569
 .12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_3_comb_ggF-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use figures/BackgroundValidation/VVM_3_comb_ggF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_3_comb_ggF-eps-convert
-ed-to.pdf used on input line 284.
+ed-to.pdf used on input line 287.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_2_comb_VBF
 .eps>
@@ -2560,17 +2555,17 @@ Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_2_comb_VBF
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_2_comb_VBF-eps-converted-to.pdf figures/BackgroundValidation/VVM_2_comb_VB
 F.eps>
-(epstopdf)             \includegraphics on input line 285.
+(epstopdf)             \includegraphics on input line 288.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_2_comb_VBF-eps-converted-to.pdf, id=2714, 569
+<figures/BackgroundValidation/VVM_2_comb_VBF-eps-converted-to.pdf, id=2724, 569
 .12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_2_comb_VBF-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use figures/BackgroundValidation/VVM_2_comb_VBF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_2_comb_VBF-eps-convert
-ed-to.pdf used on input line 285.
+ed-to.pdf used on input line 288.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_2_comb_ggF
 .eps>
@@ -2583,17 +2578,17 @@ Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_2_comb_ggF
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_2_comb_ggF-eps-converted-to.pdf figures/BackgroundValidation/VVM_2_comb_gg
 F.eps>
-(epstopdf)             \includegraphics on input line 286.
+(epstopdf)             \includegraphics on input line 289.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_2_comb_ggF-eps-converted-to.pdf, id=2715, 569
+<figures/BackgroundValidation/VVM_2_comb_ggF-eps-converted-to.pdf, id=2725, 569
 .12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_2_comb_ggF-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use figures/BackgroundValidation/VVM_2_comb_ggF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_2_comb_ggF-eps-convert
-ed-to.pdf used on input line 286.
+ed-to.pdf used on input line 289.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_12_comb_VB
 F.eps>
@@ -2606,17 +2601,17 @@ F-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_12_comb_VBF-eps-converted-to.pdf figures/BackgroundValidation/VVM_12_comb_
 VBF.eps>
-(epstopdf)             \includegraphics on input line 293.
+(epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_12_comb_VBF-eps-converted-to.pdf, id=2724, 56
+<figures/BackgroundValidation/VVM_12_comb_VBF-eps-converted-to.pdf, id=2734, 56
 9.12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_12_comb_VBF-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use figures/BackgroundValidation/VVM_12_comb_VBF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_12_comb_VBF-eps-conver
-ted-to.pdf used on input line 293.
+ted-to.pdf used on input line 296.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_12_comb_gg
 F.eps>
@@ -2629,17 +2624,17 @@ F-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_12_comb_ggF-eps-converted-to.pdf figures/BackgroundValidation/VVM_12_comb_
 ggF.eps>
-(epstopdf)             \includegraphics on input line 294.
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_12_comb_ggF-eps-converted-to.pdf, id=2725, 56
+<figures/BackgroundValidation/VVM_12_comb_ggF-eps-converted-to.pdf, id=2735, 56
 9.12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_12_comb_ggF-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use figures/BackgroundValidation/VVM_12_comb_ggF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_12_comb_ggF-eps-conver
-ted-to.pdf used on input line 294.
+ted-to.pdf used on input line 297.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_13_comb_VB
 F.eps>
@@ -2652,17 +2647,17 @@ F-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_13_comb_VBF-eps-converted-to.pdf figures/BackgroundValidation/VVM_13_comb_
 VBF.eps>
-(epstopdf)             \includegraphics on input line 295.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_13_comb_VBF-eps-converted-to.pdf, id=2726, 56
+<figures/BackgroundValidation/VVM_13_comb_VBF-eps-converted-to.pdf, id=2736, 56
 9.12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_13_comb_VBF-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use figures/BackgroundValidation/VVM_13_comb_VBF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_13_comb_VBF-eps-conver
-ted-to.pdf used on input line 295.
+ted-to.pdf used on input line 298.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 Package epstopdf Info: Source file: <figures/BackgroundValidation/VVM_13_comb_gg
 F.eps>
@@ -2675,34 +2670,34 @@ F-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figures/BackgroundValidatio
 n/VVM_13_comb_ggF-eps-converted-to.pdf figures/BackgroundValidation/VVM_13_comb_
 ggF.eps>
-(epstopdf)             \includegraphics on input line 296.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/BackgroundValidation/VVM_13_comb_ggF-eps-converted-to.pdf, id=2727, 56
+<figures/BackgroundValidation/VVM_13_comb_ggF-eps-converted-to.pdf, id=2737, 56
 9.12625pt x 485.815pt>
 File: figures/BackgroundValidation/VVM_13_comb_ggF-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use figures/BackgroundValidation/VVM_13_comb_ggF-eps-converted-to.pdf>
 Package luatex.def Info: figures/BackgroundValidation/VVM_13_comb_ggF-eps-conver
-ted-to.pdf used on input line 296.
+ted-to.pdf used on input line 299.
 (luatex.def)             Requested size: 208.13574pt x 177.6657pt.
 ))
-(./tex/sec-data.tex (./tex/data/systematics.tex [94
+(./tex/sec-data.tex (./tex/data/systematics.tex [95
 
-] [95<./figures/BackgroundValidation/VVM_3_comb_VBF-eps-converted-to.pdf><./figu
+] [96<./figures/BackgroundValidation/VVM_3_comb_VBF-eps-converted-to.pdf><./figu
 res/BackgroundValidation/VVM_3_comb_ggF-eps-converted-to.pdf><./figures/Backgrou
 ndValidation/VVM_2_comb_VBF-eps-converted-to.pdf><./figures/BackgroundValidation
-/VVM_2_comb_ggF-eps-converted-to.pdf>] [96<./figures/BackgroundValidation/VVM_12
+/VVM_2_comb_ggF-eps-converted-to.pdf>] [97<./figures/BackgroundValidation/VVM_12
 _comb_VBF-eps-converted-to.pdf><./figures/BackgroundValidation/VVM_12_comb_ggF-e
 ps-converted-to.pdf><./figures/BackgroundValidation/VVM_13_comb_VBF-eps-converte
 d-to.pdf><./figures/BackgroundValidation/VVM_13_comb_ggF-eps-converted-to.pdf>]
 
 Chapter 9.
-[97
+[98
 
-] [98]
-<figures/SystematicUncertainties/jes_unc.pdf, id=2895, 569.12625pt x 385.44pt>
+] [99]
+<figures/SystematicUncertainties/jes_unc.pdf, id=2905, 569.12625pt x 385.44pt>
 File: figures/SystematicUncertainties/jes_unc.pdf Graphic file (type pdf)
 
 <use figures/SystematicUncertainties/jes_unc.pdf>
@@ -2710,16 +2705,16 @@ Package luatex.def Info: figures/SystematicUncertainties/jes_unc.pdf used on inp
 ut line 31.
 (luatex.def)             Requested size: 208.13574pt x 140.9579pt.
 
-<figures/SystematicUncertainties/jes_eta.pdf, id=2896, 569.12625pt x 385.44pt>
+<figures/SystematicUncertainties/jes_eta.pdf, id=2906, 569.12625pt x 385.44pt>
 File: figures/SystematicUncertainties/jes_eta.pdf Graphic file (type pdf)
 
 <use figures/SystematicUncertainties/jes_eta.pdf>
 Package luatex.def Info: figures/SystematicUncertainties/jes_eta.pdf used on inp
 ut line 32.
 (luatex.def)             Requested size: 208.13574pt x 140.9579pt.
- [99<./figures/SystematicUncertainties/jes_unc.pdf><./figures/SystematicUncertai
-nties/jes_eta.pdf>]
-<figures/SystematicUncertainties/J_comb_scale.pdf, id=2974, 569.12625pt x 385.4
+ [100<./figures/SystematicUncertainties/jes_unc.pdf><./figures/SystematicUncerta
+inties/jes_eta.pdf>]
+<figures/SystematicUncertainties/J_comb_scale.pdf, id=2984, 569.12625pt x 385.4
 4pt>
 File: figures/SystematicUncertainties/J_comb_scale.pdf Graphic file (type pdf)
  <use figures/SystematicUncertainties/J_comb_scale.pdf>
@@ -2727,16 +2722,16 @@ Package luatex.def Info: figures/SystematicUncertainties/J_comb_scale.pdf used o
 n input line 46.
 (luatex.def)             Requested size: 208.13574pt x 140.9579pt.
 
-<figures/SystematicUncertainties/J_d2_scale.pdf, id=2975, 569.12625pt x 385.44p
+<figures/SystematicUncertainties/J_d2_scale.pdf, id=2985, 569.12625pt x 385.44p
 t>
 File: figures/SystematicUncertainties/J_d2_scale.pdf Graphic file (type pdf)
  <use figures/SystematicUncertainties/J_d2_scale.pdf>
 Package luatex.def Info: figures/SystematicUncertainties/J_d2_scale.pdf used on 
 input line 47.
 (luatex.def)             Requested size: 208.13574pt x 140.9579pt.
- [100<./figures/SystematicUncertainties/J_comb_scale.pdf><./figures/SystematicUn
+ [101<./figures/SystematicUncertainties/J_comb_scale.pdf><./figures/SystematicUn
 certainties/J_d2_scale.pdf>]
-<figures/SystematicUncertainties/mass_resolution.pdf, id=3026, 569.12625pt x 38
+<figures/SystematicUncertainties/mass_resolution.pdf, id=3036, 569.12625pt x 38
 6.44376pt>
 File: figures/SystematicUncertainties/mass_resolution.pdf Graphic file (type pdf
 )
@@ -2745,16 +2740,16 @@ Package luatex.def Info: figures/SystematicUncertainties/mass_resolution.pdf use
 d on input line 61.
 (luatex.def)             Requested size: 208.13574pt x 141.32498pt.
 
-<figures/SystematicUncertainties/d2_resolution.pdf, id=3027, 569.12625pt x 386.
+<figures/SystematicUncertainties/d2_resolution.pdf, id=3037, 569.12625pt x 386.
 44376pt>
 File: figures/SystematicUncertainties/d2_resolution.pdf Graphic file (type pdf)
  <use figures/SystematicUncertainties/d2_resolution.pdf>
 Package luatex.def Info: figures/SystematicUncertainties/d2_resolution.pdf used 
 on input line 62.
 (luatex.def)             Requested size: 208.13574pt x 141.32498pt.
- [101<./figures/SystematicUncertainties/mass_resolution.pdf><./figures/Systemati
-cUncertainties/d2_resolution.pdf>] [102]
-<figures/SystematicUncertainties/VVM_CRWHP_ggF.pdf, id=3144, 569.12625pt x 553.
+ [102<./figures/SystematicUncertainties/mass_resolution.pdf><./figures/Systemati
+cUncertainties/d2_resolution.pdf>] [103]
+<figures/SystematicUncertainties/VVM_CRWHP_ggF.pdf, id=3155, 569.12625pt x 553.
 06625pt>
 File: figures/SystematicUncertainties/VVM_CRWHP_ggF.pdf Graphic file (type pdf)
  <use figures/SystematicUncertainties/VVM_CRWHP_ggF.pdf>
@@ -2762,16 +2757,16 @@ Package luatex.def Info: figures/SystematicUncertainties/VVM_CRWHP_ggF.pdf used
 on input line 102.
 (luatex.def)             Requested size: 212.47617pt x 206.47946pt.
 
-<figures/SystematicUncertainties/VVM_CRWHP_VBF.pdf, id=3145, 569.12625pt x 552.
+<figures/SystematicUncertainties/VVM_CRWHP_VBF.pdf, id=3156, 569.12625pt x 552.
 0625pt>
 File: figures/SystematicUncertainties/VVM_CRWHP_VBF.pdf Graphic file (type pdf)
  <use figures/SystematicUncertainties/VVM_CRWHP_VBF.pdf>
 Package luatex.def Info: figures/SystematicUncertainties/VVM_CRWHP_VBF.pdf used 
 on input line 103.
 (luatex.def)             Requested size: 212.47617pt x 206.10472pt.
- [103<./figures/SystematicUncertainties/VVM_CRWHP_ggF.pdf><./figures/SystematicU
+ [104<./figures/SystematicUncertainties/VVM_CRWHP_ggF.pdf><./figures/SystematicU
 ncertainties/VVM_CRWHP_VBF.pdf>]
-<figures/SystematicUncertainties/ISRFSR_HVT3.pdf, id=3259, 612.69975pt x 400.45
+<figures/SystematicUncertainties/ISRFSR_HVT3.pdf, id=3269, 612.69975pt x 400.45
 82pt>
 File: figures/SystematicUncertainties/ISRFSR_HVT3.pdf Graphic file (type pdf)
  <use figures/SystematicUncertainties/ISRFSR_HVT3.pdf>
@@ -2779,7 +2774,7 @@ Package luatex.def Info: figures/SystematicUncertainties/ISRFSR_HVT3.pdf used on
  input line 131.
 (luatex.def)             Requested size: 212.47617pt x 138.87315pt.
 
-<figures/SystematicUncertainties/ISRFSR_RSG3.pdf, id=3260, 613.40997pt x 399.58
+<figures/SystematicUncertainties/ISRFSR_RSG3.pdf, id=3270, 613.40997pt x 399.58
 434pt>
 File: figures/SystematicUncertainties/ISRFSR_RSG3.pdf Graphic file (type pdf)
  <use figures/SystematicUncertainties/ISRFSR_RSG3.pdf>
@@ -2787,7 +2782,7 @@ Package luatex.def Info: figures/SystematicUncertainties/ISRFSR_RSG3.pdf used on
  input line 132.
 (luatex.def)             Requested size: 212.47617pt x 138.40547pt.
 
-<figures/SystematicUncertainties/pdfUncertaintyTotal_HVTWW.pdf, id=3265, 569.12
+<figures/SystematicUncertainties/pdfUncertaintyTotal_HVTWW.pdf, id=3275, 569.12
 625pt x 546.04pt>
 File: figures/SystematicUncertainties/pdfUncertaintyTotal_HVTWW.pdf Graphic file
  (type pdf)
@@ -2797,7 +2792,7 @@ Package luatex.def Info: figures/SystematicUncertainties/pdfUncertaintyTotal_HVT
 WW.pdf used on input line 139.
 (luatex.def)             Requested size: 212.47617pt x 203.85632pt.
 
-<figures/SystematicUncertainties/pdfUncertaintyTotal_HVTWWVBF.pdf, id=3266, 569
+<figures/SystematicUncertainties/pdfUncertaintyTotal_HVTWWVBF.pdf, id=3276, 569
 .12625pt x 546.04pt>
 File: figures/SystematicUncertainties/pdfUncertaintyTotal_HVTWWVBF.pdf Graphic f
 ile (type pdf)
@@ -2806,13 +2801,13 @@ ile (type pdf)
 Package luatex.def Info: figures/SystematicUncertainties/pdfUncertaintyTotal_HVT
 WWVBF.pdf used on input line 140.
 (luatex.def)             Requested size: 212.47617pt x 203.85632pt.
- [104])
-(./tex/data/statisticalAnalysis.tex [105<./figures/SystematicUncertainties/ISRFS
-R_HVT3.pdf><./figures/SystematicUncertainties/ISRFSR_RSG3.pdf>] [106<./figures/S
+ [105])
+(./tex/data/statisticalAnalysis.tex [106<./figures/SystematicUncertainties/ISRFS
+R_HVT3.pdf><./figures/SystematicUncertainties/ISRFSR_RSG3.pdf>] [107<./figures/S
 ystematicUncertainties/pdfUncertaintyTotal_HVTWW.pdf><./figures/SystematicUncert
 ainties/pdfUncertaintyTotal_HVTWWVBF.pdf>]
 Chapter 10.
-[107
+[108
 
 ]
 Package epstopdf Info: Source file: <figures/StatisticalAnalysis/fit_HVT_WW_15.e
@@ -2829,7 +2824,7 @@ s>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/StatisticalAnalysis/fit_HVT_WW_15-eps-converted-to.pdf, id=3472, 569.1
+<figures/StatisticalAnalysis/fit_HVT_WW_15-eps-converted-to.pdf, id=3482, 569.1
 2625pt x 546.04pt>
 File: figures/StatisticalAnalysis/fit_HVT_WW_15-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2850,7 +2845,7 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/StatisticalAnalysis/HVT_WW-eps-converted-to.pdf, id=3473, 569.12625pt 
+<figures/StatisticalAnalysis/HVT_WW-eps-converted-to.pdf, id=3483, 569.12625pt 
 x 426.59375pt>
 File: figures/StatisticalAnalysis/HVT_WW-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2870,7 +2865,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/StatisticalAnalysis/RS_G_WW-eps-converted-to.pdf, id=3474, 569.12625pt
+<figures/StatisticalAnalysis/RS_G_WW-eps-converted-to.pdf, id=3484, 569.12625pt
  x 426.59375pt>
 File: figures/StatisticalAnalysis/RS_G_WW-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2879,15 +2874,15 @@ Package luatex.def Info: figures/StatisticalAnalysis/RS_G_WW-eps-converted-to.pd
 f used on input line 43.
 (luatex.def)             Requested size: 212.47617pt x 159.26274pt.
 
-[108<./figures/StatisticalAnalysis/fit_HVT_WW_15-eps-converted-to.pdf>](compilin
+[109<./figures/StatisticalAnalysis/fit_HVT_WW_15-eps-converted-to.pdf>](compilin
 g luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman8
 -bold.luc)(load luc: /Users/karo/Library/texlive/2016/texmf-var/luatex-cache/gen
 eric/fonts/otl/lmroman8-bold.luc)(compiling luc: /usr/local/texlive/2016/texmf-v
 ar/luatex-cache/generic/fonts/otl/lmroman6-bold.luc)(load luc: /Users/karo/Libra
-ry/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-bold.luc) [10
-9<./figures/StatisticalAnalysis/HVT_WW-eps-converted-to.pdf><./figures/Statistic
-alAnalysis/RS_G_WW-eps-converted-to.pdf>] [110] [111] [112] [113])
-(./tex/data/results.tex [114]
+ry/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-bold.luc) [11
+0<./figures/StatisticalAnalysis/HVT_WW-eps-converted-to.pdf><./figures/Statistic
+alAnalysis/RS_G_WW-eps-converted-to.pdf>] [111] [112] [113] [114])
+(./tex/data/results.tex [115]
 Chapter 11.
 Package epstopdf Info: Source file: <figures/Results/new/final_pf/postFit_VBF_HV
 TWW_1000_SRWW_HP.eps>
@@ -2904,7 +2899,7 @@ pf/postFit_VBF_HVTWW_1000_SRWW_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_SRWW_HP-eps-converted-to.p
-df, id=3606, 569.12625pt x 546.04pt>
+df, id=3616, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_SRWW_HP-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -2928,7 +2923,7 @@ pf/postFit_VBF_HVTWZ_1000_SRWZ_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWZ_1000_SRWZ_HP-eps-converted-to.p
-df, id=3607, 569.12625pt x 546.04pt>
+df, id=3617, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWZ_1000_SRWZ_HP-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -2952,7 +2947,7 @@ f/postFit_VBF_HVTWW_1000_WCR_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_WCR_HP-eps-converted-to.pd
-f, id=3608, 569.12625pt x 546.04pt>
+f, id=3618, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_WCR_HP-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -2976,7 +2971,7 @@ f/postFit_VBF_HVTWW_1000_TCR_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_TCR_HP-eps-converted-to.pd
-f, id=3609, 569.12625pt x 546.04pt>
+f, id=3619, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_TCR_HP-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -3000,7 +2995,7 @@ pf/postFit_VBF_HVTWW_1000_SRWW_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_SRWW_LP-eps-converted-to.p
-df, id=3618, 569.12625pt x 546.04pt>
+df, id=3628, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_SRWW_LP-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -3024,7 +3019,7 @@ pf/postFit_VBF_HVTWZ_1000_SRWZ_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWZ_1000_SRWZ_LP-eps-converted-to.p
-df, id=3619, 569.12625pt x 546.04pt>
+df, id=3629, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWZ_1000_SRWZ_LP-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -3048,7 +3043,7 @@ f/postFit_VBF_HVTWW_1000_WCR_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_WCR_LP-eps-converted-to.pd
-f, id=3620, 569.12625pt x 546.04pt>
+f, id=3630, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_WCR_LP-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -3072,7 +3067,7 @@ f/postFit_VBF_HVTWW_1000_TCR_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_TCR_LP-eps-converted-to.pd
-f, id=3621, 569.12625pt x 546.04pt>
+f, id=3631, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_TCR_LP-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -3096,7 +3091,7 @@ ostFit_HVTWW_2000_SRWW_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWW_2000_SRWW_HP-eps-converted-to.pdf, 
-id=3630, 569.12625pt x 546.04pt>
+id=3640, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWW_2000_SRWW_HP-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -3120,7 +3115,7 @@ ostFit_HVTWZ_2000_SRWZ_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWZ_2000_SRWZ_HP-eps-converted-to.pdf, 
-id=3631, 569.12625pt x 546.04pt>
+id=3641, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWZ_2000_SRWZ_HP-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -3144,7 +3139,7 @@ stFit_HVTWW_2000_WCR_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWW_2000_WCR_HP-eps-converted-to.pdf, i
-d=3632, 569.12625pt x 546.04pt>
+d=3642, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWW_2000_WCR_HP-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -3168,7 +3163,7 @@ stFit_HVTWW_2000_TCR_HP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWW_2000_TCR_HP-eps-converted-to.pdf, i
-d=3633, 569.12625pt x 546.04pt>
+d=3643, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWW_2000_TCR_HP-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -3192,7 +3187,7 @@ ostFit_HVTWW_2000_SRWW_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWW_2000_SRWW_LP-eps-converted-to.pdf, 
-id=3642, 569.12625pt x 546.04pt>
+id=3652, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWW_2000_SRWW_LP-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -3216,7 +3211,7 @@ ostFit_HVTWZ_2000_SRWZ_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWZ_2000_SRWZ_LP-eps-converted-to.pdf, 
-id=3643, 569.12625pt x 546.04pt>
+id=3653, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWZ_2000_SRWZ_LP-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -3240,7 +3235,7 @@ stFit_HVTWW_2000_WCR_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWW_2000_WCR_LP-eps-converted-to.pdf, i
-d=3644, 569.12625pt x 546.04pt>
+d=3654, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWW_2000_WCR_LP-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -3264,7 +3259,7 @@ stFit_HVTWW_2000_TCR_LP.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_pf/postFit_HVTWW_2000_TCR_LP-eps-converted-to.pdf, i
-d=3645, 569.12625pt x 546.04pt>
+d=3655, 569.12625pt x 546.04pt>
 File: figures/Results/new/final_pf/postFit_HVTWW_2000_TCR_LP-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -3273,36 +3268,36 @@ f>
 Package luatex.def Info: figures/Results/new/final_pf/postFit_HVTWW_2000_TCR_LP-
 eps-converted-to.pdf used on input line 49.
 (luatex.def)             Requested size: 208.13574pt x 199.69037pt.
- [115
+ [116
 
-] [116<./figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_SRWW_HP-eps-convert
+] [117<./figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_SRWW_HP-eps-convert
 ed-to.pdf><./figures/Results/new/final_pf/postFit_VBF_HVTWZ_1000_SRWZ_HP-eps-con
 verted-to.pdf><./figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_WCR_HP-eps-
 converted-to.pdf><./figures/Results/new/final_pf/postFit_VBF_HVTWW_1000_TCR_HP-e
-ps-converted-to.pdf>] [117<./figures/Results/new/final_pf/postFit_VBF_HVTWW_1000
+ps-converted-to.pdf>] [118<./figures/Results/new/final_pf/postFit_VBF_HVTWW_1000
 _SRWW_LP-eps-converted-to.pdf><./figures/Results/new/final_pf/postFit_VBF_HVTWZ_
 1000_SRWZ_LP-eps-converted-to.pdf><./figures/Results/new/final_pf/postFit_VBF_HV
 TWW_1000_WCR_LP-eps-converted-to.pdf><./figures/Results/new/final_pf/postFit_VBF
-_HVTWW_1000_TCR_LP-eps-converted-to.pdf>] [118<./figures/Results/new/final_pf/po
+_HVTWW_1000_TCR_LP-eps-converted-to.pdf>] [119<./figures/Results/new/final_pf/po
 stFit_HVTWW_2000_SRWW_HP-eps-converted-to.pdf><./figures/Results/new/final_pf/po
 stFit_HVTWZ_2000_SRWZ_HP-eps-converted-to.pdf><./figures/Results/new/final_pf/po
 stFit_HVTWW_2000_WCR_HP-eps-converted-to.pdf><./figures/Results/new/final_pf/pos
-tFit_HVTWW_2000_TCR_HP-eps-converted-to.pdf>] [119<./figures/Results/new/final_p
+tFit_HVTWW_2000_TCR_HP-eps-converted-to.pdf>] [120<./figures/Results/new/final_p
 f/postFit_HVTWW_2000_SRWW_LP-eps-converted-to.pdf><./figures/Results/new/final_p
 f/postFit_HVTWZ_2000_SRWZ_LP-eps-converted-to.pdf><./figures/Results/new/final_p
 f/postFit_HVTWW_2000_WCR_LP-eps-converted-to.pdf><./figures/Results/new/final_pf
 /postFit_HVTWW_2000_TCR_LP-eps-converted-to.pdf>]
-(./tex/data/yields/VBFWW_yields.tex) (./tex/data/yields/WW_yields.tex) [120
+(./tex/data/yields/VBFWW_yields.tex) (./tex/data/yields/WW_yields.tex) [121
 
 ]
-[121] [122](compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generi
+[122] [123](compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generi
 c/fonts/otl/lmroman9-bold.luc)(load luc: /Users/karo/Library/texlive/2016/texmf-
 var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc)(compiling luc: /usr/local/
 texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-bold.luc)(load lu
 c: /Users/karo/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmr
-oman5-bold.luc) [123
+oman5-bold.luc) [124
 
-] [124]
+] [125]
 Package epstopdf Info: Source file: <figures/Results/new/final_lim/RSGWW_LPHP_gg
 F.eps>
 (epstopdf)                    date: 2017-08-16 21:59:54
@@ -3317,7 +3312,7 @@ ggF.eps>
 (epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Results/new/final_lim/RSGWW_LPHP_ggF-eps-converted-to.pdf, id=3958, 56
+<figures/Results/new/final_lim/RSGWW_LPHP_ggF-eps-converted-to.pdf, id=3968, 56
 9.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/RSGWW_LPHP_ggF-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3341,7 +3336,7 @@ GWW_ReWeight_LPHP_ggF.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_lim/RSGWW_ReWeight_LPHP_ggF-eps-converted-to.pdf, id
-=3959, 569.12625pt x 384.43625pt>
+=3969, 569.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/RSGWW_ReWeight_LPHP_ggF-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -3364,7 +3359,7 @@ ggF.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Results/new/final_lim/HVTWW_LPHP_ggF-eps-converted-to.pdf, id=3964, 56
+<figures/Results/new/final_lim/HVTWW_LPHP_ggF-eps-converted-to.pdf, id=3974, 56
 9.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/HVTWW_LPHP_ggF-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3387,7 +3382,7 @@ ggF.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Results/new/final_lim/HVTWZ_LPHP_ggF-eps-converted-to.pdf, id=3965, 56
+<figures/Results/new/final_lim/HVTWZ_LPHP_ggF-eps-converted-to.pdf, id=3975, 56
 9.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/HVTWZ_LPHP_ggF-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3410,7 +3405,7 @@ WW_LPHP_VBF.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Results/new/final_lim/VBF_HVTWW_LPHP_VBF-eps-converted-to.pdf, id=3970
+<figures/Results/new/final_lim/VBF_HVTWW_LPHP_VBF-eps-converted-to.pdf, id=3980
 , 569.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/VBF_HVTWW_LPHP_VBF-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -3433,7 +3428,7 @@ WZ_LPHP_VBF.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Results/new/final_lim/VBF_HVTWZ_LPHP_VBF-eps-converted-to.pdf, id=3971
+<figures/Results/new/final_lim/VBF_HVTWZ_LPHP_VBF-eps-converted-to.pdf, id=3981
 , 569.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/VBF_HVTWZ_LPHP_VBF-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -3443,7 +3438,7 @@ Package luatex.def Info: figures/Results/new/final_lim/VBF_HVTWZ_LPHP_VBF-eps-co
 nverted-to.pdf used on input line 178.
 (luatex.def)             Requested size: 346.89731pt x 234.33565pt.
 
-[125
+[126
 
 <./figures/Results/new/final_lim/RSGWW_LPHP_ggF-eps-converted-to.pdf><./figures/
 Results/new/final_lim/RSGWW_ReWeight_LPHP_ggF-eps-converted-to.pdf>]
@@ -3461,7 +3456,7 @@ _LPHP_ggF.eps>
 (epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Results/new/final_lim/ggHWWNWA_LPHP_ggF-eps-converted-to.pdf, id=4017,
+<figures/Results/new/final_lim/ggHWWNWA_LPHP_ggF-eps-converted-to.pdf, id=4027,
  569.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/ggHWWNWA_LPHP_ggF-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -3484,7 +3479,7 @@ _LPHP_VBF.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Results/new/final_lim/VBFWWNWA_LPHP_VBF-eps-converted-to.pdf, id=4018,
+<figures/Results/new/final_lim/VBFWWNWA_LPHP_VBF-eps-converted-to.pdf, id=4028,
  569.12625pt x 384.43625pt>
 File: figures/Results/new/final_lim/VBFWWNWA_LPHP_VBF-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -3494,14 +3489,14 @@ Package luatex.def Info: figures/Results/new/final_lim/VBFWWNWA_LPHP_VBF-eps-con
 verted-to.pdf used on input line 185.
 (luatex.def)             Requested size: 346.89731pt x 234.33565pt.
 
-[126<./figures/Results/new/final_lim/HVTWW_LPHP_ggF-eps-converted-to.pdf><./figu
-res/Results/new/final_lim/HVTWZ_LPHP_ggF-eps-converted-to.pdf>] [127<./figures/R
+[127<./figures/Results/new/final_lim/HVTWW_LPHP_ggF-eps-converted-to.pdf><./figu
+res/Results/new/final_lim/HVTWZ_LPHP_ggF-eps-converted-to.pdf>] [128<./figures/R
 esults/new/final_lim/VBF_HVTWW_LPHP_VBF-eps-converted-to.pdf><./figures/Results/
 new/final_lim/VBF_HVTWZ_LPHP_VBF-eps-converted-to.pdf>]
 Overfull \vbox (14.17633pt too high) has occurred while \output is active []
 
 
-[128<./figures/Results/new/final_lim/ggHWWNWA_LPHP_ggF-eps-converted-to.pdf><./f
+[129<./figures/Results/new/final_lim/ggHWWNWA_LPHP_ggF-eps-converted-to.pdf><./f
 igures/Results/new/final_lim/VBFWWNWA_LPHP_VBF-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Results/new/final_lim/VVM_p0_VBF_HV
 TWW_VBF.eps>
@@ -3518,7 +3513,7 @@ im/VVM_p0_VBF_HVTWW_VBF-eps-converted-to.pdf figures/Results/new/final_lim/VVM_p
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_lim/VVM_p0_VBF_HVTWW_VBF-eps-converted-to.pdf, id=41
-55, 569.12625pt x 480.79625pt>
+65, 569.12625pt x 480.79625pt>
 File: figures/Results/new/final_lim/VVM_p0_VBF_HVTWW_VBF-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -3541,7 +3536,7 @@ im/VVM_p0_VBF_HVTWZ_VBF-eps-converted-to.pdf figures/Results/new/final_lim/VVM_p
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Results/new/final_lim/VVM_p0_VBF_HVTWZ_VBF-eps-converted-to.pdf, id=41
-56, 569.12625pt x 480.79625pt>
+66, 569.12625pt x 480.79625pt>
 File: figures/Results/new/final_lim/VVM_p0_VBF_HVTWZ_VBF-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -3550,33 +3545,33 @@ Package luatex.def Info: figures/Results/new/final_lim/VVM_p0_VBF_HVTWZ_VBF-eps-
 converted-to.pdf used on input line 196.
 (luatex.def)             Requested size: 212.47617pt x 179.49847pt.
 
-[129<./figures/Results/new/final_lim/VVM_p0_VBF_HVTWW_VBF-eps-converted-to.pdf><
+[130<./figures/Results/new/final_lim/VVM_p0_VBF_HVTWW_VBF-eps-converted-to.pdf><
 ./figures/Results/new/final_lim/VVM_p0_VBF_HVTWZ_VBF-eps-converted-to.pdf>]
-[130] [131])) (./tex/misc/conclusions.tex
+[131] [132])) (./tex/misc/conclusions.tex
 Chapter 12.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /lmroman9-italic.luc)(load luc: /Users/karo/Library/texlive/2016/texmf-var/luate
-x-cache/generic/fonts/otl/lmroman9-italic.luc) [132
+x-cache/generic/fonts/otl/lmroman9-italic.luc) [133
 
 
-] [133]) [134] (./main.bbl
+] [134]) [135] (./main.bbl
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 9.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
 l/lmmono10-regular.luc)(load luc: /Users/karo/Library/texlive/2016/texmf-var/lua
-tex-cache/generic/fonts/otl/lmmono10-regular.luc) [135
+tex-cache/generic/fonts/otl/lmmono10-regular.luc) [136
 
 
-] [136] [137] [138] [139] [140] [141]
-[142]) [143] [144
+] [137] [138] [139] [140] [141] [142]
+[143]) [144] [145
 
 
 ] (./tex/sec-appendix.tex (./tex/appendix/eventDisplay.tex
 Appendix A.
-[145
+[146
 
-] [146](compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fo
+] [147](compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fo
 nts/otl/lmroman7-regular.luc)(load luc: /Users/karo/Library/texlive/2016/texmf-v
 ar/luatex-cache/generic/fonts/otl/lmroman7-regular.luc)(compiling luc: /usr/loca
 l/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-bold.luc)(load 
@@ -3600,14 +3595,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 43.
 
-<figures/Appendix/highest_vbf_cand.png, id=4523, 2409.0pt x 2437.105pt>
+<figures/Appendix/highest_vbf_cand.png, id=4534, 2409.0pt x 2437.105pt>
 File: figures/Appendix/highest_vbf_cand.png Graphic file (type png)
 
 <use figures/Appendix/highest_vbf_cand.png>
 Package luatex.def Info: figures/Appendix/highest_vbf_cand.png used on input lin
 e 47.
 (luatex.def)             Requested size: 433.62pt x 438.65997pt.
- [147
+ [148
 
 <./figures/Appendix/highest_vbf_cand.png>]
 
@@ -3636,14 +3631,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 54.
 
-<figures/Appendix/highest_e_candidate.png, id=4530, 2409.0pt x 2437.105pt>
+<figures/Appendix/highest_e_candidate.png, id=4541, 2409.0pt x 2437.105pt>
 File: figures/Appendix/highest_e_candidate.png Graphic file (type png)
 
 <use figures/Appendix/highest_e_candidate.png>
 Package luatex.def Info: figures/Appendix/highest_e_candidate.png used on input 
 line 59.
 (luatex.def)             Requested size: 433.62pt x 438.65997pt.
- [148
+ [149
 
 <./figures/Appendix/highest_e_candidate.png>]
 
@@ -3676,14 +3671,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 66.
 
-<figures/Appendix/highest_mu_candidate.png, id=4536, 2409.0pt x 2437.105pt>
+<figures/Appendix/highest_mu_candidate.png, id=4547, 2409.0pt x 2437.105pt>
 File: figures/Appendix/highest_mu_candidate.png Graphic file (type png)
 
 <use figures/Appendix/highest_mu_candidate.png>
 Package luatex.def Info: figures/Appendix/highest_mu_candidate.png used on input
  line 71.
 (luatex.def)             Requested size: 433.62pt x 438.65997pt.
-) (./tex/appendix/neutrinoPz.tex [149
+) (./tex/appendix/neutrinoPz.tex [150
 
 <./figures/Appendix/highest_mu_candidate.png>]
 Appendix B.
@@ -3699,7 +3694,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-[150
+[151
 
 ]
 Package epstopdf Info: Source file: <figures/Appendix/h_pz_low_high.eps>
@@ -3714,7 +3709,7 @@ igh-eps-converted-to.pdf figures/Appendix/h_pz_low_high.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/h_pz_low_high-eps-converted-to.pdf, id=4565, 569.12625pt x 48
+<figures/Appendix/h_pz_low_high-eps-converted-to.pdf, id=4576, 569.12625pt x 48
 5.815pt>
 File: figures/Appendix/h_pz_low_high-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3734,7 +3729,7 @@ plex-eps-converted-to.pdf figures/Appendix/h_real_complex.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/h_real_complex-eps-converted-to.pdf, id=4566, 569.12625pt x 4
+<figures/Appendix/h_real_complex-eps-converted-to.pdf, id=4577, 569.12625pt x 4
 85.815pt>
 File: figures/Appendix/h_real_complex-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3754,7 +3749,7 @@ f>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/h_m_mt-eps-converted-to.pdf, id=4571, 569.12625pt x 485.815pt
+<figures/Appendix/h_m_mt-eps-converted-to.pdf, id=4582, 569.12625pt x 485.815pt
 >
 File: figures/Appendix/h_m_mt-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/Appendix/h_m_mt-eps-converted-to.pdf>
@@ -3762,7 +3757,7 @@ Package luatex.def Info: figures/Appendix/h_m_mt-eps-converted-to.pdf used on in
 put line 55.
 (luatex.def)             Requested size: 260.17464pt x 222.0988pt.
 )
-(./tex/appendix/QCDestimation.tex [151] [152<./figures/Appendix/h_pz_low_high-ep
+(./tex/appendix/QCDestimation.tex [152] [153<./figures/Appendix/h_pz_low_high-ep
 s-converted-to.pdf><./figures/Appendix/h_real_complex-eps-converted-to.pdf><./fi
 gures/Appendix/h_m_mt-eps-converted-to.pdf>]
 Appendix C.
@@ -3780,7 +3775,7 @@ e.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/jetjet/InvMET_HP_WCR_e-eps-converted-to.pdf, id=4638, 569
+<figures/Appendix/qcd/jetjet/InvMET_HP_WCR_e-eps-converted-to.pdf, id=4650, 569
 .12625pt x 546.04pt>
 File: figures/Appendix/qcd/jetjet/InvMET_HP_WCR_e-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3803,7 +3798,7 @@ e.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/jetjet/InvMET_LP_WCR_e-eps-converted-to.pdf, id=4639, 569
+<figures/Appendix/qcd/jetjet/InvMET_LP_WCR_e-eps-converted-to.pdf, id=4651, 569
 .12625pt x 546.04pt>
 File: figures/Appendix/qcd/jetjet/InvMET_LP_WCR_e-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3826,7 +3821,7 @@ _HP_WCR_e.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/jetjet/RelaxedMET_HP_WCR_e-eps-converted-to.pdf, id=4640,
+<figures/Appendix/qcd/jetjet/RelaxedMET_HP_WCR_e-eps-converted-to.pdf, id=4652,
  569.12625pt x 546.04pt>
 File: figures/Appendix/qcd/jetjet/RelaxedMET_HP_WCR_e-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -3849,7 +3844,7 @@ _LP_WCR_e.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/jetjet/RelaxedMET_LP_WCR_e-eps-converted-to.pdf, id=4641,
+<figures/Appendix/qcd/jetjet/RelaxedMET_LP_WCR_e-eps-converted-to.pdf, id=4653,
  569.12625pt x 546.04pt>
 File: figures/Appendix/qcd/jetjet/RelaxedMET_LP_WCR_e-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -3859,13 +3854,13 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/RelaxedMET_LP_WCR_e-eps-con
 verted-to.pdf used on input line 20.
 (luatex.def)             Requested size: 199.4681pt x 191.37515pt.
 
-[153
+[154
 
-] [154<./figures/Appendix/qcd/jetjet/InvMET_HP_WCR_e-eps-converted-to.pdf><./fig
+] [155<./figures/Appendix/qcd/jetjet/InvMET_HP_WCR_e-eps-converted-to.pdf><./fig
 ures/Appendix/qcd/jetjet/InvMET_LP_WCR_e-eps-converted-to.pdf><./figures/Appendi
 x/qcd/jetjet/RelaxedMET_HP_WCR_e-eps-converted-to.pdf><./figures/Appendix/qcd/je
 tjet/RelaxedMET_LP_WCR_e-eps-converted-to.pdf>]
-<figures/Appendix/qcd/elPt_SRWWHP.pdf, id=4738, 569.12625pt x 553.06625pt>
+<figures/Appendix/qcd/elPt_SRWWHP.pdf, id=4750, 569.12625pt x 553.06625pt>
 File: figures/Appendix/qcd/elPt_SRWWHP.pdf Graphic file (type pdf)
 
 <use figures/Appendix/qcd/elPt_SRWWHP.pdf>
@@ -3873,7 +3868,7 @@ Package luatex.def Info: figures/Appendix/qcd/elPt_SRWWHP.pdf used on input line
  29.
 (luatex.def)             Requested size: 208.13574pt x 202.25992pt.
 
-<figures/Appendix/qcd/elPt_SRWWLP.pdf, id=4739, 569.12625pt x 553.06625pt>
+<figures/Appendix/qcd/elPt_SRWWLP.pdf, id=4751, 569.12625pt x 553.06625pt>
 File: figures/Appendix/qcd/elPt_SRWWLP.pdf Graphic file (type pdf)
 
 <use figures/Appendix/qcd/elPt_SRWWLP.pdf>
@@ -3881,7 +3876,7 @@ Package luatex.def Info: figures/Appendix/qcd/elPt_SRWWLP.pdf used on input line
  30.
 (luatex.def)             Requested size: 208.13574pt x 202.25992pt.
 
-<figures/Appendix/qcd/elPt_CRWHP.pdf, id=4740, 569.12625pt x 553.06625pt>
+<figures/Appendix/qcd/elPt_CRWHP.pdf, id=4752, 569.12625pt x 553.06625pt>
 File: figures/Appendix/qcd/elPt_CRWHP.pdf Graphic file (type pdf)
 
 <use figures/Appendix/qcd/elPt_CRWHP.pdf>
@@ -3889,19 +3884,19 @@ Package luatex.def Info: figures/Appendix/qcd/elPt_CRWHP.pdf used on input line
 31.
 (luatex.def)             Requested size: 208.13574pt x 202.25992pt.
 
-<figures/Appendix/qcd/elPt_CRWLP.pdf, id=4741, 569.12625pt x 553.06625pt>
+<figures/Appendix/qcd/elPt_CRWLP.pdf, id=4753, 569.12625pt x 553.06625pt>
 File: figures/Appendix/qcd/elPt_CRWLP.pdf Graphic file (type pdf)
 
 <use figures/Appendix/qcd/elPt_CRWLP.pdf>
 Package luatex.def Info: figures/Appendix/qcd/elPt_CRWLP.pdf used on input line 
 32.
 (luatex.def)             Requested size: 208.13574pt x 202.25992pt.
- [155
+ [156
 
 <./figures/Appendix/qcd/elPt_SRWWHP.pdf><./figures/Appendix/qcd/elPt_SRWWLP.pdf>
 <./figures/Appendix/qcd/elPt_CRWHP.pdf><./figures/Appendix/qcd/elPt_CRWLP.pdf>]
 
-<figures/Appendix/qcd/jetjet/metpt_0_el.png, id=4819, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_0_el.png, id=4830, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_0_el.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_0_el.png>
@@ -3909,7 +3904,7 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_0_el.png used on inpu
 t line 41.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
 
-<figures/Appendix/qcd/jetjet/metpt_11_el.png, id=4820, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_11_el.png, id=4831, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_11_el.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_11_el.png>
@@ -3917,7 +3912,7 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_11_el.png used on inp
 ut line 42.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
 
-<figures/Appendix/qcd/jetjet/metpt_3_el.png, id=4821, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_3_el.png, id=4832, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_3_el.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_3_el.png>
@@ -3925,7 +3920,7 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_3_el.png used on inpu
 t line 43.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
 
-<figures/Appendix/qcd/jetjet/metpt_12_el.png, id=4822, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_12_el.png, id=4833, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_12_el.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_12_el.png>
@@ -3933,7 +3928,7 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_12_el.png used on inp
 ut line 44.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
 
-<figures/Appendix/qcd/jetjet/metpt_0_mu.png, id=4831, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_0_mu.png, id=4842, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_0_mu.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_0_mu.png>
@@ -3941,7 +3936,7 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_0_mu.png used on inpu
 t line 50.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
 
-<figures/Appendix/qcd/jetjet/metpt_11_mu.png, id=4832, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_11_mu.png, id=4843, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_11_mu.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_11_mu.png>
@@ -3949,7 +3944,7 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_11_mu.png used on inp
 ut line 51.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
 
-<figures/Appendix/qcd/jetjet/metpt_3_mu.png, id=4833, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_3_mu.png, id=4844, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_3_mu.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_3_mu.png>
@@ -3957,18 +3952,18 @@ Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_3_mu.png used on inpu
 t line 52.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
 
-<figures/Appendix/qcd/jetjet/metpt_12_mu.png, id=4834, 650.43pt x 556.0775pt>
+<figures/Appendix/qcd/jetjet/metpt_12_mu.png, id=4845, 650.43pt x 556.0775pt>
 File: figures/Appendix/qcd/jetjet/metpt_12_mu.png Graphic file (type png)
 
 <use figures/Appendix/qcd/jetjet/metpt_12_mu.png>
 Package luatex.def Info: figures/Appendix/qcd/jetjet/metpt_12_mu.png used on inp
 ut line 53.
 (luatex.def)             Requested size: 208.13574pt x 177.93994pt.
- [156
+ [157
 
 <./figures/Appendix/qcd/jetjet/metpt_0_el.png><./figures/Appendix/qcd/jetjet/met
 pt_11_el.png><./figures/Appendix/qcd/jetjet/metpt_3_el.png><./figures/Appendix/q
-cd/jetjet/metpt_12_el.png>] [157<./figures/Appendix/qcd/jetjet/metpt_0_mu.png><.
+cd/jetjet/metpt_12_el.png>] [158<./figures/Appendix/qcd/jetjet/metpt_0_mu.png><.
 /figures/Appendix/qcd/jetjet/metpt_11_mu.png><./figures/Appendix/qcd/jetjet/metp
 t_3_mu.png><./figures/Appendix/qcd/jetjet/metpt_12_mu.png>]
 Package epstopdf Info: Source file: <figures/Appendix/qcd/2d_eff_HVTWZ_met_over_
@@ -3985,7 +3980,7 @@ over_ptlv.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/2d_eff_HVTWZ_met_over_ptlv-eps-converted-to.pdf, id=4862,
+<figures/Appendix/qcd/2d_eff_HVTWZ_met_over_ptlv-eps-converted-to.pdf, id=4873,
  569.12625pt x 458.71375pt>
 File: figures/Appendix/qcd/2d_eff_HVTWZ_met_over_ptlv-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -4008,7 +4003,7 @@ over_ptlv.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/2d_sig_HVTWZ_met_over_ptlv-eps-converted-to.pdf, id=4863,
+<figures/Appendix/qcd/2d_sig_HVTWZ_met_over_ptlv-eps-converted-to.pdf, id=4874,
  569.12625pt x 458.71375pt>
 File: figures/Appendix/qcd/2d_sig_HVTWZ_met_over_ptlv-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -4031,7 +4026,7 @@ t_over_ptlv.eps>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/2d_eff_vbfNWA_met_over_ptlv-eps-converted-to.pdf, id=4864
+<figures/Appendix/qcd/2d_eff_vbfNWA_met_over_ptlv-eps-converted-to.pdf, id=4875
 , 569.12625pt x 458.71375pt>
 File: figures/Appendix/qcd/2d_eff_vbfNWA_met_over_ptlv-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4054,7 +4049,7 @@ t_over_ptlv.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/2d_sig_vbfNWA_met_over_ptlv-eps-converted-to.pdf, id=4865
+<figures/Appendix/qcd/2d_sig_vbfNWA_met_over_ptlv-eps-converted-to.pdf, id=4876
 , 569.12625pt x 458.71375pt>
 File: figures/Appendix/qcd/2d_sig_vbfNWA_met_over_ptlv-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4064,20 +4059,20 @@ Package luatex.def Info: figures/Appendix/qcd/2d_sig_vbfNWA_met_over_ptlv-eps-co
 nverted-to.pdf used on input line 66.
 (luatex.def)             Requested size: 208.13574pt x 167.7546pt.
 
-[158
+[159
 
 <./figures/Appendix/qcd/2d_eff_HVTWZ_met_over_ptlv-eps-converted-to.pdf><./figur
 es/Appendix/qcd/2d_sig_HVTWZ_met_over_ptlv-eps-converted-to.pdf><./figures/Appen
 dix/qcd/2d_eff_vbfNWA_met_over_ptlv-eps-converted-to.pdf><./figures/Appendix/qcd
 /2d_sig_vbfNWA_met_over_ptlv-eps-converted-to.pdf>]
-<figures/Appendix/qcd/met_qcdshape_el_hp.png, id=4946, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_qcdshape_el_hp.png, id=4957, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_qcdshape_el_hp.png Graphic file (type png)
 <use figures/Appendix/qcd/met_qcdshape_el_hp.png>
 Package luatex.def Info: figures/Appendix/qcd/met_qcdshape_el_hp.png used on inp
 ut line 92.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
 
-<figures/Appendix/qcd/met_wjfit_el_hp.png, id=4947, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_wjfit_el_hp.png, id=4958, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_wjfit_el_hp.png Graphic file (type png)
 
 <use figures/Appendix/qcd/met_wjfit_el_hp.png>
@@ -4085,31 +4080,31 @@ Package luatex.def Info: figures/Appendix/qcd/met_wjfit_el_hp.png used on input
 line 93.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
 
-<figures/Appendix/qcd/met_qcdshape_el_lp.png, id=4948, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_qcdshape_el_lp.png, id=4959, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_qcdshape_el_lp.png Graphic file (type png)
 <use figures/Appendix/qcd/met_qcdshape_el_lp.png>
 Package luatex.def Info: figures/Appendix/qcd/met_qcdshape_el_lp.png used on inp
 ut line 94.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
 
-<figures/Appendix/qcd/met_wjfit_el_lp.png, id=4949, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_wjfit_el_lp.png, id=4960, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_wjfit_el_lp.png Graphic file (type png)
 
 <use figures/Appendix/qcd/met_wjfit_el_lp.png>
 Package luatex.def Info: figures/Appendix/qcd/met_wjfit_el_lp.png used on input 
 line 95.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
- [159
+ [160
 
 ]
-<figures/Appendix/qcd/met_qcdshape_mu_hp.png, id=4966, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_qcdshape_mu_hp.png, id=4977, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_qcdshape_mu_hp.png Graphic file (type png)
 <use figures/Appendix/qcd/met_qcdshape_mu_hp.png>
 Package luatex.def Info: figures/Appendix/qcd/met_qcdshape_mu_hp.png used on inp
 ut line 102.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
 
-<figures/Appendix/qcd/met_wjfit_mu_hp.png, id=4967, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_wjfit_mu_hp.png, id=4978, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_wjfit_mu_hp.png Graphic file (type png)
 
 <use figures/Appendix/qcd/met_wjfit_mu_hp.png>
@@ -4117,24 +4112,24 @@ Package luatex.def Info: figures/Appendix/qcd/met_wjfit_mu_hp.png used on input
 line 103.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
 
-<figures/Appendix/qcd/met_qcdshape_mu_lp.png, id=4968, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_qcdshape_mu_lp.png, id=4979, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_qcdshape_mu_lp.png Graphic file (type png)
 <use figures/Appendix/qcd/met_qcdshape_mu_lp.png>
 Package luatex.def Info: figures/Appendix/qcd/met_qcdshape_mu_lp.png used on inp
 ut line 104.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
 
-<figures/Appendix/qcd/met_wjfit_mu_lp.png, id=4969, 700.6175pt x 676.5275pt>
+<figures/Appendix/qcd/met_wjfit_mu_lp.png, id=4980, 700.6175pt x 676.5275pt>
 File: figures/Appendix/qcd/met_wjfit_mu_lp.png Graphic file (type png)
 
 <use figures/Appendix/qcd/met_wjfit_mu_lp.png>
 Package luatex.def Info: figures/Appendix/qcd/met_wjfit_mu_lp.png used on input 
 line 105.
 (luatex.def)             Requested size: 208.13574pt x 200.9778pt.
- [160<./figures/Appendix/qcd/met_qcdshape_el_hp.png><./figures/Appendix/qcd/met_
+ [161<./figures/Appendix/qcd/met_qcdshape_el_hp.png><./figures/Appendix/qcd/met_
 wjfit_el_hp.png><./figures/Appendix/qcd/met_qcdshape_el_lp.png><./figures/Append
 ix/qcd/met_wjfit_el_lp.png>]
-[161<./figures/Appendix/qcd/met_qcdshape_mu_hp.png><./figures/Appendix/qcd/met_w
+[162<./figures/Appendix/qcd/met_qcdshape_mu_hp.png><./figures/Appendix/qcd/met_w
 jfit_mu_hp.png><./figures/Appendix/qcd/met_qcdshape_mu_lp.png><./figures/Appendi
 x/qcd/met_wjfit_mu_lp.png>]
 Package epstopdf Info: Source file: <figures/Appendix/qcd/met_wjfit_el_hp_pt4.ep
@@ -4151,7 +4146,7 @@ fit_el_hp_pt4-eps-converted-to.pdf figures/Appendix/qcd/met_wjfit_el_hp_pt4.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/met_wjfit_el_hp_pt4-eps-converted-to.pdf, id=4997, 569.12
+<figures/Appendix/qcd/met_wjfit_el_hp_pt4-eps-converted-to.pdf, id=5009, 569.12
 625pt x 549.05125pt>
 File: figures/Appendix/qcd/met_wjfit_el_hp_pt4-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -4174,7 +4169,7 @@ fit_el_lp_pt4-eps-converted-to.pdf figures/Appendix/qcd/met_wjfit_el_lp_pt4.eps>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/qcd/met_wjfit_el_lp_pt4-eps-converted-to.pdf, id=4998, 569.12
+<figures/Appendix/qcd/met_wjfit_el_lp_pt4-eps-converted-to.pdf, id=5010, 569.12
 625pt x 549.05125pt>
 File: figures/Appendix/qcd/met_wjfit_el_lp_pt4-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -4184,7 +4179,7 @@ Package luatex.def Info: figures/Appendix/qcd/met_wjfit_el_lp_pt4-eps-converted-
 to.pdf used on input line 115.
 (luatex.def)             Requested size: 208.13574pt x 200.79161pt.
 )
-(./tex/appendix/CosThetaStar.tex [162
+(./tex/appendix/CosThetaStar.tex [163
 
 <./figures/Appendix/qcd/met_wjfit_el_hp_pt4-eps-converted-to.pdf><./figures/Appe
 ndix/qcd/met_wjfit_el_lp_pt4-eps-converted-to.pdf>]
@@ -4201,7 +4196,7 @@ rison-eps-converted-to.pdf figures/Appendix/sens_comparison.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/sens_comparison-eps-converted-to.pdf, id=5048, 569.12625pt x 
+<figures/Appendix/sens_comparison-eps-converted-to.pdf, id=5060, 569.12625pt x 
 409.53pt>
 File: figures/Appendix/sens_comparison-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4209,7 +4204,7 @@ df)
 Package luatex.def Info: figures/Appendix/sens_comparison-eps-converted-to.pdf u
 sed on input line 13.
 (luatex.def)             Requested size: 303.53267pt x 218.42462pt.
- [163
+ [164
 
 ]
 Package epstopdf Info: Source file: <figures/Appendix/h_costhetastar_HVTWW.eps>
@@ -4224,7 +4219,7 @@ star_HVTWW-eps-converted-to.pdf figures/Appendix/h_costhetastar_HVTWW.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/h_costhetastar_HVTWW-eps-converted-to.pdf, id=5065, 569.12625
+<figures/Appendix/h_costhetastar_HVTWW-eps-converted-to.pdf, id=5077, 569.12625
 pt x 480.79625pt>
 File: figures/Appendix/h_costhetastar_HVTWW-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -4245,7 +4240,7 @@ star_VBFWW-eps-converted-to.pdf figures/Appendix/h_costhetastar_VBFWW.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/h_costhetastar_VBFWW-eps-converted-to.pdf, id=5066, 569.12625
+<figures/Appendix/h_costhetastar_VBFWW-eps-converted-to.pdf, id=5078, 569.12625
 pt x 480.79625pt>
 File: figures/Appendix/h_costhetastar_VBFWW-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -4255,11 +4250,11 @@ Package luatex.def Info: figures/Appendix/h_costhetastar_VBFWW-eps-converted-to.
 pdf used on input line 37.
 (luatex.def)             Requested size: 281.85034pt x 238.11592pt.
 )
-(./tex/appendix/Optimizations.tex [164<./figures/Appendix/sens_comparison-eps-co
-nverted-to.pdf>] [165<./figures/Appendix/h_costhetastar_HVTWW-eps-converted-to.p
+(./tex/appendix/Optimizations.tex [165<./figures/Appendix/sens_comparison-eps-co
+nverted-to.pdf>] [166<./figures/Appendix/h_costhetastar_HVTWW-eps-converted-to.p
 df><./figures/Appendix/h_costhetastar_VBFWW-eps-converted-to.pdf>]
 Appendix E.
-[166
+[167
 
 ]
 Package epstopdf Info: Source file: <figures/Appendix/opt/WZtag/comp_ggf_sig_ggf
@@ -4277,7 +4272,7 @@ _sig_ggf_reg_el.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/WZtag/comp_ggf_sig_ggf_reg_el-eps-converted-to.pdf, id=51
-32, 569.12625pt x 480.79625pt>
+45, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/WZtag/comp_ggf_sig_ggf_reg_el-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -4300,7 +4295,7 @@ _sig_ggf_reg_mu.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/WZtag/comp_ggf_sig_ggf_reg_mu-eps-converted-to.pdf, id=51
-33, 569.12625pt x 480.79625pt>
+46, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/WZtag/comp_ggf_sig_ggf_reg_mu-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -4323,7 +4318,7 @@ _sig_vbf_reg_el.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/WZtag/comp_vbf_sig_vbf_reg_el-eps-converted-to.pdf, id=51
-34, 569.12625pt x 480.79625pt>
+47, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/WZtag/comp_vbf_sig_vbf_reg_el-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -4346,7 +4341,7 @@ _sig_vbf_reg_mu.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/WZtag/comp_vbf_sig_vbf_reg_mu-eps-converted-to.pdf, id=51
-35, 569.12625pt x 480.79625pt>
+48, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/WZtag/comp_vbf_sig_vbf_reg_mu-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -4355,7 +4350,7 @@ Package luatex.def Info: figures/Appendix/opt/WZtag/comp_vbf_sig_vbf_reg_mu-eps-
 converted-to.pdf used on input line 31.
 (luatex.def)             Requested size: 208.13574pt x 175.8303pt.
 
-[167] [168<./figures/Appendix/opt/WZtag/comp_ggf_sig_ggf_reg_el-eps-converted-to
+[168] [169<./figures/Appendix/opt/WZtag/comp_ggf_sig_ggf_reg_el-eps-converted-to
 .pdf><./figures/Appendix/opt/WZtag/comp_ggf_sig_ggf_reg_mu-eps-converted-to.pdf>
 <./figures/Appendix/opt/WZtag/comp_vbf_sig_vbf_reg_el-eps-converted-to.pdf><./fi
 gures/Appendix/opt/WZtag/comp_vbf_sig_vbf_reg_mu-eps-converted-to.pdf>]
@@ -4372,7 +4367,7 @@ Package epstopdf Info: Source file: <figures/Appendix/opt/mjj_pt/comb_reg_el.eps
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/opt/mjj_pt/comb_reg_el-eps-converted-to.pdf, id=5219, 569.126
+<figures/Appendix/opt/mjj_pt/comb_reg_el-eps-converted-to.pdf, id=5231, 569.126
 25pt x 480.79625pt>
 File: figures/Appendix/opt/mjj_pt/comb_reg_el-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4394,7 +4389,7 @@ Package epstopdf Info: Source file: <figures/Appendix/opt/mjj_pt/comb_reg_mu.eps
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/opt/mjj_pt/comb_reg_mu-eps-converted-to.pdf, id=5220, 569.126
+<figures/Appendix/opt/mjj_pt/comb_reg_mu-eps-converted-to.pdf, id=5232, 569.126
 25pt x 480.79625pt>
 File: figures/Appendix/opt/mjj_pt/comb_reg_mu-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4418,7 +4413,7 @@ comp_vbf_sig_vbf_reg_el.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/mjj_pt/lp/comp_vbf_sig_vbf_reg_el-eps-converted-to.pdf, i
-d=5225, 569.12625pt x 480.79625pt>
+d=5237, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/mjj_pt/lp/comp_vbf_sig_vbf_reg_el-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -4442,7 +4437,7 @@ comp_vbf_sig_vbf_reg_mu.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/mjj_pt/lp/comp_vbf_sig_vbf_reg_mu-eps-converted-to.pdf, i
-d=5226, 569.12625pt x 480.79625pt>
+d=5238, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/mjj_pt/lp/comp_vbf_sig_vbf_reg_mu-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -4451,9 +4446,9 @@ f>
 Package luatex.def Info: figures/Appendix/opt/mjj_pt/lp/comp_vbf_sig_vbf_reg_mu-
 eps-converted-to.pdf used on input line 57.
 (luatex.def)             Requested size: 208.13574pt x 175.8303pt.
- [169
+ [170
 
-] [170<./figures/Appendix/opt/mjj_pt/comb_reg_el-eps-converted-to.pdf><./figures
+] [171<./figures/Appendix/opt/mjj_pt/comb_reg_el-eps-converted-to.pdf><./figures
 /Appendix/opt/mjj_pt/comb_reg_mu-eps-converted-to.pdf><./figures/Appendix/opt/mj
 j_pt/lp/comp_vbf_sig_vbf_reg_el-eps-converted-to.pdf><./figures/Appendix/opt/mjj
 _pt/lp/comp_vbf_sig_vbf_reg_mu-eps-converted-to.pdf>]
@@ -4469,7 +4464,7 @@ vs_Calo_m-eps-converted-to.pdf figures/Appendix/opt/TA/TA_vs_Calo_m.eps>
 (epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/Appendix/opt/TA/TA_vs_Calo_m-eps-converted-to.pdf, id=5304, 569.12625p
+<figures/Appendix/opt/TA/TA_vs_Calo_m-eps-converted-to.pdf, id=5316, 569.12625p
 t x 458.71375pt>
 File: figures/Appendix/opt/TA/TA_vs_Calo_m-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4493,7 +4488,7 @@ _MassResolution_pttruth.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/TA/TA_Calo_MassResolution_pttruth-eps-converted-to.pdf, i
-d=5305, 569.12625pt x 480.79625pt>
+d=5317, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/TA/TA_Calo_MassResolution_pttruth-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -4517,7 +4512,7 @@ MassResolution_ptreco.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/Appendix/opt/TA/TA_Calo_MassResolution_ptreco-eps-converted-to.pdf, id
-=5306, 569.12625pt x 480.79625pt>
+=5318, 569.12625pt x 480.79625pt>
 File: figures/Appendix/opt/TA/TA_Calo_MassResolution_ptreco-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -4526,23 +4521,23 @@ File: figures/Appendix/opt/TA/TA_Calo_MassResolution_ptreco-eps-converted-to.pdf
 Package luatex.def Info: figures/Appendix/opt/TA/TA_Calo_MassResolution_ptreco-e
 ps-converted-to.pdf used on input line 90.
 (luatex.def)             Requested size: 208.13574pt x 175.8303pt.
-) (./tex/appendix/EventCutflow.tex [171
+) (./tex/appendix/EventCutflow.tex [172
 
-] [172<./figures/Appendix/opt/TA/TA_vs_Calo_m-eps-converted-to.pdf><./figures/Ap
+] [173<./figures/Appendix/opt/TA/TA_vs_Calo_m-eps-converted-to.pdf><./figures/Ap
 pendix/opt/TA/TA_Calo_MassResolution_pttruth-eps-converted-to.pdf><./figures/App
 endix/opt/TA/TA_Calo_MassResolution_ptreco-eps-converted-to.pdf>]
 Appendix F.
-[173
+[174
 
-] [174] [175]) (./tex/appendix/sampleList.tex [176]
+] [175] [176]) (./tex/appendix/sampleList.tex [177]
 Appendix G.
-[177
+[178
 
 
 
 
 
-] [178] [179] [180] [181] [182] [183] [184] [185
+] [179] [180] [181] [182] [183] [184] [185] [186
 
 
 
@@ -4706,36 +4701,36 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 290.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 290.
 
-[186
+[187
 
 ]
 
-LaTeX Warning: Text page 187 contains only floats.
-
-[187]
-
 LaTeX Warning: Text page 188 contains only floats.
 
-[188] [189] [190] [191] [192]))
+[188]
+
+LaTeX Warning: Text page 189 contains only floats.
+
+[189] [190] [191] [192] [193]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B403AA059841B5EE65D05A042621E2E;6991.
+(rerunfilecheck)             Checksum: 41242EE752CF45D9A08011CCF37D3955;6991.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43651 strings out of 495119
- 305383,1144653 words of node,token memory allocated
- 46859 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 5329 glue, 1 kern, 3 penalty, 2237 attribute, 53 gl
-ue_spec, 2237 attribute_list, 3 write, 28 pdf_action nodes
-   avail lists: 1:98,2:6063,3:2571,4:208,5:1847,6:14375,7:11607,8:1158,9:2064,10
+ 43654 strings out of 495119
+ 305380,1144653 words of node,token memory allocated
+ 46895 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 5333 glue, 1 kern, 3 penalty, 2239 attribute, 53 gl
+ue_spec, 2239 attribute_list, 3 write, 28 pdf_action nodes
+   avail lists: 1:92,2:6063,3:2573,4:205,5:1847,6:14375,7:11607,8:1158,9:2064,10
 :30,11:500
- 39814 multiletter control sequences out of 65536+600000
+ 39815 multiletter control sequences out of 65536+600000
  154 fonts using 11387975 bytes
  63i,20n,102p,1772b,1828s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.o
@@ -4769,10 +4764,10 @@ al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (210 pages, 11190762 bytes).
+Output written on main.pdf (212 pages, 11195353 bytes).
 
-PDF statistics: 5646 PDF objects out of 6186 (max. 8388607)
- 4447 compressed objects within 45 object streams
- 792 named destinations out of 1000 (max. 131072)
+PDF statistics: 5659 PDF objects out of 6186 (max. 8388607)
+ 4458 compressed objects within 45 object streams
+ 794 named destinations out of 1000 (max. 131072)
  808 words of extra memory for PDF output out of 10000 (max. 10000000)
 

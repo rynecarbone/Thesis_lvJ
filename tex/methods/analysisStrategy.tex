@@ -59,20 +59,6 @@ The search is split according to the signature of the production mechanism. In V
 \label{ch:analysisStrategy:bkgs}
 In the SM, there are various processes which can produce or be reconstructed as the same final state as a semi-leptonic diboson resonance. In order to make an accurate interpretation of the data, these backgrounds must be understood and estimated. Those backgrounds which reproduce the exact final state ($\ell\nu qq$) are called irreducible backgrounds, and cannot be completely eliminated by improved selections. Other backgrounds which are reconstructed as the same final state, due to detector and reconstruction inefficiencies, are called reducible backgrounds, and can be significantly reduced with appropriate selections. Leading order Feynman diagrams of the main backgrounds considered in this search are depicted in~\Fig{\ref{fig:bkg_feyn_lo}}.
 
-The most significant SM background in this analysis is the non-resonant production of a leptonically decaying $W$ boson ($W\ra\ell \nu$) in association with one or more quarks and gluons. The associated quarks and gluons hadronize and are reconstructed as jets; thus, this background is denoted by \Wjets. The QCD jets in this background have a non-resonant mass spectrum, and a different substructure with respect to a hadronically decaying weak boson of the signal. By taking advantage of boson tagging techniques (\Sect{\ref{ch:objectReconstruction:larger}}), the contamination of this background can be reduced. 
-
-The second largest SM background comes from non-resonant top-antitop quark pair production, denoted by \ttbar. The semi-leptonic final state can be reproduced through the decay $t\bar{t} \ra bW^+\bar{b}W^- \ra b\bar{b}l\nu q\bar{q}'$. A decay of a top quark to a lighter down-type quark ($s$, $d$) is strongly suppressed.
-%($<10\,\%$).  Much smaller, should I find a number?
-The \ttbar background is thus characterized by the presence of $b$-jets in association with the final state. The use of $b$-tagging (\Sect{\ref{ch:objectReconstruction:smallr}}) can improve \ttbar rejection if any $b$-jets lie outside the reconstructed large-R jet.  For both \Wjets and \ttbar backgrounds, the normalization is estimated in dedicated control regions, as described in~\Sect{\ref{ch:eventSelection:srcr}}, using a fit described in~\Ch{\ref{ch:stats}}. 
-
-A single leptonically decaying $Z$ boson ($Z\ra \ell\ell$) in association with jets is also a SM background for the search, denoted by \Zjets. Unlike the \Wjets background, \Zjets can only reproduce the semi-leptonic final state if one of the leptons is incorrectly reconstructed, and is thus reducible. A strict requirement on the number of leptons in the final state can significantly reduce this background.
-
-In addition to the production of a top-antitop quark pair, the electroweak production of a single top quark, denoted \Singlet, can reproduce the semi-leptonic final state. In the $s$-channel and $t-$channel production, the final state is reproduced if the top quark decays leptonically through a $W$ boson. In the $Wt$-channel, a top quark is produced in association with a $W$. As with \ttbar, detecting the presence of additional $b$-tagged jets can help reduce the \Singlet background.
-
-Finally, the non-resonant SM production of two weak bosons, denoted by SM dibosons, must be estimated. 
-
-The non-resonant QCD production of multiple jets (multijet) has an extremely large cross section. Contamination from this background can occur if some of the jets are incorrectly reconstructed as leptons or involve decays with non-prompt leptons, and the reconstructed \MET is too large from detector inefficiencies. Since the modeling of the multijet background is difficult, due to the large rejection rate of fake leptons, the multijet contribution is estimated with a data driven approach. A control region with an enhanced expected QCD contribution (looser lepton selection, low \MET) is used to extract the shape of the multijet distribution. By requiring $\MET>100\,\GeV$ and a cut on $\MET/\pT(W\ra e\nu)$ (\Ch{\ref{ch:event_selection}}), the multijet background can be effectively suppressed, and is estimated to have a negligible impact on this search. More details can be found in~\App{\ref{ch:qcd}}.
-
 \begin{figure}[tbp]
 \centering
 \begin{minipage}{.32\linewidth}
@@ -123,6 +109,22 @@ The non-resonant QCD production of multiple jets (multijet) has an extremely lar
 \label{fig:bkg_feyn_lo}
 \end{figure}
 
+The most significant SM background in this analysis is the non-resonant production of a leptonically decaying $W$ boson ($W\ra\ell \nu$) in association with one or more quarks and gluons. The associated quarks and gluons hadronize and are reconstructed as jets; thus, this background is denoted by \Wjets. The QCD jets in this background have a non-resonant mass spectrum, and a different substructure with respect to a hadronically decaying weak boson of the signal. By taking advantage of boson tagging techniques (\Sect{\ref{ch:objectReconstruction:larger}}), the contamination of this background can be reduced. 
+
+The second largest SM background comes from non-resonant top-antitop quark pair production, denoted by \ttbar. The semi-leptonic final state can be reproduced through the decay $t\bar{t} \ra bW^+\bar{b}W^- \ra b\bar{b}l\nu q\bar{q}'$. A decay of a top quark to a lighter down-type quark ($s$, $d$) is strongly suppressed.
+%($<10\,\%$).  Much smaller, should I find a number?
+The \ttbar background is thus characterized by the presence of $b$-jets in association with the final state. The use of $b$-tagging (\Sect{\ref{ch:objectReconstruction:smallr}}) can improve \ttbar rejection if any $b$-jets lie outside the reconstructed large-R jet.  For both \Wjets and \ttbar backgrounds, the normalization is estimated in dedicated control regions, as described in~\Sect{\ref{ch:eventSelection:srcr}}, using a fit described in~\Ch{\ref{ch:stats}}. 
+
+A single leptonically decaying $Z$ boson ($Z\ra \ell\ell$) in association with jets is also a SM background for the search, denoted by \Zjets. Unlike the \Wjets background, \Zjets can only reproduce the semi-leptonic final state if one of the leptons is incorrectly reconstructed, and is thus reducible. A strict requirement on the number of leptons in the final state can significantly reduce this background.
+
+In addition to the production of a top-antitop quark pair, the electroweak production of a single top quark, denoted \Singlet, can reproduce the semi-leptonic final state. In the $s$-channel and $t-$channel production, the final state is reproduced if the top quark decays leptonically through a $W$ boson. In the $Wt$-channel, a top quark is produced in association with a $W$. As with \ttbar, detecting the presence of additional $b$-tagged jets can help reduce the \Singlet background.
+
+Finally, the non-resonant SM production of two weak bosons, denoted by SM dibosons, must be estimated. 
+
+The non-resonant QCD production of multiple jets (multijet) has an extremely large cross section. Contamination from this background can occur if some of the jets are incorrectly reconstructed as leptons or involve decays with non-prompt leptons, and the reconstructed \MET is too large from detector inefficiencies. Since the modeling of the multijet background is difficult, due to the large rejection rate of fake leptons, the multijet contribution is estimated with a data driven approach. A control region with an enhanced expected QCD contribution (looser lepton selection, low \MET) is used to extract the shape of the multijet distribution. By requiring $\MET>100\,\GeV$ and a cut on $\MET/\pT(W\ra e\nu)$ (\Ch{\ref{ch:event_selection}}), the multijet background can be effectively suppressed, and is estimated to have a negligible impact on this search. More details can be found in~\App{\ref{ch:qcd}}.
+
+
+
 
 %
 \section{Signal and Background Modeling}
@@ -147,7 +149,7 @@ In order to accurately model proton collisions at the LHC, MC generators use par
 %
 \subsection{Signal Modeling}
 \label{ch:anstrat:sm}
-The signal models considered in this analysis include a neutral, scalar heavy Higgs boson, two HVT models with $W'$ and $Z'$ bosons, and a spin-2 RS graviton. For all the benchmark signal models, samples are produced such that the $\ell\nu qq$ final state is selected at the generator level.
+The signal models considered in this analysis include a neutral, scalar heavy Higgs boson, two HVT models with $W'$ and $Z'$ bosons, and a spin-2 bulk RS graviton. For all the benchmark signal models, samples are produced such that the $\ell\nu qq$ final state is selected at the generator level.
 
 A neutral, scalar heavy Higgs boson is generated using \textsc{Poweheg-Box} v1 with the \textsc{CT10} PDF set. The ggF and VBF production channels are simulated separately~\cite{heavy_higgs_VBF,heavy_higgs_ggF}.  Showering, hadronization, and the UE are calculated with \textsc{Pythia}8.186 using the \textsc{CTEQ6L1} PDF set. The scalar is modeled in the narrow width approximation (NWA), where interference effects with the SM Higgs and SM diboson production are neglected. Samples are produced for resonance masses from 500\,\GeV\, to 3\,\TeV, with a width of $4\,\MeV$.  
 %Include? -> UE with the \textsc{AZNLO} tune~\cite{aznlo}

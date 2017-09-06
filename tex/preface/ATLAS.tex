@@ -74,7 +74,7 @@ Multiple high-precision position measurements in the innermost region allow for 
 
 The high luminosity environment at the LHC creates a dense background of overlapping tracks. ``Pileup'' (PU) events occur when there are simultaneous interactions during a bunch crossing, denoted by $\mu$ which reached an average value of 24.9 in 2016~\cite{Lumi_Public_Run2} (\Fig{\ref{fig:mu_2015_2016}}). Consistent and precise vertex identification is essential to mitigate pileup and maintain physics sensitivity. A Z boson candidate event with 25 reconstructed vertices is shown in~\Fig{\ref{fig:25_ver_zmumu}} to illustrate the importance of precise vertex reconstruction. 
 
-The design and layout of the ID reflects a compromise of several competing requirements. The material budget in the tracking volume
+The design and layout of the ID reflects a compromise between several competing requirements. The material budget in the tracking volume
 %, shown in~\Fig{\ref{fig:id_mat_bud}}, 
 should be minimized to reduce scattering and energy loss. However, 
 %high rates require close proximity electronics, 
@@ -163,8 +163,8 @@ Overall, the Pixel Detector has over 80 million pixel channels. In the cylindric
 %, the B-layer, layer 1, and layer 2 have 22, 38, and 52 cooling support staves respectively, each set at a $20^{\circ}$ azimuthal tilt. 
 Each stave holds 13 modules with 16 front-end chips (FE-I3) with 250 nm CMOS technology that are bump bonded to silicon sensors with 46,080 pixels each. 
 %The 250\,$\mu$m thick planar n$^+$-in-n sensors feature 18 columns $\times$ 160 rows of pixel cells ($50 \mu$m $\times$ $400 \mu$m), for a total of 46,080 pixels per sensor. 
-The three disks on each end-cap cover $2.0< |\eta| < 2.5$ and are split into 8 sectors
-\footnote{A sector is the end-cap analogue of staves in the barrel region.} 
+The three disks on each end-cap cover $2.0< |\eta| < 2.5$ and are split into 8 sectors\footnote{
+A sector is the end-cap analogue of staves in the barrel region.} 
 with 6 sensors each (identical to those in the barrel). The Pixel Detector has a transverse resolution of $10\,\mu$m in $R-\phi$, and a longitudinal resolution of $115\,\mu$m in $z$ ($R$) in the barrel (end-cap) region. 
 
 %
@@ -172,7 +172,7 @@ with 6 sensors each (identical to those in the barrel). The Pixel Detector has a
 
 The Semiconductor Tracker (SCT) provides on average four precise position measurements per track at intermediate radial distances in order to guarantee excellent track reconstruction and charged particle \pt resolution.
 
-Sitting at a farther distance from the IP, the SCT~\cite{SCT_paper} has relaxed radiation hardness and spatial resolution requirements. In contrast with the Pixel Detector, therefore, the SCT uses AC-coupled single-sided silicon micro-strips with p$^+$ strip implants in an n-type bulk to control for costs and reliability with over 63 m$^2$ of silicon. 
+Sitting at a farther distance from the IP, the SCT~\cite{SCT_paper} has relaxed radiation hardness and spatial resolution requirements. In contrast with the Pixel Detector, therefore, the SCT uses AC-coupled single-sided silicon micro-strips with p$^+$ strip implants in an n-type bulk, to control for costs and reliability with over 63 m$^2$ of silicon. 
 
 \begin{figure}[tbp]
 \begin{center}
@@ -185,7 +185,7 @@ Sitting at a farther distance from the IP, the SCT~\cite{SCT_paper} has relaxed 
 The layout of the SCT, shown in \Fig{\ref{fig:sct_layout}}, is similar to that of the Pixel Detector: there are four concentric barrel layers
 %\footnote{The numbering scheme is B3, B4, B5, B6.} 
 positioned between radii $R_3=299$\,mm and $R_6=514$\,mm, and nine forward disks with up to three rings on either end-cap situated between $z_1=853.8$\,mm and $z_9=2720.2$\,mm. Over 6.3 million channels, covering $|\eta|<2.5$, are spread over 4088 modules that tile the SCT: 2112 rectangular modules in the barrel at an $11^{\circ}$ tilt, and 1976 trapezoidal modules in the disks. Most modules feature two 285\,$\mu$m thick sensors back-to-back with a stereo angle of 40 mrad. A layer will thus register two strip measurements, which are combined to obtain the $z$ position and create a space-point. Each sensor has 768 strips with a pitch of 80\,$\mu$m
-\footnote{The wedge modules in the disks have varying pitches between $50-90\,\mu$m.} 
+%\footnote{The wedge modules in the disks have varying pitches between $50-90\,\mu$m.} 
 and length of 63\,mm. Two sensors on each side of the module are daisy-chained to create a total strip length of 126\,mm.  The SCT has a transverse resolution of $17\,\mu$m in $R-\phi$, and a longitudinal resolution of $580\,\mu$m in $z$ (R) in the barrel (end-cap) region.
 
 
@@ -195,9 +195,9 @@ and length of 63\,mm. Two sensors on each side of the module are daisy-chained t
 \subsection{Transition Radiation Tracker}
 The Transition Radiation Tracker (TRT) provides continuous tracking for particles within $|\eta|<2$, by registering on average 36 hits per track. Additionally, the TRT is capable of particle identification by differentiating between electrons and hadrons by using transition radiation.
 
-The TRT is comprised of approximately 300,000 gas-filled polyimide drift tubes~\cite{TRT_sensors}, called straw tubes, of diameter 4\,mm. In the barrel, 52,544 straws with a length of 144\,cm are positioned parallel to the beam axis  and cover $|\eta| < 1$. Each end-cap features 122,880 straws aligned radially on two types of wheels with a length of 37\,cm covering $1<|\eta|<2$. The spatial extent of the TRT is shown in \Tab{\ref{tab:trt_layout}}.
+The TRT is comprised of approximately 300,000 gas-filled polyimide drift tubes~\cite{TRT_sensors}, called straw tubes, of diameter 4\,mm. In the barrel, 52,544 straws with a length of 144\,cm are positioned parallel to the beam axis  and cover $|\eta| < 1$. Each end-cap features 122,880 straws aligned radially on two types of wheels with a length of 37\,cm, covering $1<|\eta|<2$. The spatial extent of the TRT is shown in \Tab{\ref{tab:trt_layout}}.
 
-\begin{table}[tbp]
+\begin{table}[bh]
 \begin{center}
 \caption[Transition Radiation Tracker spatial layout]{Layout of the barrel and end-cap modules of the TRT.}
 \label{tab:trt_layout}
@@ -212,13 +212,7 @@ TRT end-cap & 848 & 2710 & 644 & 1,004 & 122,880 \\
 \end{table}
 
 %\begin{figure}[htbp]
-\begin{wrapfigure}{r}{.55\textwidth}
-\begin{center}
-	\includegraphics[width=.99\linewidth]{figures/ATLAS/trt_drift}
-	\caption[Transition Radiation Tracker wire impact parameter vs drift time]{Using the drift time, the distance from the track to the wire can be inferred. The dependency of the drift radius on measured drift time can be fit with a third order polynomial~\cite{trt_twiki}.}
-	\label{fig:trt_drift}
-\end{center}
-\end{wrapfigure}
+
 %\end{figure}
 
 The walls of the straw tubes are made with two bonded 35\,$\mu$m film layers
@@ -230,6 +224,14 @@ tungsten wire which functions as an anode. The walls of the straws are kept at a
 The volume between each straw is filled with polymer fibres (foils) in the barrel (end-cap) region to create transition radiation.
 
 As charged particles pass through the TRT, the gas in the straws is ionized. The free electrons drift along the lines of the applied potential and are collected on the anode, where the readout signal is compared to a threshold.  By measuring the drift time of particles in the TRT, the distance to the wire from the particle, or drift distance, can be inferred, as depicted in~\Fig{\ref{fig:trt_drift}}. The drift time measurement provides an inherent transverse ($R-\phi$) spatial resolution of 130\,$\mu$m per straw.
+
+\begin{wrapfigure}{r}{.55\textwidth}
+\begin{center}
+	\includegraphics[width=.99\linewidth]{figures/ATLAS/trt_drift}
+	\caption[Transition Radiation Tracker wire impact parameter vs drift time]{Using the drift time, the distance from the track to the wire can be inferred. The dependency of the drift radius on measured drift time can be fit with a third order polynomial~\cite{trt_twiki}.}
+	\label{fig:trt_drift}
+\end{center}
+\end{wrapfigure}
 
 Low energy transition radiation is emitted by relativistic charged particles as they traverse a boundary in which the two mediums exhibit different dielectric permittivities. The space filling polymer fibres and foils allow for such radiation to be produced in the TRT. The transition radiation photons are absorbed by the Xe gas in the straws producing a stronger signal response. The amount of transition radiation detected can be used to differentiate
 %\footnote{The amount of radiation is proportional to the relativistic factor, $\gamma=E/m$. Electrons will thus have a much stronger response than hadrons.} 
@@ -251,10 +253,10 @@ The ATLAS calorimeters~\cite{LAr_TDR,Tile_TDR}, shown in~\Fig{\ref{fig:cal_layou
 \end{center}
 \end{figure}
 
-The particle showers produced from electromagnetic (EM) particles and those produced from hadronic particles behave differently; thus, two types of calorimeters (EM and hadronic) are designed to cater to each  shower type. LAr EM calorimeters cover $|\eta|<3.2$, LAr hadronic calorimeters cover $1.5<|\eta|<4.9$, and Tile hadronic calorimeters cover $|\eta|<1.7$. Since hadronic showers penetrate deeper than EM showers, the EM calorimeters are placed before the hadronic calorimeters. To characterize the thickness of a material as seen by the EM radiation, the radiation length, $X_0$, measures both the average distance required to lower high energy electrons to $1/e$ its initial energy via Bremsstrahlung, and also $7/9$ the mean free path for high energy photons to undergo pair production. The nuclear interaction length, $\lambda$, measures the average distance traveled by a hadron before interacting with a nucleus.
+The particle showers produced from electromagnetic (EM) particles and those produced from hadronic particles behave differently; thus, two types of calorimeters (EM and hadronic) are designed to cater to each  shower type. LAr EM calorimeters cover $|\eta|<3.2$, LAr hadronic calorimeters cover $1.5<|\eta|<4.9$, and Tile hadronic calorimeters cover $|\eta|<1.7$. Since hadronic showers penetrate deeper than EM showers, the EM calorimeters are placed before the hadronic calorimeters. To characterize the thickness of a material as seen by the EM radiation, the radiation length, $X_0$, measures both the average distance required to lower high energy electrons to $1/e$ times its initial energy via Bremsstrahlung, and also $7/9$ the mean free path for high energy photons to undergo pair production. For hadronic calorimeters, the nuclear interaction length, $\lambda$, measures the average distance traveled by a hadron before interacting with a nucleus.
 
 Each type of calorimeter optimizes separately the choice of material and thickness for the absorber and active layers, as well as the cell size. If particle showers are not fully contained in the calorimeters, some shower particles may penetrate the surrounding Muon Spectrometer, known as ``punch-through''. To prevent punch-through\footnote{
-	The goal is two-fold: (1) calorimeter objects which reach the muon spectrometer can induce fake muon rates, and (2) an accurate \MET measurement requires containment of the full EM and hadronic showers.
+	The goal is two-fold: (1) calorimeter objects which reach the muon spectrometer can induce fake muon rates, and (2) an accurate missing transverse energy measurement requires containment of the full EM and hadronic showers.
 }, the total thickness of the EM calorimeters, shown in~\Fig{\ref{fig:x0_cal}}, is approximately $22\,X_0$ in the barrel and $24\,X_0$ in the end-cap region, while the total thickness of the hadronic calorimeters, shown in~\Fig{\ref{fig:lambda_cal}}, is approximately $10\,\lambda$. 
 
 \begin{figure}[htbp]
@@ -274,15 +276,15 @@ Each type of calorimeter optimizes separately the choice of material and thickne
 \label{ch:atlas:particle_showers}
 The calorimeters measure energy of an incoming particle by sampling the energy of the induced particle showers. EM and hadronic showers involve different physics processes and therefore develop differently in the detector\cite{pdg_2017}. 
 
-Electrons, positrons and photons produce EM showers: energetic electrons radiate Bremsstrahlung photons, while energetic photons convert to electron-positron pairs when traversing dense material. The longitudinal depth of an EM shower is expressed in terms of the radiation length and critical energy, $E_c$\footnote{
-	The critical energy $E_c\propto \frac{1}{Z}$ measures the energy at which energy loss from ionization (logarithmic with energy) is comparable to energy lost from Bremstrahlung (linear with energy), above which Bremstrahlung dominates. The radiation length $X_0\propto Z(Z+1)$ \cite{pdg_2017}. 
+Electrons, positrons, and photons produce EM showers: energetic electrons radiate Bremsstrahlung photons, while energetic photons convert to electron-positron pairs when traversing dense material. The longitudinal depth of an EM shower is expressed in terms of the radiation length and critical energy, $E_c$\footnote{
+	The critical energy $E_c\propto \frac{1}{Z}$ measures the energy at which losses from ionization (logarithmic with energy) are comparable to losses from Bremstrahlung (linear with energy), above which Bremstrahlung dominates. The radiation length $X_0\propto Z(Z+1)$ \cite{pdg_2017}. 
 }, in \Eqn{\ref{eq:x0}}.
 \begin{equation}
 	X = X_0\frac{\ln\left(E_0/E_c\right)}{\ln 2}
 	\label{eq:x0}
 \end{equation}
 
-Hadronic showers involve distinct processes to those of EM showers, including hadron production from QCD radiation, pion decays, and de-exciting nuclei. Approximately half of the energy of the hadron is transferred to secondary hadrons produced in the shower. About one third of the energy dissipated in the hadronic shower is via neutral pions which decay via $\pi^0\to\gamma\gamma$ and produce an EM component of the shower. Additionally, particles may interact with the nuclei in the absorber in a variety of nuclear processes, which then produce additional particles near the MeV scale.  The longitudinal depth of the hadronic shower scales with the nuclear interaction length, $\lambda\propto A^{\frac{1}{3}}$. 
+Hadronic showers involve processes including hadron production from QCD radiation, pion decays, and de-exciting nuclei. Approximately half of the energy of the hadron is transferred to secondary hadrons produced in the shower. About one third of the energy dissipated in the hadronic shower is via neutral pions which decay via $\pi^0\to\gamma\gamma$ and produce an EM component of the shower. Additionally, particles may interact with the nuclei in the absorber in a variety of nuclear processes, which then produce additional particles near the MeV scale.  The longitudinal depth of the hadronic shower scales with the nuclear interaction length, $\lambda\propto A^{\frac{1}{3}}$. 
 
 
 %
@@ -332,10 +334,6 @@ FCal1 consists of copper plates with holes drilled for cylindrical electrodes to
 
 %
 \subsection{Tile Calorimeter}
-
-Sitting outside the LAr calorimeters in the barrel region is the hadronic Tile calorimeter. A 5.8\,m long main barrel covers $|\eta|<1.0$ and two 2.8\,m long extended barrels (EB) cover $0.8<|\eta|<1.7$. The cylindrical Tile calorimeter barrels extend radially from $R=2.28$\,m to $R=4.25$\,m, and are segmented into three depth layers. The hadronic Tile calorimeter is a sampling calorimeter consisting of steel absorber plates and scintillating plastic tiles serving as the active medium.
-
-%\begin{figure}[htbp]
 \begin{wrapfigure}{r}{0.52\textwidth}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{figures/ATLAS/TileCal_Module}
@@ -343,12 +341,15 @@ Sitting outside the LAr calorimeters in the barrel region is the hadronic Tile c
 \label{fig:tilecal}
 \end{center}
 \end{wrapfigure}
-%\end{figure}
+Sitting outside the LAr calorimeters in the barrel region is the hadronic Tile calorimeter, whose modules are shown in~\Fig{\ref{fig:tilecal}}. A 5.8\,m long main barrel covers $|\eta|<1.0$ and two 2.8\,m long extended barrels (EB) cover $0.8<|\eta|<1.7$. The cylindrical Tile calorimeter barrels extend radially from $R=2.28$\,m to $R=4.25$\,m, and are segmented into three depth layers. The hadronic Tile calorimeter is a sampling calorimeter consisting of steel absorber plates and scintillating plastic tiles serving as the active medium.
 
+%\begin{figure}[htbp]
+
+%\end{figure}
 
 High energy particles striking the tile scintillators produce ultraviolet ``scintillation'' light, which is collected in wavelength-shifting fibres at either end of the tile. These fibres lengthen the wavelength of the ultraviolet scintillation to the visible spectrum and are fed into photomultiplier tubes. Groups of fibres are used to define read-out cells and three depth layers: cells in the two innermost depth layer have a granularity of $\Delta\eta\times\Delta\phi=0.1\times0.1$ while cells in the outermost layer have a granularity of $\Delta\eta\times\Delta\phi=0.2\times0.1$.
 
-The main barrel and two EBs consist of 64 wedge-shaped modules that span $\Delta\phi=0.1$, as shown in~\Fig{\ref{fig:tilecal}}.  The plastic scintillator tiles are 3mm thick and vary in size depending on the radial position. In terms of interaction length, the thickness of the three depth layers of the main barrel (EB) are $1.5\lambda$, $4.1\lambda$, and $1.8\lambda$ ($1.5\lambda$, $2.6\lambda$, and $3.3\lambda$) from innermost to outermost. 
+The main barrel and two EBs consist of 64 wedge-shaped modules that span $\Delta\phi=0.1$.  The plastic scintillator tiles are 3mm thick and vary in size depending on the radial position. In terms of interaction length, the thickness of the three depth layers of the main barrel (EB) are $1.5\lambda$, $4.1\lambda$, and $1.8\lambda$ ($1.5\lambda$, $2.6\lambda$, and $3.3\lambda$) from innermost to outermost. 
 
 %%
 \section{Muon Spectrometer}

@@ -2,7 +2,7 @@
 
 \bibitem{Nevis12_paper}
 J.~Kuppambatti, J.~Ban, T.~Andeen, R.~Brown, R.~Carbone, P.~Kinget,
-  G.~Brooilmans,  and W.~Sippach,
+  G.~Brooijmans,  and W.~Sippach,
   \href{http://dx.doi.org/10.1016/j.nima.2017.01.025}{Nucl. Instrum. Meth. A
   {\bfseries 855} (2017) 38--46},
   \href{http://arxiv.org/abs/1706.01535}{{\ttfamily arXiv:1706.01535
@@ -29,6 +29,11 @@ R.~Carbone, K.~Iordanidou,  and J.~Parsons,
 {ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP09(2016)001}{JHEP
   {\bfseries 09} (2016) 001}, \href{http://arxiv.org/abs/1606.03833}{{\ttfamily
   arXiv:1606.03833 [hep-ex]}}.
+
+\bibitem{finalpaperlvJ}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/2270720}{ATLAS-EXOT-2016-28}, 2017, To be
+  submitted to JHEP.
 
 \bibitem{Higgs_atlas}
 {ATLAS Collaboration},
